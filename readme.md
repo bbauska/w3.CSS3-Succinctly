@@ -1,6 +1,6 @@
 ![W3.CSS Succinctly](./images/image001.jpg)
 
-# W3.CSS Succinctly
+<h1 align="center">W3.CSS Succinctly</h1>
 
 > ![image002 here](./images/image002.png)
 >
@@ -16,12 +16,11 @@
 >
 > All rights reserved.
 
-![image005](./images/image005.png)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ table of contents ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2><a href="#table-of-contents">Table of Contents</a></h2>
+<!-- > **Table of Contents** -->
 
-> **Table of Contents**
-
-[Chapter 1 Introduction
-[13](#chapter-1-introduction)](#chapter-1-introduction)
+### [**Chapter 1 Introduction**](#ch1-intro)
 
 [CSS only [13](#css-only)](#css-only)
 
@@ -35,6 +34,7 @@
 
 [Obtaining W3.CSS [16](#obtaining-w3.css)](#obtaining-w3.css)
 
+### [**Chapter 2 Layout**](#ch2)
 [Chapter 2 Layout [17](#chapter-2-layout)](#chapter-2-layout)
 
 [CSS layout [18](#css-layout)](#css-layout)
@@ -61,7 +61,8 @@
 
 [Summary [25](#summary)](#summary)
 
-[Chapter 3 Colors [26](#chapter-3-colors)](#chapter-3-colors)
+### [**Chapter 3 Colors**](#ch3)
+<!-- [Chapter 3 Colors [26](#chapter-3-colors)](#chapter-3-colors) -->
 
 [Basic CSS colors [26](#basic-css-colors)](#basic-css-colors)
 
@@ -71,8 +72,8 @@
 
 [Available themes [29](#available-themes)](#available-themes)
 
-[Chapter 4 Helper Classes
-[31](#chapter-4-helper-classes)](#chapter-4-helper-classes)
+### [**Chapter 4 Helper Classes**](#ch4)
+<!-- [Chapter 4 Helper Classes [31](#chapter-4-helper-classes)](#chapter-4-helper-classes) -->
 
 [CSS round 31](#css-round)
 
@@ -98,8 +99,8 @@
 
 [Summary [34](#summary-1)](#summary-1)
 
-[Chapter 5 Containers
-[35](#chapter-5-containers)](#chapter-5-containers)
+### [**Chapter 5 Containers**](#ch5)
+<!-- [Chapter 5 Containers [35](#chapter-5-containers)](#chapter-5-containers) -->
 
 [CSS accordions [35](#css-accordions)](#css-accordions)
 
@@ -138,8 +139,8 @@
 
 [Summary [43](#summary-2)](#summary-2)
 
-[Chapter 6 Visual Elements
-[44](#chapter-6-visual-elements)](#chapter-6-visual-elements)
+### [**Chapter 6 Visual Elements**](#ch6)
+<!-- [Chapter 6 Visual Elements [44](#chapter-6-visual-elements)](#chapter-6-visual-elements) -->
 
 [CSS notes [44](#css-notes)](#css-notes)
 
@@ -147,6 +148,8 @@
 [44](#customizing-the-notes)](#customizing-the-notes)
 
 [CSS alerts [45](#css-alerts)](#css-alerts)
+
+### [**Chapter 7 Text**](#ch7)
 
 [Chapter 7 Text [46](#chapter-7-text)](#chapter-7-text)
 
@@ -164,7 +167,8 @@
 
 [CSS code [49](#css-code)](#css-code)
 
-[Chapter 8 Menus [50](#chapter-8-menus)](#chapter-8-menus)
+### [**Chapter 8 Menus**](#ch8)
+<!-- [Chapter 8 Menus [50](#chapter-8-menus)](#chapter-8-menus) -->
 
 [CSS navigation [50](#css-navigation)](#css-navigation)
 
@@ -179,8 +183,8 @@
 
 [Summary [54](#summary-3)](#summary-3)
 
-[Chapter 9 Tables and Lists
-[55](#chapter-9-tables-and-lists)](#chapter-9-tables-and-lists)
+### [**Chapter 9 Tables and Lists**](#ch9)
+<!-- [Chapter 9 Tables and Lists [55](#chapter-9-tables-and-lists)](#chapter-9-tables-and-lists) -->
 
 [CSS tables [55](#css-tables)](#css-tables)
 
@@ -196,8 +200,8 @@
 
 [Summary [60](#summary-4)](#summary-4)
 
-[Chapter 10 Buttons and Labels
-[61](#chapter-10-buttons-and-labels)](#chapter-10-buttons-and-labels)
+### [**Chapter 10 Buttons and Labels**](#ch10)
+<!-- [Chapter 10 Buttons and Labels [61](#chapter-10-buttons-and-labels)](#chapter-10-buttons-and-labels) -->
 
 [CSS buttons [61](#css-buttons)](#css-buttons)
 
@@ -215,7 +219,8 @@
 
 [Summary [65](#summary-5)](#summary-5)
 
-[Chapter 11 Forms [66](#chapter-11-forms)](#chapter-11-forms)
+### [**Chapter 11 Forms**](#ch11)
+<!-- [Chapter 11 Forms [66](#chapter-11-forms)](#chapter-11-forms) -->
 
 [Text boxes [66](#text-boxes)](#text-boxes)
 
@@ -231,8 +236,8 @@
 
 [Summary [70](#summary-6)](#summary-6)
 
-[Chapter 12 Animations
-[71](#chapter-12-animations)](#chapter-12-animations)
+### [**Chapter 12 Animations**](#ch12)
+<!-- [Chapter 12 Animations [71](#chapter-12-animations)](#chapter-12-animations) -->
 
 [Animating elements [71](#animating-elements)](#animating-elements)
 
@@ -246,7 +251,8 @@
 
 [Summary [72](#summary-7)](#summary-7)
 
-[Chapter 13 Modals [73](#chapter-13-modals)](#chapter-13-modals)
+### [**Chapter 13 Modals**](#ch13)
+<!-- [Chapter 13 Modals [73](#chapter-13-modals)](#chapter-13-modals) -->
 
 [Creating a modal dialog
 [73](#creating-a-modal-dialog)](#creating-a-modal-dialog)
@@ -262,7 +268,8 @@
 
 [Summary [74](#summary-8)](#summary-8)
 
-[Chapter 14 Images [75](#chapter-14-images)](#chapter-14-images)
+### [**Chapter 14 Images**](#ch14)
+<!-- [Chapter 14 Images [75](#chapter-14-images)](#chapter-14-images) -->
 
 [CSS Images [75](#css-images)](#css-images)
 
@@ -280,8 +287,8 @@
 
 [Summary [78](#summary-9)](#summary-9)
 
-[Chapter 15 W3.CSS Example Code
-[79](#chapter-15-w3.css-example-code)](#chapter-15-w3.css-example-code)
+### [**Chapter 15 W3.CSS Example Code**](#ch15)
+<!-- [Chapter 15 W3.CSS Example Code [79](#chapter-15-w3.css-example-code)](#chapter-15-w3.css-example-code) -->
 
 [Head section [79](#head-section)](#head-section)
 
@@ -300,32 +307,17 @@
 
 [Summary [83](#summary-10)](#summary-10)
 
-[Chapter 16 Versions [84](#chapter-16-versions)](#chapter-16-versions)
+### [**Chapter 16 Versions**](#ch16)
+<!-- [Chapter 16 Versions [84](#chapter-16-versions)](#chapter-16-versions) -->
 
 [CSS Pro [84](#css-pro)](#css-pro)
 
 [CSS Mobile [84](#css-mobile)](#css-mobile)
 
-[Chapter 17 Summary [85](#chapter-17-summary)](#chapter-17-summary)
+### [**Chapter 17 Summary**](#ch17)
+<!-- [Chapter 17 Summary [85](#chapter-17-summary)](#chapter-17-summary) -->
 
 [Site [85](#site)](#site)
-
-# The Story Behind the *Succinctly* Series of Books 
-
-> Daniel Jebaraj, Vice President Syncfusion, Inc. Microsoft platform.
-> This puts us in the exciting but challenging position of alway s
-
-**S**
-
-> **taying on the cutting edge**
->
-> As many of you may know, Syncfusion is a provider of software
-> components for the being on the cutting edge.
->
-> Whenever platforms or tools are shipping out of Microsoft, which seems
-> to be about
-
-every other week these days, we have to educate ourselves, quickly.
 
 **Information is plentiful but harder to digest**
 
@@ -342,60 +334,8 @@ scour the web for relevant blog posts and other articles. Just as
 everyone else who has a job to do and customers to serve, we find this
 quite frustrating.
 
-#### The *Succinctly* series 
-
-This frustration translated into a deep desire to produce a series of
-concise technical books that would be targeted at developers working on
-the Microsoft platform.
-
-We firmly believe, given the background knowledge such developers have,
-that most topics can be translated into books that are between 50 and
-100 pages.
-
-This is exactly what we resolved to accomplish with the *Succinctly*
-series. Isn't everything wonderful born out of a deep desire to change
-things for the better?
-
-**The best authors, the best content**
-
-Each author was carefully chosen from a pool of talented experts who
-shared our vision. The book you now hold in your hands, and the others
-available in this series, are a result of the authors' tireless work.
-You will find original content that is guaranteed to get you up and
-running in about the time it takes to drink a few cups of coffee.
-
-**Free forever**
-
-Syncfusion will be working to produce books on several topics. The books
-will always be free.
-
-Any updates we publish will also be free.
-
-**Free? What is the catch?**
-
-There is no catch here. Syncfusion has a vested interest in this effort.
-
-As a component vendor, our unique claim has always been that we offer
-deeper and broader frameworks than anyone else on the market. Developer
-education greatly helps us market and sell against competing vendors who
-promise to "enable AJAX support with one click," or "turn the moon to
-cheese!"
-
-**Let us know what you think**
-
-If you have any topics of interest, thoughts, or feedback, please feel
-free to send them to us at
-[succinctly-series@syncfusion.com]
-
-We sincerely hope you enjoy reading this book and that it helps you
-better understand the topic of study. Thank you for reading.
-
-> Please follow us on Twitter and "Like" us on Facebook to help us
-> spread the word about the *Succinctly* series!
-
-![](./images/image007.png){width="0.85in" height="0.85in"}
-![](./images/image008.jpg){width="0.8527777777777777in"
-height="0.8527777777777777in"}
+![facebook](./images/image007.png)
+![twitter or x](./images/image008.jpg)
 
 # Chapter 1 Introduction 
 
@@ -410,15 +350,11 @@ a comparison of uncompressed memory sizes, see Table 1.
 
 > *Table 1: Approximate framework sizes*
 
-+----------------------+----------------------+-----------------------+
 |                      | JavaScript (min)     | CSS(min)              |
-+======================+======================+=======================+
-| > **Bootstrap**      | > 37 kb              | > 119 kb              |
-+----------------------+----------------------+-----------------------+
-| > **Foundation**     | > 86 kb              | > 60 kb               |
-+----------------------+----------------------+-----------------------+
-| > **W3.CSS**         | > N/A                | > 21 kb               |
-+----------------------+----------------------+-----------------------+
+| -------------------- | -------------------- | --------------------- |
+| **Bootstrap**        | > 37 kb              | > 119 kb              |
+| **Foundation**       | > 86 kb              | > 60 kb               |
+| **W3.CSS**           | > N/A                | > 21 kb               |
 
 While each framework has its own set of features and components, the
 W3.CSS is small and simple to learn, and is a worthwhile contender to
@@ -446,19 +382,13 @@ validation.
 
 > *Table 2: Website layers*
 
-  ------------------------------------------------------------------------
-  Layer            Content                           Format
-  ---------------- --------------------------------- ---------------------
-  **Data Layer**   Text/images to display            HTML
-
-  Layer            Content                           Format
-
-  **Presentation   Style rules to overwrite browser  CSS
-  layer**          defaults                          
-
-  **Activity       Scripting to provide              JavaScript,
-  layer**          interactivity to the site         Typescript, etc.
-  ------------------------------------------------------------------------
+| Layer            | Content                           | Format                |
+| ---------------- | --------------------------------- | --------------------- |
+| **Data Layer**  | Text/images to display            | HTML                  |
+| **Presentation** | Style rules to overwrite browser  | CSS                   |
+| **layer**       | defaults                          |                       |
+| **Activity**     | Scripting to provide             | JavaScript, |
+| **layer**          | interactivity to the site      |   Typescript, etc. |
 
 Browsers have default rules indicating how to display HTML tags; your
 custom CSS or CSS frameworks (such as W3.CSS) provide overrides for
@@ -477,9 +407,12 @@ background color to blue-gray.
 
 > *Code Listing 1*
 >
-> \<div class=\"w3-container w3-blue-gray\"\>
->
-> \</div\>
+
+```
+<div class="w3-container w3-blue-gray">
+
+</div>
+```
 
 You could add the class **w3-round-large** to add rounded corners to the
 **\<div\>** element.
@@ -490,9 +423,7 @@ The following example shows a simple webpage displaying an image and
 some text in a container. You can resize your browser and the entire
 page will adjust to the new size.
 
-> ![](./images/image009.jpg){width="2.091666666666667in"
-> height="2.8538888888888887in"}
->
+![](./images/image009.jpg) <!-- {width="2.091666666666667in" > height="2.8538888888888887in"} -->
 > *Figure 1: Sample webpage*
 
 ### Source page 
@@ -504,63 +435,39 @@ framework, as I\'ll explain shortly.
 
 > *Code Listing 2: Sample W3.CSS page*
 
-+-----------------------------------------------------------------------+
-| \<DOCTYPE html\>                                                      |
-|                                                                       |
-| \<html\>                                                              |
-|                                                                       |
-| \<head\>                                                              |
-|                                                                       |
-| \<title\>W3.CSS\</title\>                                             |
-|                                                                       |
-| \<meta name=\"viewport\" content=\"width=device-width,                |
-| initial-scale=1\"\> \<link rel=\"stylesheet\" href=\"w3.css\"\>       |
-|                                                                       |
-| \</head\>                                                             |
-|                                                                       |
-| \<body\>                                                              |
-|                                                                       |
-| \<div class=\"w3-container w3-teal\"\>                                |
-|                                                                       |
-| \<h1\>Gettysburg Address\</h1\>                                       |
-|                                                                       |
-| \</div\>                                                              |
-|                                                                       |
-| \<div class=\"w3-container\"\>                                        |
-|                                                                       |
-| \<p\>\<img src=\"abraham-lincoln.jpg\" style=\"width:50%\"\>\</p\>    |
-| \</div\>                                                              |
-|                                                                       |
-| \<div class=\"w3-container w3-round-large\"\>                         |
-|                                                                       |
-| \<p\>Four score and seven years ago our fathers brought forth on this |
-| continent, a new nation, conceived in liberty, and dedicated to the   |
-| proposition that all men are created equal.                           |
-|                                                                       |
-| \<br/\>\<br/\>                                                        |
-|                                                                       |
-| Now we are engaged in a great civil war, testing whether that nation, |
-| or any nation so conceived and so dedicated, can long endure. We are  |
-| met on a great battle-field of that war. We have come to dedicate a   |
-| portion of                                                            |
-+=======================================================================+
-+-----------------------------------------------------------------------+
-
-> that field as a final resting place for those who here gave their
-> lives so that that nation might live. It is altogether fitting and
-> proper that we should do this. \</p\>
->
-> \</div\>
->
-> \<div class=\"w3-container w3-teal\"\>
->
-> \<p\>Abraham Lincoln 1863\</p\>
->
-> \</div\>
->
-> \</body\>
->
-> \</html\>
+```
+<DOCTYPE html>
+<html>
+<head>
+  <title>W3.CSS</title>
+  <meta name="viewport" content="width=device-width,
+ initial-scale=1"> <link rel="stylesheet" href="w3.css">
+</head>
+<body>
+  <div class="w3-container w3-teal">
+    <h1>Gettysburg Address</h1>
+  </div>
+  <div class="w3-container">
+    <p><img src="abraham-lincoln.jpg" style="width:50%"></p>
+  </div>
+  <div class="w3-container w3-round-large">
+    <p>Four score and seven years ago our fathers brought forth on this
+   continent, a new nation, conceived in liberty, and dedicated to the
+   proposition that all men are created equal.
+   <br/><br/>
+   Now we are engaged in a great civil war, testing whether that nation,
+   or any nation so conceived and so dedicated, can long endure. We are
+   met on a great battle-field of that war. We have come to dedicate a
+   portion of that field as a final resting place for those who here gave 
+   their lives so that that nation might live. It is altogether fitting and
+   proper that we should do this.</p>
+  </div>
+  <div class="w3-container w3-teal">
+    <p>Abraham Lincoln 1863</p>
+  </div>
+</body>
+</html>
+```
 
 ## Obtaining W3.CSS 
 
@@ -584,8 +491,8 @@ the element appears.
 Each element is considered a box, with several styling options. Figure 2
 shows the box model.
 
-![](./images/image010.jpg){width="2.6875in"
-height="2.0416666666666665in"}
+![image 10](./images/image010.jpg) 
+<!-- {width="2.6875in" height="2.0416666666666665in"} -->
 
 > *Figure 2: Box model*
 
@@ -595,8 +502,8 @@ content. The next layer is the padding, which is some number of pixels
 wrapped around the content. The border is the third layer, wrapped
 around the padding, and the final layer is the margin.
 
-> ![](./images/image011.jpg){width="0.25in"
-> height="0.28958333333333336in"} ***Note: There is some confusion,
+> ![image 11](./images/image011.jpg) <!-- {width="0.25in" > height="0.28958333333333336in"} -->
+> ***Note: There is some confusion,
 > particularly with older browsers, as to what the width and height
 > actually represent. According to the W3C standards, the height and
 > width should represent the content only. However, Internet Explorer
@@ -629,7 +536,7 @@ a look at the following code snippet.
 
 > *Code Listing 3*
 
-+-----------------------------------------------------------------------+
+```
 | \<div class=\"w3-cell-row\"\> \<div class=\"w3-container w3-red       |
 | w3-cell\"\>                                                           |
 |                                                                       |
@@ -645,8 +552,7 @@ a look at the following code snippet.
 | \</div\>                                                              |
 |                                                                       |
 | \</div\>                                                              |
-+=======================================================================+
-+-----------------------------------------------------------------------+
+```
 
 This would produce the following appearance in the browser window. The
 two cells take up 100 percent of the width, and the larger content would
@@ -672,12 +578,14 @@ added the **w3-cell-bottom** class, the name **John Smith** would be
 aligned to the bottom of the red cell in the previous example.
 
 > *Code Listing 4*
->
+
+```
 > \<div class=\"w3-container w3-red w3-cell w3-cell-bottom\"\>
 >
 > \<p\>John Smith\</p\>
 >
 > \</div\>
+```
 
 The **w3-mobile** class can be added to a **w3-cell** as well. This will
 cause the cells to be laid out horizontally on a larger screen, but be
@@ -710,8 +618,7 @@ the screen size, rearranging columns as needed to render on different
 devices. For example, let's look at a website that displays information
 about U.S. coins. A sample is shown in Figure 5.
 
-![](./images/image014.jpg){width="5.580972222222222in"
-height="1.332638888888889in"}
+![image 14](./images/image014.jpg) <!-- {width="5.580972222222222in" height="1.332638888888889in"} -->
 
 > *Figure 5: Responsive website example*
 
