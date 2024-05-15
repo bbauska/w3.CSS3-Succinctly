@@ -1,81 +1,24 @@
-![](./images/media/image1.jpg){width="8.5in"
-height="10.996666666666666in"}
+![W3.CSS Succinctly](./images/image001.jpg)
 
-W3.CSS Succinctly
+# W3.CSS Succinctly
 
-> ![](./images/media/image2.png){width="6.239584426946632in"
-> height="0.1in"}
+> ![image002 here](./images/image002.png)
 >
 > **By**
->
 > **Joseph D. Booth**
->
-> Foreword by Daniel Jebaraj
 >
 > Copyright © 2018 by Syncfusion, Inc.
 >
 > 2501 Aerial Center Parkway
->
 > Suite 200
->
 > Morrisville, NC 27560
->
 > USA
 >
 > All rights reserved.
 
-**Important licensing information. Please read.**
-
-This book is available for free download from
-[[www.syncfusion.com]{.underline}](http://www.syncfusion.com/) on
-completion of a registration form.
-
-If you obtained this book from any other source, please register and
-download a free copy from
-[[www.syncfusion.com]{.underline}.](http://www.syncfusion.com/)
-
-This book is licensed for reading only if obtained from
-[[www.syncfusion.com]{.underline}.](http://www.syncfusion.com/)
-
-This book is licensed strictly for personal or educational use.
-
-Redistribution in any form is prohibited.
-
-3
-
-The authors and copyright holders provide absolutely no warranty for any
-information provided.
-
-The authors and copyright holders shall not be liable for any claim,
-damages, or any other liability arising from, out of, or in connection
-with the information in this book.
-
-Please do not use this book if the listed terms are unacceptable.
-
-Use shall constitute acceptance of the terms listed.
-
-SYNCFUSION, SUCCINCTLY, DELIVER INNOVATION WITH EASE, ESSENTIAL, and
-.NET ESSENTIALS are the registered trademarks of Syncfusion, Inc.
-
-**Technical Reviewer:** James McCaffrey
-
-**Copy Editor:** Courtney Wright
-
-**Acquisitions Coordinator:** Tres Watkins, content development manager,
-Syncfusion, Inc.
-
-**Proofreader:** Jacqueline Bieringer, content producer, Syncfusion,
-Inc.
-
-![](./images/media/image5.png){width="8.493333333333334in"
-height="10.993333333333334in"}
+![image005](./images/image005.png)
 
 > **Table of Contents**
-
-[The Story Behind the Succinctly Series of Books
-[10](#the-story-behind-the-succinctly-series-of-books)](#the-story-behind-the-succinctly-series-of-books)
-
-[About the Author [12](#about-the-author)](#about-the-author)
 
 [Chapter 1 Introduction
 [13](#chapter-1-introduction)](#chapter-1-introduction)
@@ -442,7 +385,7 @@ cheese!"
 
 If you have any topics of interest, thoughts, or feedback, please feel
 free to send them to us at
-[succinctly-series@syncfusion.com]{.underline}.
+[succinctly-series@syncfusion.com]
 
 We sincerely hope you enjoy reading this book and that it helps you
 better understand the topic of study. Thank you for reading.
@@ -450,43 +393,14 @@ better understand the topic of study. Thank you for reading.
 > Please follow us on Twitter and "Like" us on Facebook to help us
 > spread the word about the *Succinctly* series!
 
-![](./images/media/image7.png){width="0.85in" height="0.85in"}
-![](./images/media/image8.jpg){width="0.8527777777777777in"
+![](./images/image007.png){width="0.85in" height="0.85in"}
+![](./images/image008.jpg){width="0.8527777777777777in"
 height="0.8527777777777777in"}
-
-# About the Author 
-
-Joseph D. Booth has been programming since 1981 in a variety of
-languages, including BASIC, Clipper, FoxPro, Delphi, Classic ASP, Visual
-Basic, Visual C#, and the .NET Framework. He has also worked in various
-database platforms, including DBASE, Paradox, Oracle, and SQL Server.
-
-He is the author of *GitHub Succinctly*, *Accounting Succinctly*,
-*Regular Expressions Succinctly*, and *Visual Studio Add-Ins Succinctly*
-from Syncfusion, as well as six books on Clipper and FoxPro programming,
-network programming, and client/server development with Delphi. He has
-also written several third-party developer tools, including CLIPWKS,
-which allows developers to programmatically create and read native Lotus
-and Excel spreadsheet files from Clipper applications.
-
-Joe has worked for a number of companies including Sperry Univac,
-MCI-WorldCom, Ronin, Harris Interactive, Thomas Jefferson University,
-People Metrics, and Investor Force. He is one of the primary authors of
-Results for Research (market research software), PEPSys (industrial
-distribution software), and a key contributor to AccuBuild (accounting
-software for the construction industry).
-
-He has a background in accounting, having worked as a controller for
-several years in the industrial distribution field, but his real passion
-is computer programming.
-
-In his spare time, Joe is an avid tennis player, practices yoga and
-martial arts, and plays with his first granddaughter, Blaire.
 
 # Chapter 1 Introduction 
 
 W3.CSS is a free, no-license CSS framework from
-[[w3schools.com]{.underline}](http://www.w3schools.com/) that you can
+[[w3schools.com]](http://www.w3schools.com/) that you can
 use to produce responsive websites that work across all common browsers
 (Chrome, Edge, Firefox, Internet Explorer) and devices (desktops,
 tablets, mobile). It is much smaller than other frameworks and relies
@@ -576,7 +490,7 @@ The following example shows a simple webpage displaying an image and
 some text in a container. You can resize your browser and the entire
 page will adjust to the new size.
 
-> ![](./images/media/image9.jpg){width="2.091666666666667in"
+> ![](./images/image009.jpg){width="2.091666666666667in"
 > height="2.8538888888888887in"}
 >
 > *Figure 1: Sample webpage*
@@ -651,7 +565,7 @@ framework, as I\'ll explain shortly.
 ## Obtaining W3.CSS 
 
 You can download W3.CSS by following [[this
-link]{.underline}.](https://www.w3schools.com/w3css/w3css_downloads.asp)
+link].](https://www.w3schools.com/w3css/w3css_downloads.asp)
 It is totally free and does not require any license to use.
 
 You can also link to the W3.CSS library via an external link, using the
@@ -670,7 +584,7 @@ the element appears.
 Each element is considered a box, with several styling options. Figure 2
 shows the box model.
 
-![](./images/media/image10.jpg){width="2.6875in"
+![](./images/image010.jpg){width="2.6875in"
 height="2.0416666666666665in"}
 
 > *Figure 2: Box model*
@@ -681,7 +595,7 @@ content. The next layer is the padding, which is some number of pixels
 wrapped around the content. The border is the third layer, wrapped
 around the padding, and the final layer is the margin.
 
-> ![](./images/media/image11.jpg){width="0.25in"
+> ![](./images/image011.jpg){width="0.25in"
 > height="0.28958333333333336in"} ***Note: There is some confusion,
 > particularly with older browsers, as to what the width and height
 > actually represent. According to the W3C standards, the height and
@@ -738,7 +652,7 @@ This would produce the following appearance in the browser window. The
 two cells take up 100 percent of the width, and the larger content would
 take up more space.
 
-![](./images/media/image12.jpg){width="6.5in"
+![](./images/image012.jpg){width="6.5in"
 height="0.3958333333333333in"}
 
 > *Figure 3: Row/cell appearance*
@@ -747,7 +661,7 @@ One feature of the layout class is that the cell heights will match the
 height of the largest content, so if the cell\'s description had much
 more detail, it might appear as shown in Figure 4.
 
-![](./images/media/image13.jpg){width="5.302083333333333in"
+![](./images/image013.jpg){width="5.302083333333333in"
 height="1.125in"}
 
 > *Figure 4: Same-height cells*
@@ -796,7 +710,7 @@ the screen size, rearranging columns as needed to render on different
 devices. For example, let's look at a website that displays information
 about U.S. coins. A sample is shown in Figure 5.
 
-![](./images/media/image14.jpg){width="5.580972222222222in"
+![](./images/image014.jpg){width="5.580972222222222in"
 height="1.332638888888889in"}
 
 > *Figure 5: Responsive website example*
@@ -804,7 +718,7 @@ height="1.332638888888889in"}
 When this screen is displayed on a mobile device, the layout will change
 to stack the information vertically, as shown in Figure 6.
 
-> ![](./images/media/image15.jpg){width="1.3909722222222223in"
+> ![](./images/image015.jpg){width="1.3909722222222223in"
 > height="2.4784722222222224in"}
 >
 > *Figure 6: Mobile device display*
@@ -925,7 +839,7 @@ appear as shown in Figure 7 when viewed on a mobile device.
 >
 > \<div class=\"w3-container w3-half w3-hide-small\"\>
 >
-> ![](./images/media/image16.jpg){width="1.5784722222222223in"
+> ![](./images/image16.jpg){width="1.5784722222222223in"
 > height="1.812361111111111in"}
 >
 > *Figure 7: Mobile display without background column*
@@ -986,17 +900,17 @@ Suppose we change our coin example to the following code snippet.
 
 You can see the column widths changing with the device size.
 
-![](./images/media/image17.jpg){width="2.6222222222222222in"
+![](./images/image17.jpg){width="2.6222222222222222in"
 height="1.6872222222222222in"}
 
 > *Figure 8: Small size (\< 601 pixels)*
 
-![](./images/media/image18.jpg){width="4.335833333333333in"
+![](./images/image18.jpg){width="4.335833333333333in"
 height="1.68125in"}
 
 > *Figure 9: Medium size*
 
-![](./images/media/image19.jpg){width="6.5in"
+![](./images/image19.jpg){width="6.5in"
 height="1.2083333333333333in"}
 
 > *Figure 10: Large size (\> 992 pixels)*
@@ -1023,7 +937,7 @@ container.
 Figure 11 shows where the class names place the elements within the
 container.
 
-![](./images/media/image20.jpg){width="4.635277777777778in"
+![](./images/image20.jpg){width="4.635277777777778in"
 height="1.9416666666666667in"}
 
 > *Figure 11: CSS display*
@@ -1073,7 +987,7 @@ can be applied when a user moves the mouse over an element.
 The basic color set available in the W3 framework is shown in the
 following figure.
 
-> ![](./images/media/image21.jpg){width="4.239305555555555in"
+> ![](./images/image21.jpg){width="4.239305555555555in"
 > height="5.561111111111111in"}
 >
 > *Figure 12: W3.CSS colors*
@@ -1087,14 +1001,14 @@ white lettering on a blue background.
 You can apply colors to any HTML element, such as **\<div\>** or
 **\<table\>**.
 
-> ![](./images/media/image11.jpg){width="0.25in"
+> ![](./images/image11.jpg){width="0.25in"
 > height="0.28958333333333336in"}***Note: Colors should be used
 > carefully when designing a site---in particular, check for 508
 > compliance. The Web Content Accessibility Guidelines require a
 > 4.5-to-1 contrast ratio between colors, to increase readability. For
 > larger text sizes, 14 pixels and bold, or 18 pixels and larger, a
 > 3.0-to-1 ratio is required. You should use tools such as [[this
-> website]{.underline}](https://webaim.org/resources/contrastchecker/)***
+> website]](https://webaim.org/resources/contrastchecker/)***
 > ***to check that color combinations meet these guidelines. People with
 > low vision or color-blindness will appreciate the effort.***
 
@@ -1183,7 +1097,7 @@ and lighter/darker variations on theme.
 The following figure shows a sample theme (blue-gray) to illustrate the
 appearance of themes.
 
-![](./images/media/image22.jpg){width="5.65625in" height="2.15625in"}
+![](./images/image22.jpg){width="5.65625in" height="2.15625in"}
 
 > *Figure 13: Sample blue-gray theme*
 
@@ -1282,7 +1196,7 @@ you to set the **border- radius** property to create boxes with rounded
 corners. The W3.CSS framework provides several classes to easily create
 rounded corners.
 
-![](./images/media/image23.jpg){width="5.25in"
+![](./images/image23.jpg){width="5.25in"
 height="0.6979166666666666in"}
 
 > *Figure 14: Square box and rounded box*
@@ -1411,7 +1325,7 @@ types for border colors:
 Thicker borders (6 pixels) can provide a nice visual touch to an
 element, as shown in Figure 15.
 
-![](./images/media/image24.jpg){width="4.354166666666667in"
+![](./images/image24.jpg){width="4.354166666666667in"
 height="1.0416666666666667in"}
 
 > *Figure 15: Thick border example*
@@ -1471,7 +1385,7 @@ a header bar and some content, but don't want all the content exposed at
 once. The user will click on the header bar, and the text within that
 section will be shown (or hidden).
 
-![](./images/media/image25.jpg){width="3.298611111111111in"
+![](./images/image25.jpg){width="3.298611111111111in"
 height="1.1284722222222223in"}
 
 > *Figure 16: CSS accordion example*
@@ -1554,7 +1468,7 @@ of content is visible at a time. However, the navigation among sections
 is done via a series of buttons (tabs), typically across the top of the
 page.
 
-![](./images/media/image26.jpg){width="5.229166666666667in"
+![](./images/image26.jpg){width="5.229166666666667in"
 height="0.9895833333333334in"}
 
 > *Figure 17: CSS tabs example*
@@ -1654,7 +1568,7 @@ passed the **divName** to open.
 Although tabs are typically horizontal, you can easily create vertical
 tabs with a few small changes to the layout.
 
-![](./images/media/image27.jpg){width="4.5in" height="1.90625in"}
+![](./images/image27.jpg){width="4.5in" height="1.90625in"}
 
 > *Figure 18: Vertical tabs example*
 
@@ -1700,7 +1614,7 @@ Figure 19 on a webpage.
 >
 > \</div\>
 
-![](./images/media/image28.jpg){width="3.6354166666666665in"
+![](./images/image28.jpg){width="3.6354166666666665in"
 height="0.9375in"}
 
 > *Figure 19 : CSS card sample*
@@ -1714,7 +1628,7 @@ side of the screen, and the content appears in a larger area off to the
 other side. It is constructed very similarly to vertical tabs, but has
 additional options available to increase its flexibility.
 
-![](./images/media/image29.jpg){width="3.8125in"
+![](./images/image29.jpg){width="3.8125in"
 height="1.4791666666666667in"}
 
 > *Figure 20: Basic sidebar*
@@ -1878,7 +1792,7 @@ message.
 >
 > \</div\>
 
-![](./images/media/image30.jpg){width="3.0833333333333335in"
+![](./images/image30.jpg){width="3.0833333333333335in"
 height="1.0in"}
 
 > *Figure 21: Warning panel*
@@ -1915,7 +1829,7 @@ container.
 >
 > \</div\>
 
-![](./images/media/image31.jpg){width="2.8958333333333335in"
+![](./images/image31.jpg){width="2.8958333333333335in"
 height="0.7291666666666666in"}
 
 > *Figure 22 : CSS note example*
@@ -1938,7 +1852,7 @@ classes to improve the appearance of notes:
 Figure 23 shows the previous note with a **w3-border-red** and
 **w3-leftbar** class added.
 
-![](./images/media/image32.jpg){width="2.78125in" height="0.625in"}
+![](./images/image32.jpg){width="2.78125in" height="0.625in"}
 
 > *Figure 23: CSS custom note appearance*
 
@@ -1974,7 +1888,7 @@ closing button.
 The **onclick** code simply changes the alert's display style property
 to **none**, causing the alert to disappear from the screen.
 
-![](./images/media/image33.jpg){width="3.3645833333333335in"
+![](./images/image33.jpg){width="3.3645833333333335in"
 height="0.7708333333333334in"}
 
 *Figure 24: Sample alert panel* Generally, the following colors could be
@@ -1988,7 +1902,7 @@ used for alert messages:
 
 -   Blue, cyan: Information only.
 
-> ![](./images/media/image11.jpg){width="0.25in"
+> ![](./images/image11.jpg){width="0.25in"
 > height="0.28958333333333336in"} ***Note: Colors are not universal, and
 > have different meanings in different cultures.***
 >
@@ -2007,7 +1921,7 @@ used for all elements on the site, unless specifically changed.
 The H1 through H6 header sizes use the font family of **Segoe UI**,
 **Arial**, **sans-serif**.
 
-> ![](./images/media/image11.jpg){width="0.25in"
+> ![](./images/image11.jpg){width="0.25in"
 > height="0.28958333333333336in"}***Note: A serif font (such as Times
 > Roman or Georgia) has little decorative strokes on the end of the
 > letters, while a sans serif font (such as Helvetica or Arial) does not
@@ -2076,7 +1990,7 @@ available at a web location, rather than the user's computer. These are
 referred to as *web fonts*.
 
 A popular source of web fonts is the [[Google Fonts
-library]{.underline}.](https://fonts.google.com/) This site contains
+library].](https://fonts.google.com/) This site contains
 hundreds of web fonts you can use to improve your website's appearance.
 
 ### Installing the font 
@@ -2135,7 +2049,7 @@ figure shows how you can use the opacity class to display an error
 message, but still let the user see the screen beneath the error
 message.
 
-![](./images/media/image34.jpg){width="4.645833333333333in"
+![](./images/image34.jpg){width="4.645833333333333in"
 height="1.5833333333333333in"}
 
 > *Figure 25: Opacity example*
@@ -2145,7 +2059,7 @@ percent, and the **w3opacity-min** class to set the level to 75 percent.
 The **w3-opacity-off** class will set the opacity to 100 percent (i.e.
 totally opaque).
 
-> ![](./images/media/image35.png){width="0.14333333333333334in"
+> ![](./images/image35.png){width="0.14333333333333334in"
 > height="0.25in"} ***Tip: Opacity can be used when you are loading
 > content via Ajax. Set the class to** w3-opacity-max **during the**
 > before Send **event, and set the class to** w3-opacity-off **during
@@ -2170,7 +2084,7 @@ computer instructions, you can use the **w3-code** class.
 >
 > \</div\>
 >
-> ![](./images/media/image11.jpg){width="0.25in"
+> ![](./images/image11.jpg){width="0.25in"
 > height="0.28958333333333336in"}***Note:** Translate=\"no\" **is an
 > HTML5 attribute indicating the following content should not be
 > translated to other languages. ***
@@ -2226,7 +2140,7 @@ classes applied yet. *Code Listing 34*
 Running this code produces the screen shown in Figure 26, simply a row
 of hyperlinks.
 
-![](./images/media/image36.jpg){width="2.1770833333333335in"
+![](./images/image36.jpg){width="2.1770833333333335in"
 height="0.5729166666666666in"}
 
 > *Figure 26: Menu items*
@@ -2254,7 +2168,7 @@ horizontal menu with a blue background.
 The **w3-button** class displays the hyperlinks as buttons, so they are
 not underlined. The result is shown in Figure 27.
 
-![](./images/media/image37.jpg){width="4.770833333333333in"
+![](./images/image37.jpg){width="4.770833333333333in"
 height="0.34375in"}
 
 > *Figure 27: Horizontal menu*
@@ -2283,7 +2197,7 @@ rounded menu bar shown in Figure 28.
 > \<div class=\"w3-bar w3-pale-green w3-border w3-round-xxlarge
 > w3-margin\"\>
 
-![](./images/media/image38.jpg){width="4.614583333333333in"
+![](./images/image38.jpg){width="4.614583333333333in"
 height="0.46875in"}
 
 > *Figure 28: Rounded menu bar*
@@ -2325,7 +2239,7 @@ add text or input elements to the bar. The following screen illustrates
 a navigation bar showing the currently selected club and the ability to
 search for a team or player.
 
-![](./images/media/image39.jpg){width="6.5in" height="0.5625in"}
+![](./images/image39.jpg){width="6.5in" height="0.5625in"}
 
 > *Figure 29: Soccer site navigation*
 
@@ -2365,7 +2279,7 @@ You can also add a drop-down menu to your navigation using the
 code snippet shows an example of added schedule menu options to our
 soccer navigation bar.
 
-![](./images/media/image40.jpg){width="6.5in" height="1.4in"}
+![](./images/image40.jpg){width="6.5in" height="1.4in"}
 
 > *Figure 30: Drop-down menus*
 
@@ -2419,7 +2333,7 @@ follows.
 > \<div class=\"w3-bar-block w3-pale-green w3-margin\"
 > style=\"width:27%;\"\>
 
-![](./images/media/image41.jpg){width="1.2388057742782153in"
+![](./images/image41.jpg){width="1.2388057742782153in"
 height="1.525in"}
 
 > *Figure 31: Vertical bar*
@@ -2518,7 +2432,7 @@ of 100 percent. You can add this class to any table within a site.
 
 Figure 32 shows the sample table.
 
-![](./images/media/image42.jpg){width="3.6in" height="1.1in"}
+![](./images/image42.jpg){width="3.6in" height="1.1in"}
 
 > *Figure 32: Sample table*
 
@@ -2529,7 +2443,7 @@ Additional classes can be added to control the table's appearance.
 The **w3-striped** class adds striping, so alternating rows will have a
 shaded effect, as shown in Figure 33.
 
-![](./images/media/image43.jpg){width="3.5729166666666665in"
+![](./images/image43.jpg){width="3.5729166666666665in"
 height="1.2083333333333333in"}
 
 *Figure 33: Striped table* The striped rows make the table easier to
@@ -2546,7 +2460,7 @@ adds a bottom border to each row in the table.
 The **w3-table-all** class adds all the features (borders and shading)
 to the table. Figure 34 shows the class applied to our sample table.
 
-![](./images/media/image44.jpg){width="4.730555555555555in"
+![](./images/image44.jpg){width="4.730555555555555in"
 height="1.5in"}
 
 > *Figure 34: All table features*
@@ -2558,7 +2472,7 @@ important to let the user know which row is currently selected. W3.CSS
 makes this easy to do by adding the **w3-hoverable** class to the table.
 Figure 35 shows a table with the first row selected.
 
-![](./images/media/image45.jpg){width="4.65625in"
+![](./images/image45.jpg){width="4.65625in"
 height="1.5729166666666667in"}
 
 > *Figure 35: Hoverable table*
@@ -2623,7 +2537,7 @@ as shown in Figure 36.
 >
 > \</ul\>
 
-![](./images/media/image46.jpg){width="1.1993055555555556in"
+![](./images/image46.jpg){width="1.1993055555555556in"
 height="0.7054724409448819in"}
 
 > *Figure 36: Basic list*
@@ -2690,12 +2604,12 @@ images next to the sport name.
 
 The result will appear as shown in Figure 37.
 
-![](./images/media/image47.jpg){width="2.2180555555555554in"
+![](./images/image47.jpg){width="2.2180555555555554in"
 height="1.0763888888888888in"}
 
 > *Figure 37: List with images*
 >
-> ![](./images/media/image48.png){width="0.14333333333333334in"
+> ![](./images/image48.png){width="0.14333333333333334in"
 > height="0.25in"}***Tip: When using images, you will get better
 > performance (smaller file sizes) if you adjust the image file size,
 > rather than using the HTML height and width attributes to resize the
@@ -2718,7 +2632,7 @@ lists, and are summarized as follows:
 
 -   **w3-ul**: Basic list class.
 
-![](./images/media/image49.jpg){width="8.5in"
+![](./images/image49.jpg){width="8.5in"
 height="10.996666666666666in"}
 
 # Chapter 10 Buttons and Labels 
@@ -2765,7 +2679,7 @@ might be used to allow the user to save or discard updates.
 
 Figure 38 shows sample colored buttons.
 
-> ![](./images/media/image50.jpg){width="3.4in" height="0.5in"}
+> ![](./images/image50.jpg){width="3.4in" height="0.5in"}
 >
 > *Figure 38: Sample buttons*
 
@@ -2795,7 +2709,7 @@ following code snippet will produce the rounded buttons shown in Figure
 >
 > \</div\>
 >
-> ![](./images/media/image51.jpg){width="2.6041666666666665in"
+> ![](./images/image51.jpg){width="2.6041666666666665in"
 > height="0.5416666666666666in"}
 >
 > *Figure 39: Rounded buttons*
@@ -2809,7 +2723,7 @@ clickable. If a button needs to be disabled, you can add the
 a grayed-out appearance and disable the cursor when the user moves the
 mouse over the button.
 
-> ![](./images/media/image52.png){width="0.14333333333333334in"
+> ![](./images/image52.png){width="0.14333333333333334in"
 > height="0.25in"}***Tip: You might want to dynamically add the**
 > w3-disabled **class via JavaScript when the button is clicked. This
 > could provide a visual indication that the button has been pressed and
@@ -2849,7 +2763,7 @@ the badges shown in Figure 40.
 > \<span class=\"w3-badge w3-blue w3-right w3-large\"\>2\</span\>\</p\>
 > \</div\>
 >
-> ![](./images/media/image53.jpg){width="2.5416666666666665in"
+> ![](./images/image53.jpg){width="2.5416666666666665in"
 > height="1.0520833333333333in"}
 >
 > *Figure 40: Badge examples*
@@ -2883,7 +2797,7 @@ the badge to indicate number of orders.
 
 This code snippet produces the list shown in Figure 41.
 
-> ![](./images/media/image54.jpg){width="2.2395833333333335in"
+> ![](./images/image54.jpg){width="2.2395833333333335in"
 > height="1.0208333333333333in"}
 >
 > *Figure 41: Badges with list elements*
@@ -2902,7 +2816,7 @@ of the current operation.
 > \<p\>Status: \<span class=\"w3-tag
 > w3-green\"\>Processing\</span\>\</p\> \</div\>
 >
-> ![](./images/media/image55.jpg){width="1.3229166666666667in"
+> ![](./images/image55.jpg){width="1.3229166666666667in"
 > height="0.3645833333333333in"}
 >
 > *Figure 42: Processing tag*
@@ -2925,7 +2839,7 @@ several helper classes to produce a warning tag.
 >
 > \</div\>
 >
-> ![](./images/media/image56.jpg){width="2.40625in"
+> ![](./images/image56.jpg){width="2.40625in"
 > height="0.6145833333333334in"}
 >
 > *Figure 43: Warning tag*
@@ -2952,7 +2866,7 @@ for these elements.
 
 Figure 44 shows a sample input form, formatted with W3 classes.
 
-> ![](./images/media/image57.jpg){width="3.142361111111111in"
+> ![](./images/image57.jpg){width="3.142361111111111in"
 > height="4.260277777777778in"}
 >
 > *Figure 44: Sample input form*
@@ -2969,7 +2883,7 @@ form. The basic syntax is as follows.
 The **w3-input** class provides the basic formatting for a text box,
 providing the necessary padding and borders.
 
-> ![](./images/media/image11.jpg){width="0.25in"
+> ![](./images/image11.jpg){width="0.25in"
 > height="0.28958333333333336in"} ***Note: HTML5 introduces several new
 > input types besides the basic text input. The following types are
 > supported:***
@@ -3017,7 +2931,7 @@ A recent trend in text input is not to use borders at all around text.
 You can use the **w3-border0** class to achieve that look (shown in
 figure 45).
 
-> ![](./images/media/image58.jpg){width="2.46875in"
+> ![](./images/image58.jpg){width="2.46875in"
 > height="0.5104166666666666in"}
 >
 > *Figure 45: Borderless input*
@@ -3035,7 +2949,7 @@ choices to the user and allow them to pick only one. They appear as
 circular buttons with labels next to each option. Figure 46 shows sample
 option buttons.
 
-> ![](./images/media/image59.jpg){width="1.71875in"
+> ![](./images/image59.jpg){width="1.71875in"
 > height="0.4166666666666667in"}
 >
 > *Figure 46: Option buttons*
@@ -3062,7 +2976,7 @@ All elements within the option group must have the same **name**
 attribute value. This allows the browser to enforce only one item within
 the group being selectable.
 
-> ![](./images/media/image11.jpg){width="0.25in"
+> ![](./images/image11.jpg){width="0.25in"
 > height="0.28958333333333336in"}***Note: Option buttons were originally
 > called radio buttons because most older cars had buttons on the radio,
 > designed so that when one button was pushed, the other buttons would
@@ -3070,7 +2984,7 @@ the group being selectable.
 > familiar with the meaning, since very few cars still use radio
 > buttons---hence the new name, option buttons.***
 >
-> ![](./images/media/image60.jpg){width="2.6979166666666665in"
+> ![](./images/image60.jpg){width="2.6979166666666665in"
 > height="2.0208333333333335in"}
 >
 > *Figure 47: Radio buttons*
@@ -3081,7 +2995,7 @@ Check boxes are like option buttons, except that the user can check more
 than one. The element for check boxes is a square, to distinguish them
 from option buttons. Figure 48 shows how check boxes appear on the form.
 
-> ![](./images/media/image61.jpg){width="3.9in" height="0.4in"}
+> ![](./images/image61.jpg){width="3.9in" height="0.4in"}
 
 *Figure 48: Check boxes* The following code creates the check boxes.
 
@@ -3129,7 +3043,7 @@ box.
 
 Figure 49 shows a select box produced from this code snippet.
 
-> ![](./images/media/image62.jpg){width="2.875in"
+> ![](./images/image62.jpg){width="2.875in"
 > height="0.9583333333333334in"}
 >
 > *Figure 49: Select box*
@@ -3250,12 +3164,12 @@ icon.
 Figure 50 shows the screen (but on a website, the spinner will keep
 rotating).
 
-> ![](./images/media/image63.jpg){width="1.0104166666666667in"
+> ![](./images/image63.jpg){width="1.0104166666666667in"
 > height="0.5in"}
 >
 > *Figure 50: Sample spinner*
 >
-> ![](./images/media/image64.png){width="0.1597222222222222in"
+> ![](./images/image64.png){width="0.1597222222222222in"
 > height="0.32943022747156603in"} ***Tip: Spinners are often used during
 > Ajax calls, to show something is happening. However, be sure that if
 > an error occurs, the spinner is removed. Otherwise, users see the
@@ -3392,7 +3306,7 @@ Here is the HTML to display an image.
 
 This will produce the image shown in Figure 51.
 
-> ![](./images/media/image65.jpg){width="1.0972222222222223in"
+> ![](./images/image65.jpg){width="1.0972222222222223in"
 > height="1.426388888888889in"}
 >
 > *Figure 51: Grandpa cuddles*
@@ -3406,7 +3320,7 @@ page:
 
 -   **w3-bordered**: Adds a border around entire image.
 
-> ![](./images/media/image66.jpg){width="3.672083333333333in"
+> ![](./images/image66.jpg){width="3.672083333333333in"
 > height="1.5840277777777778in"}
 >
 > *Figure 52: Sample image classes*
@@ -3417,7 +3331,7 @@ You can add the **w3-image** class to the **\<img\>** tag to create a
 responsive image. The image size will adjust to the screen, but will
 never be larger than the original image size.
 
-> ![](./images/media/image11.jpg){width="0.25in"
+> ![](./images/image11.jpg){width="0.25in"
 > height="0.28958333333333336in"} ***Note: If you want a full responsive
 > image (meaning it can be larger than original size), you need to set
 > the width property to** 100% **(via an inline style). ***
@@ -3435,7 +3349,7 @@ percent to 75 percent. The class names are:
 
 Figure 53 shows the various opacity effects.
 
-> ![](./images/media/image67.jpg){width="2.73125in"
+> ![](./images/image67.jpg){width="2.73125in"
 > height="1.0832633420822397in"}
 >
 > *Figure 53: Image opacity*
@@ -3453,7 +3367,7 @@ image. The class names are:
 
 Figure 54 shows the grayscale effect on an image.
 
-> ![](./images/media/image68.jpg){width="3.533333333333333in"
+> ![](./images/image68.jpg){width="3.533333333333333in"
 > height="1.260181539807524in"}
 >
 > *Figure 54: Grayscale*
@@ -3465,7 +3379,7 @@ slideshow of images. Figure 55 shows the basic appearance of the
 slideshow. The user can click the buttons to move among the images in
 the slideshow.
 
-> ![](./images/media/image69.jpg){width="1.2708333333333333in"
+> ![](./images/image69.jpg){width="1.2708333333333333in"
 > height="2.03125in"}
 >
 > *Figure 55: Slideshow*
@@ -3559,7 +3473,7 @@ chapter, we will explore in detail one of the examples from the W3.CSS
 site. The email template is a good, simple demo of a responsive website
 for a mail client. Figure 56 shows the sample template.
 
-![](./images/media/image70.jpg){width="6.5in"
+![](./images/image70.jpg){width="6.5in"
 height="2.5840277777777776in"}
 
 > *Figure 56: Email template*
@@ -3596,7 +3510,7 @@ minimal code changes.
 
 Font Awesome is a very popular library of icons, defined as CSS classes.
 You can explore the library
-[[here]{.underline}.](https://fontawesome.com/)
+[[here].](https://fontawesome.com/)
 
 To add Font Awesome to the site, the following line is added to the
 **\<head\>** section.
@@ -3621,7 +3535,7 @@ To add Font Awesome to the site, the following line is added to the
 
 This produces the buttons shown in Figure 57.
 
-> ![](./images/media/image71.jpg){width="2.5833333333333335in"
+> ![](./images/image71.jpg){width="2.5833333333333335in"
 > height="0.4166666666666667in"}
 >
 > *Figure 57: Font Awesome buttons*
@@ -3798,7 +3712,7 @@ your own colors.
 ## CSS Pro 
 
 The CSS Pro version, available
-[[here]{.underline},](https://www.w3schools.com/w3css/4/w3pro.css) is 16
+[[here],](https://www.w3schools.com/w3css/4/w3pro.css) is 16
 KB. You can add your own color support with your own style sheet,
 in-line styles, or a W3 theme. For example, if you wanted to use the
 flat color scheme, rather than the default material design colors, you
@@ -3825,7 +3739,7 @@ colors available to your site.
 ## CSS Mobile 
 
 The CSS Mobile version, available
-[[here]{.underline},](https://www.w3schools.com/w3css/4/w3mobile.css) is
+[[here],](https://www.w3schools.com/w3css/4/w3mobile.css) is
 14KB. You can add your own color support with your own style sheet,
 in-line styles, or a W3 theme. In addition to no colors, this sheet also
 has no mobile-first media queries---it is strictly intended for mobile
@@ -3856,7 +3770,7 @@ easy-to-use framework that can be used comfortably with other frameworks
 and libraries.
 
 Visit the [[W3.CSS
-website]{.underline}](https://www.w3schools.com/w3css/default.asp) for
+website]](https://www.w3schools.com/w3css/default.asp) for
 updates to the framework and color libraries and themes, as well as
 online documentation and interactive examples to let you try out the
 framework.
@@ -3873,7 +3787,7 @@ are creating a website for a business. These templates are responsive,
 as you can see from the snapshot of the social media site template shown
 in Figure 58.
 
-![](./images/media/image72.jpg){width="5.811527777777778in"
+![](./images/image072.jpg){width="5.811527777777778in"
 height="2.5791666666666666in"}
 
 > *Figure 58: W3.CSS Social media template*
