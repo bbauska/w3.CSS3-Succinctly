@@ -11,7 +11,7 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. w3.css succinctly (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image001.png"
+<img src="./images/image001.jpg"
   style="width:40%"
   title="W3.CSS Succinctly logo"
   alt="W3.CSS Succinctly logo." />
