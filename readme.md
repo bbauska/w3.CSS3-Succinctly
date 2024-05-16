@@ -330,7 +330,7 @@ All rights reserved.
 # Chapter 1 Introduction 
 
 W3.CSS is a free, no-license CSS framework from
-[[w3schools.com]{.underline}](http://www.w3schools.com/) that you can
+[[w3schools.com]](http://www.w3schools.com/) that you can
 use to produce responsive websites that work across all common browsers
 (Chrome, Edge, Firefox, Internet Explorer) and devices (desktops,
 tablets, mobile). It is much smaller than other frameworks and relies
@@ -340,15 +340,11 @@ a comparison of uncompressed memory sizes, see Table 1.
 
 *Table 1: Approximate framework sizes*
 
-  -----------------------------------------------------------------------
-                          JavaScript (min)        CSS (min)
-  ----------------------- ----------------------- -----------------------
-  Bootstrap               37 kb                   119 kb
-
-  Foundation              86 kb                   60 kb
-
-  W3.CSS                  N/A                     21 kb
-  -----------------------------------------------------------------------
+|                         | JavaScript (min)  | CSS (min)       |
+| ----------------------- | ----------------- | --------------- |
+| Bootstrap               | 37 kb             | 119 kb          |
+| Foundation              | 86 kb             |  60 kb          |
+| W3.CSS                  | N/A               |  21 kb          |
 
 While each framework has its own set of features and components, the
 W3.CSS is small and simple to learn, and is a worthwhile contender to
@@ -407,12 +403,10 @@ background color to blue-gray.
 
 *Code Listing 1*
 
-+-----------------------------------------------------------------------+
-| \<div class=\"w3-container w3-blue-gray\"\>                           |
-|                                                                       |
-| \</div\>                                                              |
-+=======================================================================+
-+-----------------------------------------------------------------------+
+```
+<div class="w3-container w3-blue-gray">
+</div>
+```
 
 You could add the class **w3-round-large** to add rounded corners to the
 **\<div\>** element.
@@ -437,61 +431,41 @@ framework, as I\'ll explain shortly.
 
 *Code Listing 2: Sample W3.CSS page*
 
-+-----------------------------------------------------------------------+
-| \<DOCTYPE html\>                                                      |
-|                                                                       |
-| \<html\>                                                              |
-|                                                                       |
-| \<head\>                                                              |
-|                                                                       |
-| \<title\>W3.CSS\</title\>                                             |
-|                                                                       |
-| \<meta name=\"viewport\" content=\"width=device-width,                |
-| initial-scale=1\"\> \<link rel=\"stylesheet\" href=\"w3.css\"\>       |
-|                                                                       |
-| \</head\>                                                             |
-|                                                                       |
-| \<body\>                                                              |
-|                                                                       |
-| \<div class=\"w3-container w3-teal\"\>                                |
-|                                                                       |
-| \<h1\>Gettysburg Address\</h1\>                                       |
-|                                                                       |
-| \</div\>                                                              |
-|                                                                       |
-| \<div class=\"w3-container\"\>                                        |
-|                                                                       |
-| \<p\>\<img src=\"abraham-lincoln.jpg\" style=\"width:50%\"\>\</p\>    |
-| \</div\>                                                              |
-|                                                                       |
-| \<div class=\"w3-container w3-round-large\"\>                         |
-|                                                                       |
-| \<p\>Four score and seven years ago our fathers brought forth on this |
-| continent, a new nation, conceived in liberty, and dedicated to the   |
-| proposition that all men are created equal.                           |
-|                                                                       |
-| \<br/\>\<br/\>                                                        |
-|                                                                       |
-| Now we are engaged in a great civil war, testing whether that nation, |
-| or any nation so conceived and so dedicated, can long endure. We are  |
-| met on a great battle-field of that war. We have come to dedicate a   |
-| portion of that fields as a final resting place for those who here    |
-| gave their lives so that that nation might live. It is altogether     |
-| fitting and proper that we should do this.\</p\>                      |
-|                                                                       |
-| \</div\>                                                              |
-|                                                                       |
-| \<div class="w3-container w3-teal"\>                                  |
-|                                                                       |
-| \<p\>Abraham Lincoln 1863\</p\>                                       |
-|                                                                       |
-| \</div\>                                                              |
-|                                                                       |
-| \</body\>                                                             |
-|                                                                       |
-| \</html\>                                                             |
-+=======================================================================+
-+-----------------------------------------------------------------------+
+```
+<DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width,
+initial-scale=1"> <link rel="stylesheet" href="w3.css">
+</head>
+<body>
+<div class="w3-container w3-teal">
+<h1>Gettysburg Address</h1>
+</div>
+<div class="w3-container">
+<p><img src="abraham-lincoln.jpg" style="width:50%"></p>
+</div>
+<div class="w3-container w3-round-large">
+<p>Four score and seven years ago our fathers brought forth on this
+ continent, a new nation, conceived in liberty, and dedicated to the
+ proposition that all men are created equal.
+
+<br/><br/>
+
+ Now we are engaged in a great civil war, testing whether that nation,
+ or any nation so conceived and so dedicated, can long endure. We are
+ met on a great battle-field of that war. We have come to dedicate a
+ portion of that fields as a final resting place for those who here
+ gave their lives so that that nation might live. It is altogether
+ fitting and proper that we should do this.</p>
+</div>
+<div class="w3-container w3-teal">
+<p>Abraham Lincoln 1863</p>
+</div>
+</body>
+</html>
+```
 
 ## 
 
@@ -3049,16 +3023,12 @@ icon.
 
 *Code Listing 63*
 
-+-----------------------------------------------------------------------+
-| \<div class=\"w3-section w3-row\"\>                                   |
-|                                                                       |
-| \<div class=\"w3-col\" style=\"width:50px;\"\>                        |
-|                                                                       |
-| \<i class=\"w3-xxlarge w3-spin fa fa-spinner\"\>\</i\>\</div\>        |
-|                                                                       |
-| \<div class=\"w3-rest\"\>Saving\...\</div\> \</div\>                  |
-+=======================================================================+
-+-----------------------------------------------------------------------+
+```
+<div class="w3-section w3-row">
+<div class="w3-col" style="width:50px;">
+<i class="w3-xxlarge w3-spin fa fa-spinner"></i></div>
+<div class="w3-rest">Saving...</div> </div>
+```
 
 Figure 50 shows the screen (but on a website, the spinner will keep
 rotating).
@@ -3104,7 +3074,9 @@ shows the basic setup for the modal container.
 
 Code Listing 64
 
-\<div id=\"ContactUs\" class=\"w3-modal w3-center\"\> \</div\>
+```
+<div id="ContactUs" class="w3-modal w3-center"> </div>
+```
 
 The actual content of the modal dialog is wrapped within the
 **w3-modal-content** class. The wrapper structure looks as shown in the
@@ -3112,15 +3084,13 @@ following.
 
 Code Listing 65
 
-\<div id=\"ContactUs\" class=\"w3-modal w3-center\"\>
-
-\<div class=\"w3-modal-content\"\>
-
-\<!\-- Actual modal content \--\>
-
-\</div\>
-
-\</div\>
+```
+<div id="ContactUs" class="w3-modal w3-center">
+<div class="w3-modal-content">
+<!-- Actual modal content -->
+</div>
+</div>
+```
 
 ## Displaying the modal 
 
@@ -3130,11 +3100,12 @@ dialog, we could use the following code.
 
 Code Listing 66
 
-\<button
-onclick=\"document.getElementById(\'ContactUs\').style.display=\'block\'\"
-class=\"w3-button\"\>
-
-\</button\>
+```
+<button
+onclick="document.getElementById('ContactUs').style.display='block'"
+class="w3-button">
+</button>
+```
 
 When the user clicks the **Contact Us** button, the modal dialog's
 display style is set to **block**, causing the dialog to pop up on the
@@ -3150,8 +3121,10 @@ the modal. Simply add the desired animation class to the container
 
 Code Listing 67
 
-\<div id=\"ContactUs\" class=\"w3-modal w3-center w3-animate-opacity\"\>
-\</div\>
+```
+<div id="ContactUs" class="w3-modal w3-center w3-animate-opacity">
+</div>
+```
 
 This will cause the modal dialog to fade in, rather than just quickly
 appear.
@@ -3167,15 +3140,14 @@ the close code into the buttons that save and/or cancel the dialog.
 
 Code Listing 68
 
-\<header class=\"w3-teal w3-display-container\"\>
-
-\<span
-onclick=\"document.getElementById(\'ContactUs\').style.display=\'none\'\"
-class=\"w3-button w3-large w3-display-topright\"\>&times;\</span\>
-
-\<h2\>Contact Us\</h2\>
-
-\</header\>
+```
+<header class="w3-teal w3-display-container">
+<span
+  onclick="document.getElementById('ContactUs').style.display='none'"
+  class="w3-button w3-large w3-display-topright">&times;</span>
+<h2>Contact Us</h2>
+</header>
+```
 
 ## Summary 
 
@@ -3199,9 +3171,10 @@ Here is the HTML to display an image.
 
 Code Listing 69
 
-\<div class=\"w3-container w3-margin\"\>
-
-\<img src=\"BabyGirlCuddles.jpg\" alt=\"Granddaughter\"\> \</div\>
+```
+<div class="w3-container w3-margin">
+<img src="BabyGirlCuddles.jpg" alt="Granddaughter"> </div>
+```
 
 This will produce the image shown in Figure 51.
 
@@ -3230,8 +3203,8 @@ You can add the w3-image class to the \<img\> tag to create a responsive
 image. The image size will adjust to the screen, but will never be
 larger than the original image size.
 
-![](./images/image009.jpg){width="0.25in"
-height="0.28958333333333336in"} Note: If you want a full responsive
+![](./images/image009.jpg)  <!-- {width="0.25in" height="0.28958333333333336in"} -->
+Note: If you want a full responsive
 image (meaning it can be larger than original size), you need to set the
 width property to 100% (via an inline style).
 
@@ -3248,8 +3221,7 @@ percent to 75 percent. The class names are:
 
 Figure 53 shows the various opacity effects.
 
-![](./images/image065.jpg){width="2.73125in"
-height="1.0832633420822397in"}
+![](./images/image065.jpg) <!-- {width="2.73125in" height="1.0832633420822397in"} -->
 
 *Figure 53: Image opacity*
 
@@ -3266,8 +3238,7 @@ image. The class names are:
 
 Figure 54 shows the grayscale effect on an image.
 
-![](./images/image066.jpg){width="3.533333333333333in"
-height="1.260181539807524in"}
+![](./images/image066.jpg) <!-- {width="3.533333333333333in" height="1.260181539807524in"} -->
 
 *Figure 54: Grayscale*
 
@@ -3278,8 +3249,7 @@ slideshow of images. Figure 55 shows the basic appearance of the
 slideshow. The user can click the buttons to move among the images in
 the slideshow.
 
-![](./images/image067.jpg){width="1.2708333333333333in"
-height="2.03125in"}
+![](./images/image067.jpg) <!-- {width="1.2708333333333333in" height="2.03125in"} -->
 
 *Figure 55: Slideshow*
 
@@ -3293,25 +3263,18 @@ navigation.
 
 *Code Listing 70*
 
-+-----------------------------------------------------------------------+
-| \<div class=\"w3-display-container w3-content\" style=\"width:8%;\"\> |
-|                                                                       |
-| \<img class=\"w3-image mySlides\" src=\"BabyGirlCuddles.jpg\"\>       |
-|                                                                       |
-| \<img class=\"w3-image mySlides\" src=\"FingersSmall.jpg\"\>          |
-|                                                                       |
-| \<p\>                                                                 |
-|                                                                       |
-| \<button class=\"w3-button w3-black\"                                 |
-| onclick=\"plusDivs(-1)\"\>&#10094;\</button\> \<button                |
-| class=\"w3-button w3-black\"                                          |
-| onclick=\"plusDivs(1)\"\>&#10095;\</button\>                          |
-|                                                                       |
-| \</p\>                                                                |
-|                                                                       |
-| \</div\>                                                              |
-+=======================================================================+
-+-----------------------------------------------------------------------+
+```
+ <div class="w3-display-container w3-content" style="width:8%;">
+ <img class="w3-image mySlides" src="BabyGirlCuddles.jpg">
+ <img class="w3-image mySlides" src="FingersSmall.jpg">
+ <p>
+ <button class="w3-button w3-black"
+ onclick="plusDivs(-1)">&#10094;</button> <button
+ class="w3-button w3-black"
+ onclick="plusDivs(1)">&#10095;</button>
+ </p>
+ </div>
+```
 
 The HTML entities are used for the buttons to provide the navigation
 arrows. We will need a JavaScript function called **plusDivs()** to move
@@ -3325,30 +3288,20 @@ images.
 
 *Code Listing 71*
 
-+-----------------------------------------------------------------------+
-| \<script\>                                                            |
-|                                                                       |
-| var slideIndex =1; showDivs(1);                                       |
-|                                                                       |
-| function plusDivs(n) {                                                |
-|                                                                       |
-| showDivs(slideIndex += n) ;                                           |
-|                                                                       |
-| }                                                                     |
-|                                                                       |
-| function showDivs(n) {                                                |
-|                                                                       |
-| var x = document.getElementsByClaseName(\'mySlides\'); if (n \>       |
-| x.length) { xslideIndex =1;} if (n \< 1) { slideIndex =x.length;} for |
-| (var i=0; i \< x.length; i++) { x\[i\].style.display =\"none\";       |
-|                                                                       |
-| } x\[i\].style.display =\"block\";                                    |
-|                                                                       |
-| }                                                                     |
-|                                                                       |
-| \</script\>                                                           |
-+=======================================================================+
-+-----------------------------------------------------------------------+
+```
+<script>
+  var slideIndex =1; showDivs(1);
+  function plusDivs(n) {
+  showDivs(slideIndex += n) ;
+}
+function showDivs(n) {
+  var x = document.getElementsByClaseName('mySlides'); if (n >
+  x.length) { xslideIndex =1;} if (n < 1) { slideIndex =x.length;} for
+  (var i=0; i < x.length; i++) { x[i].style.display ="none";
+  } x\[i].style.display ="block";
+}
+</script>
+```
 
 The script declares a variable (**slideIndex**) to keep track of the
 currently selected image and initializes it to the first image. The
@@ -3372,8 +3325,7 @@ chapter, we will explore in detail one of the examples from the W3.CSS
 site. The email template is a good, simple demo of a responsive website
 for a mail client. Figure 56 shows the sample template.
 
-![](./images/image068.jpg){width="6.5in"
-height="2.5840277777777776in"}
+![](./images/image068.jpg)  <!-- {width="6.5in" height="2.5840277777777776in"} -->
 
 *Figure 56: Email template*
 
@@ -3384,21 +3336,16 @@ including the W3.CSS style sheet, possibly using an external web font.
 
 *Code Listing 72*
 
-\<!DOCTYPE html\>
-
-\<html\>
-
-\<head\>
-
-\<title\>W3.CSS \</title\>
-
-\<meta charset=\"UTF-8\"\>
-
-\<meta name=\"viewport\" content=\"width=device-width,
-initial-scale=1\"\>
-
-\<link rel=\"stylesheet\" type=\"text/css\"
-href=\"https://fonts.googleapis.com/css?family=RobotoDraft\"\>
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=RobotoDraft">
+```
 
 In this example, we are using a Google font called **RobotoDraft**, and
 linking it into our website. While the use of external web fonts is
@@ -3416,8 +3363,10 @@ To add Font Awesome to the site, the following line is added to the
 
 *Code Listing 73*
 
-\<link rel=\"stylesheet\" type=\"text/css\"
-href=\"https://cdnjs.cloudfare.com/ajax/libs/fontawesome/4.7.0/css/font-awesome.min.css\"\>
+```
+<link rel="stylesheet" type="text/css"
+  href="https://cdnjs.cloudfare.com/ajax/libs/fontawesome/4.7.0/css/font-awesome.min.css">
+```
 
 To use the fonts, you simply add the class name to any element, and the
 appropriate icon will appear. The following example shows some Save and
@@ -3425,17 +3374,18 @@ Cancel buttons taking advantage of the Font Awesome library.
 
 *Code Listing 74*
 
-\<button class=\"fa fa-save w3-text-green w3-xlarge w3-padding\"\>
-
-&nbsp;Save changes\</button\>
-
-\<button class=\"fa fa-times w3-text-red w3-xlarge w3-padding\"\>
-&nbsp;Cancel\</button\>
+```
+<button class="fa fa-save w3-text-green w3-xlarge w3-padding">
+  &nbsp;Save changes
+</button>
+<button class="fa fa-times w3-text-red w3-xlarge w3-padding">
+  &nbsp;Cancel
+</button>
+```
 
 This produces the buttons shown in Figure 57.
 
-![](./images/image069.jpg){width="2.5833333333333335in"
-height="0.4166666666666667in"}
+![](./images/image069.jpg) <!-- {width="2.5833333333333335in" height="0.4166666666666667in"} -->
 
 *Figure 57: Font Awesome buttons*
 
@@ -3445,9 +3395,9 @@ Throughout the course of this book, we also took advantage of some HTML
 entities to add small icons to a few of our examples. Some useful HTML
 entities are:
 
-• **&#9776;** Hamburger menu
+-   **&#9776;** Hamburger menu
 
-##### • &#128197; Calendar 
+-   ** &#128197;** Calendar 
 
 -   **&#128269;** Search icon
 
@@ -3473,15 +3423,14 @@ elements to use the new font family. The final piece of code in the
 
 *Code Listing 75*
 
-\<style\>
-
-html, body, h1, h2, h3, h4, h5, h6 {
-
-font-family: \"RobotoDraft\",\"Roboto\", sans-serif;
-
-}
-
-.w3-bar-block, .w3-bar-item { padding:16px; } \</style\>
+```
+<style>
+  html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "RobotoDraft","Roboto", sans-serif;
+  }
+  .w3-bar-block, .w3-bar-item { padding:16px; } 
+</style>
+```
 
 ## Body section 
 
@@ -3613,7 +3562,7 @@ your own colors.
 ## CSS Pro 
 
 The CSS Pro version, available
-[[here]{.underline},](https://www.w3schools.com/w3css/4/w3pro.css) is 16
+[[CSS Pro version Here],](https://www.w3schools.com/w3css/4/w3pro.css) is 16
 KB. You can add your own color support with your own style sheet,
 in-line styles, or a W3 theme. For example, if you wanted to use the
 flat color scheme, rather than the default material design colors, you
@@ -3640,7 +3589,7 @@ colors available to your site.
 ## CSS Mobile 
 
 The CSS Mobile version, available
-[[here]{.underline},](https://www.w3schools.com/w3css/4/w3mobile.css) is
+[[here],](https://www.w3schools.com/w3css/4/w3mobile.css) is
 14KB. You can add your own color support with your own style sheet,
 in-line styles, or a W3 theme. In addition to no colors, this sheet also
 has no mobile-first media queries---it is strictly intended for mobile
@@ -3671,7 +3620,7 @@ easy-to-use framework that can be used comfortably with other frameworks
 and libraries.
 
 Visit the [[W3.CSS
-website]{.underline}](https://www.w3schools.com/w3css/default.asp) for
+website]](https://www.w3schools.com/w3css/default.asp) for
 updates to the framework and color libraries and themes, as well as
 online documentation and interactive examples to let you try out the
 framework.
@@ -3688,8 +3637,7 @@ are creating a website for a business. These templates are responsive,
 as you can see from the snapshot of the social media site template shown
 in Figure 58.
 
-![](./images/image070.jpg){width="5.0in"
-height="2.5791666666666666in"}
+![](./images/image070.jpg) <!-- {width="5.0in" height="2.5791666666666666in"} -->
 
 *Figure 58: W3.CSS Social media template*
 
