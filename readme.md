@@ -1,9 +1,27 @@
-#  W3.CSS Succinctly 
+---
+title: "W3.CSS Succinctly"
+author: "Brian Bauska (bbauska)"
+date last editted: "5/15/2024 Wed 6+pm"
+output: 
+  markdown:
+    with some style
+---
 
-![](./images/image001.png)
+#  W3.CSS Succinctly 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. w3.css succinctly (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image001.png"
+  style="width:40%"
+  title="W3.CSS Succinctly logo"
+  alt="W3.CSS Succinctly logo." />
+</p>
 
 by Joseph D. Booth
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="about">About this Course</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 ![](./images/image002.jpeg)
 
 Copyright © 2018 by Syncfusion, Inc.
