@@ -691,8 +691,14 @@ while the background column takes up half of the row width.
 \</div\>
 
 \<div class=\"w3-container w3-quarter w3-center\"\>
-
-\<p\>\<img src=\"morgan.jpg\" style=\"width:60%\"\>\</p\>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 00. morgam (0x) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/morgan.jpg"
+  style="width:60%"
+  title="W3.CSS Succinctly logo"
+  alt="W3.CSS Succinctly logo." />
+</p>
 
 \<h4 class=\"w3-text-blue\"\>Sample image\</h4\>
 
@@ -3580,18 +3586,15 @@ could import the following style sheets.
 
 *Code Listing 79*
 
+```
 \<html\>
-
 \<head\>
-
 \<title\>W3 mobile with metro colors\</title\>
-
 \<meta name=\"viewport\"
 content=\"width=device-width,initial-scale=1\"\>
-
 \<link rel=\"stylesheet\" href=\"css/w3pro.css\"\>
-
 \<link rel=\"stylesheet\" href=\"css/w3-colors-flat.css\"\>
+```
 
 This will result in a smaller style sheet, and only make the flat CSS
 colors available to your site.
@@ -3608,20 +3611,17 @@ devices.
 To use this style sheet with the metro colors, you could use the
 following code snippet. *Code Listing 80*
 
-\<html\>
+```
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;W3 mobile with metro colors&lt;/title&gt;
+&lt;meta name=&quot;viewport&quot;
+content=&quot;width=device-width,initial-scale=1&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/w3mobile.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/w3-colors-metro.css&quot;&gt;
+```
 
-\<head\>
-
-\<title\>W3 mobile with metro colors\</title\>
-
-\<meta name=\"viewport\"
-content=\"width=device-width,initial-scale=1\"\>
-
-\<link rel=\"stylesheet\" href=\"css/w3mobile.css\"\>
-
-\<link rel=\"stylesheet\" href=\"css/w3-colors-metro.css\"\>
-
-# Chapter 17 Summary 
+<h1 id="ch17-summary">Chapter 17 Summary</h1>
 
 W3.CSS is a simple and fast framework, making it easier to apply CSS
 styles to create responsive websites. Its color support and responsive
@@ -3629,13 +3629,12 @@ design, as well as consistent and simple class names, make it an
 easy-to-use framework that can be used comfortably with other frameworks
 and libraries.
 
-Visit the [[W3.CSS
-website]](https://www.w3schools.com/w3css/default.asp) for
+Visit the [<a href="https://www.w3schools.com/w3css/default.asp">W3.CSS website</a>] for
 updates to the framework and color libraries and themes, as well as
 online documentation and interactive examples to let you try out the
 framework.
 
-## Site 
+<h2>Site</h2>
 
 The W3.CSS site provides examples of how to create various elements with
 the classes. In addition, there are several demo sites available, such
@@ -3646,8 +3645,14 @@ various types of businesses. These can save you some startup time if you
 are creating a website for a business. These templates are responsive,
 as you can see from the snapshot of the social media site template shown
 in Figure 58.
-
-![](./images/image070.jpg) <!-- {width="5.0in" height="2.5791666666666666in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ xx. image070.jpg (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image070.jpg"
+  style="width:50%"
+  title="image070.jpg"
+  alt="image070.jpg." />
+</p>
 
 *Figure 58: W3.CSS Social media template*
 
