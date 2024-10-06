@@ -1,13 +1,18 @@
 ---
 title: "W3.CSS Succinctly"
 author: "Brian Bauska (bbauska)"
+date created: "5/15/2024 Wed 6+pm"
 date last editted: "5/15/2024 Wed 6+pm"
 output: 
   markdown:
     with some style
 ---
 
-#  W3.CSS Succinctly 
+<h1 align="center">W3.CSS Succinctly</h1>
+
+<h6 align="center">(by name goes here, Phd - University of XXX @xxx)</h6>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of w3.css0succinctly bauska.org  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. w3.css succinctly (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -22,7 +27,12 @@ by Joseph D. Booth
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="about">About this Course</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-![](./images/image002.jpeg)
+<p align="center" width="100%">
+<img src="./images/image002.jpeg"
+  style="width:40%"
+  title=""
+  alt="." />
+</p>
 
 Copyright © 2018 by Syncfusion, Inc.
 
