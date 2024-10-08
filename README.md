@@ -797,38 +797,26 @@ while the background column takes up half of the row width.
 
 > *Code Listing 6: Coin website*
 ```
-> <div class="w3-row w3-border w3-border-blue w3-margin">
->
-> <div class="w3-container w3-quarter">
->
-> <h4 class="w3-text-blue">Morgan Dollar</h4>
->
-> <p>Minted 1878 to 1904</p>
->
-> <p>Also 1921</p>
->
-> </div>
->
-> <div class="w3-container w3-quarter w3-center"> <p><img
-> src="morgan.jpg" style="width:60%"></p>
->
-> <h4 class="w3-text-blue">Sample image</h4>
->
-> </div>
->
-> <div class="w3-container w3-half">
->
-> <h4 class="w3-text-blue">Background</h4>
->
-> <p>The Morgan dollar was a United States dollar coin minted from
-> 1878 to 1904, and again in 1921. It was the first standard silver
-> dollar minted since production of the previous design, the Seated
-> Liberty dollar, ceased due to the passage of the Coinage Act of
-> 1873.</p>
->
-> </div>
->
-> </div>
+<div class="w3-row w3-border w3-border-blue w3-margin">
+<div class="w3-container w3-quarter">
+<h4 class="w3-text-blue">Morgan Dollar</h4>
+<p>Minted 1878 to 1904</p>
+<p>Also 1921</p>
+</div>
+<div class="w3-container w3-quarter w3-center"> <p><img
+  src="morgan.jpg" style="width:60%"></p>
+<h4 class="w3-text-blue">Sample image</h4>
+</div>
+<div class="w3-container w3-half">
+<h4 class="w3-text-blue">Background</h4>
+<p>The Morgan dollar was a United States dollar coin minted from
+1878 to 1904, and again in 1921. It was the first standard silver
+dollar minted since production of the previous design, the Seated
+Liberty dollar, ceased due to the passage of the Coinage Act of
+1873.</p>
+</div>
+</div>
+```
 
 ### 12-column responsive 
 
@@ -875,11 +863,11 @@ When we add **w3-hide-small** to the background column, the screen will
 appear as shown in Figure 7 when viewed on a mobile device.
 
 > *Code Listing 7*
->
-> <div class="w3-container w3-half w3-hide-small">
->
-> ![](./images/image013.jpg) <!-- {width="1.5784722222222223in" height="1.812361111111111in"} -->
->
+```
+<div class="w3-container w3-half w3-hide-small">
+```
+![](./images/image013.jpg) <!-- {width="1.5784722222222223in" height="1.812361111111111in"} -->
+
 > *Figure 7: Mobile display without background column*
 
 ## CSS grid 
@@ -905,36 +893,23 @@ nothing is specified for a particular device size, it is assumed to be
 Suppose we change our coin example to the following code snippet.
 
 > *Code Listing 8*
->
+```
 > <div class="w3-row w3-border w3-border-blue w3-margin">
->
 > <div class="w3-container w3-col s3 m2 l1">
->
 > <h4 class="w3-text-blue">Morgan Dollar</h4>
->
 > <p>Minted 1878 to 1904</p>
->
 > <p>Also 1921</p>
->
 > </div>
->
 > <div class="w3-container w3-col s3 m2 l1 w3-center">
->
 > <p><img src="morgan.jpg" style="width:60%"></p>
->
 > <h4 class="w3-text-blue">Sample image</h4>
->
 > </div>
->
 > <div class="w3-container w3-col s6 m8 l10">
->
 > <h4 class="w3-text-blue">Background</h4>
->
 > <p>The Morgan dollar &hellip; </p>
->
 > </div>
->
 > </div>
+```
 
 You can see the column widths changing with the device size.
 
