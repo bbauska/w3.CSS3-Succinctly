@@ -532,19 +532,14 @@ validation.
 
 > *Table 2: Website layers*
 
-  ------------------------------------------------------------------------
-  Layer            Content                           Format
-  ---------------- --------------------------------- ---------------------
-  **Data Layer**   Text/images to display            HTML
-
-  Layer            Content                           Format
-
-  **Presentation   Style rules to overwrite browser  CSS
-  layer**          defaults                          
-
-  **Activity       Scripting to provide              JavaScript,
-  layer**          interactivity to the site         Typescript, etc.
-  ------------------------------------------------------------------------
+| Layer Content | Format | |
+|---------------|---------|------------------------ ---------------------|
+| **Data Layer** |  Text/images to display   |         HTML |
+|  Layer         |   Content                 |          Format |
+|  **Presentation** |  Style rules to overwrite browser | CSS |
+|  **layer**      |    defaults    |                       |
+|  **Activity     |  Scripting to provide        |      JavaScript, |
+|  **layer**  | interactivity to the site | Typescript, etc. |
 
 Browsers have default rules indicating how to display HTML tags; your
 custom CSS or CSS frameworks (such as W3.CSS) provide overrides for
@@ -567,7 +562,7 @@ background color to blue-gray.
 </div>
 ```
 You could add the class **w3-round-large** to add rounded corners to the
-**<div>** element.
+**&lt;div&gt;** element.
 
 ## Simple example 
 
@@ -576,7 +571,7 @@ some text in a container. You can resize your browser and the entire
 page will adjust to the new size.
 
 > ![](./images/image006.jpg) <!-- {width="2.091666666666667in" height="2.8538888888888887in"} -->
-> *Figure 1: Sample webpage*
+*Figure 1: Sample webpage*
 
 ### Source page 
 
