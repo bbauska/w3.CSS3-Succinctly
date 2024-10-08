@@ -562,11 +562,10 @@ example, the following code will create a **w3** container, and set its
 background color to blue-gray.
 
 > *Code Listing 1*
->
-> <div class="w3-container w3-blue-gray">
->
-> </div>
-
+```
+<div class="w3-container w3-blue-gray">
+</div>
+```
 You could add the class **w3-round-large** to add rounded corners to the
 **<div>** element.
 
@@ -577,7 +576,6 @@ some text in a container. You can resize your browser and the entire
 page will adjust to the new size.
 
 > ![](./images/image006.jpg) <!-- {width="2.091666666666667in" height="2.8538888888888887in"} -->
->
 > *Figure 1: Sample webpage*
 
 ### Source page 
@@ -589,43 +587,37 @@ framework, as I'll explain shortly.
 
 > *Code Listing 2: Sample W3.CSS page*
 ```
-| <DOCTYPE html>                                                      |
-| <html>                                                              |
-| <head>                                                              |
-| <title>W3.CSS</title>                                             |
-| <meta name="viewport" content="width=device-width,                |
-| initial-scale=1"> <link rel="stylesheet" href="w3.css">       |
-| </head>                                                             |
-| <body>                                                              |
-| <div class="w3-container w3-teal">                                |
-| <h1>Gettysburg Address</h1>                                       |
-| </div>                                                              |
-| <div class="w3-container">                                        |
-| <p><img src="abraham-lincoln.jpg" style="width:50%"></p>    |
-| </div>                                                              |
-| <div class="w3-container w3-round-large">                         |
-| <p>Four score and seven years ago our fathers brought forth on this |
-| continent, a new nation, conceived in liberty, and dedicated to the   |
-| proposition that all men are created equal.                           |
-| <br/><br/>                                                        |
-| <p>Now we are engaged in a great civil war, testing whether that nation, |
-| or any nation so conceived and so dedicated, can long endure. We are  |
-| met on a great battle-field of that war. We have come to dedicate a   |
-| portion of                                                            |
-> that field as a final resting place for those who here gave their
-> lives so that that nation might live. It is altogether fitting and
-> proper that we should do this. </p>
-> </div>
->
-> <div class="w3-container w3-teal">
->
-> <p>Abraham Lincoln 1863</p>
->
-> </div>
->
-> </body>
->
-> </html>
+<DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, 
+initial-scale=1"> <link rel="stylesheet" href="w3.css">
+</head>
+<body>
+<div class="w3-container w3-teal">
+<h1>Gettysburg Address</h1>
+</div>
+<div class="w3-container">
+<p><img src="abraham-lincoln.jpg" style="width:50%"></p>
+</div>
+<div class="w3-container w3-round-large">
+<p>Four score and seven years ago our fathers brought forth on this 
+continent, a new nation, conceived in liberty, and dedicated to the
+proposition that all men are created equal.
+<br/><br/>
+<p>Now we are engaged in a great civil war, testing whether that nation,
+or any nation so conceived and so dedicated, can long endure. We are
+met on a great battle-field of that war. We have come to dedicate a
+portion of that field as a final resting place for those who here gave their
+lives so that that nation might live. It is altogether fitting and
+proper that we should do this. </p>
+</div>
+<div class="w3-container w3-teal">
+<p>Abraham Lincoln 1863</p>
+</div>
+</body>
+</html>
 ```
 ## Obtaining W3.CSS 
 
@@ -693,25 +685,16 @@ and are automatically adjusted based on their content. For example, take
 a look at the following code snippet.
 
 > *Code Listing 3*
-
-+-----------------------------------------------------------------------+
-| <div class="w3-cell-row"> <div class="w3-container w3-red       |
-| w3-cell">                                                           |
-|                                                                       |
-| <p>John Smith</p>                                                 |
-|                                                                       |
-| </div>                                                              |
-|                                                                       |
-| <div class="w3-container w3-green w3-cell">                       |
-|                                                                       |
-| <p>Lead developer and system architect on pipeline database         |
-| project</p>                                                         |
-|                                                                       |
-| </div>                                                              |
-|                                                                       |
-| </div>                                                              |
-+=======================================================================+
-+-----------------------------------------------------------------------+
+```
+<div class="w3-cell-row"> <div class="w3-container w3-red
+w3-cell">
+<p>John Smith</p>
+</div>
+<div class="w3-container w3-green w3-cell">
+<p>Lead developer and system architect on pipeline database project</p>
+</div>
+</div>
+```
 
 This would produce the following appearance in the browser window. The
 two cells take up 100 percent of the width, and the larger content would
