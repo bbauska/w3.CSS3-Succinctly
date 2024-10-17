@@ -74,157 +74,158 @@ Inc.
 
 ## [Table of Contents](#table-of-contents)
 
-### [<b>Chapter 1 The Story Behind the Succinctly Series of Books</b>](#story)
->#### 1.1 [<b>About the Author</b>](#about-the-author)
->#### 1.2 [<b>Introduction</b>](#chapter-1-introduction)
->#### 1.3 [<b>CSS only</b>](#css-only)
->#### 1.4 [<b>Layers</b>](#layers)
->#### 1.5 [<b>W3.CSS classes</b>](#w3.css-classes)
->#### 1.6 [<b>Simple example</b>](#simple-example)
->#### 1.7 [<b>Source page</b>](#source-page)
->#### 1.8 [<b>Obtaining W3.CSS</b>](#obtaining-w3.css)
+### <b>The Story Behind the Succinctly Series of Books</b>
+>#### 1.1 [<b>About the Author</b>](#ch1-1)
+>#### 1.2 [<b>Chapter 1 Introduction</b>](#ch1-2)
+>#### 1.3 [<b>CSS only</b>](#ch1-3)
+>#### 1.4 [<b>Layers</b>](#ch1-4)
+>#### 1.5 [<b>W3.CSS classes</b>](#ch1-5)
+>#### 1.6 [<b>Simple example</b>](#ch1-6)
+  >##### 1.6.1 [<b>Source page</b>](#ch1-6-1)
+>#### 1.7 [<b>Obtaining W3.CSS</b>](#ch1-7)
 
-### [<b>Chapter 2 Layout</b>](#chapter-2-layout)
->#### 2.1 [<b>CSS layout</b>](#css-layout)
->#### 2.2 [<b>Classes summary</b>](#classes-summary)
->#### 2.3 [<b>CSS responsive</b>](#css-responsive)
->#### 2.4 [<b>Responsive layout</b>](#responsive-layout)
->#### 2.5 [<b>General-width columns</b>](#general-width-columns)
->#### 2.6 [<b>12-column responsive</b>](#column-responsive)
->#### 2.7 [<b>Show and hide columns</b>](#show-and-hide-columns)
->#### 2.8 [<b>CSS grid</b>](#css-grid)
->#### 2.9 [<b>Column widths</b>](#column-widths)
->#### 2.10 [<b>CSS display</b>](#css-display)
->#### 2.11 [<b>Summary</b>](#ch2-summary)
+### <b>Chapter 2 Layout</b>
+>#### 2.1 [<b>CSS layout</b>](#ch2-1)
+  >##### 2.1.1 [<b>Classes summary</b>](#ch2-1-1)
+>#### 2.2 [<b>CSS responsive</b>](#ch2-2)
+  >##### 2.2.1 [<b>Responsive layout</b>](#ch2-2-1)
+  >##### 2.2.2 [<b>General-width columns</b>](#ch2-2-2)
+  >##### 2.2.3 [<b>12-column responsive</b>](#ch2-2-3)
+  >##### 2.2.4 [<b>Show and hide columns</b>](#ch2-2-4)
+>#### 2.3 [<b>CSS grid</b>](#ch2-3)
+  >##### 2.3.1 [<b>Column widths</b>](#ch2-3-1)
+>#### 2.4 [<b>CSS display</b>](#ch2-4)
+>#### 2.5 [<b>Summary</b>](#ch2-5)
 
-### [<b>Chapter 3 Colors</b>](#chapter-3-colors)
->#### 3.1 [<b>Basic CSS colors</b>](#basic-css-colors)
->#### 3.2 [<b>Color libraries</b>](#color-libraries)
->#### 3.3 [<b>Color themes</b>](#color-themes)
->#### 3.4 [<b>Available themes</b>](#available-themes)
+### <b>Chapter 3 Colors</b>
+>#### 3.1 [<b>Basic CSS colors</b>](#ch3-1)
+>#### 3.2 [<b>Color libraries</b>](#ch3-2)
+>#### 3.3 [<b>Color themes</b>](#ch3-3)
+  >##### 3.3.1 [<b>Available themes</b>](#ch3-3-1)
 
-### [<b>Chapter 4 Helper Classes</b>](#chapter-4-helper-classes)
->#### 4.1 [<b>CSS round</b>](#css-round)
->#### 4.2 [<b>Circle class</b>](#circle-class)
->#### 4.3 [<b>CSS padding</b>](#padding)
->#### 4.4 [<b>Numeric padding</b>](#numeric-padding)
->#### 4.5 [<b>Size padding</b>](#size-padding)
->#### 4.6 [<b>CSS margins</b>](#css-margins)
->#### 4.7 [<b>CSS borders</b>](#borders)
->#### 4.8 [<b>Basic borders</b>](#basic-borders)
->#### 4.9 [<b>Border colors</b>](#border-colors)
->#### 4.10 [<b>Thick borders</b>](#thick-borders)
->#### 4.11 [<b>CSS sizing</b>](#sizing)
->#### 4.12 [<b>Summary</b>](#ch4-summary)
+### <b>Chapter 4 Helper Classes</b>
+>#### 4.1 [<b>CSS round</b>](#ch4-1)
+  >##### 4.1.1 [<b>Circle class</b>](#ch4-1-1)
+>#### 4.2 [<b>CSS padding</b>](#ch4-2)
+  >##### 4.2.1 [<b>Numeric padding</b>](#ch4-2-1)
+  >##### 4.2.2 [<b>Size padding</b>](#ch4-2-2)
+>#### 4.3 [<b>CSS margins</b>](#ch4-3)
+>#### 4.4 [<b>CSS borders</b>](#ch4-4)
+  >##### 4.4.1 [<b>Basic borders</b>](#ch4-4-1)
+  >##### 4.4.2 [<b>Border colors</b>](#ch4-4-2)
+  >##### 4.4.3 [<b>Thick borders</b>](#ch4-4-3)
+>#### 4.5 [<b>CSS sizing</b>](#ch4-5)
+>#### 4.6 [<b>Summary</b>](#ch4-6)
 
-### [<b>Chapter 5 Containers</b>](#chapter-5-containers)
->#### 5.1 [<b>CSS accordions</b>](#css-accordions)
->#### 5.2 [<b>Accordion bars</b>](#accordion-bars)
->#### 5.3 [<b>Building the sections</b>](#building-the-sections)
->#### 5.4 [<b>Navigation</b>](#navigation)
->#### 5.5 [<b>CSS tabs</b>](#css-tabs)
->#### 5.6 [<b>Tab classes</b>](#tab-classes)
->#### 5.7 [<b>Building the tabs</b>](#building-the-tabs)
->#### 5.8 [<b>Building the sections</b>](#building-the-sections-1)
->#### 5.9 [<b>Navigation</b>](#navigation-1)
->#### 5.10 [<b>Vertical tabs</b>](#vertical-tabs)
->#### 5.11 [<b>CSS cards</b>](#css-cards)
->#### 5.12 [<b>CSS sidebar</b>](#css-sidebar)
->#### 5.13 [<b>Basic sidebar</b>](#basic-sidebar)
->#### 5.14 [<b>Collapsible sidebar</b>](#collapsible-sidebar)
->#### 5.15 [<b>Slide content to right</b>](#slide-content-to-right)
->#### 5.16 [<b>CSS panels</b>](#css-panels)
->#### 5.17 [<b>Summary</b>](#ch5-summary)
+### <b>Chapter 5 Containers</b>
+>#### 5.1 [<b>CSS accordions</b>](#ch5-1)
+  >##### 5.1.1 [<b>Accordion bars</b>](#ch5-1-1)
+  >##### 5.1.2 [<b>Building the sections</b>](#ch5-1-2)
+  >##### 5.1.3 [<b>Navigation</b>](#ch5-1-3)
+>#### 5.2 [<b>CSS tabs</b>](#ch5-2)
+  >##### 5.2.1 [<b>Tab classes</b>](#ch5-2-1)
+  >##### 5.2.2 [<b>Building the tabs</b>](#ch5-2-2)
+  >##### 5.2.3 [<b>Building the sections</b>](#ch5-2-3)
+  >##### 5.2.4 [<b>Navigation</b>](#ch5-2-4)
+  >##### 5.2.5 [<b>Vertical tabs</b>](#ch5-2-5)
+>#### 5.3 [<b>CSS cards</b>](#ch5-3)
+>#### 5.4 [<b>CSS sidebar</b>](#ch5-4)
+  >##### 5.4.1 [<b>Basic sidebar</b>](#ch5-4-1)
+  >##### 5.4.2 [<b>Collapsible sidebar</b>](#ch5-4-2)
+  >##### 5.4.3 [<b>Slide content to right</b>](#ch5-4-3)
+>#### 5.5 [<b>CSS panels</b>](#ch5-5)
+>#### 5.6 [<b>Summary</b>](#ch5-6)
 
-### [<b>Chapter 6 Visual Elements</b>](#chapter-6-visual-elements)
->#### 6.1 [<b>CSS notes</b>](#css-notes)
->#### 6.2 [<b>Customizing the notes</b>](#customizing-the-notes)
->#### 6.3 [<b>CSS alerts</b>](#css-alerts)
+### <b>Chapter 6 Visual Elements</b>
+>#### 6.1 [<b>CSS notes</b>](#ch6-1)
+  >##### 6.1.1 [<b>Customizing the notes</b>](#ch6-1-1)
+>#### 6.2 [<b>CSS alerts</b>](#ch6-2)
 
-### [<b>Chapter 7 Text</b>](#chapter-7-text)
->#### 7.1 [<b>CSS fonts</b>](#css-fonts)
->#### 7.2 [<b>Print style</b>](#print-style)
->#### 7.3 [<b>Web fonts</b>](#web-fonts)
->#### 7.4 [<b>Installing the font</b>](#installing-the-font)
->#### 7.5 [<b>Alignment</b>](#alignment)
->#### 7.6 [<b>Text features</b>](#text-features)
->#### 7.7 [<b>CSS code</b>](#css-code)
+### <b>Chapter 7 Text</b>
+>#### 7.1 [<b>CSS fonts</b>](#ch7-1)
+  >##### 7.1.1 [<b>Print style</b>](#ch7-1-1)
+>#### 7.3 [<b>Web fonts</b>](#ch7-3)
+  >##### 7.3.1 [<b>Installing the font</b>](#ch7-3-1)
+>#### 7.4 [<b>Alignment</b>](#ch7-4)
+>#### 7.5 [<b>Text features</b>](#ch7-5)
+>#### 7.6 [<b>CSS code</b>](#ch7-6)
 
-### [<b>Chapter 8 Menus</b>](#chapter-8-menus)
->#### 8.1 [<b>CSS navigation</b>](#css-navigation)
->#### 8.2 [Basic structure</b](#basic-structure)
->#### 8.3 [Horizontal menu</b](#horizontal-menu)
->#### 8.4 [Menu items</b](#menu-items)
->#### 8.5 [Navigation bar positions</b>](#navigation-bar-positions)
->#### 8.6 [Summary</b>](#ch8-summary)
+### <b>Chapter 8 Menus</b>
+>#### 8.1 [<b>CSS navigation</b>](#ch8-1)
+  >##### 8.1.1 [Basic structure</b](#ch8-1-1)
+  >##### 8.1.2 [Horizontal menu</b](#ch8-1-2)
+  >##### 8.1.3 [Menu items</b](#ch8-1-3)
+  >##### 8.1.4 [Navigation bar positions</b>](#ch8-1-4)
+>#### 8.2 [Summary</b>](#ch8-2)
 
-### [<b>Chapter 9 Tables and Lists</b>](#chapter-9-tables-and-lists)
->#### 9.1 [<b>CSS tables</b>](#css-tables)
->#### 9.2 [<b>Basic table</b>](#basic-table)
->#### 9.3 [<b>w3-table-all</b>](#w3-table-all)
->#### 9.4 [<b>Hovering</b>](#hovering)
->#### 9.5 [<b>CSS lists</b>](#css-lists)
->#### 9.6 [<b>Basic list style</b>](#basic-list-style)
->#### 9.7 [<b>Summary</b>](#ch9-summary)
+### <b>Chapter 9 Tables and Lists</b>
+>#### 9.1 [<b>CSS tables</b>](#ch9-1)
+  >##### 9.1.1 [<b>Basic table</b>](#ch9-1-1)
+  >##### 9.1.2 [<b>w3-table-all</b>](#ch9-1-2)
+  >##### 9.1.3 [<b>Hovering</b>](#ch9-1-3)
+>#### 9.2 [<b>CSS lists</b>](#ch9-2)
+  >##### 9.2.1 [<b>Basic list style</b>](#ch9-2-1)
+>#### 9.3 [<b>Summary</b>](#ch9-3)
 
-### [<b>Chapter 10 Buttons and Labels</b>](#chapter-10-buttons-and-labels)
->#### 10.1 [<b>CSS buttons</b>](#css-buttons)
->#### 10.1 [<b>Button variations</b>](#button-variations)
->#### 10.1 [<b>CSS badges</b>](#css-badges)
->#### 10.1 [<b>Badges within other elements</b>](#badges-within-other-elements)
->#### 10.1 [<b>CSS tags</b>](#css-tags)
->#### 10.1 [<b>Customizing the tags</b>](#customizing-the-tags)
->#### 10.1 [<b>Summary</b>](#ch10-summary)
+### <b>Chapter 10 Buttons and Labels</b>
+>#### 10.1 [<b>CSS buttons</b>](#ch10-1)
+  >##### 10.1.1 [<b>Button variations</b>](#ch10-1-1)
+>#### 10.2 [<b>CSS badges</b>](#ch10-2)
+  >##### 10.2.1 [<b>Badges within other elements</b>](#ch10-2-1)
+>#### 10.3 [<b>CSS tags</b>](#ch10-3)
+  >##### 10.3.1 [<b>Customizing the tags</b>](#ch10-3-1)
+>#### 10.4 [<b>Summary</b>](#ch10-4)
 
-### [<b>Chapter 11 Forms</b>](#chapter-11-forms)
->#### 11.1 [<b>Text boxes</b>](#text-boxes)
->#### 11.1 [<b>Text box options</b>](#text-box-options)
->#### 11.1 [<b>Option buttons</b>](#option-buttons)
->#### 11.1 [<b>Check boxes</b>](#check-boxes)
->#### 11.1 [<b>Select elements</b>](#select-elements)
->#### 11.1 [<b>Adding labels</b>](#adding-labels)
->#### 11.1 [<b>Summary</b>](#ch11-summary)
+### [<b>Chapter 11 Forms</b>](#ch11)
+>#### 11.1 [<b>Text boxes</b>](#ch11-1)
+  >##### 11.1.1 [<b>Text box options</b>](#ch11-1-1)
+>#### 11.2 [<b>Option buttons</b>](#ch11-2)
+>#### 11.3 [<b>Check boxes</b>](#ch11-3)
+>#### 11.4 [<b>Select elements</b>](#ch11-4)
+  >##### 11.4.1 [<b>Adding labels</b>](#ch11-4-1)
+>#### 11.5 [<b>Summary</b>](#ch11-5)
 
-### [<b>Chapter 12 Animations</b>](#chapter-12-animations)
->#### 12.1 [<b>Animating elements</b>](#animating-elements)
->#### 12.1 [<b>Directions</b>](#directions)
->#### 12.1 [<b>Zooming</b>](#zooming)
->#### 12.1 [<b>Opacity</b>](#opacity)
->#### 12.1 [<b>Spinner</b>](#spinner)
->#### 12.1 [<b>Summary</b>](#ch12-summary)
+### [<b>Chapter 12 Animations</b>](#ch12)
+>#### 12.1 [<b>Animating elements</b>](#ch12-1)
+  >##### 12.1.1 [<b>Directions</b>](#ch12-1-1)
+  >##### 12.1.2 [<b>Zooming</b>](#ch12-1-2)
+  >##### 12.1.3 [<b>Opacity</b>](#ch12-1-3)
+>#### 12.2 [<b>Spinner</b>](#ch12-2)
+>#### 12.3 [<b>Summary</b>](#ch12-3)
 
-### [<b>Chapter 13 Modals</b>](#chapter-13-modals)
->#### 13.1 [<b>Creating a modal dialog</b>](#creating-a-modal-dialog)
->#### 13.1 [<b>Displaying the modal</b>](#displaying-the-modal)
->#### 13.1 [<b>Animating the display</b>](#animating-the-display)
->#### 13.1 [<b>Closing the modal dialog</b>](#closing-the-modal-dialog)
->#### 13.1 [<b>Summary</b>](#ch13-summary)
+### [<b>Chapter 13 Modals</b>](#ch13)
+>#### 13.1 [<b>Creating a modal dialog</b>](#ch13-1)
+>#### 13.2 [<b>Displaying the modal</b>](#ch13-2)
+  >##### 13.2.1 [<b>Animating the display</b>](#ch13-2-1)
+>#### 13.3 [<b>Closing the modal dialog</b>](#ch13-3)
+>#### 13.4 [<b>Summary</b>](#ch13-4)
 
-### [<b>Chapter 14 Images</b>](#chapter-14-images)
->#### 14.1 [<b>CSS Images</b>](#css-images)
->#### 14.2 [<b>Responsive images</b>](#responsive-images)
->#### 14.3 [<b>Image opacity</b>](#image-opacity)
->#### 14.4 [<b>Grayscale</b>](#grayscale)
->#### 14.5 [<b>CSS slideshow</b>](#css-slideshow)
->#### 14.6 [<b>Setting the images</b>](#setting-the-images)
->#### 14.7 [<b>JavaScript code</b>](#javascript-code)
->#### 14.8 [<b>Summary</b>](#ch14-summary)
+### [<b>Chapter 14 Images</b>](#ch14)
+>#### 14.1 [<b>CSS Images</b>](#ch14-1)
+  >##### 14.1.1 [<b>Responsive images</b>](#ch14-1-1)
+  >##### 14.1.2 [<b>Image opacity</b>](#ch14-1-2)
+  >##### 14.1.3 [<b>Grayscale</b>](#ch14-1-3)
+  >##### 14.1.4 [<b>CSS slideshow</b>](#ch14-1-4)
+  >##### 14.1.5 [<b>Setting the images</b>](#ch14-1-5)
+  >##### 14.1.6 [<b>JavaScript code</b>](#ch14-1-6)
+>#### 14.2 [<b>Summary</b>](#ch14-2)
 
-### [<b>Chapter 15 W3.CSS Example Code</b>](#chapter-15-w3.css-example-code)
->#### 15.1 [<b>Head section</b>](#head-section)
->#### 15.2 [<b>Font Awesome</b>](#font-awesome)
->#### 15.3 [<b>HTML entities</b>](#html-entities)
->#### 15.4 [<b>Setting the font family</b>](#setting-the-font-family)
->#### 15.5 [<b>Body section</b>](#body-section)
->#### 15.6 [<b>Sidebar</b>](#sidebar)
->#### 15.7 [<b>Compose new mail</b>](#compose-new-mail)
->#### 15.8 [<b>Summary</b>](#ch15-summary)
+### [<b>Chapter 15 W3.CSS Example Code</b>](#ch15)
+>#### 15.1 [<b>Head section</b>](#ch15-1)
+  >##### 15.1.1 [<b>Font Awesome</b>](#ch15-1-1)
+  >##### 15.1.2 [<b>HTML entities</b>](#ch15-1-2)
+  >##### 15.1.3 [<b>Setting the font family</b>](#ch15-4)
+>#### 15.2 [<b>Body section</b>](#ch15-2)
+  >##### 15.2.1 [<b>Sidebar</b>](#ch15-2-1)
+  >##### 15.2.2 [<b>Compose new mail</b>](#ch15-2-2)
+>#### 15.3 [<b>Summary</b>](#ch15-3)
 
-### [<b>Chapter 16 Versions</b>](#chapter-16-versions)
->#### 16.1 [<b>CSS Pro</b>](#css-pro)
->#### 16.2 [<b>CSS Mobile</b>](#css-mobile)
->#### 16.3 [<b>Chapter 16 Summary</b>](#ch16-summary)
->#### 16.4 [<b>Site</b>](#site)
+### <b>Chapter 16 Versions</b>
+>#### 16.1 [<b>CSS Pro</b>](#ch16-1)
+>#### 16.2 [<b>CSS Mobile</b>](#ch16-2)
+
+### <b>Chapter 17 Summary</b>
+>#### 17.1 [<b>Site</b>](#ch17-1)
 
 []{#_Toc157040 .anchor}The Story Behind the *Succinctly* Series of Books
 
@@ -237,9 +238,7 @@ Inc.
 > components for the being on the cutting edge.
 >
 > Whenever platforms or tools are shipping out of Microsoft, which seems
-> to be about
-
-every other week these days, we have to educate ourselves, quickly.
+> to be about every other week these days, we have to educate ourselves, quickly.
 
 <b>Information is plentiful but harder to digest</b>
 
@@ -298,8 +297,7 @@ cheese!"
 <b>Let us know what you think</b>
 
 If you have any topics of interest, thoughts, or feedback, please feel
-free to send them to us at
-[succinctly-series@syncfusion.com].
+free to send them to us at [succinctly-series@syncfusion.com].
 
 We sincerely hope you enjoy reading this book and that it helps you
 better understand the topic of study. Thank you for reading.
@@ -307,7 +305,7 @@ better understand the topic of study. Thank you for reading.
 > Please follow us on Twitter and "Like" us on Facebook to help us
 > spread the word about the *Succinctly* series!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 04/05 twitter & facebook logos (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04/05 twitter & facebook logos (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image004.png" 
   title="Twitter (x) logo"
@@ -320,7 +318,7 @@ better understand the topic of study. Thank you for reading.
   style="border: 2px solid #000000; width:1in;" />
 </p>
 
-### About the Author 
+<h3 id="ch1-1">1.1 About the Author</h3>
 
 Joseph D. Booth has been programming since 1981 in a variety of
 languages, including BASIC, Clipper, FoxPro, Delphi, Classic ASP, Visual
@@ -349,7 +347,7 @@ is computer programming.
 In his spare time, Joe is an avid tennis player, practices yoga and
 martial arts, and plays with his first granddaughter, Blaire.
 
-<h2 id="ch1">Chapter 1 Introduction</h2>
+<h2 id="ch1-2">1.2 Chapter 1 Introduction</h2>
 
 W3.CSS is a free, no-license CSS framework from
 [[w3schools.com]](http://www.w3schools.com/) that you can
@@ -372,7 +370,7 @@ While each framework has its own set of features and components, the
 W3.CSS is small and simple to learn, and is a worthwhile contender to
 consider when deciding on a CSS framework.
 
-### CSS only 
+<h3 id="ch1-3">1.3 CSS only</h3>
 
 Since W3.CSS is a CSS-only framework, there are no components, which
 some of the other frameworks include. This means that while you can use
@@ -382,7 +380,7 @@ frameworks are built with both CSS styling and JavaScript components. If
 you need scripting functionality in your site, you should either build
 it yourself using libraries like jQuery, or consider a larger framework.
 
-### Layers 
+<h3 id="ch1-4">1.4 Layers</h3>
 
 A website consists of three layers, but only the data (or HTML) layer is
 required. A user could possibly disable all scripting and CSS styling,
@@ -408,7 +406,7 @@ these defaults. Everything in W3.CSS uses standard CSS styles, just
 organized in a way to provide consistent layout and responsive design
 (by wrapping some styles with a media/device query filter).
 
-### W3.CSS classes
+<h3 id="ch1-5">1.5 W3.CSS classes</h3>
 
 All the classes in the W3.CSS framework begin with <b>w3-</b>, which
 reduces the likelihood of conflicting style names. You can combine
@@ -3873,7 +3871,7 @@ updates to the framework and color libraries and themes, as well as
 online documentation and interactive examples to let you try out the
 framework.
 
-### Site
+<h3 id="ch17-1">17.1 Site</h3>
 
 The W3.CSS site provides examples of how to create various elements with
 the classes. In addition, there are several demo sites available, such
