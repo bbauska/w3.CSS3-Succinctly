@@ -1248,13 +1248,11 @@ a sample content **<div>**.
 
 > *Code Listing 11*
 ```
-> <div id="Airport" class="w3-container w3-hide">
->
-> <p>Airports</p>
->
-> </div>
+<div id="Airport" class="w3-container w3-hide">
+  <p>Airports</p>
+</div>
 ```
-Each **<div>** will have the **w3-hide** class applied so that the
+Each **&lt;div&gt;** will have the **w3-hide** class applied so that the
 content is not visible. The JavaScript code will take care of displaying
 the content.
 
@@ -1267,14 +1265,14 @@ selected tab visible.
 
 > *Code Listing 12*
 ```
-| function openPanel(id) {                                              |
-| var x = document.getElementById(id); if                               |
-| (x.className.indexOf('w3-show') == -1) {                            |
-| x.className += ' w3-show'                                           |
-| } else {                                                              |
-| x.className = x.className.replace(' w3-show','');                 |
-| }                                                                     |
-| }                                                                     |
+function openPanel(id) {
+  var x = document.getElementById(id); 
+    if (x.className.indexOf('w3-show') == -1) {
+      x.className += ' w3-show'
+    } else {
+      x.className = x.className.replace(' w3-show','');
+    }
+}
 ```
 When the user clicks on the accordion button, the **openPanel()**
 function checks to see if the **w3-show** class is on the current item.
@@ -1291,7 +1289,7 @@ page.
 
 ![](./images/image023.jpg) <!-- {width="5.229166666666667in" height="0.9895833333333334in"} -->
 
-> *Figure 17: CSS tabs example*
+<h6 align="center"><i>Figure 17: CSS tabs example</i></h6>
 
 ### Tab classes 
 
@@ -1305,18 +1303,17 @@ There are two classes you need to work with in tabs:
 
 > *Code Listing 13*
 ```
-| <div class="w3-bar w3-pale-blue w3-leftbar w3-border-blue           |
-| w3-border">                                                         |
-| <button onclick="openDiv('Airport');" class="w3-bar-item        |
-| w3-button">Airport                                                  |
-| </button>                                                           |
-| <button onclick="openDiv('Hotel');" class="w3-bar-item          |
-| w3-button">Hotel                                                    |
-| </button>                                                           |
-| <button onclick="openDiv('Rental');" class="w3-bar-item         |
-| w3-button">Rental                                                   |
-| </button>                                                           |
-| </div>                                                              |
+<div class="w3-bar w3-pale-blue w3-leftbar w3-border-blue w3-border">
+  <button onclick="openDiv('Airport');"
+    class="w3-bar-item w3-button">Airport
+  </button>
+  <button onclick="openDiv('Hotel');"
+    class="w3-bar-item w3-button">Hotel
+  </button>
+  <button onclick="openDiv('Rental');"
+    class="w3-bar-item w3-button">Rental
+  </button>
+</div>
 ```
 ### Building the sections 
 
@@ -1326,26 +1323,19 @@ shows a sample group of **<div>** elements. You will need to define a
 class name for each of the tab sections---we used **travel** in our
 example code. The first **<div>** should be displayed, while the
 remaining **<div>** elements are hidden.
+
+<h6 align="center"><i>Code Listing 14</i></h6>
+
 ```
-> *Code Listing 14*
->
-> <div id="Airport class="travel">
->
-> <p>Airport details</p>
->
-> </div>
->
-> <div id="Hotel class="travel" style="display:none;">
->
-> <p>Hotel details</p>
->
-> </div>
->
-> <div id="Rental class="travel" style="display:none;">
->
-> <p>Rental details</p>
->
-> </div>
+<div id="Airport class="travel">
+  <p>Airport details</p>
+</div>
+<div id="Hotel class="travel" style="display:none;">
+  <p>Hotel details</p>
+</div>
+<div id="Rental class="travel" style="display:none;">
+  <p>Rental details</p>
+</div>
 ```
 ### Navigation 
 
@@ -1354,19 +1344,22 @@ JavaScript. The code will have two purposes: the first is to hide all of
 the inactive tabs (based on the class name), and the second is to make
 the selected tab visible.
 
-> *Code Listing 15*
+<h6 align="center"><i>Code Listing 15</i></h6>
+
 ```
-| function openDiv(divName) {                                           |
-| var x = document.getElementsByClassName('travel'); for (var i =0; i |
-| < x.length; i++) { x&lbrack;i&rbrack;.style.display = 'none';                  |
-| }                                                                     |
-| document.getElementById(divName).style.display = 'block';           |
-| }                                                                     |
+function openDiv(divName) {
+  var x = document.getElementsByClassName('travel'); 
+    for (var i =0; i < x.length; i++) { 
+      x[i].style.display = 'none';
+    }
+  document.getElementById(divName).style.display = 'block';
+}
 ```
+
 When the user clicks on the tab, the JavaScript function is called and
 passed the **divName** to open.
 
-### Vertical tabs 
+### Vertical tabs
 
 Although tabs are typically horizontal, you can easily create vertical
 tabs with a few small changes to the layout.
@@ -1379,23 +1372,27 @@ You need to change the **w3-bar** class to **w3-bar-block** and add the
 **w3-sidebar** class. In addition, you'll need to set the width of the
 tab menu.
 
-> *Code Listing 16*
+<h6 align="center"><i>Code Listing 16</i></h6>
+
 ```
-> <div class="w3-sidebar w3-bar-block w3-pale-blue w3-border-blue
-> w3-border" style="width:120px;">
+<div class="w3-sidebar w3-bar-block w3-pale-blue
+  w3-border-blue w3-border" style="width:120px;">
 ```
+
 You will also need to add **margin-left** style to the sections, as
 follows.
 
-> *Code Listing 17*
+<h6 align="center"><i>Code Listing 17</i></h6>
+
 ```
-> <div id="Airport" class="travel" style="margin-left:125px;">
+<div id="Airport" class="travel" style="margin-left:125px;">
 ```
+
 Be sure to set the margin large enough to start past the width of the
 menu. You should add the **margin-left** style in the travel class,
 rather than inline.
 
-## CSS cards 
+###CSS cards
 
 A card is a container with a shadow around it to provide a paper-like
 appearance to an element. The framework provides a simple **w3-card**
@@ -1407,22 +1404,21 @@ pixels). By default, the card will be white, although you can add any
 For example, the following code snippet would display the card shown in
 Figure 19 on a webpage.
 
-> *Code Listing 18*
+<h6 align="center"><i>Code Listing 18</i></h6>
+
 ```
-> <div class="w3-card-4 w3-cyan w3-padding w3-margin">
->
-> <p class="w3-text-white w3-large">Danielle Salsbury</p>
->
-> <p>Tennis player extraordinaire</p>
->
-> </div>
+<div class="w3-card-4 w3-cyan w3-padding w3-margin">
+  <p class="w3-text-white w3-large">Danielle Salsbury</p>
+  <p>Tennis player extraordinaire</p>
+</div>
 ```
+
 ![](./images/image025.jpg)
 <!-- {width="3.6354166666666665in" height="0.9375in"} -->
 
-> *Figure 19 : CSS card sample*
+<h6 align="center"><i>Figure 19 : CSS card sample</i></h6>
 
-## CSS sidebar 
+### CSS sidebar 
 
 A common website container is the sidebar menu, where the navigation
 options appear on the
@@ -1433,7 +1429,7 @@ additional options available to increase its flexibility.
 
 ![](./images/image026.jpg) <!-- {width="3.8125in" height="1.4791666666666667in"} -->
 
-> *Figure 20: Basic sidebar*
+<h6 align="center"><i>Figure 20: Basic sidebar</i></h6>
 
 ### Basic sidebar 
 
@@ -1443,15 +1439,16 @@ Background colors and borders are optional, but generally the sidebar
 should be distinguished from the rest of the screen. The following code
 snippet shows the basic sidebar setup.
 
-> *Code Listing 19*
+<h6 align="center"><i>Code Listing 19</i></h6>
+
 ```
-> <div class="w3-sidebar w3-bar-block w3-border">
->
-> <a href="#" class="w3-bar-item w3-button">Airport</a> <a
-> href="#" class="w3-bar-item w3-button">Hotel</a> &hellip;
->
-> </div>
+<div class="w3-sidebar w3-bar-block w3-border">
+  <a href="#" class="w3-bar-item w3-button">Airport</a>
+  <a href="#" class="w3-bar-item w3-button">Hotel</a>
+  ...
+</div>
 ```
+
 You will also need to set the left margin of the content elements large
 enough to be positioned past the right border of the sidebar.
 
@@ -1463,35 +1460,30 @@ only opening the menu when the user clicks an icon (typically the
 "hamburger" icon with three horizontal bars). With a little JavaScript,
 you can have the W3.CSS sidebar provide this behavior.
 
-##### Creating the icon 
+#### Creating the icon 
 
 You will need to add a header (or some container to show the menu icon).
 Be sure to provide an **id** for the menu icon (**openNav** in our
 example). The **#9776** is the HTML entity code for the hamburger menu
 icon. The following code snippet shows the header and icon example code.
 
-> *Code Listing 20*
+<h6 align="center"><i>Code Listing 20</i></h6>
+
 ```
-> <div class="w3-container w3-pale-green">
->
-> <h4>
->
-> <span id="openNav" class="w3-small w3-button"
->
-> onclick="openMenu();">&#9776;
->
-> </span>
->
-> My travel plans</a>
->
-> </h4>
->
-> </div>
+<div class="w3-container w3-pale-green">
+  <h4>
+    <span id="openNav" class="w3-small w3-button"
+      onclick="openMenu();">&#9776;
+    </span>
+    My travel plans</a>
+  </h4>
+</div>
 ```
+
 When the user clicks on the icon, the **openMenu()** JavaScript function
 is called.
 
-##### Creating the sidebar 
+#### Creating the sidebar 
 
 The sidebar itself is created using the same code as the basic sidebar
 code, with a couple changes. First, the sidebar menu will need an
@@ -1501,40 +1493,42 @@ addition, it initially will not be visible on the screen.
 The other change is a new menu item, to call the JavaScript
 **closeMenu()** function to hide the sidebar when clicked.
 
-> *Code Listing 21*
+<h6 align="center"><i>Code Listing 21</i></h6>
+
 ```
-| <div class="w3-sidebar w3-bar-block w3-border" id="sideBAR"      |
-| style="width:20%;display:none;"> <button class="w3-bar-item      |
-| w3-button" onclick="closeMenu();">&times;                         |
-| </button>                                                           |
-| <a href="#" class="w3-bar-item w3-button">Airport</a> <a     |
-| href="#" class="w3-bar-item w3-button">Hotel</a> &hellip;          |
-| </div>                                                              |
+<div class="w3-sidebar w3-bar-block w3-border" id="sideBAR"
+  style="width:20%;display:none;">
+  <button class="w3-bar-item w3-button"
+    onclick="closeMenu();">&times;
+  </button>
+  <a href="#" class="w3-bar-item w3-button">Airport</a> 
+  <a href="#" class="w3-bar-item w3-button">Hotel</a>
+  ...
+</div>
 ```
-##### Opening and closing 
+
+#### Opening and closing 
 
 The JavaScript functions to open and close the menu simply need to
 toggle the menu's display style, to show or hide the menu. The following
 code snippet shows the necessary JavaScript.
 
-> *Code Listing 22*
->
-> function openMenu() {
->
-> document.getElementsById('sideBAR').style.display = 'block';
->
-> }
->
-> function closeMenu() {
-> document.getElementsById('sideBAR').style.display = 'none';
->
-> }
+<h6 align="center"><i>Code Listing 22</i></h6>
+
+```
+function openMenu() {
+  document.getElementsById('sideBAR').style.display = 'block';
+}
+function closeMenu() {
+  document.getElementsById('sideBAR').style.display = 'none';
+}
+```
 
 Keep in mind that the element name for the sidebar is case sensitive, so
 be sure the **id** name matches the **id** you've assigned to your
 sidebar menu.
 
-### Slide content to right 
+#### Slide content to right 
 
 While the collapsible sidebar appears properly, there might be times
 when you want the content to shift to the right, rather than be
@@ -1543,25 +1537,21 @@ the JavaScript function needed for the collapsible sidebar menu. The
 following JavaScript code will open the menu and adjust the screen
 content.
 
-> *Code Listing 23*
->
-> function openandMoveMenu() {
->
-> document.getElementsById('main').style.marginLeft = '21%';
-> document.getElementsById('sideBAR').style.width = '20%';
-> document.getElementsById('sideBAR').style.display = 'block';
-> document.getElementsById('openNav').style.display = 'none';
->
-> }
->
-> function closeMenu() {
->
-> document.getElementsById('main').style.marginLeft = '1%';
-> document.getElementsById('sideBAR').style.display = 'none';
-> document.getElementsById('openNav').style.display =
-> 'inline-block';
->
-> }
+<h6 align="center"><i>Code Listing 23</i></h6>
+
+```
+function openandMoveMenu() {
+  document.getElementsById('main').style.marginLeft = '21%';
+  document.getElementsById('sideBAR').style.width = '20%';
+  document.getElementsById('sideBAR').style.display = 'block';
+  document.getElementsById('openNav').style.display = 'none';
+}
+function closeMenu() {
+  document.getElementsById('main').style.marginLeft = '1%';
+  document.getElementsById('sideBAR').style.display = 'none';
+  document.getElementsById('openNav').style.display = 'inline-block';
+}
+```
 
 You will need to adjust the margin and width percentages to match your
 sidebar menu width, and adjust the left margin of the content of the
@@ -1577,20 +1567,19 @@ things like notes and alerts.
 The following code snippet illustrates a panel to display a warning
 message.
 
-> *Code Listing 24*
+<h6 align="center"><i>Code Listing 24</i></h6>
+
 ```
-> <div class="w3-panel w3-red w3-round-xxlarge w3-margin">
->
-> <h3 class="w3-text-yellow"><b>Warning</b></h3>
->
-> <p>This action will delete hundreds of records and will be recorded
-> in the audit trail</p>
->
-> </div>
+<div class="w3-panel w3-red w3-round-xxlarge w3-margin">
+  <h3 class="w3-text-yellow"><b>Warning</b></h3>
+  <p>This action will delete hundreds of records and will be recorded in
+    the audit trail</p>
+</div>
 ```
+
 ![](./images/image027.jpg) <!-- {width="3.0833333333333335in" height="1.0in"} -->
 
-> *Figure 21: Warning panel*
+<h6 align="center"><i>Figure 21: Warning panel</i></h6>
 
 ### Summary
 
@@ -1611,24 +1600,21 @@ easily constructed using the **w3-panel** base and some helper classes.
 For example, the following code snippet would produce a bordered note
 container.
 
-> *Code Listing 25*
+<h6 align="center"><i>Code Listing 25</i></h6>
+
 ```
-> <div class="w3-container">
->
-> <div class="w3-panel w3-border w3-pale-red w3-round-large">
->
-> <p>All credit card payments MUST be verified prior to
-> shipping!</p>
->
-> </div>
->
-> </div>
+<div class="w3-container">
+  <div class="w3-panel w3-border w3-pale-red w3-round-large">
+    <p>All credit card payments MUST be verified prior to shipping!</p>
+  </div>
+</div>
 ```
+
 ![](./images/image028.jpg) <!-- {width="2.8958333333333335in" height="0.7291666666666666in"} -->
 
-> *Figure 22 : CSS note example*
+<h6 align="center"><i>Figure 22 : CSS note example</i></h6>
 
-### Customizing the notes 
+#### Customizing the notes
 
 In addition to colors and rounded corners, you can use the following
 classes to improve the appearance of notes:
@@ -1648,9 +1634,9 @@ Figure 23 shows the previous note with a **w3-border-red** and
 
 ![](./images/image029.jpg) <!-- {width="2.78125in" height="0.625in"} -->
 
-> *Figure 23: CSS custom note appearance*
+<h6 align="center"><i>Figure 23: CSS custom note appearance</i></h6>
 
-## CSS alerts 
+### CSS alerts
 
 Alerts are generally messages on the website that need attention from
 the user. Typically, the color of the alert suggests the severity of the
@@ -1659,21 +1645,18 @@ is generally positive, a confirmation that something worked.
 
 The general structure of an alert is as follows.
 
-> *Code Listing 26*
+<h6 align="center"><i>Code Listing 26</i></h6>
+
 ```
-> <div class="w3-display-container w3-panel w3-pale-yellow
-> w3-margin">
->
-> <span onclick="this.parentElement.style.display='none'"
-> class="w3-button w3-pale-yellow w3-large
-> w3-display-topright">&times;</span>
->
-> <h3>Confirm</h3>
->
-> <p>Please confirm address prior to shipping!</p>
->
-> </div>
+<div class="w3-display-container w3-panel w3-pale-yellow w3-margin">
+  <span onclick="this.parentElement.style.display='none'"
+    class="w3-button w3-pale-yellow w3-large
+      w3-display-topright">&times;</span>
+  <h3>Confirm</h3>
+  <p>Please confirm address prior to shipping!</p>
+</div>
 ```
+
 In this example, we are using the **w3-display-container** class to
 place an X in the upper corner. Clicking the X will dismiss the alert.
 We are using the **&times** HTML entity rather than the letter X for the
@@ -1684,8 +1667,9 @@ to **none**, causing the alert to disappear from the screen.
 
 ![](./images/image030.jpg) <!-- {width="3.3645833333333335in" height="0.7708333333333334in"} -->
 
-*Figure 24: Sample alert panel* Generally, the following colors could be
-used for alert messages:
+<h6 align="center"><i>Figure 24: Sample alert panel</i></h6>
+
+Generally, the following colors could be used for alert messages:
 
 -   Red or pale red: Error condition, needs attention.
 
@@ -1723,50 +1707,53 @@ The H1 through H6 header sizes use the font family of **Segoe UI**,
 > matches the last item in the family. W3.CSS suggests Verdana, and if
 > not found, asks the browser to use a sans-serif font.***
 
-## CSS fonts 
+### CSS fonts
 
 You could easily override the Verdana font by adding a font family to
 your HTML and body elements after the W3.CSS file is loaded, for
 example.
 
-> *Code Listing 27*
-```
-> <link rel="stylesheet" href="css/w3.css">
->
-> <link rel="stylesheet" href="clientStyle.css">
-```
-Where the file **clientStyle.css** contains a line similar to the
-following.
+<h6 align="center"><i>Code Listing 27</i></h6>
 
-> *Code Listing 28*
 ```
-> html, body {
->
-> font-family: "Georgia", sans-serif;
->
-> }
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="clientStyle.css">
 ```
+
+Where the file **clientStyle.css** contains a line similar to the following.
+
+<h6 align="center"><i>Code Listing 28</i></h6>
+
+```
+html, body {
+  font-family: "Georgia", sans-serif;
+}
+```
+
 You could modify the W3.CSS file as well, but I would advise you to put
 your unique settings into a separate style sheet, rather than risk
 losing them if you download a W3.CSS update.
 
-### Print style 
+#### Print style
 
 Verdana is a good, flexible font, but you might want to choose a
 different font for printing. The following code snippet shows a media
 query to change the printed font to an alternative font.
 
-> *Code Listing 29*
+<h6 align="center"><i>Code Listing 29</i></h6>
 
-| &commat;media print { html, body {                                          |
-| font-family: Helvetica, sans-serif;                                   |
-| }                                                                     |
-| h1, h2, h3, h4, h5, h6 {                                              |
-| font-family: "Century Gothic", Helvetica, sans-serif;               |
-| }                                                                     |
-| }                                                                     |
+```
+@media print { 
+  html, body {
+    font-family: Helvetica, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Century Gothic", Helvetica, sans-serif;
+  }
+}
+```
 
-## Web fonts 
+### Web fonts
 
 When a browser chooses a font, it relies on the fonts that are installed
 on the user's computer. However, CSS allows you to use fonts that are
@@ -1777,36 +1764,38 @@ A popular source of web fonts is the [[Google Fonts
 library].](https://fonts.google.com/) This site contains
 hundreds of web fonts you can use to improve your website's appearance.
 
-### Installing the font 
+#### Installing the font 
 
 To use a web font, you will need to install it into your webpage. For
 example, the Tangerine
 
 Google font could be added via the following code placed in the
-**<head>** section of the website.
+**&lt;head&gt;** section of the website.
 
-> *Code Listing 30*
+<h6 align="center"><i>Code Listing 30</i></h6>
+
 ```
-> <link rel="stylesheet"
-> href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css?family=Tangerine">
 ```
+
 This will add a new font called **Tangerine** to your site. Tangerine is
 a script font, so you could create a class to use when displaying
 signatures.
 
-> *Code Listing 31*
->
-> .SignatureLine {
->
-> font-family: Tangerine, script, serif;
->
-> }
+<h6 align="center"><i>Code Listing 31</i></h6>
+
+```
+.SignatureLine {
+  font-family: Tangerine, script, serif;
+}
+```
 
 Be sure to include a default font in case the requested font is not
 loaded for any reason. Also, keep in mind that the font file needs to be
 loaded when the page starts, which can slow down the startup time.
 
-## Alignment 
+### Alignment
 
 There are three classes you can use to align text (and other elements)
 horizontally within a container. These classes are:
@@ -1817,14 +1806,16 @@ horizontally within a container. These classes are:
 
 -   **w3-center**: Centers text within the container.
 
-## Text features 
+### Text features
 
 You can change the appearance of your text a bit by using a couple of
 additional classes with the framework. These classes allow you to widen
 the text or set the opacity. For example, the following code snippet
 adds 4 pixels of spacing between the characters in the text.
 
-#### <p class="w3-wide">On sale today only!</p> 
+```
+<p class="w3-wide">On sale today only!</p> 
+```
 
 The **w3-opacity** class sets the opacity of the element to 60 percent.
 The opacity value determines how translucent the text is. The smaller
@@ -1835,7 +1826,7 @@ message.
 
 ![](./images/image031.jpg) <!-- {width="4.645833333333333in" height="1.5833333333333333in"} -->
 
-> *Figure 25: Opacity example*
+<h6 align="center"><i>Figure 25: Opacity example</i></h6>
 
 You can also use the **w3-opacity-max** class to set the opacity to 25
 percent, and the **w3opacity-min** class to set the level to 75 percent.
@@ -1849,29 +1840,27 @@ totally opaque).
 > the** complete **event. This will provide a visual indication to the
 > user that a portion of the screen has been updated. ***
 
-## CSS code 
+### CSS code
 
 If you want to display some sort of code, such as programming code or
 computer instructions, you can use the **w3-code** class.
 
-> *Code Listing 32*
+<h6 align="center"><i>Code Listing 32</i></h6>
+
 ```
-> <div class="w3-code" translate="no"> function
-> DisplayError(msg)<br/>
->
-> {<br/>
->
-> &nbsp;&nbsp;&nbsp;alert(msg);<br/>
->
-> }<br/>
->
-> </div>
->
+<div class="w3-code" translate="no">
+  function DisplayError(msg)<br/>
+  {<br/>
+  &nbsp;&nbsp;&nbsp;alert(msg);<br/>
+  }<br/>
+  </div>
+```
+
 > ![](./images/image008.jpg) <!-- {width="0.25in" height="0.28958333333333336in"} -->
 > ***Note:** Translate="no" **is an
 > HTML5 attribute indicating the following content should not be
 > translated to other languages. ***
-```
+
 The default font families for code are Consolas and Courier New.
 
 <h2 id="ch8">Chapter 8 Menus</h2>
@@ -1880,81 +1869,74 @@ The default font families for code are Consolas and Courier New.
 > to move among pages in a website. The W3.CSS framework provides
 > classes to allow you to control the appearance of your menu links.
 
-### CSS navigation 
+### CSS navigation
 
 The basic navigation element is an anchor tag **<a>**, with an
 **HREF** attribute indicating the content to load when the element is
 clicked. You can also use JavaScript and Ajax to load partial content,
 by using the **onclick** event. The syntax is as follows.
 
-> *Code Listing 33*
+<h6 align="center"><i>Code Listing 33</i></h6>
+
 ```
-> <a href="#"
->
-> onclick="CallJavaScript();return false;">
->
-> Menu text
->
-> </a>
+<a href="#"
+  onclick="CallJavaScript();return false;">
+  Menu text
+</a>
 ```
+
 The value of the **HREF** indicates the link to execute when clicked. If
 an **onclick** event is called, then the **HREF** will only be used if
 the **onclick** function returns **TRUE**. Single page applications keep
 the menu structure generally intact, and only update the content area by
 calling JavaScript to build the content window.
 
-### Basic structure 
+#### Basic structure
 
 The following code snippet shows the basic menu structure, without any
 classes applied yet. *Code Listing 34*
 
-> <div>
->
-> <a href="#">Home</a>
->
-> <a href="#">Customers</a>
->
-> <a href="#">Orders</a>
->
-> <a href="#">Shipping</a>
->
-> </div>
+```
+<div>
+  <a href="#">Home</a>
+  <a href="#">Customers</a>
+  <a href="#">Orders</a>
+  <a href="#">Shipping</a>
+</div>
+```
 
 Running this code produces the screen shown in Figure 26, simply a row
 of hyperlinks.
 
 ![](./images/image033.jpg) <!-- {width="2.1770833333333335in" height="0.5729166666666666in"} -->
 
-> *Figure 26: Menu items*
+<h6 align="center"><i>Figure 26: Menu items</i></h6>
 
-### Horizontal menu 
+#### Horizontal menu 
 
 Adding the **w3-bar** class, an optional color class to the **<div>**
 tag, and the **w3-bar-item** and **w3-button** classes, produces a
 horizontal menu with a blue background.
 
-> *Code Listing 35*
+<h6 align="center"><i>Code Listing 35</i></h6>
+
 ```
-> <div class="w3-bar w3-blue">
->
-> <a href="#" class="w3-bar-item w3-button">Home</a>
->
-> <a href="#" class="w3-bar-item w3-button">Customers</a>
->
-> <a href="#" class="w3-bar-item w3-button">Orders</a>
->
-> <a href="#" class="w3-bar-item w3-button">Shipping</a>
->
-> </div>
+<div class="w3-bar w3-blue">
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="#" class="w3-bar-item w3-button">Customers</a>
+  <a href="#" class="w3-bar-item w3-button">Orders</a>
+  <a href="#" class="w3-bar-item w3-button">Shipping</a>
+</div>
 ```
+
 The **w3-button** class displays the hyperlinks as buttons, so they are
 not underlined. The result is shown in Figure 27.
 
 ![](./images/image034.jpg) <!-- {width="4.770833333333333in" height="0.34375in"} -->
 
-> *Figure 27: Horizontal menu*
+<h6 align="center"><i>Figure 27: Horizontal menu</i></h6>
 
-##### Other classes 
+#### Other classes 
 
 You can add some helper classes to adjust the menu's appearance even
 more. These classes are:
@@ -1973,14 +1955,15 @@ more. These classes are:
 For example, the following code snippet would produce the pale green,
 rounded menu bar shown in Figure 28.
 
-> *Code Listing 36*
->
-> <div class="w3-bar w3-pale-green w3-border w3-round-xxlarge
-> w3-margin">
+<h6 align="center"><i>Code Listing 36</i></h6>
+
+```
+<div class="w3-bar w3-pale-green w3-border w3-round-xxlarge w3-margin">
+```
 
 ![](./images/image035.jpg) <!-- {width="4.614583333333333in" height="0.46875in"} -->
 
-> *Figure 28: Rounded menu bar*
+<h6 align="center"><i>Figure 28: Rounded menu bar</i></h6>
 
 ### Menu items 
 
@@ -1994,18 +1977,15 @@ Adding **w3-hover-color** class to an item allows you to overwrite the
 hover color from gray to another color. You can also add the
 **w3-hover-none** if you don't want the hover effect at all.
 
-> *Code Listing 37*
+<h6 align="center"><i>Code Listing 37</i></h6>
+
 ```
-> <!-- Change hover color to green. -->
->
-> <a href="#" class="w3-bar-item w3-button
-> w3-hover-green">Customers</a>
->
-> <!-- Remove hover entirely for this item. -->
->
-> <a href="#" class="w3-bar-item w3-button
-> w3-hover-none">Home</a>
+<!-- Change hover color to green. -->
+<a href="#" class="w3-bar-item w3-button w3-hover-green">Customers</a>
+<!-- Remove hover entirely for this item. -->
+<a href="#" class="w3-bar-item w3-button w3-hover-none">Home</a>
 ```
+
 #### Right-align items 
 
 The **w3-right** class, when added to the bar item, causes the item to
@@ -2021,37 +2001,32 @@ search for a team or player.
 
 ![](./images/image036.jpg) <!-- {width="6.5in" height="0.5625in"} -->
 
-> *Figure 29: Soccer site navigation*
+<h6 align="center"><i>Figure 29: Soccer site navigation</i></h6>
 
 The following code illustrates adding text (YSC Sports club) and a
 search box and button to the bar items. You do not need to limit bar
 items to just buttons.
 
-> *Code Listing 38*
+<h6 align="center"><i>Code Listing 38</i></h6>
+
 ```
-> <div class="w3-bar w3-pale-green w3-border w3-round-xxlarge
-> w3-margin">
->
-> <span class="w3-bar-item w3-text-blue"><b>YSC Sports Club</b>
-> </span>
->
-> <a href="#" class="w3-bar-item w3-button">Teams</a>
->
-> <a href="#" class="w3-bar-item w3-button">Players</a>
->
-> <!-- HTML entity for a calendar icon -->
->
-> <a href="#" class="w3-bar-item
-> w3-button">&#128197;Schedule</a>
->
-> <input type="text" class="w3-bar-item w3-input"
-> placeholder="Search for team or player.." >
->
-> <!-- HTML entity for a search icon -->
->
-> <a href="#" class="w3-bar-item w3-button">&#128269;</a>
-> </div>
+<div class="w3-bar w3-pale-green w3-border w3-round-xxlarge w3-margin">
+
+<span class="w3-bar-item w3-text-blue"><b>YSC Sports Club</b> </span>
+
+  <a href="#" class="w3-bar-item w3-button">Teams</a>
+
+  <a href="#" class="w3-bar-item w3-button">Players</a>
+
+  <!-- HTML entity for a calendar icon -->
+  <a href="#" class="w3-bar-item w3-button">&#128197;Schedule</a>
+  <input type="text" class="w3-bar-item w3-input"
+    placeholder="Search for team or player.." >
+  <!-- HTML entity for a search icon -->
+  <a href="#" class="w3-bar-item w3-button">&#128269;</a>
+</div>
 ```
+
 #### Drop-down menu items 
 
 You can also add a drop-down menu to your navigation using the
@@ -2061,61 +2036,59 @@ soccer navigation bar.
 
 ![](./images/image037.jpg) <!-- {width="6.5in" height="1.4in"} -->
 
-> *Figure 30: Drop-down menus*
+<h6 align="center"><i>Figure 30: Drop-down menus</i></h6>
 
 The following is the code for this example. The menu option is a wrapper
 in the **w3-dropdownhover** class, and the actual drop-down menu is in
 the **w3-dropdown-content** class.
 
-> *Code Listing 39*
+<h6 align="center"><i>Code Listing 39</i></h6>
+
 ```
-> <div class="w3-dropdown-hover">
->
-> <button class="w3-button">&#128197;&nbsp;Schedule</button>
->
-> <div class="w3-dropdown-content w3-bar-block w3-card-4">
->
-> <a href="#" class="w3-bar-item w3-button">Add new schedule</a>
->
-> <a href="#" class="w3-bar-item w3-button">Record scores</a>
->
-> <a href="#" class="w3-bar-item w3-button">Playoff schedule</a>
->
-> </div> </div>
+<div class="w3-dropdown-hover">
+  <button class="w3-button">&#128197;&nbsp;Schedule</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4">
+    <a href="#" class="w3-bar-item w3-button">Add new schedule</a>
+    <a href="#" class="w3-bar-item w3-button">Record scores</a>
+    <a href="#" class="w3-bar-item w3-button">Playoff schedule</a>
+  </div>
+</div>
 ```
+
 The bar items within the drop-down menu can also have custom colors and
 hover colors. They are regular menu bar items, and can even be text and
 input text elements.
 
-### Navigation bar positions 
+#### Navigation bar positions 
 
 Often, you want to keep the navigation bar positioned at the top or
 bottom of the page. This is accomplished simply by wrapping the entire
 menu bar and items with a **<div>** tag using the **w3top** or
 **w3-bottom** classes.
 
-> *Code Listing 40*
+<h6 align="center"><i>Code Listing 40</i></h6>
+
 ```
-> <div class="w3-top">
->
-> Menu bar items
->
-> </div>
+<div class="w3-top">
+  Menu bar items
+</div>
 ```
+
 #### Vertical navigation bar 
 
 You can flip the navigation bar to a vertical orientation simply by
 replacing the **w3-bar** class with the **w3-bar-block** class, as
 follows.
 
-> *Code Listing 41*
+<h6 align="center"><i>Code Listing 41</i></h6>
+
 ```
-> <div class="w3-bar-block w3-pale-green w3-margin"
-> style="width:27%;">
+<div class="w3-bar-block w3-pale-green w3-margin" style="width:27%;">
 ```
+
 ![](./images/image038.jpg) <!-- {width="1.2388057742782153in" height="1.525in"} -->
 
-> *Figure 31: Vertical bar*
+<h6 align="center"><i>Figure 31: Vertical bar</i></h6>
 
 Notice that you might need to set the width of the block, since the
 default is the entire width of the parent container.
@@ -2153,67 +2126,53 @@ A basic table consists of the **<table>** tag, followed by some number
 of rows of **<tr>** elements. Within the **<tr>**...**</tr>** row
 will be any number of **<td>**...**</td>** elements. Each row should
 have the same number of elements; if not, blank spaces will appear
-within the table structure. *Code Listing 42*
-```
-> <table>
->
-> <tr>
->
-> <th>Player name</th>
->
-> <th>Team</th>
->
-> <th>Yards</th>
->
-> <th>TD</th>
->
-> </tr>
->
-> <tr>
->
-> <td>Nick Foles</td>
->
-> <td>Philadelphia Eagles</td>
->
-> <td>373</td>
->
-> <td>3</td>
->
-> </tr>
->
-> <tr>
->
-> <td>Tom Brady </td>
->
-> <td>New England Patriots </td>
->
-> <td>505</td>
->
-> <td>3</td>
->
-> </tr>
->
-> </table>
-```
-Each of the available W3 classes is applied to the **<table>**
-element.
+within the table structure.
 
-### Basic table 
+<h6 align="center"><i>Code Listing 42</i></h6>
+
+```
+<table>
+  <tr>
+    <th>Player name</th>
+    <th>Team</th>
+    <th>Yards</th>
+    <th>TD</th>
+  </tr>
+  <tr>
+    <td>Nick Foles</td>
+    <td>Philadelphia Eagles</td>
+    <td>373</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Tom Brady </td>
+    <td>New England Patriots </td>
+    <td>505</td>
+    <td>3</td>
+  </tr>
+</table>
+```
+
+Each of the available W3 classes is applied to the **&lt;table&gt;** element.
+
+#### Basic table
 
 The **w3-table** class provides the basic table structure, with a width
 of 100 percent. You can add this class to any table within a site.
 
-> *Code Listing 43*
+
+<h6 align="center"><i>Code Listing 43</i></h6>
+
 ```
-> <table class="w3-table">
->
-> </table>
+<table class="w3-table">
+</table>
 ```
+
 Figure 32 shows the sample table.
 
 ![](./images/image039.jpg) <!-- {width="3.6in" height="1.1in"} -->
 
-> *Figure 32: Sample table*
+<h6 align="center"><i>Figure 32: Sample table</i></h6>
 
 Additional classes can be added to control the table's appearance.
 
@@ -2224,8 +2183,9 @@ shaded effect, as shown in Figure 33.
 
 ![](./images/image040.jpg) <!-- {width="3.5729166666666665in" height="1.2083333333333333in"} -->
 
-*Figure 33: Striped table* The striped rows make the table easier to
-read.
+<h6 align="center"><i>Figure 33: Striped table</i></h6>
+
+The striped rows make the table easier to read.
 
 #### Borders 
 
@@ -2240,7 +2200,7 @@ to the table. Figure 34 shows the class applied to our sample table.
 
 ![](./images/image041.jpg) <!-- {width="4.730555555555555in" height="1.5in"} -->
 
-> *Figure 34: All table features*
+<h6 align="center"><i>Figure 34: All table features</i></h6>
 
 ### Hovering 
 
@@ -2251,7 +2211,7 @@ Figure 35 shows a table with the first row selected.
 
 ![](./images/image042.jpg) <!-- {width="4.65625in" height="1.5729166666666667in"} -->
 
-> *Figure 35: Hoverable table*
+<h6 align="center"><i>Figure 35: Hoverable table</i></h6>
 
 We've added a new column with the HTML entity **&#270d;** to produce the
 "writing hand" Edit icon and the entity **&#2716;** (with the class
@@ -2261,14 +2221,17 @@ You can use the **w3-hover-color** classes to change the hover color to
 something other than a gray background. The hover color is set on the
 row level, as shown in the following code snippet.
 
-> *Code Listing 44*
+<h6 align="center"><i>Code Listing 44</i></h6>
+
 ```
-> <tr>
-> <td class="w3-hover-green">Nick Foles</td> &hellip;
-> </tr>
-> <tr>
-> <td class="w3-hover-blue">Tom Brady</td> &hellip; </tr>
+<tr>
+  <td class="w3-hover-green">Nick Foles</td> ...
+</tr>
+<tr>
+  <td class="w3-hover-blue">Tom Brady</td> ...
+</tr>
 ```
+
 Hovering is a simple visual indicator of which row you are going to edit
 or delete.
 
@@ -2279,32 +2242,36 @@ HTML allows you to create lists using the **<ul>** (unordered list) or
 contained within. The basic structure is shown in the following code
 snippet.
 
-> *Code Listing 45*
+<h6 align="center"><i>Code Listing 45</i></h6>
+
 ```
-> <ul>
->   <li>Soccer</li>
->   <li>Football</li>
-> </ul>
+<ul>
+  <li>Soccer</li>
+  <li>Football</li>
+</ul>
 ```
+
 The framework provides classes to style the lists.
 
-### Basic list style 
+#### Basic list style 
 
 The **w3-ul** tag sets the basic list structure and handles the
 indentation of the list elements. The following code produces the list
 as shown in Figure 36.
 
-> *Code Listing 46*
+<h6 align="center"><i>Code Listing 46</i></h6>
+
 ```
-> <ul class="w3-ul">
-> <li>Soccer</li>
-> <li>Football</li>
-> <li>Baseball</li>
-> </ul>
+<ul class="w3-ul">
+  <li>Soccer</li>
+  <li>Football</li>
+  <li>Baseball</li>
+</ul>
 ```
+
 ![](./images/image043.jpg) <!-- {width="1.1993055555555556in" height="0.7054724409448819in"} -->
 
-> *Figure 36: Basic list*
+<h6 align="center"><i>Figure 36: Basic list</i></h6>
 
 #### Tweaking the list
 
@@ -2323,10 +2290,12 @@ Keep in mind that the basic list class sets the list width to 100
 percent of its container. If you need to make a smaller width list, you
 will need to use the CSS style to set the width.
 
-> *Code Listing 47*
+<h6 align="center"><i>Code Listing 47</i></h6>
+
 ```
-> <ul class="w3-ul w3-border w3-margin" style="width:20%;" >
+<ul class="w3-ul w3-border w3-margin" style="width:20%;" >
 ```
+
 #### Hoverable list 
 
 The **w3-hoverable** class can be added to the **<ul>** element to
@@ -2341,13 +2310,15 @@ call, give the user the ability to remove an item from the list. For
 example, the following code snippet will use the **&times** HTML entity
 and, when clicked, will hide the list item.
 
-> *Code Listing 48*
+<h6 align="center"><i>Code Listing 48</i></h6>
+
 ```
-> <li class="w3-display-container">Baseball
->
-> <span onclick="this.parentElement.style.display='none'"
-> class="w3-button w3-display-right">&times;</span> </li>
+<li class="w3-display-container">Baseball
+  <span onclick="this.parentElement.style.display='none'"
+  class="w3-button w3-display-right">&times;</span>
+</li>
 ```
+
 #### Adding icons to list items 
 
 List items are not limited to just text---you can add images using the
@@ -2355,17 +2326,17 @@ List items are not limited to just text---you can add images using the
 than text. For the example, the following code snippet will add sports
 images next to the sport name.
 
-> *Code Listing 49*
+<h6 align="center"><i>Code Listing 49</i></h6>
+
 ```
-> <li><img src="soccer.jpg" class="w3-bar-item" width="32"
-> height="32"> &nbsp;Soccer</li>
->
-> <li><img src="football.jpg" class="w3-bar-item" width="32"
-> height="32"> &nbsp;Football</li>
->
-> <li><img src="baseball.jpg" class="w3-bar-item" width="32"
-> height="32"> &nbsp;Baseball</li>
+<li><img src="soccer.jpg" class="w3-bar-item" width="32" height="32">
+  &nbsp;Soccer</li>
+<li><img src="football.jpg" class="w3-bar-item" width="32" height="32">
+  &nbsp;Football</li>
+<li><img src="baseball.jpg" class="w3-bar-item" width="32" height="32">
+  &nbsp;Baseball</li>
 ```
+
 The result will appear as shown in Figure 37.
 
 ![](./images/image044.jpg) <!-- {width="2.2180555555555554in" height="1.0763888888888888in"} -->
@@ -2402,11 +2373,15 @@ lists, and are summarized as follows:
 A button element on a webpage is typically used to initiate an action or
 toggle a feature. The basic HTML syntax is as follows.
 
-> *Code Listing 50*
+<h6 align="center"><i>Code Listing 50</i></h6>
+
 ```
-> <input type="button" value="button text" href="#"
-> onclick="javascript function">
+<input type="button"
+  value="button text"
+  href="#"
+  onclick="javascript function">
 ```
+
 If the **href** attribute is specified, it represents a link that the
 user will go to when they click the button. You can also have a
 JavaScript function called when the button is clicked. Note that if the
@@ -2426,24 +2401,24 @@ Both button classes default to a black button with gray hover effects.
 In addition, hovering over the button will change the cursor to a
 pointer, indicating that the user can click the button.
 
-### Button variations 
+#### Button variations 
 
 You can use the **w3-color** attributes to change the background and
 hover colors of the buttons. For example, the following code snippet
 might be used to allow the user to save or discard updates.
 
-> *Code Listing 51*
+<h6 align="center"><i>Code Listing 51</i></h6>
+
 ```
-> <a href="save.aspx" class="w3-btn w3-green">Save changes</a>
->
-> <a href="discard.aspx" class="w3-btn w3-red">Discard
-> changes</a>
+<a href="save.aspx" class="w3-btn w3-green">Save changes</a>
+<a href="discard.aspx" class="w3-btn w3-red">Discard changes</a>
 ```
+
 Figure 38 shows sample colored buttons.
 
-> ![](./images/image047.jpg) <!-- {width="3.4in" height="0.5in"} -->
->
-> *Figure 38: Sample buttons*
+![](./images/image047.jpg) <!-- {width="3.4in" height="0.5in"} -->
+
+<h6 align="center"><i>Figure 38: Sample buttons</i></h6>
 
 #### Button colors 
 
@@ -2457,23 +2432,20 @@ The default shape of the buttons is a rectangle. You can use the
 following code snippet will produce the rounded buttons shown in Figure
 39.
 
-> *Code Listing 52*
+<h6 align="center"><i>Code Listing 52</i></h6>
+
 ```
-> <div class="w3-container w3-margin">
->
-> <a href="#" class="w3-btn w3-green w3-round-xxlarge">
->
-> Save changes</a>
->
-> <a href="#" class="w3-btn w3-red w3-round-xxlarge">
->
-> Discard changes</a>
->
-> </div>
+<div class="w3-container w3-margin">
+  <a href="#" class="w3-btn w3-green w3-round-xxlarge">
+    Save changes</a>
+  <a href="#" class="w3-btn w3-red w3-round-xxlarge">
+    Discard changes</a>
+</div>
 ```
-> ![](./images/image048.jpg) <!-- {width="2.6041666666666665in" height="0.5416666666666666in"} -->
->
-> *Figure 39: Rounded buttons*
+
+![](./images/image048.jpg) <!-- {width="2.6041666666666665in" height="0.5416666666666666in"} -->
+
+<h6 align="center"><i>Figure 39: Rounded buttons</i></h6>
 
 #### Disabled buttons 
 
@@ -2509,24 +2481,21 @@ You can use the **w3-color** and **w3-size** classes to control the
 color and size of the badge element. The following code snippet creates
 the badges shown in Figure 40.
 
-> *Code Listing 53*
+<h6 align="center"><i>Code Listing 53</i></h6>
+
 ```
-> <div class="w3-container w3-margin" style="width:18%;">
->
-> <p>w3-badge <span class="w3-badge w3-right">9</span></p>
->
-> <p>w3-badge w3-red
->
-> <span class="w3-badge w3-red w3-right">4</span></p>
->
-> <p>w3-badge w3-red w3-large
->
-> <span class="w3-badge w3-blue w3-right w3-large">2</span></p>
-> </div>
+<div class="w3-container w3-margin" style="width:18%;">
+  <p>w3-badge <span class="w3-badge w3-right">9</span></p>
+  <p>w3-badge w3-red
+    <span class="w3-badge w3-red w3-right">4</span></p>
+  <p>w3-badge w3-red w3-large
+    <span class="w3-badge w3-blue w3-right w3-large">2</span></p>
+</div>
 ```
-> ![](./images/image050.jpg) <!-- {width="2.5416666666666665in" height="1.0520833333333333in"} -->
->
-> *Figure 40: Badge examples*
+
+![](./images/image050.jpg) <!-- {width="2.5416666666666665in" height="1.0520833333333333in"} -->
+
+<h6 align="center"><i>Figure 40: Badge examples</i></h6>
 
 ### Badges within other elements 
 
@@ -2534,72 +2503,66 @@ The **w3-badge** class can be used within other elements using a
 **<span>** tag. For example, we might have a list of customers and use
 the badge to indicate number of orders.
 
-> *Code Listing 54*
+<h6 align="center"><i>Code Listing 54</i></h6>
+
 ```
-> <div class="w3-container w3-margin" style="width:18%;">
->
-> <ul class="w3-ul w3-border">
->
-> <li>Christy
->
-> <span class="w3-badge w3-right w3-margin-right">4</span></li>
-> <li>Rachel
->
-> <span class="w3-badge w3-right w3-margin-right">8</span></li>
->
-> <li>Alyssa
->
-> <span class="w3-badge w3-right w3-margin-right">3</span></li>
->
-> </ul>
->
-> </div>
+<div class="w3-container w3-margin" style="width:18%;">
+  <ul class="w3-ul w3-border">
+    <li>Christy
+      <span class="w3-badge w3-right w3-margin-right">4</span></li>
+    <li>Rachel
+      <span class="w3-badge w3-right w3-margin-right">8</span></li>
+    <li>Alyssa
+      <span class="w3-badge w3-right w3-margin-right">3</span></li>
+  </ul>
+</div>
 ```
+
 This code snippet produces the list shown in Figure 41.
 
-> ![](./images/image051.jpg) <!-- {width="2.2395833333333335in" height="1.0208333333333333in"} -->
->
-> *Figure 41: Badges with list elements*
+![](./images/image051.jpg) <!-- {width="2.2395833333333335in" height="1.0208333333333333in"} -->
 
-### CSS tags 
+<h6 align="center"><i>Figure 41: Badges with list elements</i></h6>
+
+### CSS tags
 
 Tags are labels on a site, typically used to label some element on the
 screen. The W3.CSS framework provides the **w3-tag** class to format the
 label. The following code snippet shows a tag that displays the status
 of the current operation.
 
-> *Code Listing 55*
->
-> <div class="w3-container>
->
-> <p>Status: <span class="w3-tag
-> w3-green">Processing</span></p> </div>
->
-> ![](./images/image052.jpg) <!-- {width="1.3229166666666667in" height="0.3645833333333333in"} -->
->
-> *Figure 42: Processing tag*
+<h6 align="center"><i>Code Listing 55</i></h6>
 
-### Customizing the tags 
+```
+<div class="w3-container>
+  <p>Status: <span class="w3-tag w3-green">Processing</span></p>
+</div>
+```
+
+![](./images/image052.jpg) <!-- {width="1.3229166666666667in" height="0.3645833333333333in"} -->
+
+<h6 align="center"><i>Figure 42: Processing tag</i></h6>
+
+#### Customizing the tags
 
 You can use the various **w3** helper classes to customize the
 appearance of a tag. For example, the following code snippet adds
 several helper classes to produce a warning tag.
 
-> *Code Listing 56*
->
-> <div class="w3-container">
->
-> <span class="w3-tag w3-red w3-center w3-round-large w3-padding">
-> The thermal printer should only be<br/> used to print prescriptions
-> sheets.
->
-> </span>
->
-> </div>
->
-> ![](./images/image053.jpg) <!-- {width="2.40625in" height="0.6145833333333334in"} -->
->
-> *Figure 43: Warning tag*
+<h6 align="center"><i>Code Listing 56</i></h6>
+
+```
+<div class="w3-container">
+  <span class="w3-tag w3-red w3-center w3-round-large w3-padding">
+    The thermal printer should only be<br/>
+	used to print prescriptions sheets.
+  </span>
+</div>
+```
+
+![](./images/image053.jpg) <!-- {width="2.40625in" height="0.6145833333333334in"} -->
+
+<h6 align="center"><i>Figure 43: Warning tag</i></h6>
 
 ### Summary
 
@@ -2623,18 +2586,20 @@ for these elements.
 
 Figure 44 shows a sample input form, formatted with W3 classes.
 
-> ![](./images/image054.jpg) <!-- {width="3.142361111111111in" height="4.260277777777778in"} -->
->
-> *Figure 44: Sample input form*
+![](./images/image054.jpg) <!-- {width="3.142361111111111in" height="4.260277777777778in"} -->
+
+<h6 align="center"><i>Figure 44: Sample input form</i></h6>
 
 ### Text boxes
 
 Text boxes are used to allow the user to enter freeform text into a
 form. The basic syntax is as follows.
 
-> *Code Listing 57*
->
-> <input type="text" class="w3-input">
+<h6 align="center"><i>Code Listing 57</i></h6>
+
+```
+<input type="text" class="w3-input">
+```
 
 The **w3-input** class provides the basic formatting for a text box,
 providing the necessary padding and borders.
@@ -2678,18 +2643,20 @@ You can use the **w3** helper classes to change the appearance of the
 input text box. For example, the following code snippet produces our
 rounded input boxes in the sample.
 
-> *Code Listing 58*
+<h6 align="center"><i>Code Listing 58</i></h6>
+
 ```
-> <input type="text" class="w3-input w3-border w3-round-xxlarge"
-> name="first" placeholder="First Name">
+<input type="text" class="w3-input w3-border w3-round-xxlarge"
+  name="first" placeholder="First Name">
 ```
+
 A recent trend in text input is not to use borders at all around text.
 You can use the **w3-border0** class to achieve that look (shown in
 figure 45).
 
-> ![](./images/image055.jpg) <!-- {width="2.46875in" height="0.5104166666666666in"} -->
->
-> *Figure 45: Borderless input*
+![](./images/image055.jpg) <!-- {width="2.46875in" height="0.5104166666666666in"} -->
+
+<h6 align="center"><i>Figure 45: Borderless input</i></h6>
 
 While text elements are very common and easy for the user to understand,
 the lack of constraints on what the user can enter makes it more
@@ -2704,24 +2671,24 @@ choices to the user and allow them to pick only one. They appear as
 circular buttons with labels next to each option. Figure 46 shows sample
 option buttons.
 
-> ![](./images/image056.jpg) <!-- {width="1.71875in" height="0.4166666666666667in"} -->
->
-> *Figure 46: Option buttons*
+![](./images/image056.jpg) <!-- {width="1.71875in" height="0.4166666666666667in"} -->
+
+<h6 align="center"><i>Figure 46: Option buttons</i></h6>
 
 The **w3-radio** class formats the option buttons. The following code
 snippet shows how to create a group of buttons.
 
-> *Code Listing 59*
+<h6 align="center"><i>Code Listing 59</i></h6>
+
 ```
-> <input type="radio" class="w3-radio" name="phoneType"
-> value="cell" checked>
-> <label>Cell</label>
-> <input type="radio" class="w3-radio" name="phoneType"
-> value="work">
-> <label>Work</label>
-> <input type="radio" class="w3-radio" name="phoneType"
-> value="home"> <label>Home</label>
-```
+<input type="radio" class="w3-radio" name="phoneType" value="cell" checked>
+<label>Cell</label>
+<input type="radio" class="w3-radio" name="phoneType" value="work">
+<label>Work</label>
+<input type="radio" class="w3-radio" name="phoneType" value="home">
+<label>Home</label>
+``
+
 All elements within the option group must have the same **name**
 attribute value. This allows the browser to enforce only one item within
 the group being selectable.
@@ -2733,10 +2700,10 @@ the group being selectable.
 > automatically pop up (see Figure 47). Many younger developers were not
 > familiar with the meaning, since very few cars still use radio
 > buttons---hence the new name, option buttons.***
->
-> ![](./images/image057.jpg) <!-- {width="2.6979166666666665in" height="2.0208333333333335in"} -->
->
-> *Figure 47: Radio buttons*
+
+![](./images/image057.jpg) <!-- {width="2.6979166666666665in" height="2.0208333333333335in"} -->
+
+<h6 align="center"><i>Figure 47: Radio buttons</i></h6>
 
 ### Check boxes
 
@@ -2744,19 +2711,23 @@ Check boxes are like option buttons, except that the user can check more
 than one. The element for check boxes is a square, to distinguish them
 from option buttons. Figure 48 shows how check boxes appear on the form.
 
-> ![](./images/image058.jpg) <!-- {width="3.9in" height="0.4in"} -->
+![](./images/image058.jpg) <!-- {width="3.9in" height="0.4in"} -->
 
-*Figure 48: Check boxes* The following code creates the check boxes.
+<h6 align="center"><i>Figure 48: Check boxes</i></h6>
 
-> *Code Listing 60*
+The following code creates the check boxes.
+
+<h6 align="center"><i>Code Listing 60</i></h6>
+
 ```
-> <input type="checkbox" class="w3-check" checked>
-> <label>Overnight shipping</label>
-> <input type="checkbox" class="w3-check" >
-> <label>Insurance</label>
-> <input type="checkbox" class="w3-check" >
-> <label>Signature required</label>
+<input type="checkbox" class="w3-check" checked>
+<label>Overnight shipping</label>
+<input type="checkbox" class="w3-check" >
+<label>Insurance</label>
+<input type="checkbox" class="w3-check" >
+<label>Signature required</label>
 ```
+
 The **w3-check** class provides the formatting for check boxes.
 
 ### Select elements 
@@ -2764,53 +2735,54 @@ The **w3-check** class provides the formatting for check boxes.
 Check boxes and option buttons are good elements to use if your number
 of choices is relatively small. For a larger number of choices, you
 should consider a select box. To create the box, you declare the
-**<select>** element wrapper, and then include **<option>**
+**&lt;select&gt;** element wrapper, and then include **&lt;option&gt;**
 elements. The following code snippet shows how to design a select list.
 The **w3-select** class provides the formatting. In the following
 example, we added a **w3-border** class to improve the appearance of the
 box.
 
-> *Code Listing 61*
+<h6 align="center"><i>Code Listing 61</i></h6>
+
 ```
-| <select class="w3-select w3-border" name="option">              |
-| <option value= "" disabled selected>Choose your option</option> |
-| <option value= "1">Reduced interest rate</option>               |
-| <option value= "2">Longer payment terms</option>                |
-| <option value= "3">Cash rebate</option> </select>             |
+<select class="w3-select w3-border" name="option">
+  <option value= "" disabled selected>Choose your option</option>
+  <option value= "1">Reduced interest rate</option>
+  <option value= "2">Longer payment terms</option>
+  <option value= "3">Cash rebate</option>
+</select>
 ```
+
 Figure 49 shows a select box produced from this code snippet.
 
-> ![](./images/image059.jpg) <!-- {width="2.875in" height="0.9583333333333334in"} -->
->
-> *Figure 49: Select box*
+![](./images/image059.jpg) <!-- {width="2.875in" height="0.9583333333333334in"} -->
 
-### Adding labels 
+<h6 align="center"><i>Figure 49: Select box</i></h6>
+
+#### Adding labels 
 
 You can add labels around the input elements, using either text or icons
 and images. In the following code snippet, we are using the **w3-row**
 and **w3-col** classes to split the screen between the label and the
 input element.
 
-> *Code Listing 62*
+<h6 align="center"><i>Code Listing 62</i></h6>
+
 ```
-> <div class="w3-section w3-row">
->
-> <div class="w3-col" style="width:50px;">
->
-> <i class="w3-col fa fa-envelope-o"></i></div>
->
-> <div class="w3-rest">
->
-> <input class="w3-input w3-border" type="email" name="email"
-> placeholder="Email address" >
->
-> </div> </div>
+<div class="w3-section w3-row">
+  <div class="w3-col" style="width:50px;">
+    <i class="w3-col fa fa-envelope-o"></i></div>
+    <div class="w3-rest">
+    <input class="w3-input w3-border" type="email" 
+	  name="email" placeholder="Email address" >
+  </div>
+</div>
 ```
+
 This example uses the Font Awesome library to provide an envelope icon.
 You could also use the HTML Entity code **&#9993;** to produce an
 envelope icon.
 
-### Summary 
+### Summary
 
 The following classes are used to format input elements:
 
@@ -2884,20 +2856,24 @@ Font Awesome, there are a few icons that make effective spinners to
 indicate a process is running. The code snippet below shows a spinning
 icon.
 
-> *Code Listing 63*
-```
-| <div class="w3-section w3-row">                                   |
-| <div class="w3-col" style="width:50px;">                        |
-| <i class="w3-xxlarge w3-spin fa fa-spinner"></i></div>        |
-| <div class="w3-rest">Saving&hellip;</div> </div>                  |
-```
-Figure 50 shows the screen (but on a website, the spinner will keep
-rotating).
+<h6 align="center"><i>Code Listing 63</i></h6>
 
-> ![](./images/image060.jpg)
+```
+<div class="w3-section w3-row">
+  <div class="w3-col" style="width:50px;">
+  <i class="w3-xxlarge w3-spin fa fa-spinner"></i></div>
+  <div class="w3-rest">Saving&hellip;</div>
+</div>
+```
+
+Figure 50 shows the screen (but on a website, the spinner will keep rotating).
+
+![](./images/image060.jpg)
 <!-- {width="1.0104166666666667in" height="0.5in"} -->
->
-> *Figure 50: Sample spinner*
+
+
+<h6 align="center"><i>Figure 50: Sample spinner</i></h6>
+
 >
 > ![](./images/image061.png) 
 <!-- {width="0.1597222222222222in" height="0.32943022747156603in"} -->
@@ -2905,6 +2881,7 @@ rotating).
 > Ajax calls, to show something is happening. However, be sure that if
 > an error occurs, the spinner is removed. Otherwise, users see the
 > spinner still moving, and complain about performance.***
+
 ### Summary
 
 Animation can improve the general feel of a site, making your pop-up
@@ -2933,57 +2910,60 @@ will also need to ensure that this container has a unique ID, since
 you'll need it to open the modal dialog. The following code snippet
 shows the basic setup for the modal container.
 
-> *Code Listing 64*
+<h6 align="center"><i>Code Listing 64</i></h6>
+
 ```
-> <div id="ContactUs" class="w3-modal w3-center"> </div>
+<div id="ContactUs" class="w3-modal w3-center">
+</div>
 ```
+
 The actual content of the modal dialog is wrapped within the
 **w3-modal-content** class. The wrapper structure looks as shown in the
 following.
 
-> *Code Listing 65*
+<h6 align="center"><i>Code Listing 65</i></h6>
+
 ```
-> <div id="ContactUs" class="w3-modal w3-center">
->
-> <div class="w3-modal-content">
->
-> <!-- Actual modal content -->
->
-> </div>
->
-> </div>
+<div id="ContactUs" class="w3-modal w3-center">
+  <div class="w3-modal-content">
+  <!-- Actual modal content -->
+  </div>
+</div>
 ```
+
 ### Displaying the modal
 
 To display the modal dialog, you will need some simple JavaScript and a
 button. For example, if we wanted to display the Contact Us modal
 dialog, we could use the following code.
 
-> *Code Listing 66*
+<h6 align="center"><i>Code Listing 66</i></h6>
+
 ```
-> <button
-> onclick="document.getElementById('ContactUs').style.display='block'"
-> class="w3-button">
->
-> </button>
+<button onclick="document.getElementById('ContactUs').style.display='block'"
+  class="w3-button">
+</button>
 ```
+
 When the user clicks the **Contact Us** button, the modal dialog's
 display style is set to **block**, causing the dialog to pop up on the
 user screen.
 
-### Animating the display
+#### Animating the display
 
 The modal dialog will suddenly pop up on the screen. While this is
 common in websites, it can sometimes have a jarring effect. You can take
 advantage of the animation classes to present a smoother appearance of
 the modal. Simply add the desired animation class to the container
-**<div>**, as follows.
+**&lt;div&gt;**, as follows.
 
-> *Code Listing 67*
+<h6 align="center"><i>Code Listing 67</i></h6>
+
 ```
-> <div id="ContactUs" class="w3-modal w3-center
-> w3-animate-opacity"> </div>
+<div id="ContactUs" class="w3-modal w3-center w3-animate-opacity">
+</div>
 ```
+
 This will cause the modal dialog to fade in, rather than just quickly
 appear.
 
@@ -2996,19 +2976,17 @@ Typically, this is triggered by clicking the X icon in the upper-right
 corner, although if the modal dialog saves information, you would put
 the close code into the buttons that save and/or cancel the dialog.
 
-> *Code Listing 68*
+<h6 align="center"><i>Code Listing 68</i></h6>
+
 ```
-> <header class="w3-teal w3-display-container">
->
-> <span
-> onclick="document.getElementById('ContactUs').style.display='none'"
-> class="w3-button w3-large w3-display-topright">&times;</span>
->
-> <h2>Contact Us</h2>
->
-> </header>
+<header class="w3-teal w3-display-container">
+  <span onclick="document.getElementById('ContactUs').style.display='none'"
+    class="w3-button w3-large w3-display-topright">&times;</span>
+  <h2>Contact Us</h2>
+</header>
 ```
-### Summary
+
+#### Summary
 
 Modal dialogs are typically used to overlay the website and provide a
 dialog for the user to focus on. The framework requires a little
@@ -3028,17 +3006,19 @@ the image's borders and appearance.
 
 Here is the HTML to display an image.
 
-> *Code Listing 69*
->
-> <div class="w3-container w3-margin">
->
-> <img src="BabyGirlCuddles.jpg" alt="Granddaughter"> </div>
+<h6 align="center"><i>Code Listing 69</i></h6>
+
+```
+<div class="w3-container w3-margin">
+  <img src="BabyGirlCuddles.jpg" alt="Granddaughter">
+</div>
+```
 
 This will produce the image shown in Figure 51.
 
-> ![](./images/image062.jpg) <!-- {width="1.0972222222222223in" height="1.426388888888889in"} -->
->
-> *Figure 51: Grandpa cuddles*
+![](./images/image062.jpg) <!-- {width="1.0972222222222223in" height="1.426388888888889in"} -->
+
+<h6 align="center"><i>Figure 51: Grandpa cuddles</i></h6>
 
 We can use the following classes to control how the image appears on the
 page:
@@ -3049,11 +3029,11 @@ page:
 
 -   **w3-bordered**: Adds a border around entire image.
 
-> ![](./images/image063.jpg) <!-- {width="3.672083333333333in" height="1.5840277777777778in"} -->
->
-> *Figure 52: Sample image classes*
+![](./images/image063.jpg) <!-- {width="3.672083333333333in" height="1.5840277777777778in"} -->
 
-### Responsive images 
+<h6 align="center"><i>Figure 52: Sample image classes</i></h6>
+
+#### Responsive images
 
 You can add the **w3-image** class to the **<img>** tag to create a
 responsive image. The image size will adjust to the screen, but will
@@ -3064,7 +3044,7 @@ never be larger than the original image size.
 > image (meaning it can be larger than original size), you need to set
 > the width property to** 100% **(via an inline style). ***
 
-### Image opacity 
+#### Image opacity 
 
 You can use the opacity classes to set the opacity of the image from 25
 percent to 75 percent. The class names are:
@@ -3077,9 +3057,9 @@ percent to 75 percent. The class names are:
 
 Figure 53 shows the various opacity effects.
 
-> ![](./images/image064.jpg) <!-- {width="2.73125in" height="1.0832633420822397in"} -->
->
-> *Figure 53: Image opacity*
+![](./images/image064.jpg) <!-- {width="2.73125in" height="1.0832633420822397in"} -->
+
+<h6 align="center"><i>Figure 53: Image opacity</i></h6>
 
 ### Grayscale 
 
@@ -3094,22 +3074,22 @@ image. The class names are:
 
 Figure 54 shows the grayscale effect on an image.
 
-> ![](./images/image065.jpg) <!-- {width="3.533333333333333in" height="1.260181539807524in"} -->
->
-> *Figure 54: Grayscale*
+![](./images/image065.jpg) <!-- {width="3.533333333333333in" height="1.260181539807524in"} -->
 
-### CSS slideshow 
+<h6 align="center"><i>Figure 54: Grayscale</i></h6>
+
+#### CSS slideshow
 
 You can use the W3.CSS framework and a bit of JavaScript to create a
 slideshow of images. Figure 55 shows the basic appearance of the
 slideshow. The user can click the buttons to move among the images in
 the slideshow.
 
-> ![](./images/image066.jpg) <!-- {width="1.2708333333333333in" height="2.03125in"} -->
->
-> *Figure 55: Slideshow*
+![](./images/image066.jpg) <!-- {width="1.2708333333333333in" height="2.03125in"} -->
 
-### Setting the images 
+<h6 align="center"><i>Figure 55: Slideshow</i></h6>
+
+#### Setting the images 
 
 The first step is to add the images you want to view and assign them the
 same class name.
@@ -3117,19 +3097,21 @@ same class name.
 The following snippet shows the image setup and the two buttons for
 navigation.
 
-> *Code Listing 70*
+<h6 align="center"><i>Code Listing 70</i></h6>
+
 ```
-| <div class="w3-display-container w3-content" style="width:8%;"> |
-| <img class="w3-image mySlides" src="BabyGirlCuddles.jpg">       |
-| <img class="w3-image mySlides" src="FingersSmall.jpg">          |
-| <p>                                                                 |
-| <button class="w3-button w3-black"                                 |
-| onclick="plusDivs(-1)">&#10094;</button> <button                |
-| class="w3-button w3-black"                                          |
-| onclick="plusDivs(1)">&#10095;</button>                          |
-| </p>                                                                |
-| </div>                                                              |
+<div class="w3-display-container w3-content" style="width:8%;">
+  <img class="w3-image mySlides" src="BabyGirlCuddles.jpg">
+  <img class="w3-image mySlides" src="FingersSmall.jpg">
+  <p>
+    <button class="w3-button w3-black"
+      onclick="plusDivs(-1)">&#10094;</button>
+	<button class="w3-button w3-black"
+      onclick="plusDivs(1)">&#10095;</button>
+  </p>
+</div>
 ```
+
 The HTML entities are used for the buttons to provide the navigation
 arrows. We will need a JavaScript function called **plusDivs()** to move
 among the images.
@@ -3137,26 +3119,31 @@ among the images.
 ### JavaScript code 
 
 The following is the code that needs to be added within a script tag in
-the **<head>** section of the website to allow the navigation between
+the **&lt;head&gt;** section of the website to allow the navigation between
 images.
 
-> *Code Listing 71*
+<h6 align="center"><i>Code Listing 71</i></h6>
+
 ```
-<pre>
 <script>
-var slideIndex =1; showDivs(1);
+  var slideIndex =1;
+  showDivs(1);
+
 function plusDivs(n) {
-showDivs(slideIndex += n);
+  showDivs(slideIndex += n);
 }
+
 function showDivs(n) {
-var x = document.getElementsByClaseName('mySlides'); if (n >
-x.length) { xslideIndex =1;} if (n < 1) { slideIndex =x.length;} for
-(var i=0; i < x.length; i++) { x&lbrack;i&rbrack;.style.display ="none";
-x&lbrack;i&rbrack;.style.display ="block";
-}
+  var x = document.getElementsByClaseName('mySlides');
+  if (n > x.length) { xslideIndex =1;} 
+  if (n < 1) { slideIndex =x.length;} 
+    for (var i=0; i < x.length; i++) {
+	x[i].style.display ="none";
+    x[i].style.display ="block";
+  }
 </script>
-</pre>
 ```
+
 The script declares a variable (**slideIndex**) to keep track of the
 currently selected image and initializes it to the first image. The
 buttons will call the **plusDivs()** function with a parameter
@@ -3188,31 +3175,26 @@ for a mail client. Figure 56 shows the sample template.
 </p>
 <!-- ![](./images/image67.jpg){width="6.5in" height="2.5840277777777776in"} -->
 
-> *Figure 56: Email template*
+<h6 align="center"><i>Figure 56: Email template</i></h6>
 
 ### Head section
 
-The **<head>** section of most templates will look very much the same,
+The **&lt;head&gt;** section of most templates will look very much the same,
 including the W3.CSS style sheet, possibly using an external web font.
 
-> *Code Listing 72*
+<h6 align="center"><i>Code Listing 72</i></h6>
+
 ```
-> <!DOCTYPE html>
->
-> <html>
->
-> <head>
->
-> <title>W3.CSS </title>
->
-> <meta charset="UTF-8">
->
-> <meta name="viewport" content="width=device-width,
-> initial-scale=1">
->
-> <link rel="stylesheet" type="text/css"
-> href="https://fonts.googleapis.com/css?family=RobotoDraft">
+<!DOCTYPE html>
+<html>
+<head>
+  <title>W3.CSS </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=RobotoDraft">
 ```
+
 In this example, we are using a Google font called **RobotoDraft**, and
 linking it into our website. While the use of external web fonts is
 optional, you can improve the overall look of the site easily with
@@ -3225,26 +3207,29 @@ You can explore the library
 [[here]](https://fontawesome.com/)
 
 To add Font Awesome to the site, the following line is added to the
-**<head>** section.
+**&lt;head&gt;** section.
 
-> *Code Listing 73*
+<h6 align="center"><i>Code Listing 73</i></h6>
+
 ```
-> <link rel="stylesheet" type="text/css"
-> href="https://cdnjs.cloudfare.com/ajax/libs/fontawesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css"
+  href="https://cdnjs.cloudfare.com/ajax/libs/
+    font-awesome/4.7.0/css/font-awesome.min.css">
 ```
-> To use the fonts, you simply add the class name to any element, and
-> the appropriate icon will appear. The following example shows some
-> Save and Cancel buttons taking advantage of the Font Awesome library.
->
-> *Code Listing 74*
+
+To use the fonts, you simply add the class name to any element, and
+the appropriate icon will appear. The following example shows some
+Save and Cancel buttons taking advantage of the Font Awesome library.
+
+<h6 align="center"><i>Code Listing 74</i></h6>
+
 ```
-> <button class="fa fa-save w3-text-green w3-xlarge w3-padding">
->
-> &nbsp;Save changes</button>
->
-> <button class="fa fa-times w3-text-red w3-xlarge w3-padding">
-> &nbsp;Cancel</button>
+<button class="fa fa-save w3-text-green w3-xlarge w3-padding">
+  &nbsp;Save changes</button>
+<button class="fa fa-times w3-text-red w3-xlarge w3-padding">
+  &nbsp;Cancel</button>
 ```
+
 This produces the buttons shown in Figure 57.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3256,8 +3241,8 @@ This produces the buttons shown in Figure 57.
 </p>
 <!-- > ![](./images/image68.jpg){width="2.5833333333333335in" -->
 <!-- > height="0.4166666666666667in"} -->
->
-> *Figure 57: Font Awesome buttons*
+
+<h6 align="center"><i>Figure 57: Font Awesome buttons</i></h6>
 
 ### HTML entities 
 
@@ -3291,19 +3276,19 @@ The final step when using a web font is to adjust the styles on various
 elements to use the new font family. The final piece of code in the
 **<head>** section does that.
 
-> *Code Listing 75*
+<h6 align="center"><i>Code Listing 75</i></h6>
+
 ```
-> <style>
->
-> html, body, h1, h2, h3, h4, h5, h6 {
->
-> font-family: "RobotoDraft","Roboto", sans-serif;
->
-> }
->
-> .w3-bar-block, .w3-bar-item { padding:16px; } </style>
+<style>
+  html, body, h1, h2, h3, h4, h5, h6 {
+  font-family: "RobotoDraft","Roboto", sans-serif;
+  }
+
+  .w3-bar-block, .w3-bar-item { padding:16px; }
+</style>
 ```
-## Body section 
+
+### Body section 
 
 The body section consists of a sidebar menu for navigation among the
 email folders (the inbox, sent items, drafts, and deleted items). Note
@@ -3311,78 +3296,83 @@ that there is no implementation code for these folders; it would
 typically be an Ajax call to gather all the items within the folder and
 display them.
 
-### Sidebar 
+#### Sidebar 
 
 The following code creates the sidebar navigation menu (some classes are
 removed for readability).
 
-> *Code Listing 76*
-```
-| <nav class="w3-sidebar w3-bar-block w3-collapse w3-card"           |
-| id="mySideBar" style="width:200px;">                             |
-| <a href="#" onclick="w3_close();" title="Close side menu"      |
-| class="w3-bar-item w3-button w3-hide-large">Close                  |
-| <i class="fa fa-remove"></i></a>                              |
-| <a href="#" class="w3-bar-item w3-button w3-left-align"          |
-| on                                                                    |
-| click="document.getElementById('id01').style.display='block'"> |
-| New Message <i class="w3-padding fa fa-pencil"></i></a> <a   |
-| id="myBtn" href="#" onclick="myFunc('Demo1');"                |
-| class="w3-bar-item w3-button">                                     |
-| <i class="fa fa-inbox w3-margin-right"></i>Inbox&nbsp;&nbsp;    |
-| <span class="w3-tag w3-circle">3</span>                         |
-| <i class="fa fa-caret-down w3-margin-left"></i></a>           |
-| <a href="#" class="w3-bar-item w3-button">                      |
-| <i class="fa fa-paper-plane w3-margin-right"></i>Sent</a>     |
-| <a href="#" class="w3-bar-item w3-button">                      |
-| <i class="fa fa-houeglass-end w3-margin-right"></i>Drafts</a> |
-| <a href="#" class="w3-bar-item w3-button">                      |
+<h6 align="center"><i>Code Listing 76</i></h6>
 
-> <i class="fa fa-trash w3-margin-right"></i>Trash</a> </nav>
 ```
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-card" id="mySideBar"
+  style="width:200px;">
+  <a href="#" onclick="w3_close();" title="Close side menu"
+  class="w3-bar-item w3-button w3-hide-large">Close
+  <i class="fa fa-remove"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-left-align"
+  onclick="document.getElementById('id01').style.display='block'">
+  New Message <i class="w3-padding fa fa-pencil"></i></a>
+  <a id="myBtn" href="#" onclick="myFunc('Demo1');"
+  class="w3-bar-item w3-button">
+  <i class="fa fa-inbox w3-margin-right"></i>Inbox&nbsp;&nbsp;
+  <span class="w3-tag w3-circle">3</span>
+  <i class="fa fa-caret-down w3-margin-left"></i></a>
+  <a href="#" class="w3-bar-item w3-button">
+  <i class="fa fa-paper-plane w3-margin-right"></i>Sent</a>
+  <a href="#" class="w3-bar-item w3-button">
+  <i class="fa fa-houeglass-end w3-margin-right"></i>Drafts</a>
+  <a href="#" class="w3-bar-item w3-button">
+  <i class="fa fa-trash w3-margin-right"></i>Trash</a>
+</nav>
+```
+
 Although the code uses several classes and structures, there are a few
 items worth noting. First is the **w3-hide-large** class on the Close
 sidebar menu item. This indicates that the Close option will not appear
 on larger devices, where it's assumed there is enough screen room for
 both the sidebar menu and the email contents.
 
-### Compose new mail 
+#### Compose new mail 
 
 When the user clicks on a new email, a modal dialog will be displayed to
 get the information for the email.
 
-> *Code Listing 77*
+<h6 align="center"><i>Code Listing 77</i></h6>
+
 ```
-> <!-- Modal that pops up for new message -->
-> <div id="id01" class="w3-modal">
-> <div class="w3-modal-content w3-animate-zoom">
-> <div class="w3-container w3-padding w3-red ">
-> <span
-> onclick="document.getElementById('id01').style.display='block'"
->   class="w3-button w3-right w3-xxlarge">
-> <i class="fa fa-remove"></i>
-> </span>
-> <h2>Send Mail</h2>
-> <!-- Form elements&hellip; -->
-> </div>
-> </div>
-> </div>
+<!-- Modal that pops up for new message -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-padding w3-red ">
+      <span
+        onclick="document.getElementById('id01').style.display='block'"
+        class="w3-button w3-right w3-xxlarge">
+        <i class="fa fa-remove"></i>
+      </span>
+      <h2>Send Mail</h2>
+      <!-- Form elements&hellip; -->
+    </div>
+  </div>
+</div>
 ```
+
 Notice that the pop-up dialog uses the zoom animation to appear on the
 screen, and the header section provides the ability to close the dialog.
 
 The button code shown in the following code snippet will close the
 dialog box once the user either sends or cancels the email.
 
-> *Code Listing 78*
+<h6 align="center"><i>Code Listing 78</i></h6>
+
 ```
-> <a class="w3-button w3-red"
-> onclick="document.getElementById('id01').style.display='none'">
-> Cancel <i class="fa fa-remove"></i></a>
-> <a class="w3-button w3-right"
-> onclick="document.getElementById('id01').style.display='none'">
-> Send <i class="fa fa-paper-plane"></i></a>
+<a class="w3-button w3-red"
+  onclick="document.getElementById('id01').style.display='none'">
+  Cancel <i class="fa fa-remove"></i></a>
+<a class="w3-button w3-right"
+  onclick="document.getElementById('id01').style.display='none'">
+  Send <i class="fa fa-paper-plane"></i></a>
 ```
+
 ### Summary
 
 The templates and example code on the site are a great way to see the
@@ -3403,16 +3393,18 @@ in-line styles, or a W3 theme. For example, if you wanted to use the
 flat color scheme, rather than the default material design colors, you
 could import the following style sheets.
 
-> *Code Listing 79*
+<h6 align="center"><i>Code Listing 79</i></h6>
+
 ```
-> <html>
-> <head>
-> <title>W3 mobile with metro colors</title>
-> <meta name="viewport"
-> content="width=device-width,initial-scale=1">
-> <link rel="stylesheet" href="css/w3pro.css">
-> <link rel="stylesheet" href="css/w3-colors-flat.css">
+<html>
+<head>
+  <title>W3 mobile with metro colors</title>
+  <meta name="viewport"
+  content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/w3pro.css">
+  <link rel="stylesheet" href="css/w3-colors-flat.css">
 ```
+
 This will result in a smaller style sheet, and only make the flat CSS
 colors available to your site.
 
@@ -3425,16 +3417,19 @@ has no mobile-first media queries---it is strictly intended for mobile
 devices.
 
 To use this style sheet with the metro colors, you could use the
-following code snippet. *Code Listing 80*
+following code snippet.
+
+<h6 align="center"><i>Code Listing 80</i></h6>
+
 ```
-> <html>
-> <head>
-> <title>W3 mobile with metro colors</title>
-> <meta name="viewport"
->   content="width=device-width,initial-scale=1">
-> <link rel="stylesheet" href="css/w3mobile.css">
-> <link rel="stylesheet" href="css/w3-colors-metro.css">
+<html>
+<head>
+  <title>W3 mobile with metro colors</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/w3mobile.css">
+  <link rel="stylesheet" href="css/w3-colors-metro.css">
 ```
+
 <h2 id="ch17">Chapter 17 Summary</h2>
 
 W3.CSS is a simple and fast framework, making it easier to apply CSS
@@ -3472,7 +3467,7 @@ in Figure 58.
 <!-- ![](./images/image069.jpg) -->
 <!-- {width="5.811527777777778in" height="2.5791666666666666in"} -->
 
-<h6 align="center">*Figure 58: W3.CSS Social media template*</h6>
+<h6 align="center"><i>Figure 58: W3.CSS Social media template</i></h6>
 
 If you are looking for an easy-to-use, free CSS framework with lots of
 examples, templates, and online documentation, W3.CSS is certainly a
