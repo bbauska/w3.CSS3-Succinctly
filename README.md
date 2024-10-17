@@ -74,7 +74,7 @@ Inc.
 
 ## [Table of Contents](#table-of-contents)
 
-### <b>The Story Behind the Succinctly Series of Books</b>
+### [<b>The Story Behind the Succinctly Series of Books</b>](#ch1)
 >#### 1.1 [<b>About the Author</b>](#ch1-1)
 >#### 1.2 [<b>Chapter 1 Introduction</b>](#ch1-2)
 >#### 1.3 [<b>CSS only</b>](#ch1-3)
@@ -84,7 +84,7 @@ Inc.
   - >##### 1.6.1 [<b>Source page</b>](#ch1-6-1)
 >#### 1.7 [<b>Obtaining W3.CSS</b>](#ch1-7)
 
-### <b>Chapter 2 Layout</b>
+### [<b>Chapter 2 Layout</b>](#ch2)
 >#### 2.1 [<b>CSS layout</b>](#ch2-1)
   - >##### 2.1.1 [<b>Classes summary</b>](#ch2-1-1)
 >#### 2.2 [<b>CSS responsive</b>](#ch2-2)
@@ -97,13 +97,13 @@ Inc.
 >#### 2.4 [<b>CSS display</b>](#ch2-4)
 >#### 2.5 [<b>Summary</b>](#ch2-5)
 
-### <b>Chapter 3 Colors</b>
+### [<b>Chapter 3 Colors</b>](#ch3)
 >#### 3.1 [<b>Basic CSS colors</b>](#ch3-1)
 >#### 3.2 [<b>Color libraries</b>](#ch3-2)
 >#### 3.3 [<b>Color themes</b>](#ch3-3)
   - >##### 3.3.1 [<b>Available themes</b>](#ch3-3-1)
 
-### <b>Chapter 4 Helper Classes</b>
+### [<b>Chapter 4 Helper Classes</b>](#ch4)
 >#### 4.1 [<b>CSS round</b>](#ch4-1)
   - >##### 4.1.1 [<b>Circle class</b>](#ch4-1-1)
 >#### 4.2 [<b>CSS padding</b>](#ch4-2)
@@ -117,31 +117,31 @@ Inc.
 >#### 4.5 [<b>CSS sizing</b>](#ch4-5)
 >#### 4.6 [<b>Summary</b>](#ch4-6)
 
-### <b>Chapter 5 Containers</b>
+### [<b>Chapter 5 Containers</b>](#ch5)
 >#### 5.1 [<b>CSS accordions</b>](#ch5-1)
-  * >##### 5.1.1 [<b>Accordion bars</b>](#ch5-1-1)
-  * >##### 5.1.2 [<b>Building the sections</b>](#ch5-1-2)
-  * >##### 5.1.3 [<b>Navigation</b>](#ch5-1-3)
+  - >##### 5.1.1 [<b>Accordion bars</b>](#ch5-1-1)
+  - >##### 5.1.2 [<b>Building the sections</b>](#ch5-1-2)
+  - >##### 5.1.3 [<b>Navigation</b>](#ch5-1-3)
 >#### 5.2 [<b>CSS tabs</b>](#ch5-2)
-  * >##### 5.2.1 [<b>Tab classes</b>](#ch5-2-1)
-  * >##### 5.2.2 [<b>Building the tabs</b>](#ch5-2-2)
-  * >##### 5.2.3 [<b>Building the sections</b>](#ch5-2-3)
-  * >##### 5.2.4 [<b>Navigation</b>](#ch5-2-4)
-  * >##### 5.2.5 [<b>Vertical tabs</b>](#ch5-2-5)
+  - >##### 5.2.1 [<b>Tab classes</b>](#ch5-2-1)
+  - >##### 5.2.2 [<b>Building the tabs</b>](#ch5-2-2)
+  - >##### 5.2.3 [<b>Building the sections</b>](#ch5-2-3)
+  - >##### 5.2.4 [<b>Navigation</b>](#ch5-2-4)
+  - >##### 5.2.5 [<b>Vertical tabs</b>](#ch5-2-5)
 >#### 5.3 [<b>CSS cards</b>](#ch5-3)
 >#### 5.4 [<b>CSS sidebar</b>](#ch5-4)
-  * >##### 5.4.1 [<b>Basic sidebar</b>](#ch5-4-1)
-  * >##### 5.4.2 [<b>Collapsible sidebar</b>](#ch5-4-2)
-  * >##### 5.4.3 [<b>Slide content to right</b>](#ch5-4-3)
+  - >##### 5.4.1 [<b>Basic sidebar</b>](#ch5-4-1)
+  - >##### 5.4.2 [<b>Collapsible sidebar</b>](#ch5-4-2)
+  - >##### 5.4.3 [<b>Slide content to right</b>](#ch5-4-3)
 >#### 5.5 [<b>CSS panels</b>](#ch5-5)
 >#### 5.6 [<b>Summary</b>](#ch5-6)
 
-### <b>Chapter 6 Visual Elements</b>
+### [<b>Chapter 6 Visual Elements</b>](#ch6)
 >#### 6.1 [<b>CSS notes</b>](#ch6-1)
-  >##### 6.1.1 [<b>Customizing the notes</b>](#ch6-1-1)
+  - >##### 6.1.1 [<b>Customizing the notes</b>](#ch6-1-1)
 >#### 6.2 [<b>CSS alerts</b>](#ch6-2)
 
-### <b>Chapter 7 Text</b>
+### [<b>Chapter 7 Text</b>](#ch7)
 >#### 7.1 [<b>CSS fonts</b>](#ch7-1)
   - >##### 7.1.1 [<b>Print style</b>](#ch7-1-1)
 >#### 7.3 [<b>Web fonts</b>](#ch7-3)
@@ -150,7 +150,7 @@ Inc.
 >#### 7.5 [<b>Text features</b>](#ch7-5)
 >#### 7.6 [<b>CSS code</b>](#ch7-6)
 
-### <b>Chapter 8 Menus</b>
+### [<b>Chapter 8 Menus</b>](#ch8)
 >#### 8.1 [<b>CSS navigation</b>](#ch8-1)
   - >##### 8.1.1 [Basic structure</b](#ch8-1-1)
   - >##### 8.1.2 [Horizontal menu</b](#ch8-1-2)
@@ -158,7 +158,7 @@ Inc.
   - >##### 8.1.4 [Navigation bar positions</b>](#ch8-1-4)
 >#### 8.2 [Summary</b>](#ch8-2)
 
-### <b>Chapter 9 Tables and Lists</b>
+### [<b>Chapter 9 Tables and Lists</b>](#ch9)
 >#### 9.1 [<b>CSS tables</b>](#ch9-1)
   - >##### 9.1.1 [<b>Basic table</b>](#ch9-1-1)
   - >##### 9.1.2 [<b>w3-table-all</b>](#ch9-1-2)
@@ -167,7 +167,7 @@ Inc.
   - >##### 9.2.1 [<b>Basic list style</b>](#ch9-2-1)
 >#### 9.3 [<b>Summary</b>](#ch9-3)
 
-### <b>Chapter 10 Buttons and Labels</b>
+### [<b>Chapter 10 Buttons and Labels</b>](#ch10)
 >#### 10.1 [<b>CSS buttons</b>](#ch10-1)
   - >##### 10.1.1 [<b>Button variations</b>](#ch10-1-1)
 >#### 10.2 [<b>CSS badges</b>](#ch10-2)
@@ -187,9 +187,9 @@ Inc.
 
 ### [<b>Chapter 12 Animations</b>](#ch12)
 >#### 12.1 [<b>Animating elements</b>](#ch12-1)
-  >##### 12.1.1 [<b>Directions</b>](#ch12-1-1)
-  >##### 12.1.2 [<b>Zooming</b>](#ch12-1-2)
-  >##### 12.1.3 [<b>Opacity</b>](#ch12-1-3)
+  - >##### 12.1.1 [<b>Directions</b>](#ch12-1-1)
+  - >##### 12.1.2 [<b>Zooming</b>](#ch12-1-2)
+  - >##### 12.1.3 [<b>Opacity</b>](#ch12-1-3)
 >#### 12.2 [<b>Spinner</b>](#ch12-2)
 >#### 12.3 [<b>Summary</b>](#ch12-3)
 
@@ -220,11 +220,11 @@ Inc.
   - >##### 15.2.2 [<b>Compose new mail</b>](#ch15-2-2)
 >#### 15.3 [<b>Summary</b>](#ch15-3)
 
-### <b>Chapter 16 Versions</b>
+### [<b>Chapter 16 Versions</b>](#ch16)
 >#### 16.1 [<b>CSS Pro</b>](#ch16-1)
 >#### 16.2 [<b>CSS Mobile</b>](#ch16-2)
 
-### <b>Chapter 17 Summary</b>
+### [<b>Chapter 17 Summary</b>](#ch17)
 >#### 17.1 [<b>Site</b>](#ch17-1)
 
 []{#_Toc157040 .anchor}The Story Behind the *Succinctly* Series of Books
