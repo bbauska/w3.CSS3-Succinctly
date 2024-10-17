@@ -430,9 +430,15 @@ The following example shows a simple webpage displaying an image and
 some text in a container. You can resize your browser and the entire
 page will adjust to the new size.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 06.  (xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-![](./images/image006.jpg) <!-- {width="2.091666666666667in" height="2.8538888888888887in"} -->
+  <img src="./images/image006.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:2.09in;" />
 </p>
+<!-- ![](./images/image006.jpg) <!-- {width="2.091666666666667in" height="2.8538888888888887in"} -->
 
 <h6 align="center"><i>Figure 1: Sample webpage</i></h6>
 
@@ -500,11 +506,15 @@ the element appears.
 
 Each element is considered a box, with several styling options. Figure 2
 shows the box model.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 07.  (xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-![](./images/image007.jpg)
-<!-- {width="2.6875in" height="2.0416666666666665in"} -->
+  <img src="./images/image007.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:2.04in;" />
 </p>
+<!-- ![](./images/image007.jpg) {width="2.6875in" height="2.0416666666666665in"} -->
 
 <h6 align="center">Figure 2: Box model</h6>
 
@@ -513,10 +523,15 @@ content shown in the element. The height and width refer to that
 content. The next layer is the padding, which is some number of pixels
 wrapped around the content. The border is the third layer, wrapped
 around the padding, and the final layer is the margin.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 08.  (xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-![](./images/image008.jpg) <!-- {width="0.25in" height="0.28958333333333336in"} -->
+  <img src="./images/image008.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:.25in;" />
 </p>
+<!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
 
 > ***Note: There is some confusion,
 > particularly with older browsers, as to what the width and height
@@ -565,20 +580,31 @@ a look at the following code snippet.
 This would produce the following appearance in the browser window. The
 two cells take up 100 percent of the width, and the larger content would
 take up more space.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 09.  (xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-![](./images/image009.jpg) <!-- {width="6.5in" height="0.3958333333333333in"} -->
+  <img src="./images/image009.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:6.5in;" />
 </p>
+<!-- ![](./images/image009.jpg) {width="6.5in" height="0.3958333333333333in"} -->
 
 <h6 align="center"><i>Figure 3: Row/cell appearance</i></h6>
 
 One feature of the layout class is that the cell heights will match the
 height of the largest content, so if the cell's description had much
 more detail, it might appear as shown in Figure 4.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 10.  (xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-![](./images/image010.jpg) <!-- {width="5.302083333333333in" height="1.125in"} -->
+  <img src="./images/image010.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5.3in;" />
 </p>
+
+<!-- ![](./images/image010.jpg) {width="5.302083333333333in" height="1.125in"} -->
 
 <h6 align="center"><i>Figure 4: Same-height cells</i></h6>
 
@@ -625,19 +651,29 @@ the screen size, rearranging columns as needed to render on different
 devices. For example, let's look at a website that displays information
 about U.S. coins. A sample is shown in Figure 5.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 11.  (xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-![](./images/image011.jpg)
-<!-- {width="5.580972222222222in" height="1.332638888888889in"} -->
+  <img src="./images/image011.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5.58in;" />
 </p>
+<!-- ![](./images/image011.jpg) {width="5.580972222222222in" height="1.332638888888889in"} -->
 
 <h6 align="center"><i>Figure 5: Responsive website example</i></h6>
 
 When this screen is displayed on a mobile device, the layout will change
 to stack the information vertically, as shown in Figure 6.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 12.  (xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-![](./images/image012.jpg) <!-- {width="1.3909722222222223in" height="2.4784722222222224in"} -->
+  <img src="./images/image012.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:1.39in;" />
 </p>
+<!-- ![](./images/image012.jpg) {width="1.3909722222222223in" height="2.4784722222222224in"} -->
 
 <h6 align="center"><i>Figure 6: Mobile device display</i>
 
@@ -749,9 +785,15 @@ appear as shown in Figure 7 when viewed on a mobile device.
 <div class="w3-container w3-half w3-hide-small">
 ```
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 13.  (xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-![](./images/image013.jpg) <!-- {width="1.5784722222222223in" height="1.812361111111111in"} -->
+  <img src="./images/image013.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:1.57in;" />
 </p>
+<!-- ![](./images/image013.jpg) {width="1.5784722222222223in" height="1.812361111111111in"} -->
 
 <h6 align="center"><i>Figure 7: Mobile display without background column</i></h6>
 
@@ -798,22 +840,39 @@ Suppose we change our coin example to the following code snippet.
 ```
 
 You can see the column widths changing with the device size.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 14.  (xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-![](./images/image014.jpg) <!-- {width="2.6222222222222222in" height="1.6872222222222222in"} -->
+  <img src="./images/image014.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:2.62in;" />
 </p>
+<!-- ![](./images/image014.jpg) {width="2.6222222222222222in" height="1.6872222222222222in"} -->
 
 <h6 align="center"><i>Figure 8: Small size (< 601 pixels)</i></h6>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 15.  (xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-![](./images/image015.jpg) <!-- {width="4.335833333333333in" height="1.68125in"} -->
+  <img src="./images/image015.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:4.33in;" />
 </p>
+<!-- ![](./images/image015.jpg) {width="4.335833333333333in" height="1.68125in"} -->
 
 <h6 align="center"><i>Figure 9: Medium size</i></h6>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 16.  (xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-![](./images/image016.jpg) <!-- {width="6.5in" height="1.2083333333333333in"} -->
+  <img src="./images/image016.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:6.5in;" />
 </p>
+<!-- ![](./images/image016.jpg) {width="6.5in" height="1.2083333333333333in"} -->
 
 <h6 align="center"><i>Figure 10: Large size (> 992 pixels)</i></h6>
 
@@ -838,10 +897,15 @@ container.
 
 Figure 11 shows where the class names place the elements within the
 container.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 17.  (xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-![](./images/image017.jpg) <!-- {width="4.635277777777778in" height="1.9416666666666667in"} -->
+  <img src="./images/image017.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:4.63in;" />
 </p>
+<!-- ![](./images/image017.jpg) {width="4.635277777777778in" height="1.9416666666666667in"} -->
 
 <h6 align="center"><i>Figure 11: CSS display</i></h6>
 
@@ -883,10 +947,15 @@ can be applied when a user moves the mouse over an element.
 
 The basic color set available in the W3 framework is shown in the
 following figure.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 18.  (xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-![](./images/image018.jpg) <!-- {width="4.239305555555555in" height="5.561111111111111in"} -->
+  <img src="./images/image018.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:4.23in;" />
 </p>
+<!-- ![](./images/image018.jpg) {width="4.239305555555555in" height="5.561111111111111in"} -->
 
 <h6 align="center"><i>Figure 12: W3.CSS colors</i></h6>
 
@@ -897,10 +966,15 @@ white lettering on a blue background.
 ####&lt;div class="w3-container w3-blue w3-text-white"&gt; &lt;/div&gt;
 
 You can apply colors to any HTML element, such as **&lt;div&gt;** or **&lt;table&gt;**.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 08.  (xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-![](./images/image008.jpg) <!-- {width="0.25in" height="0.28958333333333336in"} -->
+  <img src="./images/image008.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:0.25in;" />
 </p>
+<!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
 
 > <b><i>Note: Colors should be used carefully when designing a site---in particular, 
 > check for 508 compliance. The Web Content Accessibility Guidelines require a
@@ -976,10 +1050,15 @@ and lighter/darker variations on theme.
 
 The following figure shows a sample theme (blue-gray) to illustrate the
 appearance of themes.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 19.  (xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-![](./images/image019.jpg) <!-- {width="5.65625in" height="2.15625in"} -->
+  <img src="./images/image019.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5.65in;" />
 </p>
+<!-- ![](./images/image019.jpg) {width="5.65625in" height="2.15625in"} -->
 
 > *Figure 13: Sample blue-gray theme*
 
@@ -1052,8 +1131,15 @@ By default, HTML elements appear as a square box. However, CSS allows
 you to set the **border- radius** property to create boxes with rounded
 corners. The W3.CSS framework provides several classes to easily create
 rounded corners.
-
-![](./images/image020.jpg) <!-- {width="5.25in" height="0.6979166666666666in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 20.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image020.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5.25in;" />
+</p>
+<!-- ![](./images/image020.jpg) {width="5.25in" height="0.6979166666666666in"} -->
 
 > *Figure 14: Square box and rounded box*
 
