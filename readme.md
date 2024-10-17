@@ -2728,12 +2728,12 @@ following code snippet will produce the rounded buttons shown in Figure
 <h6 align="center"><i>Code Listing 52</i></h6>
 
 <pre>
-<div class="w3-container w3-margin">
-  <a href="#" class="w3-btn w3-green w3-round-xxlarge">
-    Save changes</a>
-  <a href="#" class="w3-btn w3-red w3-round-xxlarge">
-    Discard changes</a>
-</div>
+&lt;div class="w3-container w3-margin"&gt;
+  &lt;a href="#" class="w3-btn w3-green w3-round-xxlarge"&gt;
+    Save changes&lt;/a&gt;
+  &lt;a href="#" class="w3-btn w3-red w3-round-xxlarge"&gt;
+    Discard changes&lt;/a&gt;
+&lt;/div&gt;
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. save/discard changes button (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2760,7 +2760,7 @@ mouse over the button.
 <img src="./images/image049.png"
   title="Red lightbulb"
   alt="Red lightbulb"
-  style="border: 0px; width:0.14in;" />
+  style="border: 0px; width:0.10in;" />
   <b>Tip: You might want to dynamically add the w3-disabled class via JavaScript when the 
   button is clicked. This could provide a visual indication that the button has been pressed 
   and the action is being performed. Remove the class when the work is complete.</b></p>
