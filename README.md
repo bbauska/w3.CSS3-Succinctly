@@ -288,6 +288,7 @@ better understand the topic of study. Thank you for reading.
 
 > Please follow us on Twitter and "Like" us on Facebook to help us
 > spread the word about the *Succinctly* series!
+
 <p align="center">
 ![](./images/image004.png) <!-- {width="0.85in" height="0.85in"} -->
 ![](./images/image005.jpg) <!-- {width="0.8527777777777777in" height="0.8527777777777777in"} -->
@@ -403,10 +404,13 @@ You could add the class **w3-round-large** to add rounded corners to the
 The following example shows a simple webpage displaying an image and
 some text in a container. You can resize your browser and the entire
 page will adjust to the new size.
+
 <p align="center">
 ![](./images/image006.jpg) <!-- {width="2.091666666666667in" height="2.8538888888888887in"} -->
 </p>
+
 <h6 align="center"><i>Figure 1: Sample webpage</i></h6>
+
 <!-- gettysberg address -->
 
 ### Source page 
@@ -459,8 +463,7 @@ It is totally free and does not require any license to use.
 
 You can also link to the W3.CSS library via an external link, using the
 following snippet in your **&lt;head&gt;** section.
-
-####&lt;link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"&gt;
+&lt;link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"&gt;
 
 The code in this book is based on W3.CSS version 4. Version 4 was
 released in March of 2017, and is significantly faster than version 3.
@@ -472,10 +475,12 @@ the element appears.
 
 Each element is considered a box, with several styling options. Figure 2
 shows the box model.
+
 <p align="center">
 ![](./images/image007.jpg)
 <!-- {width="2.6875in" height="2.0416666666666665in"} -->
 </p>
+
 <h6 align="center">Figure 2: Box model</h6>
 
 There are four parts to the box. The inner content is the default
@@ -483,9 +488,11 @@ content shown in the element. The height and width refer to that
 content. The next layer is the padding, which is some number of pixels
 wrapped around the content. The border is the third layer, wrapped
 around the padding, and the final layer is the margin.
+
 <p align="center">
 ![](./images/image008.jpg) <!-- {width="0.25in" height="0.28958333333333336in"} -->
 </p>
+
 > ***Note: There is some confusion,
 > particularly with older browsers, as to what the width and height
 > actually represent. According to the W3C standards, the height and
@@ -533,17 +540,21 @@ a look at the following code snippet.
 This would produce the following appearance in the browser window. The
 two cells take up 100 percent of the width, and the larger content would
 take up more space.
+
 <p align="center">
 ![](./images/image009.jpg) <!-- {width="6.5in" height="0.3958333333333333in"} -->
 </p>
+
 <h6 align="center"><i>Figure 3: Row/cell appearance</i></h6>
 
 One feature of the layout class is that the cell heights will match the
 height of the largest content, so if the cell's description had much
 more detail, it might appear as shown in Figure 4.
+
 <p align="center">
 ![](./images/image010.jpg) <!-- {width="5.302083333333333in" height="1.125in"} -->
 </p>
+
 <h6 align="center"><i>Figure 4: Same-height cells</i></h6>
 
 You can adjust the alignment of the text within the cell using the
