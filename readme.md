@@ -74,156 +74,157 @@ Inc.
 
 ## [Table of Contents](#table-of-contents)
 
-### [The Story Behind the Succinctly Series of Books](#story)
->#### 1.1. [<b>About the Author</b>](#about-the-author)
->#### 1.2. [<b>Introduction</b>](#chapter-1-introduction)
->#### 1.3. [<b>CSS only</b>](#css-only)
->#### 1.4. [<b>Layers</b>](#layers)
->#### 1.5. [<b>W3.CSS classes</b>](#w3.css-classes)
->#### 1.6. [<b>Simple example</b>](#simple-example)
->#### 1.7. [<b>Source page</b>](#source-page)
->#### 1.8. [<b>Obtaining W3.CSS</b>](#obtaining-w3.css)
+### [<b>Chapter 1 The Story Behind the Succinctly Series of Books</b>](#story)
+>#### 1.1 [<b>About the Author</b>](#about-the-author)
+>#### 1.2 [<b>Introduction</b>](#chapter-1-introduction)
+>#### 1.3 [<b>CSS only</b>](#css-only)
+>#### 1.4 [<b>Layers</b>](#layers)
+>#### 1.5 [<b>W3.CSS classes</b>](#w3.css-classes)
+>#### 1.6 [<b>Simple example</b>](#simple-example)
+>#### 1.7 [<b>Source page</b>](#source-page)
+>#### 1.8 [<b>Obtaining W3.CSS</b>](#obtaining-w3.css)
 
 ### [<b>Chapter 2 Layout</b>](#chapter-2-layout)
->#### 2.1. [<b>CSS layout</b>](#css-layout)
->#### 2.2. [<b>Classes summary</b>](#classes-summary)
->#### 2.3. [<b>CSS responsive</b>](#css-responsive)
->#### 2.4. [<b>Responsive layout</b>](#responsive-layout)
->#### 2.5. [<b>General-width columns</b>](#general-width-columns)
->#### 2.6. [<b>12-column responsive</b>](#column-responsive)
->#### 2.7. [<b>Show and hide columns</b>](#show-and-hide-columns)
->#### 2.8. [<b>CSS grid</b>](#css-grid)
->#### 2.9. [<b>Column widths</b>](#column-widths)
->#### 2.10. [<b>CSS display</b>](#css-display)
->#### 2.11. [<b>Summary</b>](#summary)
+>#### 2.1 [<b>CSS layout</b>](#css-layout)
+>#### 2.2 [<b>Classes summary</b>](#classes-summary)
+>#### 2.3 [<b>CSS responsive</b>](#css-responsive)
+>#### 2.4 [<b>Responsive layout</b>](#responsive-layout)
+>#### 2.5 [<b>General-width columns</b>](#general-width-columns)
+>#### 2.6 [<b>12-column responsive</b>](#column-responsive)
+>#### 2.7 [<b>Show and hide columns</b>](#show-and-hide-columns)
+>#### 2.8 [<b>CSS grid</b>](#css-grid)
+>#### 2.9 [<b>Column widths</b>](#column-widths)
+>#### 2.10 [<b>CSS display</b>](#css-display)
+>#### 2.11 [<b>Summary</b>](#ch2-summary)
 
 ### [<b>Chapter 3 Colors</b>](#chapter-3-colors)
->#### 3.1. [<b>Basic CSS colors</b>](#basic-css-colors)
->#### 3.2. [<b>Color libraries</b>](#color-libraries)
->#### 3.3. [<b>Color themes</b>](#color-themes)
->#### 3.4. [<b>Available themes</b>](#available-themes)
+>#### 3.1 [<b>Basic CSS colors</b>](#basic-css-colors)
+>#### 3.2 [<b>Color libraries</b>](#color-libraries)
+>#### 3.3 [<b>Color themes</b>](#color-themes)
+>#### 3.4 [<b>Available themes</b>](#available-themes)
 
 ### [<b>Chapter 4 Helper Classes</b>](#chapter-4-helper-classes)
->#### 4.1. [<b>CSS round</b>](#css-round)
-[Circle class [31](#circle-class)](#circle-class)
-[CSS padding [32](#padding)](#padding)
-[Numeric padding [32](#numeric-padding)](#numeric-padding)
-[Size padding [32](#size-padding)](#size-padding)
-[CSS margins [32](#css-margins)](#css-margins)
-[CSS borders [33](#borders)](#borders)
-[Basic borders [33](#basic-borders)](#basic-borders)
-[Border colors [33](#border-colors)](#border-colors)
-[Thick borders [33](#thick-borders)](#thick-borders)
-[CSS sizing [34](#sizing)](#sizing)
-[Summary [34](#summary-1)](#summary-1)
+>#### 4.1 [<b>CSS round</b>](#css-round)
+>#### 4.2 [<b>Circle class</b>](#circle-class)
+>#### 4.3 [<b>CSS padding</b>](#padding)
+>#### 4.4 [<b>Numeric padding</b>](#numeric-padding)
+>#### 4.5 [<b>Size padding</b>](#size-padding)
+>#### 4.6 [<b>CSS margins</b>](#css-margins)
+>#### 4.7 [<b>CSS borders</b>](#borders)
+>#### 4.8 [<b>Basic borders</b>](#basic-borders)
+>#### 4.9 [<b>Border colors</b>](#border-colors)
+>#### 4.10 [<b>Thick borders</b>](#thick-borders)
+>#### 4.11 [<b>CSS sizing</b>](#sizing)
+>#### 4.12 [<b>Summary</b>](#ch4-summary)
 
-[Chapter 5 Containers [35](#chapter-5-containers)](#chapter-5-containers)
-[CSS accordions [35](#css-accordions)](#css-accordions)
-[Accordion bars [35](#accordion-bars)](#accordion-bars)
-[Building the sections [35](#building-the-sections)](#building-the-sections)
-[Navigation [36](#navigation)](#navigation)
-[CSS tabs [36](#css-tabs)](#css-tabs)
-[Tab classes [37](#tab-classes)](#tab-classes)
-[Building the tabs [37](#building-the-tabs)](#building-the-tabs)
-[Building the sections [37](#building-the-sections-1)](#building-the-sections-1)
-[Navigation [38](#navigation-1)](#navigation-1)
-[Vertical tabs [38](#vertical-tabs)](#vertical-tabs)
-[CSS cards [39](#css-cards)](#css-cards)
-[CSS sidebar [39](#css-sidebar)](#css-sidebar)
-[Basic sidebar [40](#basic-sidebar)](#basic-sidebar)
-[Collapsible sidebar [40](#collapsible-sidebar)](#collapsible-sidebar)
-[Slide content to right [42](#slide-content-to-right)](#slide-content-to-right)
-[CSS panels [42](#css-panels)](#css-panels)
-[Summary [43](#summary-2)](#summary-2)
-[Chapter 6 Visual Elements [44](#chapter-6-visual-elements)](#chapter-6-visual-elements)
-[CSS notes [44](#css-notes)](#css-notes)
-[Customizing the notes [44](#customizing-the-notes)](#customizing-the-notes)
-[CSS alerts [45](#css-alerts)](#css-alerts)
+### [<b>Chapter 5 Containers</b>](#chapter-5-containers)
+>#### 5.1 [<b>CSS accordions</b>](#css-accordions)
+>#### 5.2 [<b>Accordion bars</b>](#accordion-bars)
+>#### 5.3 [<b>Building the sections</b>](#building-the-sections)
+>#### 5.4 [<b>Navigation</b>](#navigation)
+>#### 5.5 [<b>CSS tabs</b>](#css-tabs)
+>#### 5.6 [<b>Tab classes</b>](#tab-classes)
+>#### 5.7 [<b>Building the tabs</b>](#building-the-tabs)
+>#### 5.8 [<b>Building the sections</b>](#building-the-sections-1)
+>#### 5.9 [<b>Navigation</b>](#navigation-1)
+>#### 5.10 [<b>Vertical tabs</b>](#vertical-tabs)
+>#### 5.11 [<b>CSS cards</b>](#css-cards)
+>#### 5.12 [<b>CSS sidebar</b>](#css-sidebar)
+>#### 5.13 [<b>Basic sidebar</b>](#basic-sidebar)
+>#### 5.14 [<b>Collapsible sidebar</b>](#collapsible-sidebar)
+>#### 5.15 [<b>Slide content to right</b>](#slide-content-to-right)
+>#### 5.16 [<b>CSS panels</b>](#css-panels)
+>#### 5.17 [<b>Summary</b>](#ch5-summary)
 
-[Chapter 7 Text [46](#chapter-7-text)](#chapter-7-text)
-[CSS fonts [46](#css-fonts)](#css-fonts)
-[Print style [46](#print-style)](#print-style)
-[Web fonts [47](#web-fonts)](#web-fonts)
-[Installing the font [47](#installing-the-font)](#installing-the-font)
-[Alignment [48](#alignment)](#alignment)
-[Text features [48](#text-features)](#text-features)
-[CSS code [49](#css-code)](#css-code)
+### [<b>Chapter 6 Visual Elements</b>](#chapter-6-visual-elements)
+>#### 6.1 [<b>CSS notes</b>](#css-notes)
+>#### 6.2 [<b>Customizing the notes</b>](#customizing-the-notes)
+>#### 6.3 [<b>CSS alerts</b>](#css-alerts)
 
-[Chapter 8 Menus [50](#chapter-8-menus)](#chapter-8-menus)
-[CSS navigation [50](#css-navigation)](#css-navigation)
-[Basic structure [50](#basic-structure)](#basic-structure)
-[Horizontal menu [51](#horizontal-menu)](#horizontal-menu)
-[Menu items [52](#menu-items)](#menu-items)
-[Navigation bar positions [54](#navigation-bar-positions)](#navigation-bar-positions)
-[Summary [54](#summary-3)](#summary-3)
+### [<b>Chapter 7 Text</b>](#chapter-7-text)
+>#### 7.1 [<b>CSS fonts</b>](#css-fonts)
+>#### 7.2 [<b>Print style</b>](#print-style)
+>#### 7.3 [<b>Web fonts</b>](#web-fonts)
+>#### 7.4 [<b>Installing the font</b>](#installing-the-font)
+>#### 7.5 [<b>Alignment</b>](#alignment)
+>#### 7.6 [<b>Text features</b>](#text-features)
+>#### 7.7 [<b>CSS code</b>](#css-code)
 
-[Chapter 9 Tables and Lists [55](#chapter-9-tables-and-lists)](#chapter-9-tables-and-lists)
-[CSS tables [55](#css-tables)](#css-tables)
-[Basic table [55](#basic-table)](#basic-table)
-[w3-table-all [56](#w3-table-all)](#w3-table-all)
-[Hovering [57](#hovering)](#hovering)
-[CSS lists [58](#css-lists)](#css-lists)
-[Basic list style [58](#basic-list-style)](#basic-list-style)
-[Summary [60](#summary-4)](#summary-4)
+### [<b>Chapter 8 Menus</b>](#chapter-8-menus)
+>#### 8.1 [<b>CSS navigation</b>](#css-navigation)
+>#### 8.2 [Basic structure</b](#basic-structure)
+>#### 8.3 [Horizontal menu</b](#horizontal-menu)
+>#### 8.4 [Menu items</b](#menu-items)
+>#### 8.5 [Navigation bar positions</b>](#navigation-bar-positions)
+>#### 8.6 [Summary</b>](#ch8-summary)
 
-[Chapter 10 Buttons and Labels [61](#chapter-10-buttons-and-labels)](#chapter-10-buttons-and-labels)
-[CSS buttons [61](#css-buttons)](#css-buttons)
-[Button variations [61](#button-variations)](#button-variations)
-[CSS badges [63](#css-badges)](#css-badges)
-[Badges within other elements [63](#badges-within-other-elements)](#badges-within-other-elements)
-[CSS tags [64](#css-tags)](#css-tags)
-[Customizing the tags [64](#customizing-the-tags)](#customizing-the-tags)
-[Summary [65](#summary-5)](#summary-5)
+### [<b>Chapter 9 Tables and Lists</b>](#chapter-9-tables-and-lists)
+>#### 9.1 [<b>CSS tables</b>](#css-tables)
+>#### 9.2 [<b>Basic table</b>](#basic-table)
+>#### 9.3 [<b>w3-table-all</b>](#w3-table-all)
+>#### 9.4 [<b>Hovering</b>](#hovering)
+>#### 9.5 [<b>CSS lists</b>](#css-lists)
+>#### 9.6 [<b>Basic list style</b>](#basic-list-style)
+>#### 9.7 [<b>Summary</b>](#ch9-summary)
 
-[Chapter 11 Forms [66](#chapter-11-forms)](#chapter-11-forms)
-[Text boxes [66](#text-boxes)](#text-boxes)
-[Text box options [67](#text-box-options)](#text-box-options)
-[Option buttons [68](#option-buttons)](#option-buttons)
-[Check boxes [69](#check-boxes)](#check-boxes)
-[Select elements [69](#select-elements)](#select-elements)
-[Adding labels [70](#adding-labels)](#adding-labels)
-[Summary [70](#summary-6)](#summary-6)
+### [<b>Chapter 10 Buttons and Labels</b>](#chapter-10-buttons-and-labels)
+>#### 10.1 [<b>CSS buttons</b>](#css-buttons)
+>#### 10.1 [<b>Button variations</b>](#button-variations)
+>#### 10.1 [<b>CSS badges</b>](#css-badges)
+>#### 10.1 [<b>Badges within other elements</b>](#badges-within-other-elements)
+>#### 10.1 [<b>CSS tags</b>](#css-tags)
+>#### 10.1 [<b>Customizing the tags</b>](#customizing-the-tags)
+>#### 10.1 [<b>Summary</b>](#ch10-summary)
 
-[Chapter 12 Animations [71](#chapter-12-animations)](#chapter-12-animations)
-[Animating elements [71](#animating-elements)](#animating-elements)
-[Directions [71](#directions)](#directions)
-[Zooming [71](#zooming)](#zooming)
-[Opacity [71](#opacity)](#opacity)
-[Spinner [72](#spinner)](#spinner)
-[Summary [72](#summary-7)](#summary-7)
+### [<b>Chapter 11 Forms</b>](#chapter-11-forms)
+>#### 11.1 [<b>Text boxes</b>](#text-boxes)
+>#### 11.1 [<b>Text box options</b>](#text-box-options)
+>#### 11.1 [<b>Option buttons</b>](#option-buttons)
+>#### 11.1 [<b>Check boxes</b>](#check-boxes)
+>#### 11.1 [<b>Select elements</b>](#select-elements)
+>#### 11.1 [<b>Adding labels</b>](#adding-labels)
+>#### 11.1 [<b>Summary</b>](#ch11-summary)
 
-[Chapter 13 Modals [73](#chapter-13-modals)](#chapter-13-modals) 
-[Creating a modal dialog [73](#creating-a-modal-dialog)](#creating-a-modal-dialog)
-[Displaying the modal [73](#displaying-the-modal)](#displaying-the-modal)
-[Animating the display [74](#animating-the-display)](#animating-the-display)
-[Closing the modal dialog [74](#closing-the-modal-dialog)](#closing-the-modal-dialog)
-[Summary [74](#summary-8)](#summary-8)
+### [<b>Chapter 12 Animations</b>](#chapter-12-animations)
+>#### 12.1 [<b>Animating elements</b>](#animating-elements)
+>#### 12.1 [<b>Directions</b>](#directions)
+>#### 12.1 [<b>Zooming</b>](#zooming)
+>#### 12.1 [<b>Opacity</b>](#opacity)
+>#### 12.1 [<b>Spinner</b>](#spinner)
+>#### 12.1 [<b>Summary</b>](#ch12-summary)
 
-[Chapter 14 Images [75](#chapter-14-images)](#chapter-14-images)
-[CSS Images [75](#css-images)](#css-images)
-[Responsive images [76](#responsive-images)](#responsive-images)
-[Image opacity [76](#image-opacity)](#image-opacity)
-[Grayscale [76](#grayscale)](#grayscale)
-[CSS slideshow [77](#css-slideshow)](#css-slideshow)
-[Setting the images [77](#setting-the-images)](#setting-the-images)
-[JavaScript code [77](#javascript-code)](#javascript-code)
-[Summary [78](#summary-9)](#summary-9)
+### [<b>Chapter 13 Modals</b>](#chapter-13-modals)
+>#### 13.1 [<b>Creating a modal dialog</b>](#creating-a-modal-dialog)
+>#### 13.1 [<b>Displaying the modal</b>](#displaying-the-modal)
+>#### 13.1 [<b>Animating the display</b>](#animating-the-display)
+>#### 13.1 [<b>Closing the modal dialog</b>](#closing-the-modal-dialog)
+>#### 13.1 [<b>Summary</b>](#ch13-summary)
 
-[Chapter 15 W3.CSS Example Code [79](#chapter-15-w3.css-example-code)](#chapter-15-w3.css-example-code)
-[Head section [79](#head-section)](#head-section)
-[Font Awesome [80](#font-awesome)](#font-awesome)
-[HTML entities [80](#html-entities)](#html-entities)
-[Setting the font family [81](#setting-the-font-family)](#setting-the-font-family)
-[Body section [81](#body-section)](#body-section)
-[Sidebar [81](#sidebar)](#sidebar)
-[Compose new mail [82](#compose-new-mail)](#compose-new-mail)
-[Summary [83](#summary-10)](#summary-10)
+### [<b>Chapter 14 Images</b>](#chapter-14-images)
+>#### 14.1 [<b>CSS Images</b>](#css-images)
+>#### 14.2 [<b>Responsive images</b>](#responsive-images)
+>#### 14.3 [<b>Image opacity</b>](#image-opacity)
+>#### 14.4 [<b>Grayscale</b>](#grayscale)
+>#### 14.5 [<b>CSS slideshow</b>](#css-slideshow)
+>#### 14.6 [<b>Setting the images</b>](#setting-the-images)
+>#### 14.7 [<b>JavaScript code</b>](#javascript-code)
+>#### 14.8 [<b>Summary</b>](#ch14-summary)
 
-[Chapter 16 Versions [84](#chapter-16-versions)](#chapter-16-versions)
-[CSS Pro [84](#css-pro)](#css-pro)
-[CSS Mobile [84](#css-mobile)](#css-mobile)
-[Chapter 17 Summary [85](#chapter-17-summary)](#chapter-17-summary)
-[Site [85](#site)](#site) 
+### [<b>Chapter 15 W3.CSS Example Code</b>](#chapter-15-w3.css-example-code)
+>#### 15.1 [<b>Head section</b>](#head-section)
+>#### 15.2 [<b>Font Awesome</b>](#font-awesome)
+>#### 15.3 [<b>HTML entities</b>](#html-entities)
+>#### 15.4 [<b>Setting the font family</b>](#setting-the-font-family)
+>#### 15.5 [<b>Body section</b>](#body-section)
+>#### 15.6 [<b>Sidebar</b>](#sidebar)
+>#### 15.7 [<b>Compose new mail</b>](#compose-new-mail)
+>#### 15.8 [<b>Summary</b>](#ch15-summary)
+
+### [<b>Chapter 16 Versions</b>](#chapter-16-versions)
+>#### 16.1 [<b>CSS Pro</b>](#css-pro)
+>#### 16.2 [<b>CSS Mobile</b>](#css-mobile)
+>#### 16.3 [<b>Chapter 16 Summary</b>](#ch16-summary)
+>#### 16.4 [<b>Site</b>(#site)
 
 []{#_Toc157040 .anchor}The Story Behind the *Succinctly* Series of Books
 
@@ -277,14 +278,14 @@ available in this series, are a result of the authors' tireless work.
 You will find original content that is guaranteed to get you up and
 running in about the time it takes to drink a few cups of coffee.
 
-</b>Free forever</b>
+<b>Free forever</b>
 
 Syncfusion will be working to produce books on several topics. The books
 will always be free.
 
 Any updates we publish will also be free.
 
-</b>Free? What is the catch?</b>
+<b>Free? What is the catch?</b>
 
 There is no catch here. Syncfusion has a vested interest in this effort.
 
@@ -294,7 +295,7 @@ education greatly helps us market and sell against competing vendors who
 promise to "enable AJAX support with one click," or "turn the moon to
 cheese!"
 
-</b>Let us know what you think</b>
+<b>Let us know what you think</b>
 
 If you have any topics of interest, thoughts, or feedback, please feel
 free to send them to us at
@@ -984,42 +985,41 @@ You can apply colors to any HTML element, such as <b>&lt;div&gt;</b> or <b>&lt;t
 > this website </a> to check that color combinations meet these guidelines. People with
 > low vision or color-blindness will appreciate the effort.</i></b>
 
-### Color libraries 
+<h3 id="ch3-2">Color libraries</h3>
 
 You can also download separate color libraries from the W3.CSS site.
 Table 3 lists the libraries that are available.
 
 > <i>Table 3: Color libraries</i>
 
-| Library Name   | Description                      | Download name    |
-|----------------|----------------------------------|------------------|
-| <b>Color Flat</b> | > Bold, bright colors for simple | w3               |
-| <b>UI</b>           | > interfaces.                    | -colors-flat.css |
-| <b>Window Metro</b> | > Metro modern colors.           | w3-              |
-| <b>UI</b>           |                                  | colors-metro.css |
-| <b>Windows 8</b>  | > Flat design and modern colors. | w3               |
-                |                                  | -colors-win8.css |
-| <b>Highway</b>      | Highway colors based on federal  | w3-co            |
-| <b>Colors</b>       | standards.                       | lors-highway.css |
-| <b>Safety</b>       | Safety colors based on federal   | w3-c             |
-| <b>Colors</b>       | standards.                       | olors-safety.css |
-| <b>European</b>     | European traffic colors, RA      | w3-c             |
-| <b>colors</b>       | Color Standard.                  | olors-signal.css |
-| <b>Fashion</b>      | > Fashion colors from Color      | w3               |
-| <b>colors</b>       | > Trends.                        | -colors-2017.css |
-| <b>Vivid</b>        | > Vibrant colors from ISCC-NBS   | w3-              |
-| <b>colors</b>       | > standard.                      | colors-vivid.css |
-| <b>Food</b>         | > Colors match foods, such as    | w3               |
-| <b>colors</b>       | > wine, tomatoes.                | -colors-food.css |
-| <b>Camouflage</b>   | > Colors with earth tones, from  | w3               |
-| <b>colors</b>       | > federal standards.             | -colors-camo.css |
+| Library Name   | Description                      | Download name              |
+|----------------|----------------------------------|----------------------------|
+| <b>Color Flat</b> | > Bold, bright colors for simple | w3-colors-flat.css      |
+| <b>UI</b>           | > interfaces.                    |                       |
+| <b>Window Metro</b> | > Metro modern colors.           | w3-colors-metro.css   |
+| <b>UI</b>           |                                  |                       |
+| <b>Windows 8</b>    | > Flat design and modern colors. | w3-colors-win8.css    |
+| <b>Highway</b>      | Highway colors based on federal  | w3-colors-highway.css |
+| <b>Colors</b>       | standards.                       |                       |
+| <b>Safety</b>       | Safety colors based on federal   | w3-colors-safety.css  |
+| <b>Colors</b>       | standards.                       |                       |
+| <b>European</b>     | European traffic colors, RA      | w3-colors-signal.css  |
+| <b>colors</b>       | Color Standard.                  |                       |
+| <b>Fashion</b>      | > Fashion colors from Color      | w3olors-signal.css    |
+| <b>colors</b>       | > Trends.                        |                       |
+| <b>Vivid</b>        | > Vibrant colors from ISCC-NBS   | w3-colors-vivid.css   |
+| <b>colors</b>       | > standard.                      |                       |
+| <b>Food</b>         | > Colors match foods, such as    | w3-colors-food.css    |
+| <b>colors</b>       | > wine, tomatoes.                |                       |
+| <b>Camouflage</b>   | > Colors with earth tones, from  | w3-colors-camo.css    |
+| <b>colors</b>       | > federal standards.             |                       |
 
 Note that the colors in the libraries all have unique names, so you can
 use multiple color libraries, in addition to the standard material
 design colors in the framework. Each color will begin with the final
 portion of the name, such as <b>&lowbar;flat</b> or <b>&lowbar;signal</b>.
 
-###Color themes 
+###Color themes
 
 Color themes are CSS classes that allow you to use variations of the
 same basic color. For example, if your site has a gray look about it,
@@ -1031,31 +1031,31 @@ and lighter/darker variations on theme.
 
 > <i>Table 4: Color themes</i>
 
-| Style name  | Description                                            |
-|-------------|--------------------------------------------------------|
-| <b>w3-text-theme</b>      | > Text color, generally against white background.      |
-| <b>ext-theme</b> |                                                        |
-|            | > Default theme color.                                 |
-| <b>w3-theme</b> |                                                        |
-| <b>w3</b>        | > Lightest variation of the theme background color     |
-| <b>-theme-l5</b> | > (also w3-theme-light) .                              |
-| <b>w3</b>        | > Where x is 4 down to 1, progressively darker         |
+| Style name  | Description                                                 |
+|-------------|-------------------------------------------------------------|
+| <b>w3-text-theme</b> | > Text color, generally against white background.  |
+| <b>ext-theme</b>     |                                                    |
+|                      | > Default theme color.                             |
+| <b>w3-theme</b>      |                                                    |
+| <b>w3</b>            | > Lightest variation of the theme background color |
+| <b>-theme-l5</b>     | > (also w3-theme-light) .                          |
+| <b>w3</b>            | > Where x is 4 down to 1, progressively darker     |
 | <b>-theme-lX</b> | > backgrounds, but still lighter than the default      |
-|             | > theme color.                                         |
+|                  | > theme color.                                         |
 | <b>w3</b>        | > Darkest variation of the theme background color      |
 | <b>-theme-d5</b> | > (also w3-theme-dark).                                |
 | <b>w3</b>        | > Where x is 4 down to 1, progressively lighter theme  |
 | <b>-theme-dX</b> | > backgrounds, but still darker than the default theme |
-|             | > color.                                               |
+|                  | > color.                                               |
 
 The following figure shows a sample theme (blue-gray) to illustrate the
 appearance of themes.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 19.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 19. w3 text themes (blue-gray) (xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image019.jpg" 
-  title=""
-  alt="."
+  title="W3 text themes (blue-gray)"
+  alt="W3 text themes (blue-gray)."
   style="border: 2px solid #000000; width:5.65in;" />
 </p>
 <!-- ![](./images/image019.jpg) {width="5.65625in" height="2.15625in"} -->
@@ -1068,7 +1068,7 @@ theme colors will not have sufficient contrast to meet accessibility
 guidelines. Be aware of the people using your site to ensure that a
 theme doesn't make the site more difficult for some users.
 
-### Available themes 
+<h3 id="ch3-4">Available themes</h3>
 
 Table 5 lists the predefined themes available from W3.CSS.
 
@@ -1132,16 +1132,16 @@ you to set the <b>border- radius</b> property to create boxes with rounded
 corners. The W3.CSS framework provides several classes to easily create
 rounded corners.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 20.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 20. blue simple box & red rounded corners (xx) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image020.jpg" 
-  title=""
-  alt="."
+  title="Blue simple box &amp; red rounded corners"
+  alt="Blue simple box &amp; red rounded corners."
   style="border: 2px solid #000000; width:5.25in;" />
 </p>
 <!-- ![](./images/image020.jpg) {width="5.25in" height="0.6979166666666666in"} -->
 
-<h6 align="center"><i>Figure 14: Square box and rounded box</i></h6>
+<h6 align="center"><i>Figure 14: Square (rectangle) box and rounded box</i></h6>
 
 Table 6 lists the rounding classes. The larger the pixel size of the
 border radius, the more pronounced the rounded corners will be.
@@ -1157,14 +1157,14 @@ border radius, the more pronounced the rounded corners will be.
 | <b>w3-round-xlarge</b>             | 16 pixels                |
 | <b>w3-round-xxlarge</b>            | 32 pixels                |
 
-### Circle class 
+### Circle class
 
 In addition to the rounded corners, the framework includes a
 <b>w3-circle</b> class to put the entire element in a circle (or oval),
 depending on the element size. You can nest circles within each other by
 adjusting the elements width using an inline style attribute.
 
-### padding 
+### padding
 
 The padding classes can be used to add a padding around the cell
 content. There are two types of padding classes. The <b>numeric</b> padding
@@ -1172,18 +1172,15 @@ classes add top and bottom padding as specified by the class name. The
 <b>size</b> padding classes provide complete padding (all four sides) using
 size abbreviations.
 
-### Numeric padding 
+### Numeric padding
 
 The numeric padding classes are:
 
 -   <b>w3-padding-16</b>: Adds 16 pixels top and bottom padding.
-
 -   <b>w3-padding-24</b>: Adds 24 pixels top and bottom padding.
-
 -   <b>w3-padding-32</b>: Adds 32 pixels top and bottom padding.
-
--   <b>w3-padding-48</b>: Adds 48 pixels top and bottom padding. •
-    <b>w3-padding-64</b>: Adds 64 pixels top and bottom padding.
+-   <b>w3-padding-48</b>: Adds 48 pixels top and bottom padding. 
+-   <b>w3-padding-64</b>: Adds 64 pixels top and bottom padding.
 
 ### Size padding 
 
@@ -2104,7 +2101,7 @@ of hyperlinks.
 
 #### Horizontal menu 
 
-Adding the <b>w3-bar</b> class, an optional color class to the <b><div></b>
+Adding the <b>w3-bar</b> class, an optional color class to the <b>&lt;div&gt;</b>
 tag, and the <b>w3-bar-item</b> and <b>w3-button</b> classes, produces a
 horizontal menu with a blue background.
 
@@ -2285,7 +2282,7 @@ input text elements.
 
 Often, you want to keep the navigation bar positioned at the top or
 bottom of the page. This is accomplished simply by wrapping the entire
-menu bar and items with a <b><div></b> tag using the <b>w3top</b> or
+menu bar and items with a <b>&lt;div&gt;</b> tag using the <b>w3top</b> or
 <b>w3-bottom</b> classes.
 
 <h6 align="center"><i>Code Listing 40</i></h6>
@@ -3135,11 +3132,11 @@ box.
 Figure 49 shows a select box produced from this code snippet.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 59.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 59. select box, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image059.jpg" 
-  title=""
-  alt="."
+  title="Select box, example"
+  alt="Select box, example."
   style="border: 2px solid #000000; width:2.875in;" />
 </p>
 <!-- ![](./images/image059.jpg) {width="2.875in" height="0.9583333333333334in"} -->
@@ -3256,11 +3253,11 @@ icon.
 
 Figure 50 shows the screen (but on a website, the spinner will keep rotating).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 60.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60. saving..., example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image060.jpg" 
-  title=""
-  alt="."
+  title="Saving....,example"
+  alt="Saving....,example."
   style="border: 2px solid #000000; width:1.01in;" />
 </p>
 <!-- {width="1.0104166666666667in" height="0.5in"} -->
@@ -3268,7 +3265,6 @@ Figure 50 shows the screen (but on a website, the spinner will keep rotating).
 
 <h6 align="center"><i>Figure 50: Sample spinner</i></h6>
 
->
 > ![](./images/image061.png) 
 <!-- {width="0.1597222222222222in" height="0.32943022747156603in"} -->
 > <i><b>Tip: Spinners are often used during
@@ -3411,11 +3407,11 @@ Here is the HTML to display an image.
 This will produce the image shown in Figure 51.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 62.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 62. grandpa cuddling grandaughter (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image062.jpg" 
-  title=""
-  alt="."
+  title="Grandpa cuddling grandaughter"
+  alt="Grandpa cuddling grandaughter."
   style="border: 2px solid #000000; width:1.09in;" />
 </p>
 <!-- ![](./images/image062.jpg) {width="1.0972222222222223in" height="1.426388888888889in"} -->
@@ -3432,11 +3428,11 @@ page:
 -   <b>w3-bordered</b>: Adds a border around entire image.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 63.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 63. image in circle, rounded, and with border, examples (xx) ~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image063.jpg" 
-  title=""
-  alt="."
+  <img src="./images/image063.jpg"
+  title="Image in circle, rounded, and with border, examples"
+  alt="Image in circle, rounded, and with border, examples."
   style="border: 2px solid #000000; width:3.67in;" />
 </p>
 <!-- ![](./images/image063.jpg) {width="3.672083333333333in" height="1.5840277777777778in"} -->
@@ -3468,11 +3464,11 @@ percent to 75 percent. The class names are:
 Figure 53 shows the various opacity effects.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 64.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 64. various opacity effects, examples (xx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image064.jpg" 
-  title=""
-  alt="."
+  <img src="./images/image064.jpg"
+  title="Various opacity effects, examples"
+  alt="Various opacity effects, examples."
   style="border: 2px solid #000000; width:1.08in;" />
 </p>
 <!-- ![](./images/image064.jpg) {width="2.73125in" height="1.0832633420822397in"} -->
@@ -3493,11 +3489,11 @@ image. The class names are:
 Figure 54 shows the grayscale effect on an image.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 65.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 65. grayscale effect on an image, example (xx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image065.jpg" 
-  title=""
-  alt="."
+  title="Grayscale effect on an image, example"
+  alt="Grayscale effect on an image, example."
   style="border: 2px solid #000000; width:3.53in;" />
 </p>
 <!-- ![](./images/image065.jpg) {width="3.533333333333333in" height="1.260181539807524in"} -->
@@ -3512,11 +3508,11 @@ slideshow. The user can click the buttons to move among the images in
 the slideshow.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 66.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 66. slideshow image with arrows example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image066.jpg" 
-  title=""
-  alt="."
+  title="Slideshow image with arrows example"
+  alt="Slideshow image with arrows example."
   style="border: 2px solid #000000; width:2.03in;" />
 </p>
 <!-- ![](./images/image066.jpg) {width="1.2708333333333333in" height="2.03125in"} -->
@@ -3600,11 +3596,11 @@ chapter, we will explore in detail one of the examples from the W3.CSS
 site. The email template is a good, simple demo of a responsive website
 for a mail client. Figure 56 shows the sample template.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 67.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 67. w3 css responsive website example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image067.jpg"
-  title=""
-  alt="."
+  title="w3 CSS responsive website example"
+  alt="w3 CSS responsive website example."
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
 <!-- ![](./images/image67.jpg){width="6.5in" height="2.5840277777777776in"} -->
@@ -3641,7 +3637,7 @@ You can explore the library
 [[here]](https://fontawesome.com/)
 
 To add Font Awesome to the site, the following line is added to the
-</b>&lt;head&gt;</b> section.
+<b>&lt;head&gt;</b> section.
 
 <h6 align="center"><i>Code Listing 73</i></h6>
 
@@ -3666,11 +3662,11 @@ Save and Cancel buttons taking advantage of the Font Awesome library.
 
 This produces the buttons shown in Figure 57.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 68. save changes & cancel buttons (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image068.jpg" 
-  title=""
-  alt="."
+  title="Save changes and Cancel buttons"
+  alt="Save changes and Cancel buttons."
   style="border: 2px solid #000000; width:2.5in;" />
 </p>
 <!-- > ![](./images/image68.jpg){width="2.5833333333333335in" -->
@@ -3688,7 +3684,7 @@ entities are:
 
 ##### • &#128197; Calendar 
 
--   </b>&#128269;</b> Search icon
+-   <b>&#128269;</b> Search icon
 
 -   <b>&#9998;</b> Edit pencil
 
