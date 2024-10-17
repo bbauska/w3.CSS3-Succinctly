@@ -2205,7 +2205,15 @@ add text or input elements to the bar. The following screen illustrates
 a navigation bar showing the currently selected club and the ability to
 search for a team or player.
 
-![](./images/image036.jpg) <!-- {width="6.5in" height="0.5625in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 36.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image036.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:6.5in;" />
+</p>
+<!-- ![](./images/image036.jpg) {width="6.5in" height="0.5625in"} -->
 
 <h6 align="center"><i>Figure 29: Soccer site navigation</i></h6>
 
@@ -2240,7 +2248,15 @@ You can also add a drop-down menu to your navigation using the
 code snippet shows an example of added schedule menu options to our
 soccer navigation bar.
 
-![](./images/image037.jpg) <!-- {width="6.5in" height="1.4in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 37.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image037.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:6.5in;" />
+</p>
+<!-- ![](./images/image037.jpg) {width="6.5in" height="1.4in"} -->
 
 <h6 align="center"><i>Figure 30: Drop-down menus</i></h6>
 
@@ -2292,7 +2308,15 @@ follows.
 <div class="w3-bar-block w3-pale-green w3-margin" style="width:27%;">
 ```
 
-![](./images/image038.jpg) <!-- {width="1.2388057742782153in" height="1.525in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 38.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image038.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:1.23in;" />
+</p>
+<!-- ![](./images/image038.jpg) {width="1.2388057742782153in" height="1.525in"} -->
 
 <h6 align="center"><i>Figure 31: Vertical bar</i></h6>
 
@@ -2328,9 +2352,9 @@ appearance.
 
 ### CSS tables 
 
-A basic table consists of the **<table>** tag, followed by some number
-of rows of **<tr>** elements. Within the **<tr>**...**</tr>** row
-will be any number of **<td>**...**</td>** elements. Each row should
+A basic table consists of the **&lt;table&gt;** tag, followed by some number
+of rows of **&lt;tr&gt;** elements. Within the **&lt;tr&gt;**...**&lt;/tr*&gt;** row
+will be any number of **&lt;td&gt;**...**&lt;/td&gt;** elements. Each row should
 have the same number of elements; if not, blank spaces will appear
 within the table structure.
 
@@ -2366,7 +2390,6 @@ Each of the available W3 classes is applied to the **&lt;table&gt;** element.
 The **w3-table** class provides the basic table structure, with a width
 of 100 percent. You can add this class to any table within a site.
 
-
 <h6 align="center"><i>Code Listing 43</i></h6>
 
 ```
@@ -2376,7 +2399,15 @@ of 100 percent. You can add this class to any table within a site.
 
 Figure 32 shows the sample table.
 
-![](./images/image039.jpg) <!-- {width="3.6in" height="1.1in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 39.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image039.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:3.6in;" />
+</p>
+<!-- ![](./images/image039.jpg) {width="3.6in" height="1.1in"} -->
 
 <h6 align="center"><i>Figure 32: Sample table</i></h6>
 
@@ -2387,7 +2418,15 @@ Additional classes can be added to control the table's appearance.
 The **w3-striped** class adds striping, so alternating rows will have a
 shaded effect, as shown in Figure 33.
 
-![](./images/image040.jpg) <!-- {width="3.5729166666666665in" height="1.2083333333333333in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 40.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image040.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:3.57in;" />
+</p>
+<!-- ![](./images/image040.jpg) {width="3.5729166666666665in" height="1.2083333333333333in"} -->
 
 <h6 align="center"><i>Figure 33: Striped table</i></h6>
 
@@ -2404,7 +2443,15 @@ adds a bottom border to each row in the table.
 The **w3-table-all** class adds all the features (borders and shading)
 to the table. Figure 34 shows the class applied to our sample table.
 
-![](./images/image041.jpg) <!-- {width="4.730555555555555in" height="1.5in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 41.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image041.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:4.73in;" />
+</p>
+<!-- ![](./images/image041.jpg) {width="4.730555555555555in" height="1.5in"} -->
 
 <h6 align="center"><i>Figure 34: All table features</i></h6>
 
@@ -2415,7 +2462,15 @@ important to let the user know which row is currently selected. W3.CSS
 makes this easy to do by adding the **w3-hoverable** class to the table.
 Figure 35 shows a table with the first row selected.
 
-![](./images/image042.jpg) <!-- {width="4.65625in" height="1.5729166666666667in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 42.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image042.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:4.65in;" />
+</p>
+<!-- ![](./images/image042.jpg) {width="4.65625in" height="1.5729166666666667in"} -->
 
 <h6 align="center"><i>Figure 35: Hoverable table</i></h6>
 
@@ -2475,7 +2530,15 @@ as shown in Figure 36.
 </ul>
 ```
 
-![](./images/image043.jpg) <!-- {width="1.1993055555555556in" height="0.7054724409448819in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 43.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image043.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:1.199in;" />
+</p>
+<!-- ![](./images/image043.jpg) {width="1.1993055555555556in" height="0.7054724409448819in"} -->
 
 <h6 align="center"><i>Figure 36: Basic list</i></h6>
 
@@ -2545,7 +2608,15 @@ images next to the sport name.
 
 The result will appear as shown in Figure 37.
 
-![](./images/image044.jpg) <!-- {width="2.2180555555555554in" height="1.0763888888888888in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 44.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image044.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:2.21in;" />
+</p>
+<!-- ![](./images/image044.jpg) {width="2.2180555555555554in" height="1.0763888888888888in"} -->
 
 > *Figure 37: List with images*
 >
@@ -2572,7 +2643,15 @@ lists, and are summarized as follows:
 
 -   **w3-ul**: Basic list class.
 
-![](./images/image046.jpg) <!-- {width="8.5in" height="10.996666666666666in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 46.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image046.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:8.5in;" />
+</p>
+<!-- [](./images/image046.jpg) {width="8.5in" height="10.996666666666666in"} -->
 
 <h2 id="ch10">Chapter 10 Buttons and Labels</h2>
 
@@ -2622,7 +2701,15 @@ might be used to allow the user to save or discard updates.
 
 Figure 38 shows sample colored buttons.
 
-![](./images/image047.jpg) <!-- {width="3.4in" height="0.5in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 47.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image047.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:3.4in;" />
+</p>
+<!-- ![](./images/image047.jpg) {width="3.4in" height="0.5in"} -->
 
 <h6 align="center"><i>Figure 38: Sample buttons</i></h6>
 
@@ -2649,7 +2736,15 @@ following code snippet will produce the rounded buttons shown in Figure
 </div>
 ```
 
-![](./images/image048.jpg) <!-- {width="2.6041666666666665in" height="0.5416666666666666in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 48.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image048.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:2.60in;" />
+</p>
+<!-- ![](./images/image048.jpg) {width="2.6041666666666665in" height="0.5416666666666666in"} -->
 
 <h6 align="center"><i>Figure 39: Rounded buttons</i></h6>
 
@@ -2699,7 +2794,15 @@ the badges shown in Figure 40.
 </div>
 ```
 
-![](./images/image050.jpg) <!-- {width="2.5416666666666665in" height="1.0520833333333333in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 50.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image050.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:2.54in;" />
+</p>
+<!-- ![](./images/image050.jpg) {width="2.5416666666666665in" height="1.0520833333333333in"} -->
 
 <h6 align="center"><i>Figure 40: Badge examples</i></h6>
 
@@ -2726,7 +2829,15 @@ the badge to indicate number of orders.
 
 This code snippet produces the list shown in Figure 41.
 
-![](./images/image051.jpg) <!-- {width="2.2395833333333335in" height="1.0208333333333333in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 51.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image051.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:2.23in;" />
+</p>
+<!-- ![](./images/image051.jpg) {width="2.2395833333333335in" height="1.0208333333333333in"} -->
 
 <h6 align="center"><i>Figure 41: Badges with list elements</i></h6>
 
@@ -2745,7 +2856,15 @@ of the current operation.
 </div>
 ```
 
-![](./images/image052.jpg) <!-- {width="1.3229166666666667in" height="0.3645833333333333in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 52.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image052.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:1.32in;" />
+</p>
+<!-- ![](./images/image052.jpg) {width="1.3229166666666667in" height="0.3645833333333333in"} -->
 
 <h6 align="center"><i>Figure 42: Processing tag</i></h6>
 
@@ -2766,7 +2885,15 @@ several helper classes to produce a warning tag.
 </div>
 ```
 
-![](./images/image053.jpg) <!-- {width="2.40625in" height="0.6145833333333334in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 53.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image053.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:2.40in;" />
+</p>
+<!-- ![](./images/image053.jpg) {width="2.40625in" height="0.6145833333333334in"} -->
 
 <h6 align="center"><i>Figure 43: Warning tag</i></h6>
 
@@ -2792,7 +2919,15 @@ for these elements.
 
 Figure 44 shows a sample input form, formatted with W3 classes.
 
-![](./images/image054.jpg) <!-- {width="3.142361111111111in" height="4.260277777777778in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 54.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image054.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:3.14in;" />
+</p>
+<!-- ![](./images/image054.jpg) {width="3.142361111111111in" height="4.260277777777778in"} -->
 
 <h6 align="center"><i>Figure 44: Sample input form</i></h6>
 
@@ -2860,7 +2995,15 @@ A recent trend in text input is not to use borders at all around text.
 You can use the **w3-border0** class to achieve that look (shown in
 figure 45).
 
-![](./images/image055.jpg) <!-- {width="2.46875in" height="0.5104166666666666in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 55.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image055.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:2.46in;" />
+</p>
+<!-- ![](./images/image055.jpg) {width="2.46875in" height="0.5104166666666666in"} -->
 
 <h6 align="center"><i>Figure 45: Borderless input</i></h6>
 
@@ -2877,7 +3020,15 @@ choices to the user and allow them to pick only one. They appear as
 circular buttons with labels next to each option. Figure 46 shows sample
 option buttons.
 
-![](./images/image056.jpg) <!-- {width="1.71875in" height="0.4166666666666667in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 56.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image056.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:1.71in;" />
+</p>
+<!-- ![](./images/image056.jpg) {width="1.71875in" height="0.4166666666666667in"} -->
 
 <h6 align="center"><i>Figure 46: Option buttons</i></h6>
 
@@ -2907,7 +3058,15 @@ the group being selectable.
 > familiar with the meaning, since very few cars still use radio
 > buttons---hence the new name, option buttons.***
 
-![](./images/image057.jpg) <!-- {width="2.6979166666666665in" height="2.0208333333333335in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 57.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image057.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:2.69in;" />
+</p>
+<!-- ![](./images/image057.jpg) {width="2.6979166666666665in" height="2.0208333333333335in"} -->
 
 <h6 align="center"><i>Figure 47: Radio buttons</i></h6>
 
@@ -2917,7 +3076,15 @@ Check boxes are like option buttons, except that the user can check more
 than one. The element for check boxes is a square, to distinguish them
 from option buttons. Figure 48 shows how check boxes appear on the form.
 
-![](./images/image058.jpg) <!-- {width="3.9in" height="0.4in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 58.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image058.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:3.9in;" />
+</p>
+<!-- ![](./images/image058.jpg) {width="3.9in" height="0.4in"} -->
 
 <h6 align="center"><i>Figure 48: Check boxes</i></h6>
 
@@ -2960,7 +3127,15 @@ box.
 
 Figure 49 shows a select box produced from this code snippet.
 
-![](./images/image059.jpg) <!-- {width="2.875in" height="0.9583333333333334in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 59.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image059.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:2.875in;" />
+</p>
+<!-- ![](./images/image059.jpg) {width="2.875in" height="0.9583333333333334in"} -->
 
 <h6 align="center"><i>Figure 49: Select box</i></h6>
 
@@ -3073,8 +3248,14 @@ icon.
 ```
 
 Figure 50 shows the screen (but on a website, the spinner will keep rotating).
-
-![](./images/image060.jpg)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 60.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image060.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:1.01in;" />
+</p>
 <!-- {width="1.0104166666666667in" height="0.5in"} -->
 
 
@@ -3222,7 +3403,15 @@ Here is the HTML to display an image.
 
 This will produce the image shown in Figure 51.
 
-![](./images/image062.jpg) <!-- {width="1.0972222222222223in" height="1.426388888888889in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 62.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image062.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:1.09in;" />
+</p>
+<!-- ![](./images/image062.jpg) {width="1.0972222222222223in" height="1.426388888888889in"} -->
 
 <h6 align="center"><i>Figure 51: Grandpa cuddles</i></h6>
 
@@ -3235,7 +3424,15 @@ page:
 
 -   **w3-bordered**: Adds a border around entire image.
 
-![](./images/image063.jpg) <!-- {width="3.672083333333333in" height="1.5840277777777778in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 63.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image063.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:3.67in;" />
+</p>
+<!-- ![](./images/image063.jpg) {width="3.672083333333333in" height="1.5840277777777778in"} -->
 
 <h6 align="center"><i>Figure 52: Sample image classes</i></h6>
 
@@ -3263,7 +3460,15 @@ percent to 75 percent. The class names are:
 
 Figure 53 shows the various opacity effects.
 
-![](./images/image064.jpg) <!-- {width="2.73125in" height="1.0832633420822397in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 64.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image064.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:1.08in;" />
+</p>
+<!-- ![](./images/image064.jpg) {width="2.73125in" height="1.0832633420822397in"} -->
 
 <h6 align="center"><i>Figure 53: Image opacity</i></h6>
 
@@ -3280,7 +3485,15 @@ image. The class names are:
 
 Figure 54 shows the grayscale effect on an image.
 
-![](./images/image065.jpg) <!-- {width="3.533333333333333in" height="1.260181539807524in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 65.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image065.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:3.53in;" />
+</p>
+<!-- ![](./images/image065.jpg) {width="3.533333333333333in" height="1.260181539807524in"} -->
 
 <h6 align="center"><i>Figure 54: Grayscale</i></h6>
 
@@ -3291,7 +3504,15 @@ slideshow of images. Figure 55 shows the basic appearance of the
 slideshow. The user can click the buttons to move among the images in
 the slideshow.
 
-![](./images/image066.jpg) <!-- {width="1.2708333333333333in" height="2.03125in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 66.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image066.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:2.03in;" />
+</p>
+<!-- ![](./images/image066.jpg) {width="1.2708333333333333in" height="2.03125in"} -->
 
 <h6 align="center"><i>Figure 55: Slideshow</i></h6>
 
