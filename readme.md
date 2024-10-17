@@ -1259,8 +1259,15 @@ types for border colors:
 
 Thicker borders (6 pixels) can provide a nice visual touch to an
 element, as shown in Figure 15.
-
-![](./images/image021.jpg) <!-- {width="4.354166666666667in" height="1.0416666666666667in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 21.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image021.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:4.35in;" />
+</p>
+<!-- ![](./images/image021.jpg) {width="4.354166666666667in" height="1.0416666666666667in"} -->
 
 > *Figure 15: Thick border example*
 
@@ -1318,8 +1325,15 @@ An accordion is used when you have several text box elements, typically
 a header bar and some content, but don't want all the content exposed at
 once. The user will click on the header bar, and the text within that
 section will be shown (or hidden).
-
-![](./images/image022.jpg) <!-- {width="3.298611111111111in" height="1.1284722222222223in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 22.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image022.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:3.29in;" />
+</p>
+<!-- ![](./images/image022.jpg) {width="3.298611111111111in" height="1.1284722222222223in"} -->
 
 > *Figure 16: CSS accordion example*
 
@@ -1329,12 +1343,14 @@ The accordion bars are styled buttons, as shown in the following
 snippet.
 
 > *Code Listing 10*
+
 ```
-| <button onclick="openPanel('Airport');"                          |
-| class="w3-btn w3-block w3-pale-blue w3-border-blue                   |
-| w3-border w3-leftbar w3-left-align"> Airport departure and arrival  |
-| information </button>                                               |
+<button onclick="openPanel('Airport');"
+class="w3-btn w3-block w3-pale-blue w3-border-blue
+ w3-border w3-leftbar w3-left-align"> Airport departure and arrival
+information </button>
 ```
+
 The **openPanel()** JavaScript function will handle the opening and
 closing of the accordion content.
 
@@ -1384,8 +1400,15 @@ Tabs function in a similar manner to accordions, where only one section
 of content is visible at a time. However, the navigation among sections
 is done via a series of buttons (tabs), typically across the top of the
 page.
-
-![](./images/image023.jpg) <!-- {width="5.229166666666667in" height="0.9895833333333334in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 23.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image023.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5.22in;" />
+</p>
+<!-- ![](./images/image023.jpg) {width="5.229166666666667in" height="0.9895833333333334in"} -->
 
 <h6 align="center"><i>Figure 17: CSS tabs example</i></h6>
 
@@ -1461,8 +1484,15 @@ passed the **divName** to open.
 
 Although tabs are typically horizontal, you can easily create vertical
 tabs with a few small changes to the layout.
-
-![](./images/image024.jpg) <!-- {width="4.5in" height="1.90625in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 24.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image024.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:4.5in;" />
+</p>
+<!-- ![](./images/image024.jpg) {width="4.5in" height="1.90625in"} -->
 
 > *Figure 18: Vertical tabs example*
 
@@ -1511,8 +1541,15 @@ Figure 19 on a webpage.
 </div>
 ```
 
-![](./images/image025.jpg)
-<!-- {width="3.6354166666666665in" height="0.9375in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 25.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image025.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:3.63in;" />
+</p>
+<!-- ![](./images/image025.jpg) {width="3.6354166666666665in" height="0.9375in"} -->
 
 <h6 align="center"><i>Figure 19 : CSS card sample</i></h6>
 
@@ -1524,8 +1561,15 @@ options appear on the
 side of the screen, and the content appears in a larger area off to the
 other side. It is constructed very similarly to vertical tabs, but has
 additional options available to increase its flexibility.
-
-![](./images/image026.jpg) <!-- {width="3.8125in" height="1.4791666666666667in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 26.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image026.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:3.81in;" />
+</p>
+<!-- ![](./images/image026.jpg) {width="3.8125in" height="1.4791666666666667in"} -->
 
 <h6 align="center"><i>Figure 20: Basic sidebar</i></h6>
 
@@ -1675,7 +1719,15 @@ message.
 </div>
 ```
 
-![](./images/image027.jpg) <!-- {width="3.0833333333333335in" height="1.0in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 27.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image027.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:3.08in;" />
+</p>
+<!-- ![](./images/image027.jpg) {width="3.0833333333333335in" height="1.0in"} -->
 
 <h6 align="center"><i>Figure 21: Warning panel</i></h6>
 
@@ -1708,7 +1760,15 @@ container.
 </div>
 ```
 
-![](./images/image028.jpg) <!-- {width="2.8958333333333335in" height="0.7291666666666666in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 28.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image028.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:2.89in;" />
+</p>
+<!-- ![](./images/image028.jpg) {width="2.8958333333333335in" height="0.7291666666666666in"} -->
 
 <h6 align="center"><i>Figure 22 : CSS note example</i></h6>
 
@@ -1730,7 +1790,15 @@ classes to improve the appearance of notes:
 Figure 23 shows the previous note with a **w3-border-red** and
 **w3-leftbar** class added.
 
-![](./images/image029.jpg) <!-- {width="2.78125in" height="0.625in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 29.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image029.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:2.78in;" />
+</p>
+<!-- ![](./images/image029.jpg) {width="2.78125in" height="0.625in"} -->
 
 <h6 align="center"><i>Figure 23: CSS custom note appearance</i></h6>
 
@@ -1763,7 +1831,15 @@ closing button.
 The **onclick** code simply changes the alert's display style property
 to **none**, causing the alert to disappear from the screen.
 
-![](./images/image030.jpg) <!-- {width="3.3645833333333335in" height="0.7708333333333334in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 30.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image030.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:3.36in;" />
+</p>
+<!-- ![](./images/image030.jpg) {width="3.3645833333333335in" height="0.7708333333333334in"} -->
 
 <h6 align="center"><i>Figure 24: Sample alert panel</i></h6>
 
@@ -1922,7 +1998,15 @@ figure shows how you can use the opacity class to display an error
 message, but still let the user see the screen beneath the error
 message.
 
-![](./images/image031.jpg) <!-- {width="4.645833333333333in" height="1.5833333333333333in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 31.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image031.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:4.64in;" />
+</p>
+<!-- ![](./images/image031.jpg) {width="4.645833333333333in" height="1.5833333333333333in"} -->
 
 <h6 align="center"><i>Figure 25: Opacity example</i></h6>
 
@@ -2006,7 +2090,15 @@ classes applied yet. *Code Listing 34*
 Running this code produces the screen shown in Figure 26, simply a row
 of hyperlinks.
 
-![](./images/image033.jpg) <!-- {width="2.1770833333333335in" height="0.5729166666666666in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 33.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image033.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:2.17in;" />
+</p>
+<!-- ![](./images/image033.jpg) {width="2.1770833333333335in" height="0.5729166666666666in"} -->
 
 <h6 align="center"><i>Figure 26: Menu items</i></h6>
 
@@ -2030,7 +2122,15 @@ horizontal menu with a blue background.
 The **w3-button** class displays the hyperlinks as buttons, so they are
 not underlined. The result is shown in Figure 27.
 
-![](./images/image034.jpg) <!-- {width="4.770833333333333in" height="0.34375in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 34.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image034.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:4.77in;" />
+</p>
+<!-- ![](./images/image034.jpg) {width="4.770833333333333in" height="0.34375in"} -->
 
 <h6 align="center"><i>Figure 27: Horizontal menu</i></h6>
 
@@ -2059,7 +2159,15 @@ rounded menu bar shown in Figure 28.
 <div class="w3-bar w3-pale-green w3-border w3-round-xxlarge w3-margin">
 ```
 
-![](./images/image035.jpg) <!-- {width="4.614583333333333in" height="0.46875in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 35.  (xx) ~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image035.jpg" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:4.61in;" />
+</p>
+<!-- ![](./images/image035.jpg) {width="4.614583333333333in" height="0.46875in"} -->
 
 <h6 align="center"><i>Figure 28: Rounded menu bar</i></h6>
 
