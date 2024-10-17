@@ -34,22 +34,16 @@ You could add the class w3-round-large to add rounded corners to the <div> eleme
 
 **Important licensing information. Please read.**
 
-This book is available for free download from
-[[www.syncfusion.com]](http://www.syncfusion.com/) on
-completion of a registration form.
+This book is available for free download from <a href="http://www.syncfusion.com/">
+www.syncfusion.com</a> on completion of a registration form.
 
 If you obtained this book from any other source, please register and
-download a free copy from
-[[www.syncfusion.com]](http://www.syncfusion.com/)
+download a free copy from <a href="http://www.syncfusion.com/">www.syncfusion.com</a>
 
-This book is licensed for reading only if obtained from
-[[www.syncfusion.com]](http://www.syncfusion.com/)
+This book is licensed for reading only if obtained from <a href="http://www.syncfusion.com/">
+www.syncfusion.com</a>
 
 This book is licensed strictly for personal or educational use.
-
-Redistribution in any form is prohibited.
-
-3
 
 The authors and copyright holders provide absolutely no warranty for any
 information provided.
@@ -77,309 +71,149 @@ Inc.
 
 > **Table of Contents**
 
-[The Story Behind the Succinctly Series of Books
-[10](#_Toc157040)](#_Toc157040)
-
+[The Story Behind the Succinctly Series of Books [10](#_Toc157040)](#_Toc157040)
 [About the Author [12](#about-the-author)](#about-the-author)
-
-[Chapter 1 Introduction
-[13](#chapter-1-introduction)](#chapter-1-introduction)
-
+[Chapter 1 Introduction [13](#chapter-1-introduction)](#chapter-1-introduction)
 [CSS only [13](#css-only)](#css-only)
-
 [Layers [13](#layers)](#layers)
-
 [W3.CSS classes [14](#w3.css-classes)](#w3.css-classes)
-
 [Simple example [14](#simple-example)](#simple-example)
-
 [Source page [15](#source-page)](#source-page)
-
 [Obtaining W3.CSS [16](#obtaining-w3.css)](#obtaining-w3.css)
-
 [Chapter 2 Layout [17](#chapter-2-layout)](#chapter-2-layout)
-
 [CSS layout [18](#css-layout)](#css-layout)
-
 [Classes summary [19](#classes-summary)](#classes-summary)
-
 [CSS responsive [19](#css-responsive)](#css-responsive)
-
 [Responsive layout [20](#responsive-layout)](#responsive-layout)
-
-[General-width columns
-[20](#general-width-columns)](#general-width-columns)
-
+[General-width columns [20](#general-width-columns)](#general-width-columns)
 [12-column responsive [21](#column-responsive)](#column-responsive)
-
-[Show and hide columns
-[21](#show-and-hide-columns)](#show-and-hide-columns)
-
+[Show and hide columns [21](#show-and-hide-columns)](#show-and-hide-columns)
 [CSS grid [22](#css-grid)](#css-grid)
-
 [Column widths [22](#column-widths)](#column-widths)
-
 [CSS display [24](#css-display)](#css-display)
-
 [Summary [25](#summary)](#summary)
-
 [Chapter 3 Colors [26](#chapter-3-colors)](#chapter-3-colors)
-
 [Basic CSS colors [26](#basic-css-colors)](#basic-css-colors)
-
 [Color libraries [27](#color-libraries)](#color-libraries)
-
 [Color themes [28](#color-themes)](#color-themes)
-
 [Available themes [29](#available-themes)](#available-themes)
-
-[Chapter 4 Helper Classes
-[31](#chapter-4-helper-classes)](#chapter-4-helper-classes)
-
+[Chapter 4 Helper Classes [31](#chapter-4-helper-classes)](#chapter-4-helper-classes)
 [CSS round [31](#css-round)](#css-round)
-
 [Circle class [31](#circle-class)](#circle-class)
-
 [CSS padding [32](#padding)](#padding)
-
 [Numeric padding [32](#numeric-padding)](#numeric-padding)
-
 [Size padding [32](#size-padding)](#size-padding)
-
 [CSS margins [32](#css-margins)](#css-margins)
-
 [CSS borders [33](#borders)](#borders)
-
 [Basic borders [33](#basic-borders)](#basic-borders)
-
 [Border colors [33](#border-colors)](#border-colors)
-
 [Thick borders [33](#thick-borders)](#thick-borders)
-
 [CSS sizing [34](#sizing)](#sizing)
-
 [Summary [34](#summary-1)](#summary-1)
-
-[Chapter 5 Containers
-[35](#chapter-5-containers)](#chapter-5-containers)
-
+[Chapter 5 Containers [35](#chapter-5-containers)](#chapter-5-containers)
 [CSS accordions [35](#css-accordions)](#css-accordions)
-
 [Accordion bars [35](#accordion-bars)](#accordion-bars)
-
-[Building the sections
-[35](#building-the-sections)](#building-the-sections)
-
+[Building the sections [35](#building-the-sections)](#building-the-sections)
 [Navigation [36](#navigation)](#navigation)
-
 [CSS tabs [36](#css-tabs)](#css-tabs)
-
 [Tab classes [37](#tab-classes)](#tab-classes)
-
 [Building the tabs [37](#building-the-tabs)](#building-the-tabs)
-
-[Building the sections
-[37](#building-the-sections-1)](#building-the-sections-1)
-
+[Building the sections [37](#building-the-sections-1)](#building-the-sections-1)
 [Navigation [38](#navigation-1)](#navigation-1)
-
 [Vertical tabs [38](#vertical-tabs)](#vertical-tabs)
-
 [CSS cards [39](#css-cards)](#css-cards)
-
 [CSS sidebar [39](#css-sidebar)](#css-sidebar)
-
 [Basic sidebar [40](#basic-sidebar)](#basic-sidebar)
-
 [Collapsible sidebar [40](#collapsible-sidebar)](#collapsible-sidebar)
-
-[Slide content to right
-[42](#slide-content-to-right)](#slide-content-to-right)
-
+[Slide content to right [42](#slide-content-to-right)](#slide-content-to-right)
 [CSS panels [42](#css-panels)](#css-panels)
-
 [Summary [43](#summary-2)](#summary-2)
-
-[Chapter 6 Visual Elements
-[44](#chapter-6-visual-elements)](#chapter-6-visual-elements)
-
+[Chapter 6 Visual Elements [44](#chapter-6-visual-elements)](#chapter-6-visual-elements)
 [CSS notes [44](#css-notes)](#css-notes)
-
-[Customizing the notes
-[44](#customizing-the-notes)](#customizing-the-notes)
-
+[Customizing the notes [44](#customizing-the-notes)](#customizing-the-notes)
 [CSS alerts [45](#css-alerts)](#css-alerts)
-
 [Chapter 7 Text [46](#chapter-7-text)](#chapter-7-text)
-
 [CSS fonts [46](#css-fonts)](#css-fonts)
-
 [Print style [46](#print-style)](#print-style)
-
 [Web fonts [47](#web-fonts)](#web-fonts)
-
 [Installing the font [47](#installing-the-font)](#installing-the-font)
-
 [Alignment [48](#alignment)](#alignment)
-
 [Text features [48](#text-features)](#text-features)
-
 [CSS code [49](#css-code)](#css-code)
-
 [Chapter 8 Menus [50](#chapter-8-menus)](#chapter-8-menus)
-
 [CSS navigation [50](#css-navigation)](#css-navigation)
-
 [Basic structure [50](#basic-structure)](#basic-structure)
-
 [Horizontal menu [51](#horizontal-menu)](#horizontal-menu)
-
 [Menu items [52](#menu-items)](#menu-items)
-
-[Navigation bar positions
-[54](#navigation-bar-positions)](#navigation-bar-positions)
-
+[Navigation bar positions [54](#navigation-bar-positions)](#navigation-bar-positions)
 [Summary [54](#summary-3)](#summary-3)
-
-[Chapter 9 Tables and Lists
-[55](#chapter-9-tables-and-lists)](#chapter-9-tables-and-lists)
-
+[Chapter 9 Tables and Lists [55](#chapter-9-tables-and-lists)](#chapter-9-tables-and-lists)
 [CSS tables [55](#css-tables)](#css-tables)
-
 [Basic table [55](#basic-table)](#basic-table)
-
 [w3-table-all [56](#w3-table-all)](#w3-table-all)
-
 [Hovering [57](#hovering)](#hovering)
-
 [CSS lists [58](#css-lists)](#css-lists)
-
 [Basic list style [58](#basic-list-style)](#basic-list-style)
-
 [Summary [60](#summary-4)](#summary-4)
-
-[Chapter 10 Buttons and Labels
-[61](#chapter-10-buttons-and-labels)](#chapter-10-buttons-and-labels)
-
+[Chapter 10 Buttons and Labels [61](#chapter-10-buttons-and-labels)](#chapter-10-buttons-and-labels)
 [CSS buttons [61](#css-buttons)](#css-buttons)
-
 [Button variations [61](#button-variations)](#button-variations)
-
 [CSS badges [63](#css-badges)](#css-badges)
-
-[Badges within other elements
-[63](#badges-within-other-elements)](#badges-within-other-elements)
-
+[Badges within other elements [63](#badges-within-other-elements)](#badges-within-other-elements)
 [CSS tags [64](#css-tags)](#css-tags)
-
-[Customizing the tags
-[64](#customizing-the-tags)](#customizing-the-tags)
-
+[Customizing the tags [64](#customizing-the-tags)](#customizing-the-tags)
 [Summary [65](#summary-5)](#summary-5)
-
 [Chapter 11 Forms [66](#chapter-11-forms)](#chapter-11-forms)
-
 [Text boxes [66](#text-boxes)](#text-boxes)
-
 [Text box options [67](#text-box-options)](#text-box-options)
-
 [Option buttons [68](#option-buttons)](#option-buttons)
-
 [Check boxes [69](#check-boxes)](#check-boxes)
-
 [Select elements [69](#select-elements)](#select-elements)
-
 [Adding labels [70](#adding-labels)](#adding-labels)
-
 [Summary [70](#summary-6)](#summary-6)
-
-[Chapter 12 Animations
-[71](#chapter-12-animations)](#chapter-12-animations)
-
+[Chapter 12 Animations [71](#chapter-12-animations)](#chapter-12-animations)
 [Animating elements [71](#animating-elements)](#animating-elements)
-
 [Directions [71](#directions)](#directions)
-
 [Zooming [71](#zooming)](#zooming)
-
 [Opacity [71](#opacity)](#opacity)
-
 [Spinner [72](#spinner)](#spinner)
-
 [Summary [72](#summary-7)](#summary-7)
-
-[Chapter 13 Modals [73](#chapter-13-modals)](#chapter-13-modals)
-
-[Creating a modal dialog
-[73](#creating-a-modal-dialog)](#creating-a-modal-dialog)
-
-[Displaying the modal
-[73](#displaying-the-modal)](#displaying-the-modal)
-
-[Animating the display
-[74](#animating-the-display)](#animating-the-display)
-
-[Closing the modal dialog
-[74](#closing-the-modal-dialog)](#closing-the-modal-dialog)
-
+[Chapter 13 Modals [73](#chapter-13-modals)](#chapter-13-modals) 
+[Creating a modal dialog [73](#creating-a-modal-dialog)](#creating-a-modal-dialog)
+[Displaying the modal [73](#displaying-the-modal)](#displaying-the-modal)
+[Animating the display [74](#animating-the-display)](#animating-the-display)
+[Closing the modal dialog [74](#closing-the-modal-dialog)](#closing-the-modal-dialog)
 [Summary [74](#summary-8)](#summary-8)
-
 [Chapter 14 Images [75](#chapter-14-images)](#chapter-14-images)
-
 [CSS Images [75](#css-images)](#css-images)
-
 [Responsive images [76](#responsive-images)](#responsive-images)
-
 [Image opacity [76](#image-opacity)](#image-opacity)
-
 [Grayscale [76](#grayscale)](#grayscale)
-
 [CSS slideshow [77](#css-slideshow)](#css-slideshow)
-
 [Setting the images [77](#setting-the-images)](#setting-the-images)
-
 [JavaScript code [77](#javascript-code)](#javascript-code)
-
 [Summary [78](#summary-9)](#summary-9)
-
-[Chapter 15 W3.CSS Example Code
-[79](#chapter-15-w3.css-example-code)](#chapter-15-w3.css-example-code)
-
+[Chapter 15 W3.CSS Example Code [79](#chapter-15-w3.css-example-code)](#chapter-15-w3.css-example-code)
 [Head section [79](#head-section)](#head-section)
-
 [Font Awesome [80](#font-awesome)](#font-awesome)
-
 [HTML entities [80](#html-entities)](#html-entities)
-
-[Setting the font family
-[81](#setting-the-font-family)](#setting-the-font-family)
-
+[Setting the font family [81](#setting-the-font-family)](#setting-the-font-family)
 [Body section [81](#body-section)](#body-section)
-
 [Sidebar [81](#sidebar)](#sidebar)
-
 [Compose new mail [82](#compose-new-mail)](#compose-new-mail)
-
 [Summary [83](#summary-10)](#summary-10)
-
 [Chapter 16 Versions [84](#chapter-16-versions)](#chapter-16-versions)
-
 [CSS Pro [84](#css-pro)](#css-pro)
-
 [CSS Mobile [84](#css-mobile)](#css-mobile)
-
 [Chapter 17 Summary [85](#chapter-17-summary)](#chapter-17-summary)
-
-[Site [85](#site)](#site)
+[Site [85](#site)](#site) 
 
 []{#_Toc157040 .anchor}The Story Behind the *Succinctly* Series of Books
 
 > Daniel Jebaraj, Vice President Syncfusion, Inc. Microsoft platform.
 > This puts us in the exciting but challenging position of alway s
 
-**S**
-
-> **taying on the cutting edge**
+> **Staying on the cutting edge**
 >
 > As many of you may know, Syncfusion is a provider of software
 > components for the being on the cutting edge.
@@ -454,9 +288,10 @@ better understand the topic of study. Thank you for reading.
 
 > Please follow us on Twitter and "Like" us on Facebook to help us
 > spread the word about the *Succinctly* series!
-
+<p align="center">
 ![](./images/image004.png) <!-- {width="0.85in" height="0.85in"} -->
 ![](./images/image005.jpg) <!-- {width="0.8527777777777777in" height="0.8527777777777777in"} -->
+</p>
 
 ### About the Author 
 
@@ -510,7 +345,7 @@ While each framework has its own set of features and components, the
 W3.CSS is small and simple to learn, and is a worthwhile contender to
 consider when deciding on a CSS framework.
 
-## CSS only 
+### CSS only 
 
 Since W3.CSS is a CSS-only framework, there are no components, which
 some of the other frameworks include. This means that while you can use
@@ -520,7 +355,7 @@ frameworks are built with both CSS styling and JavaScript components. If
 you need scripting functionality in your site, you should either build
 it yourself using libraries like jQuery, or consider a larger framework.
 
-## Layers 
+### Layers 
 
 A website consists of three layers, but only the data (or HTML) layer is
 required. A user could possibly disable all scripting and CSS styling,
@@ -568,10 +403,12 @@ You could add the class **w3-round-large** to add rounded corners to the
 The following example shows a simple webpage displaying an image and
 some text in a container. You can resize your browser and the entire
 page will adjust to the new size.
+<p align="center">
+![](./images/image006.jpg) <!-- {width="2.091666666666667in" height="2.8538888888888887in"} -->
+</p>
+<h6 align="center"><i>Figure 1: Sample webpage</i></h6>
+<!-- gettysberg address -->
 
-> ![](./images/image006.jpg) <!-- {width="2.091666666666667in" height="2.8538888888888887in"} -->
-*Figure 1: Sample webpage*
-// gettysberg address
 ### Source page 
 
 Code Listing 1 is the source page for the above webpage. Note the
@@ -579,7 +416,8 @@ link-reference to local file **w3.css** in the **<head>** section of
 the page. An alternative is to link to an external copy of the
 framework, as I'll explain shortly.
 
-> *Code Listing 2: Sample W3.CSS page*
+<h6 align="center"><i>Code Listing 2: Sample W3.CSS page</i></h6>
+
 ```
 <DOCTYPE html>
 <html>
@@ -622,7 +460,7 @@ It is totally free and does not require any license to use.
 You can also link to the W3.CSS library via an external link, using the
 following snippet in your **&lt;head&gt;** section.
 
-#### <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+####&lt;link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"&gt;
 
 The code in this book is based on W3.CSS version 4. Version 4 was
 released in March of 2017, and is significantly faster than version 3.
@@ -634,10 +472,10 @@ the element appears.
 
 Each element is considered a box, with several styling options. Figure 2
 shows the box model.
-
+<p align="center">
 ![](./images/image007.jpg)
 <!-- {width="2.6875in" height="2.0416666666666665in"} -->
-
+</p>
 <h6 align="center">Figure 2: Box model</h6>
 
 There are four parts to the box. The inner content is the default
@@ -645,8 +483,9 @@ content shown in the element. The height and width refer to that
 content. The next layer is the padding, which is some number of pixels
 wrapped around the content. The border is the third layer, wrapped
 around the padding, and the final layer is the margin.
-
-> ![](./images/image008.jpg) <!-- {width="0.25in" height="0.28958333333333336in"} -->
+<p align="center">
+![](./images/image008.jpg) <!-- {width="0.25in" height="0.28958333333333336in"} -->
+</p>
 > ***Note: There is some confusion,
 > particularly with older browsers, as to what the width and height
 > actually represent. According to the W3C standards, the height and
@@ -694,17 +533,17 @@ a look at the following code snippet.
 This would produce the following appearance in the browser window. The
 two cells take up 100 percent of the width, and the larger content would
 take up more space.
-
+<p align="center">
 ![](./images/image009.jpg) <!-- {width="6.5in" height="0.3958333333333333in"} -->
-
+</p>
 <h6 align="center"><i>Figure 3: Row/cell appearance</i></h6>
 
 One feature of the layout class is that the cell heights will match the
 height of the largest content, so if the cell's description had much
 more detail, it might appear as shown in Figure 4.
-
+<p align="center">
 ![](./images/image010.jpg) <!-- {width="5.302083333333333in" height="1.125in"} -->
-
+</p>
 <h6 align="center"><i>Figure 4: Same-height cells</i></h6>
 
 You can adjust the alignment of the text within the cell using the
@@ -749,10 +588,12 @@ The W3.CSS framework includes a grid system designed to be responsive to
 the screen size, rearranging columns as needed to render on different
 devices. For example, let's look at a website that displays information
 about U.S. coins. A sample is shown in Figure 5.
+
 <p align="center">
 ![](./images/image011.jpg)
 <!-- {width="5.580972222222222in" height="1.332638888888889in"} -->
 </p>
+
 <h6 align="center"><i>Figure 5: Responsive website example</i></h6>
 
 When this screen is displayed on a mobile device, the layout will change
@@ -761,6 +602,7 @@ to stack the information vertically, as shown in Figure 6.
 <p align="center">
 ![](./images/image012.jpg) <!-- {width="1.3909722222222223in" height="2.4784722222222224in"} -->
 </p>
+
 <h6 align="center"><i>Figure 6: Mobile device display</i>
 
 ### Responsive layout 
@@ -774,6 +616,7 @@ To create the responsive layout, you must start with a **w3-row** or
 <div class="w3-row w3-border w3-border-blue w3-margin">
 </div>
 ```
+
 To be responsive, the elements must be nested with the **w3-row** class.
 Within the **w3-row div**, you can add additional **div** containers to
 create columns.
@@ -873,6 +716,7 @@ appear as shown in Figure 7 when viewed on a mobile device.
 <p align="center">
 ![](./images/image013.jpg) <!-- {width="1.5784722222222223in" height="1.812361111111111in"} -->
 </p>
+
 <h6 align="center"><i>Figure 7: Mobile display without background column</i></h6>
 
 ### CSS grid 
@@ -918,17 +762,23 @@ Suppose we change our coin example to the following code snippet.
 ```
 
 You can see the column widths changing with the device size.
+
 <p align="center">
 ![](./images/image014.jpg) <!-- {width="2.6222222222222222in" height="1.6872222222222222in"} -->
 </p>
+
 <h6 align="center"><i>Figure 8: Small size (< 601 pixels)</i></h6>
+
 <p align="center">
 ![](./images/image015.jpg) <!-- {width="4.335833333333333in" height="1.68125in"} -->
 </p>
+
 <h6 align="center"><i>Figure 9: Medium size</i></h6>
+
 <p align="center">
 ![](./images/image016.jpg) <!-- {width="6.5in" height="1.2083333333333333in"} -->
 </p>
+
 <h6 align="center"><i>Figure 10: Large size (> 992 pixels)</i></h6>
 
 By setting the **w3-col** and appropriate sizing in the grid, you can
@@ -940,7 +790,7 @@ avoid creating empty gaps. In our example code, if we wanted to hide the
 description column on a small device, the previous two columns should
 use **s6** sizing, rather than **s3.**
 
-## CSS display 
+### CSS display
 
 The **w3-display-container** class allows you to display HTML elements
 at specific locations within other elements. For example, you might want
@@ -952,9 +802,11 @@ container.
 
 Figure 11 shows where the class names place the elements within the
 container.
+
 <p align="center">
 ![](./images/image017.jpg) <!-- {width="4.635277777777778in" height="1.9416666666666667in"} -->
 </p>
+
 <h6 align="center"><i>Figure 11: CSS display</i></h6>
 
 For example, if we want to create a Save dialog box, with the top-right
@@ -973,6 +825,7 @@ the Save and Cancel buttons, we could use the following code snippet.
   </div>
 </div>
 ```
+
 You can still use other classes, such as **w3-hide-size**, to customize
 the appearance of a display container to different device sizes.
 
@@ -994,31 +847,32 @@ can be applied when a user moves the mouse over an element.
 
 The basic color set available in the W3 framework is shown in the
 following figure.
+
 <p align="center">
 ![](./images/image018.jpg) <!-- {width="4.239305555555555in" height="5.561111111111111in"} -->
 </p>
-> *Figure 12: W3.CSS colors*
+
+<h6 align="center"><i>Figure 12: W3.CSS colors</i></h6>
 
 You can apply colors simply by adding the class name to the list of
 classes on the element. For example, the following container will have
 white lettering on a blue background.
 
-#### <div class="w3-container w3-blue w3-text-white"> </div> 
+####&lt;div class="w3-container w3-blue w3-text-white"&gt; &lt;/div&gt;
 
-You can apply colors to any HTML element, such as **<div>** or
-**<table>**.
+You can apply colors to any HTML element, such as **&lt;div&gt;** or **&lt;table&gt;**.
+
 <p align="center">
 ![](./images/image008.jpg) <!-- {width="0.25in" height="0.28958333333333336in"} -->
 </p>
-> ***Note: Colors should be used
-> carefully when designing a site---in particular, check for 508
-> compliance. The Web Content Accessibility Guidelines require a
-> 4.5-to-1 contrast ratio between colors, to increase readability. For
-> larger text sizes, 14 pixels and bold, or 18 pixels and larger, a
-> 3.0-to-1 ratio is required. You should use tools such as [[this
-> website]](https://webaim.org/resources/contrastchecker/)***
-> ***to check that color combinations meet these guidelines. People with
-> low vision or color-blindness will appreciate the effort.***
+
+> <b><i>Note: Colors should be used carefully when designing a site---in particular, 
+> check for 508 compliance. The Web Content Accessibility Guidelines require a
+> 4.5-to-1 contrast ratio between colors, to increase readability. For larger text 
+> sizes, 14 pixels and bold, or 18 pixels and larger, a 3.0-to-1 ratio is required. 
+> You should use tools such as <a href="https://webaim.org/resources/contrastchecker/">
+> this website </a> to check that color combinations meet these guidelines. People with
+> low vision or color-blindness will appreciate the effort.</i></b>
 
 ### Color libraries 
 
@@ -1069,7 +923,7 @@ and lighter/darker variations on theme.
 
 | Style name  | Description                                            |
 |-------------|--------------------------------------------------------|
-| **w3-t**      | > Text color, generally against white background.      |
+| **w3-text-theme**      | > Text color, generally against white background.      |
 | **ext-theme** |                                                        |
 |            | > Default theme color.                                 |
 | **w3-theme** |                                                        |
@@ -1087,7 +941,9 @@ and lighter/darker variations on theme.
 The following figure shows a sample theme (blue-gray) to illustrate the
 appearance of themes.
 
+<p align="center">
 ![](./images/image019.jpg) <!-- {width="5.65625in" height="2.15625in"} -->
+</p>
 
 > *Figure 13: Sample blue-gray theme*
 
