@@ -530,14 +530,13 @@ around the padding, and the final layer is the margin.
   alt="Note."
   style="border: 0px; width:.25in;" />
 <!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
-> <i><b>Note: There is some confusion,
-> particularly with older browsers, as to what the width and height
-> actually represent. According to the W3C standards, the height and
-> width should represent the content only. However, Internet Explorer
-> calculated the width and height to include padding and border. The
-> default behavior is the content, so a 50 x 20 pixel content with 5
-> pixels padding and border takes up 70 x 30 pixels on the screen.</b></i>
-</p>
+<i><b>Note: There is some confusion,
+particularly with older browsers, as to what the width and height
+actually represent. According to the W3C standards, the height and
+width should represent the content only. However, Internet Explorer
+calculated the width and height to include padding and border. The
+default behavior is the content, so a 50 x 20 pixel content with 5
+pixels padding and border takes up 70 x 30 pixels on the screen.</b></i></p>
 
 You can use the <b>box-sizing</b> CSS style rule to set the width and
 height to either <b>content-box</b> (default) or <b>border-box</b>. If you are
