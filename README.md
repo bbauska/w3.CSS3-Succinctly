@@ -224,7 +224,7 @@ Inc.
 >#### 16.1 [<b>CSS Pro</b>](#css-pro)
 >#### 16.2 [<b>CSS Mobile</b>](#css-mobile)
 >#### 16.3 [<b>Chapter 16 Summary</b>](#ch16-summary)
->#### 16.4 [<b>Site</b>(#site)
+>#### 16.4 [<b>Site</b>](#site)
 
 []{#_Toc157040 .anchor}The Story Behind the *Succinctly* Series of Books
 
