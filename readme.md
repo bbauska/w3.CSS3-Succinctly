@@ -2727,28 +2727,27 @@ following code snippet will produce the rounded buttons shown in Figure
 
 <h6 align="center"><i>Code Listing 52</i></h6>
 
-```
+<pre>
 <div class="w3-container w3-margin">
   <a href="#" class="w3-btn w3-green w3-round-xxlarge">
     Save changes</a>
   <a href="#" class="w3-btn w3-red w3-round-xxlarge">
     Discard changes</a>
 </div>
-```
-
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 48.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. save/discard changes button (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image048.jpg" 
-  title=""
-  alt="."
+  title="Save/Discard changes button"
+  alt="Save/Discard changes button."
   style="border: 2px solid #000000; width:2.60in;" />
 </p>
 <!-- ![](./images/image048.jpg) {width="2.6041666666666665in" height="0.5416666666666666in"} -->
 
 <h6 align="center"><i>Figure 39: Rounded buttons</i></h6>
 
-#### Disabled buttons 
+<h4>Disabled buttons</h4>
 
 Buttons have a visual effect, either background color change or
 shadowing, as well as the cursor changing to indicate the button is
@@ -2757,14 +2756,24 @@ clickable. If a button needs to be disabled, you can add the
 a grayed-out appearance and disable the cursor when the user moves the
 mouse over the button.
 
-> ![](./images/image049.png) <!-- {width="0.14333333333333334in" height="0.25in"} -->
+<p align="left">
+<img src="./images/image049.png"
+  title="Red lightbulb"
+  alt="Red lightbulb"
+  style="border: 0px; width:0.14in;" />
+  <b>Tip: You might want to dynamically add the w3-disabled class via JavaScript when the 
+  button is clicked. This could provide a visual indication that the button has been pressed 
+  and the action is being performed. Remove the class when the work is complete.</b></p>
+<!--
+> ![](./images/image049.png) {width="0.14333333333333334in" height="0.25in"}
 > ***Tip: You might want to dynamically add the**
 > w3-disabled **class via JavaScript when the button is clicked. This
 > could provide a visual indication that the button has been pressed and
 > the action is being performed. Remove the class when the work is
 > complete. ***
+-->
 
-#### Ripple effect
+<h4>Ripple effect</h4>
 
 A ripple effect is a visual effect that indicates the button has been
 clicked, providing some feedback to the user. It is considered good UX
