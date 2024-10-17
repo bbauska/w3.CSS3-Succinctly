@@ -13,8 +13,11 @@ allowing you to provide the basic CSS class and add additional features to it. F
 the following code will create a w3 container, and set its background color to blue-gray. 
 
 Code Listing 1
+
+```
 <div class="w3-container w3-blue-gray"> 
 </div> 
+```
  
 You could add the class w3-round-large to add rounded corners to the <div> element. 
 # PPP - Practice, Practice, Practice by cellardoor.bauska.org
@@ -74,33 +77,34 @@ Inc.
 ### [The Story Behind the Succinctly Series of Books](#story)
 >#### 1.1. [**About the Author**](#about-the-author)
 >#### 1.2. [**Introduction**](#chapter-1-introduction)
->#### 1.3. [CSS only**](#css-only)
->#### 1.4. [Layers**](#layers)
->#### 1.5. [W3.CSS classes](#w3.css-classes)
->#### 1.6. [Simple example](#simple-example)
->#### 1.7. [Source page](#source-page)
->#### 1.8. [Obtaining W3.CSS](#obtaining-w3.css)
+>#### 1.3. [**CSS only**](#css-only)
+>#### 1.4. [**Layers**](#layers)
+>#### 1.5. [**W3.CSS classes**](#w3.css-classes)
+>#### 1.6. [**Simple example**](#simple-example)
+>#### 1.7. [**Source page**](#source-page)
+>#### 1.8. [**Obtaining W3.CSS**](#obtaining-w3.css)
 
-## [**Chapter 2 Layout**](#chapter-2-layout)
-[CSS layout [18](#css-layout)](#css-layout)
-[Classes summary [19](#classes-summary)](#classes-summary)
-[CSS responsive [19](#css-responsive)](#css-responsive)
-[Responsive layout [20](#responsive-layout)](#responsive-layout)
-[General-width columns [20](#general-width-columns)](#general-width-columns)
-[12-column responsive [21](#column-responsive)](#column-responsive)
-[Show and hide columns [21](#show-and-hide-columns)](#show-and-hide-columns)
-[CSS grid [22](#css-grid)](#css-grid)
-[Column widths [22](#column-widths)](#column-widths)
-[CSS display [24](#css-display)](#css-display)
-[Summary [25](#summary)](#summary)
-[Chapter 3 Colors [26](#chapter-3-colors)](#chapter-3-colors)
-[Basic CSS colors [26](#basic-css-colors)](#basic-css-colors)
-[Color libraries [27](#color-libraries)](#color-libraries)
-[Color themes [28](#color-themes)](#color-themes)
-[Available themes [29](#available-themes)](#available-themes)
+### [**Chapter 2 Layout**](#chapter-2-layout)
+>#### 2.1. [**CSS layout**](#css-layout)
+>#### 2.2. [**Classes summary](#classes-summary)
+>#### 2.3. [**CSS responsive**](#css-responsive)
+>#### 2.4. [**Responsive layout**](#responsive-layout)
+>#### 2.5. [**General-width columns**](#general-width-columns)
+>#### 2.6. [**12-column responsive**](#column-responsive)
+>#### 2.7. [**Show and hide columns**](#show-and-hide-columns)
+>#### 2.8. [**CSS grid**](#css-grid)
+>#### 2.9. [**Column widths**](#column-widths)
+>#### 2.10. [**CSS display**](#css-display)
+>#### 2.11. [**Summary**](#summary)
 
-[Chapter 4 Helper Classes [31](#chapter-4-helper-classes)](#chapter-4-helper-classes)
-[CSS round [31](#css-round)](#css-round)
+### [**Chapter 3 Colors**](#chapter-3-colors)
+>#### 3.1. [**Basic CSS colors**](#basic-css-colors)
+>#### 3.2. [**Color libraries**](#color-libraries)
+>#### 3.3. [**Color themes**](#color-themes)
+>#### 3.4. [**Available themes**](#available-themes)
+
+### [**Chapter 4 Helper Classes**](#chapter-4-helper-classes)
+>#### 4.1. [**CSS round**](#css-round)
 [Circle class [31](#circle-class)](#circle-class)
 [CSS padding [32](#padding)](#padding)
 [Numeric padding [32](#numeric-padding)](#numeric-padding)
