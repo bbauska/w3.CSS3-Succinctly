@@ -1060,7 +1060,7 @@ appearance of themes.
 </p>
 <!-- ![](./images/image019.jpg) {width="5.65625in" height="2.15625in"} -->
 
-> *Figure 13: Sample blue-gray theme*
+<h6 align="center"><i>Figure 13: Sample blue-gray theme</i></h6>
 
 You can use the theme color names and change the website color by simply
 specifying a different CSS theme style sheet. Note that many of the
@@ -1141,7 +1141,7 @@ rounded corners.
 </p>
 <!-- ![](./images/image020.jpg) {width="5.25in" height="0.6979166666666666in"} -->
 
-> *Figure 14: Square box and rounded box*
+<h6 align="center"><i>Figure 14: Square box and rounded box</i></h6>
 
 Table 6 lists the rounding classes. The larger the pixel size of the
 border radius, the more pronounced the rounded corners will be.
@@ -1269,7 +1269,7 @@ element, as shown in Figure 15.
 </p>
 <!-- ![](./images/image021.jpg) {width="4.354166666666667in" height="1.0416666666666667in"} -->
 
-> *Figure 15: Thick border example*
+<h6 align="center"><i>Figure 15: Thick border example</i></h6>
 
 The following CSS classes (which can be combined with border colors) can
 be used to create thick borders around an element:
@@ -1335,7 +1335,7 @@ section will be shown (or hidden).
 </p>
 <!-- ![](./images/image022.jpg) {width="3.298611111111111in" height="1.1284722222222223in"} -->
 
-> *Figure 16: CSS accordion example*
+<h6 align="center"><i>Figure 16: CSS accordion example</i></h6>
 
 ### Accordion bars 
 
@@ -1494,7 +1494,7 @@ tabs with a few small changes to the layout.
 </p>
 <!-- ![](./images/image024.jpg) {width="4.5in" height="1.90625in"} -->
 
-> *Figure 18: Vertical tabs example*
+<h6 align="center"><i>Figure 18: Vertical tabs example</i></h6>
 
 You need to change the **w3-bar** class to **w3-bar-block** and add the
 **w3-sidebar** class. In addition, you'll need to set the width of the
