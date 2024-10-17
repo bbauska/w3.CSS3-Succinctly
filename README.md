@@ -2201,11 +2201,11 @@ a navigation bar showing the currently selected club and the ability to
 search for a team or player.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 36.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 36. navigation bar/search example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image036.jpg" 
-  title=""
-  alt="."
+  title="Navigation bar/search example"
+  alt="Navigation bar/search example."
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
 <!-- ![](./images/image036.jpg) {width="6.5in" height="0.5625in"} -->
@@ -2244,11 +2244,11 @@ code snippet shows an example of added schedule menu options to our
 soccer navigation bar.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 37.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 37. drop-down navigation menu with search example (xx) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image037.jpg" 
-  title=""
-  alt="."
+  title="Drop-down navigation menu with search example"
+  alt="Drop-down navigation menu with search example."
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
 <!-- ![](./images/image037.jpg) {width="6.5in" height="1.4in"} -->
@@ -2304,11 +2304,11 @@ follows.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 38.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 38. vertical navigation bar with search example (xx) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image038.jpg" 
-  title=""
-  alt="."
+  title="Vertical navigation bar with search example"
+  alt="Vertical navigation bar with search example."
   style="border: 2px solid #000000; width:1.23in;" />
 </p>
 <!-- ![](./images/image038.jpg) {width="1.2388057742782153in" height="1.525in"} -->
@@ -2395,11 +2395,11 @@ of 100 percent. You can add this class to any table within a site.
 Figure 32 shows the sample table.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 39.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. w3 table w/4 columns example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image039.jpg" 
-  title=""
-  alt="."
+  title="W3 table w/4 columns example"
+  alt="W3 table w/4 columns example."
   style="border: 2px solid #000000; width:3.6in;" />
 </p>
 <!-- ![](./images/image039.jpg) {width="3.6in" height="1.1in"} -->
@@ -2414,11 +2414,11 @@ The <b>w3-striped</b> class adds striping, so alternating rows will have a
 shaded effect, as shown in Figure 33.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 40.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 40. striped w3 table w/4 columns example (xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image040.jpg" 
-  title=""
-  alt="."
+  title="Striped w3 table w/4 columns example"
+  alt="Striped w3 table w/4 columns example."
   style="border: 2px solid #000000; width:3.57in;" />
 </p>
 <!-- ![](./images/image040.jpg) {width="3.5729166666666665in" height="1.2083333333333333in"} -->
@@ -2439,11 +2439,11 @@ The <b>w3-table-all</b> class adds all the features (borders and shading)
 to the table. Figure 34 shows the class applied to our sample table.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 41.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 41. striped w3 table w/4 columns border/shading example (xx) ~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image041.jpg" 
-  title=""
-  alt="."
+  title="Striped w3 table w/4 columns border/shading example"
+  alt="Striped w3 table w/4 columns border/shading example."
   style="border: 2px solid #000000; width:4.73in;" />
 </p>
 <!-- ![](./images/image041.jpg) {width="4.730555555555555in" height="1.5in"} -->
@@ -2458,11 +2458,11 @@ makes this easy to do by adding the <b>w3-hoverable</b> class to the table.
 Figure 35 shows a table with the first row selected.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 42.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~ 42. hoverable/selected w3 table w/4 columns border/shading example (xx) ~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image042.jpg" 
-  title=""
-  alt="."
+  title="Hoverable/selected w3 table w/4 columns border/shading example"
+  alt="Hoverable/selected w3 table w/4 columns border/shading example."
   style="border: 2px solid #000000; width:4.65in;" />
 </p>
 <!-- ![](./images/image042.jpg) {width="4.65625in" height="1.5729166666666667in"} -->
@@ -2526,11 +2526,11 @@ as shown in Figure 36.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 43.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. w3 unordered list example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image043.jpg" 
-  title=""
-  alt="."
+  title="W3 unordered list example"
+  alt="W3 unordered list example."
   style="border: 2px solid #000000; width:1.199in;" />
 </p>
 <!-- ![](./images/image043.jpg) {width="1.1993055555555556in" height="0.7054724409448819in"} -->
@@ -2604,22 +2604,30 @@ images next to the sport name.
 The result will appear as shown in Figure 37.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 44.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 44. w3 bar w/width & height example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image044.jpg" 
-  title=""
-  alt="."
+  title="W3 bar w/width & height example"
+  alt="W3 bar w/width & height example."
   style="border: 2px solid #000000; width:2.21in;" />
 </p>
 <!-- ![](./images/image044.jpg) {width="2.2180555555555554in" height="1.0763888888888888in"} -->
 
 > <i>Figure 37: List with images</i>
 >
-> ![](./images/image045.png) <!-- {width="0.14333333333333334in" height="0.25in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 45. w3 bar select/hover w/width & height example (xx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image045.jpg" 
+  title="W3 bar select/hover w/width & height example"
+  alt="W3 bar select/hover w/width & height example."
+  style="border: 2px solid #000000; width:0.14in;" />
+<!-- ![](./images/image045.png) {width="0.14333333333333334in" height="0.25in"} -->
 > <i><b>Tip: When using images, you will get better
 > performance (smaller file sizes) if you adjust the image file size,
 > rather than using the HTML height and width attributes to resize the
 > image.</b></i>
+</p>
 
 ### Summary 
 
@@ -2639,11 +2647,11 @@ lists, and are summarized as follows:
 -   <b>w3-ul</b>: Basic list class.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 46.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. syncfusion.com (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image046.jpg" 
-  title=""
-  alt="."
+  title="Syncfusion.com"
+  alt="Syncfusion.com."
   style="border: 2px solid #000000; width:8.5in;" />
 </p>
 <!-- [](./images/image046.jpg) {width="8.5in" height="10.996666666666666in"} -->
@@ -2696,7 +2704,7 @@ might be used to allow the user to save or discard updates.
 
 <p>Figure 38 shows sample colored buttons.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 47. save/discard changes button (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. save/discard changes button (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image047.jpg" 
   title="Save/Discard changes button"
@@ -2729,11 +2737,11 @@ following code snippet will produce the rounded buttons shown in Figure 39.</p>
 &lt;/div&gt;
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. save/discard changes button (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 48. rounded save/discard changes button (xx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image048.jpg" 
-  title="Save/Discard changes button"
-  alt="Save/Discard changes button."
+  title="Rounded Save/Discard changes button"
+  alt="Rounded Save/Discard changes button."
   style="border: 2px solid #000000; width:2.60in;" />
 </p>
 <!-- ![](./images/image048.jpg) {width="2.6041666666666665in" height="0.5416666666666666in"} -->
@@ -2757,6 +2765,7 @@ mouse over the button.
   <b>Tip: You might want to dynamically add the w3-disabled class via JavaScript when the 
   button is clicked. This could provide a visual indication that the button has been pressed 
   and the action is being performed. Remove the class when the work is complete.</b></p>
+
 <!--
 > ![](./images/image049.png) {width="0.14333333333333334in" height="0.25in"}
 > <i><b>Tip: You might want to dynamically add the</b>
@@ -2859,11 +2868,11 @@ of the current operation.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 52.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. status: processing, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image052.jpg" 
-  title=""
-  alt="."
+  title="Status: Processing, example"
+  alt="Status: Processing, example."
   style="border: 2px solid #000000; width:1.32in;" />
 </p>
 <!-- ![](./images/image052.jpg) {width="1.3229166666666667in" height="0.3645833333333333in"} -->
@@ -2888,11 +2897,11 @@ several helper classes to produce a warning tag.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 53.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 53. w3 container, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image053.jpg" 
-  title=""
-  alt="."
+  title="W3 container, example"
+  alt="W3 container, example."
   style="border: 2px solid #000000; width:2.40in;" />
 </p>
 <!-- ![](./images/image053.jpg) {width="2.40625in" height="0.6145833333333334in"} -->
@@ -2922,11 +2931,11 @@ for these elements.
 Figure 44 shows a sample input form, formatted with W3 classes.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 54.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. contact us, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image054.jpg" 
-  title=""
-  alt="."
+  title="Contact Us, example"
+  alt="Contact Us, example."
   style="border: 2px solid #000000; width:3.14in;" />
 </p>
 <!-- ![](./images/image054.jpg) {width="3.142361111111111in" height="4.260277777777778in"} -->
@@ -2998,11 +3007,11 @@ You can use the <b>w3-border0</b> class to achieve that look (shown in
 figure 45).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 55.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 55. w3 input first, last name example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image055.jpg" 
-  title=""
-  alt="."
+  title="W3 input first, last name example"
+  alt="W3 input first, last name example."
   style="border: 2px solid #000000; width:2.46in;" />
 </p>
 <!-- ![](./images/image055.jpg) {width="2.46875in" height="0.5104166666666666in"} -->
@@ -3023,11 +3032,11 @@ circular buttons with labels next to each option. Figure 46 shows sample
 option buttons.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 56.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 56. radio/option buttons example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image056.jpg" 
-  title=""
-  alt="."
+  title="Radio/option buttons example"
+  alt="Radio/option buttons example."
   style="border: 2px solid #000000; width:1.71in;" />
 </p>
 <!-- ![](./images/image056.jpg) {width="1.71875in" height="0.4166666666666667in"} -->
@@ -3061,11 +3070,11 @@ the group being selectable.
 > buttons---hence the new name, option buttons.</b></i>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 57.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57. radio, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image057.jpg" 
-  title=""
-  alt="."
+  title="Radio, example"
+  alt="Radio, example."
   style="border: 2px solid #000000; width:2.69in;" />
 </p>
 <!-- ![](./images/image057.jpg) {width="2.6979166666666665in" height="2.0208333333333335in"} -->
