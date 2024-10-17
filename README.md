@@ -532,14 +532,13 @@ validation.
 
 > *Table 2: Website layers*
 
-| Layer Content | Format | |
-|---------------|---------|------------------------ ---------------------|
-| **Data Layer** |  Text/images to display   |         HTML |
-|  Layer         |   Content                 |          Format |
+| Layer | Content | Format  |
+|---------------|---------|---------------------------------------------|
+| **Data Layer**|  Text/images to display   |         HTML |
 |  **Presentation** |  Style rules to overwrite browser | CSS |
 |  **layer**      |    defaults    |                       |
-|  **Activity     |  Scripting to provide        |      JavaScript, |
-|  **layer**  | interactivity to the site | Typescript, etc. |
+|  **Activity layer**    |  Scripting to provide interactivity to the | JavaScript, Typescript, |
+|    | site | etc. |
 
 Browsers have default rules indicating how to display HTML tags; your
 custom CSS or CSS frameworks (such as W3.CSS) provide overrides for
@@ -547,7 +546,7 @@ these defaults. Everything in W3.CSS uses standard CSS styles, just
 organized in a way to provide consistent layout and responsive design
 (by wrapping some styles with a media/device query filter).
 
-## W3.CSS classes 
+### W3.CSS classes
 
 All the classes in the W3.CSS framework begin with **w3-**, which
 reduces the likelihood of conflicting style names. You can combine
@@ -564,7 +563,7 @@ background color to blue-gray.
 You could add the class **w3-round-large** to add rounded corners to the
 **&lt;div&gt;** element.
 
-## Simple example 
+### Simple example
 
 The following example shows a simple webpage displaying an image and
 some text in a container. You can resize your browser and the entire
@@ -572,7 +571,7 @@ page will adjust to the new size.
 
 > ![](./images/image006.jpg) <!-- {width="2.091666666666667in" height="2.8538888888888887in"} -->
 *Figure 1: Sample webpage*
-
+// gettysberg address
 ### Source page 
 
 Code Listing 1 is the source page for the above webpage. Note the
@@ -585,43 +584,43 @@ framework, as I'll explain shortly.
 <DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, 
-initial-scale=1"> <link rel="stylesheet" href="w3.css">
+  <title>W3.CSS</title>
+  <meta name="viewport" content="width=device-width, 
+    initial-scale=1"> <link rel="stylesheet" href="w3.css">
 </head>
 <body>
-<div class="w3-container w3-teal">
-<h1>Gettysburg Address</h1>
-</div>
-<div class="w3-container">
-<p><img src="abraham-lincoln.jpg" style="width:50%"></p>
-</div>
-<div class="w3-container w3-round-large">
-<p>Four score and seven years ago our fathers brought forth on this 
-continent, a new nation, conceived in liberty, and dedicated to the
-proposition that all men are created equal.
-<br/><br/>
-<p>Now we are engaged in a great civil war, testing whether that nation,
-or any nation so conceived and so dedicated, can long endure. We are
-met on a great battle-field of that war. We have come to dedicate a
-portion of that field as a final resting place for those who here gave their
-lives so that that nation might live. It is altogether fitting and
-proper that we should do this. </p>
-</div>
-<div class="w3-container w3-teal">
-<p>Abraham Lincoln 1863</p>
-</div>
+  <div class="w3-container w3-teal">
+    <h1>Gettysburg Address</h1>
+  </div>
+  <div class="w3-container">
+    <p><img src="abraham-lincoln.jpg" style="width:50%"></p>
+  </div>
+  <div class="w3-container w3-round-large">
+    <p>Four score and seven years ago our fathers brought forth on this 
+      continent, a new nation, conceived in liberty, and dedicated to the
+      proposition that all men are created equal.
+    <br/><br/>
+    <p>Now we are engaged in a great civil war, testing whether that nation,
+      or any nation so conceived and so dedicated, can long endure. We are
+      met on a great battle-field of that war. We have come to dedicate a
+      portion of that field as a final resting place for those who here gave their
+      lives so that that nation might live. It is altogether fitting and
+      proper that we should do this. </p>
+  </div>
+  <div class="w3-container w3-teal">
+    <p>Abraham Lincoln 1863</p>
+  </div>
+
 </body>
 </html>
 ```
 ### Obtaining W3.CSS
 
-You can download W3.CSS by following [[this
-link]](https://www.w3schools.com/w3css/w3css_downloads.asp)
+You can download <a href="https://www.w3schools.com/w3css/w3css_downloads.asp">W3.CSS</a>.
 It is totally free and does not require any license to use.
 
 You can also link to the W3.CSS library via an external link, using the
-following snippet in your **<head>** section.
+following snippet in your **&lt;head&gt;** section.
 
 #### <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
 
@@ -639,7 +638,7 @@ shows the box model.
 ![](./images/image007.jpg)
 <!-- {width="2.6875in" height="2.0416666666666665in"} -->
 
-> *Figure 2: Box model*
+<h6 align="center">Figure 2: Box model</h6>
 
 There are four parts to the box. The inner content is the default
 content shown in the element. The height and width refer to that
@@ -671,7 +670,7 @@ individual sides (left and right), top, and bottom. One of the benefits
 of the W3 CSS framework is that the class definition sets them
 consistently for you.
 
-## CSS layout 
+### CSS layout
 
 W3 uses two basic classes to display cell content, the **w3-cell-row**
 class and the **w3-cell** class. The **row** element is a wrapper around
@@ -679,15 +678,15 @@ a collection of cells. The cells take up 100 percent of the row width
 and are automatically adjusted based on their content. For example, take
 a look at the following code snippet.
 
-> *Code Listing 3*
+<h6 align="center">Code Listing 3</h6>
 ```
-<div class="w3-cell-row"> <div class="w3-container w3-red
-w3-cell">
-<p>John Smith</p>
-</div>
-<div class="w3-container w3-green w3-cell">
-<p>Lead developer and system architect on pipeline database project</p>
-</div>
+<div class="w3-cell-row">
+  <div class="w3-container w3-red w3-cell">
+    <p>John Smith</p>
+  </div>
+  <div class="w3-container w3-green w3-cell">
+    <p>Lead developer and system architect on pipeline database project</p>
+  </div>
 </div>
 ```
 
@@ -697,7 +696,7 @@ take up more space.
 
 ![](./images/image009.jpg) <!-- {width="6.5in" height="0.3958333333333333in"} -->
 
-> *Figure 3: Row/cell appearance*
+<h6 align="center"><i>Figure 3: Row/cell appearance</i></h6>
 
 One feature of the layout class is that the cell heights will match the
 height of the largest content, so if the cell's description had much
@@ -705,14 +704,15 @@ more detail, it might appear as shown in Figure 4.
 
 ![](./images/image010.jpg) <!-- {width="5.302083333333333in" height="1.125in"} -->
 
-> *Figure 4: Same-height cells*
+<h6 align="center"><i>Figure 4: Same-height cells</i></h6>
 
 You can adjust the alignment of the text within the cell using the
 **w3-cell-top**, **middle**, or **bottom** classes. For example, if we
 added the **w3-cell-bottom** class, the name **John Smith** would be
 aligned to the bottom of the red cell in the previous example.
 
-> *Code Listing 4*
+<h6 align="center"><i>Code Listing 4</i></h6>
+
 ```
 > <div class="w3-container w3-red w3-cell w3-cell-bottom">
 >
@@ -744,7 +744,7 @@ your screen layout:
     horizontally if there's room, but stack vertically on smaller
     devices.
 
-## CSS responsive 
+### CSS responsive
 
 The W3.CSS framework includes a grid system designed to be responsive to
 the screen size, rearranging columns as needed to render on different
@@ -753,7 +753,7 @@ about U.S. coins. A sample is shown in Figure 5.
 
 ![](./images/image011.jpg) <!-- {width="5.580972222222222in" height="1.332638888888889in"} -->
 
-> *Figure 5: Responsive website example*
+<h6 align="center"><i>Figure 5: Responsive website example</i></h6>
 
 When this screen is displayed on a mobile device, the layout will change
 to stack the information vertically, as shown in Figure 6.
@@ -795,26 +795,27 @@ The coin website code snippet is shown in Code Listing 6. The first two
 columns (coin name and image) each take up one-fourth of the screen,
 while the background column takes up half of the row width.
 
-> *Code Listing 6: Coin website*
+<h6 align="center"><i>Code Listing 6: Coin website</i></h6>
+
 ```
 <div class="w3-row w3-border w3-border-blue w3-margin">
-<div class="w3-container w3-quarter">
-<h4 class="w3-text-blue">Morgan Dollar</h4>
-<p>Minted 1878 to 1904</p>
-<p>Also 1921</p>
-</div>
-<div class="w3-container w3-quarter w3-center"> <p><img
-  src="morgan.jpg" style="width:60%"></p>
-<h4 class="w3-text-blue">Sample image</h4>
-</div>
-<div class="w3-container w3-half">
-<h4 class="w3-text-blue">Background</h4>
-<p>The Morgan dollar was a United States dollar coin minted from
-1878 to 1904, and again in 1921. It was the first standard silver
-dollar minted since production of the previous design, the Seated
-Liberty dollar, ceased due to the passage of the Coinage Act of
-1873.</p>
-</div>
+  <div class="w3-container w3-quarter">
+    <h4 class="w3-text-blue">Morgan Dollar</h4>
+    <p>Minted 1878 to 1904</p>
+    <p>Also 1921</p>
+  </div>
+  <div class="w3-container w3-quarter w3-center">
+    <p><img src="morgan.jpg" style="width:60%"></p>
+    <h4 class="w3-text-blue">Sample image</h4>
+  </div>
+  <div class="w3-container w3-half">
+    <h4 class="w3-text-blue">Background</h4>
+    <p>The Morgan dollar was a United States dollar coin minted from
+      1878 to 1904, and again in 1921. It was the first standard silver
+      dollar minted since production of the previous design, the Seated
+      Liberty dollar, ceased due to the passage of the Coinage Act of
+      1873.</p>
+  </div>
 </div>
 ```
 
@@ -862,15 +863,16 @@ the following list to the column we want to hide:
 When we add **w3-hide-small** to the background column, the screen will
 appear as shown in Figure 7 when viewed on a mobile device.
 
-> *Code Listing 7*
+<h6 align="center"><i>Code Listing 7</i></h6>
+
 ```
 <div class="w3-container w3-half w3-hide-small">
 ```
 ![](./images/image013.jpg) <!-- {width="1.5784722222222223in" height="1.812361111111111in"} -->
 
-> *Figure 7: Mobile display without background column*
+<h6 align="center"><i>Figure 7: Mobile display without background column</i></h6>
 
-## CSS grid 
+### CSS grid 
 
 The framework's grid system works just as the responsive system (meaning
 all columns must be contained with a **w3-row**), but relies on
@@ -892,7 +894,8 @@ nothing is specified for a particular device size, it is assumed to be
 
 Suppose we change our coin example to the following code snippet.
 
-> *Code Listing 8*
+<h6 align="center"><i>Code Listing 8</i></h6>
+
 ```
 > <div class="w3-row w3-border w3-border-blue w3-margin">
 > <div class="w3-container w3-col s3 m2 l1">
