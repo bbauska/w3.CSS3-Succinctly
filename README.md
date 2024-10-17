@@ -506,11 +506,11 @@ the element appears.
 Each element is considered a box, with several styling options. Figure 2
 shows the box model.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 07.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. box model (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image007.jpg" 
-  title=""
-  alt="."
+  title="Box model"
+  alt="Box model."
   style="border: 2px solid #000000; width:2.04in;" />
 </p>
 <!-- ![](./images/image007.jpg) {width="2.6875in" height="2.0416666666666665in"} -->
@@ -523,15 +523,13 @@ content. The next layer is the padding, which is some number of pixels
 wrapped around the content. The border is the third layer, wrapped
 around the padding, and the final layer is the margin.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 08.  (xx) ~~~~~~~~~~~~~~~~~-->
-<p align="center">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left">
   <img src="./images/image008.jpg" 
-  title=""
-  alt="."
-  style="border: 2px solid #000000; width:.25in;" />
-</p>
+  title="Note"
+  alt="Note."
+  style="border: 0px; width:.25in;" />
 <!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
-
 > <i><b>Note: There is some confusion,
 > particularly with older browsers, as to what the width and height
 > actually represent. According to the W3C standards, the height and
@@ -539,6 +537,7 @@ around the padding, and the final layer is the margin.
 > calculated the width and height to include padding and border. The
 > default behavior is the content, so a 50 x 20 pixel content with 5
 > pixels padding and border takes up 70 x 30 pixels on the screen.</b></i>
+</p>
 
 You can use the <b>box-sizing</b> CSS style rule to set the width and
 height to either <b>content-box</b> (default) or <b>border-box</b>. If you are
