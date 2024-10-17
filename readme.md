@@ -313,7 +313,7 @@ better understand the topic of study. Thank you for reading.
   alt="Twitter (x) logo."
   style="border: 2px solid #000000; width:1in;" />
 &nbsp;&nbsp;&nbsp;
-<img src="./images/image005.png" 
+<img src="./images/image005.jpg" 
   title="Facebook logo"
   alt="Facebook logo."
   style="border: 2px solid #000000; width:1in;" />
