@@ -69,18 +69,19 @@ Syncfusion, Inc.
 **Proofreader:** Jacqueline Bieringer, content producer, Syncfusion,
 Inc.
 
-> **Table of Contents**
+## [Table of Contents](#table-of-contents)
 
-[The Story Behind the Succinctly Series of Books [10](#_Toc157040)](#_Toc157040)
-[About the Author [12](#about-the-author)](#about-the-author)
-[Chapter 1 Introduction [13](#chapter-1-introduction)](#chapter-1-introduction)
-[CSS only [13](#css-only)](#css-only)
-[Layers [13](#layers)](#layers)
-[W3.CSS classes [14](#w3.css-classes)](#w3.css-classes)
-[Simple example [14](#simple-example)](#simple-example)
-[Source page [15](#source-page)](#source-page)
-[Obtaining W3.CSS [16](#obtaining-w3.css)](#obtaining-w3.css)
-[Chapter 2 Layout [17](#chapter-2-layout)](#chapter-2-layout)
+### [The Story Behind the Succinctly Series of Books](#story)
+>#### 1.1. [**About the Author**](#about-the-author)
+>#### 1.2. [**Introduction**](#chapter-1-introduction)
+>#### 1.3. [CSS only**](#css-only)
+>#### 1.4. [Layers**](#layers)
+>#### 1.5. [W3.CSS classes](#w3.css-classes)
+>#### 1.6. [Simple example](#simple-example)
+>#### 1.7. [Source page](#source-page)
+>#### 1.8. [Obtaining W3.CSS](#obtaining-w3.css)
+
+## [**Chapter 2 Layout**](#chapter-2-layout)
 [CSS layout [18](#css-layout)](#css-layout)
 [Classes summary [19](#classes-summary)](#classes-summary)
 [CSS responsive [19](#css-responsive)](#css-responsive)
@@ -97,6 +98,7 @@ Inc.
 [Color libraries [27](#color-libraries)](#color-libraries)
 [Color themes [28](#color-themes)](#color-themes)
 [Available themes [29](#available-themes)](#available-themes)
+
 [Chapter 4 Helper Classes [31](#chapter-4-helper-classes)](#chapter-4-helper-classes)
 [CSS round [31](#css-round)](#css-round)
 [Circle class [31](#circle-class)](#circle-class)
@@ -110,6 +112,7 @@ Inc.
 [Thick borders [33](#thick-borders)](#thick-borders)
 [CSS sizing [34](#sizing)](#sizing)
 [Summary [34](#summary-1)](#summary-1)
+
 [Chapter 5 Containers [35](#chapter-5-containers)](#chapter-5-containers)
 [CSS accordions [35](#css-accordions)](#css-accordions)
 [Accordion bars [35](#accordion-bars)](#accordion-bars)
@@ -132,6 +135,7 @@ Inc.
 [CSS notes [44](#css-notes)](#css-notes)
 [Customizing the notes [44](#customizing-the-notes)](#customizing-the-notes)
 [CSS alerts [45](#css-alerts)](#css-alerts)
+
 [Chapter 7 Text [46](#chapter-7-text)](#chapter-7-text)
 [CSS fonts [46](#css-fonts)](#css-fonts)
 [Print style [46](#print-style)](#print-style)
@@ -140,6 +144,7 @@ Inc.
 [Alignment [48](#alignment)](#alignment)
 [Text features [48](#text-features)](#text-features)
 [CSS code [49](#css-code)](#css-code)
+
 [Chapter 8 Menus [50](#chapter-8-menus)](#chapter-8-menus)
 [CSS navigation [50](#css-navigation)](#css-navigation)
 [Basic structure [50](#basic-structure)](#basic-structure)
@@ -147,6 +152,7 @@ Inc.
 [Menu items [52](#menu-items)](#menu-items)
 [Navigation bar positions [54](#navigation-bar-positions)](#navigation-bar-positions)
 [Summary [54](#summary-3)](#summary-3)
+
 [Chapter 9 Tables and Lists [55](#chapter-9-tables-and-lists)](#chapter-9-tables-and-lists)
 [CSS tables [55](#css-tables)](#css-tables)
 [Basic table [55](#basic-table)](#basic-table)
@@ -155,6 +161,7 @@ Inc.
 [CSS lists [58](#css-lists)](#css-lists)
 [Basic list style [58](#basic-list-style)](#basic-list-style)
 [Summary [60](#summary-4)](#summary-4)
+
 [Chapter 10 Buttons and Labels [61](#chapter-10-buttons-and-labels)](#chapter-10-buttons-and-labels)
 [CSS buttons [61](#css-buttons)](#css-buttons)
 [Button variations [61](#button-variations)](#button-variations)
@@ -163,6 +170,7 @@ Inc.
 [CSS tags [64](#css-tags)](#css-tags)
 [Customizing the tags [64](#customizing-the-tags)](#customizing-the-tags)
 [Summary [65](#summary-5)](#summary-5)
+
 [Chapter 11 Forms [66](#chapter-11-forms)](#chapter-11-forms)
 [Text boxes [66](#text-boxes)](#text-boxes)
 [Text box options [67](#text-box-options)](#text-box-options)
@@ -171,6 +179,7 @@ Inc.
 [Select elements [69](#select-elements)](#select-elements)
 [Adding labels [70](#adding-labels)](#adding-labels)
 [Summary [70](#summary-6)](#summary-6)
+
 [Chapter 12 Animations [71](#chapter-12-animations)](#chapter-12-animations)
 [Animating elements [71](#animating-elements)](#animating-elements)
 [Directions [71](#directions)](#directions)
@@ -178,12 +187,14 @@ Inc.
 [Opacity [71](#opacity)](#opacity)
 [Spinner [72](#spinner)](#spinner)
 [Summary [72](#summary-7)](#summary-7)
+
 [Chapter 13 Modals [73](#chapter-13-modals)](#chapter-13-modals) 
 [Creating a modal dialog [73](#creating-a-modal-dialog)](#creating-a-modal-dialog)
 [Displaying the modal [73](#displaying-the-modal)](#displaying-the-modal)
 [Animating the display [74](#animating-the-display)](#animating-the-display)
 [Closing the modal dialog [74](#closing-the-modal-dialog)](#closing-the-modal-dialog)
 [Summary [74](#summary-8)](#summary-8)
+
 [Chapter 14 Images [75](#chapter-14-images)](#chapter-14-images)
 [CSS Images [75](#css-images)](#css-images)
 [Responsive images [76](#responsive-images)](#responsive-images)
@@ -193,6 +204,7 @@ Inc.
 [Setting the images [77](#setting-the-images)](#setting-the-images)
 [JavaScript code [77](#javascript-code)](#javascript-code)
 [Summary [78](#summary-9)](#summary-9)
+
 [Chapter 15 W3.CSS Example Code [79](#chapter-15-w3.css-example-code)](#chapter-15-w3.css-example-code)
 [Head section [79](#head-section)](#head-section)
 [Font Awesome [80](#font-awesome)](#font-awesome)
@@ -202,6 +214,7 @@ Inc.
 [Sidebar [81](#sidebar)](#sidebar)
 [Compose new mail [82](#compose-new-mail)](#compose-new-mail)
 [Summary [83](#summary-10)](#summary-10)
+
 [Chapter 16 Versions [84](#chapter-16-versions)](#chapter-16-versions)
 [CSS Pro [84](#css-pro)](#css-pro)
 [CSS Mobile [84](#css-mobile)](#css-mobile)
