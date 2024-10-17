@@ -679,6 +679,7 @@ and are automatically adjusted based on their content. For example, take
 a look at the following code snippet.
 
 <h6 align="center">Code Listing 3</h6>
+
 ```
 <div class="w3-cell-row">
   <div class="w3-container w3-red w3-cell">
@@ -714,11 +715,9 @@ aligned to the bottom of the red cell in the previous example.
 <h6 align="center"><i>Code Listing 4</i></h6>
 
 ```
-> <div class="w3-container w3-red w3-cell w3-cell-bottom">
->
-> <p>John Smith</p>
->
-> </div>
+<div class="w3-container w3-red w3-cell w3-cell-bottom">
+  <p>John Smith</p>
+</div>
 ```
 The **w3-mobile** class can be added to a **w3-cell** as well. This will
 cause the cells to be laid out horizontally on a larger screen, but be
@@ -750,28 +749,30 @@ The W3.CSS framework includes a grid system designed to be responsive to
 the screen size, rearranging columns as needed to render on different
 devices. For example, let's look at a website that displays information
 about U.S. coins. A sample is shown in Figure 5.
-
-![](./images/image011.jpg) <!-- {width="5.580972222222222in" height="1.332638888888889in"} -->
-
+<p align="center">
+![](./images/image011.jpg)
+<!-- {width="5.580972222222222in" height="1.332638888888889in"} -->
+</p>
 <h6 align="center"><i>Figure 5: Responsive website example</i></h6>
 
 When this screen is displayed on a mobile device, the layout will change
 to stack the information vertically, as shown in Figure 6.
 
-> ![](./images/image012.jpg) <!-- {width="1.3909722222222223in" height="2.4784722222222224in"} -->
->
-> *Figure 6: Mobile device display*
+<p align="center">
+![](./images/image012.jpg) <!-- {width="1.3909722222222223in" height="2.4784722222222224in"} -->
+</p>
+<h6 align="center"><i>Figure 6: Mobile device display</i>
 
 ### Responsive layout 
 
 To create the responsive layout, you must start with a **w3-row** or
 **w3-row-padding** container.
 
-> *Code Listing 5*
+<h6 align="center"><i>Code Listing 5</i></h6>
+
 ```
-> <div class="w3-row w3-border w3-border-blue w3-margin">
->
-> </div>
+<div class="w3-row w3-border w3-border-blue w3-margin">
+</div>
 ```
 To be responsive, the elements must be nested with the **w3-row** class.
 Within the **w3-row div**, you can add additional **div** containers to
@@ -868,8 +869,10 @@ appear as shown in Figure 7 when viewed on a mobile device.
 ```
 <div class="w3-container w3-half w3-hide-small">
 ```
-![](./images/image013.jpg) <!-- {width="1.5784722222222223in" height="1.812361111111111in"} -->
 
+<p align="center">
+![](./images/image013.jpg) <!-- {width="1.5784722222222223in" height="1.812361111111111in"} -->
+</p>
 <h6 align="center"><i>Figure 7: Mobile display without background column</i></h6>
 
 ### CSS grid 
@@ -897,36 +900,36 @@ Suppose we change our coin example to the following code snippet.
 <h6 align="center"><i>Code Listing 8</i></h6>
 
 ```
-> <div class="w3-row w3-border w3-border-blue w3-margin">
-> <div class="w3-container w3-col s3 m2 l1">
-> <h4 class="w3-text-blue">Morgan Dollar</h4>
-> <p>Minted 1878 to 1904</p>
-> <p>Also 1921</p>
-> </div>
-> <div class="w3-container w3-col s3 m2 l1 w3-center">
-> <p><img src="morgan.jpg" style="width:60%"></p>
-> <h4 class="w3-text-blue">Sample image</h4>
-> </div>
-> <div class="w3-container w3-col s6 m8 l10">
-> <h4 class="w3-text-blue">Background</h4>
-> <p>The Morgan dollar &hellip; </p>
-> </div>
-> </div>
+<div class="w3-row w3-border w3-border-blue w3-margin">
+  <div class="w3-container w3-col s3 m2 l1">
+    <h4 class="w3-text-blue">Morgan Dollar</h4>
+    <p>Minted 1878 to 1904</p>
+    <p>Also 1921</p>
+  </div>
+  <div class="w3-container w3-col s3 m2 l1 w3-center">
+    <p><img src="morgan.jpg" style="width:60%"></p>
+    <h4 class="w3-text-blue">Sample image</h4>
+  </div>
+  <div class="w3-container w3-col s6 m8 l10">
+    <h4 class="w3-text-blue">Background</h4>
+    <p>The Morgan dollar ... </p>
+  </div>
+</div>
 ```
 
 You can see the column widths changing with the device size.
-
+<p align="center">
 ![](./images/image014.jpg) <!-- {width="2.6222222222222222in" height="1.6872222222222222in"} -->
-
-> *Figure 8: Small size (< 601 pixels)*
-
+</p>
+<h6 align="center"><i>Figure 8: Small size (< 601 pixels)</i></h6>
+<p align="center">
 ![](./images/image015.jpg) <!-- {width="4.335833333333333in" height="1.68125in"} -->
-
-> *Figure 9: Medium size*
-
+</p>
+<h6 align="center"><i>Figure 9: Medium size</i></h6>
+<p align="center">
 ![](./images/image016.jpg) <!-- {width="6.5in" height="1.2083333333333333in"} -->
-
-> *Figure 10: Large size (> 992 pixels)*
+</p>
+<h6 align="center"><i>Figure 10: Large size (> 992 pixels)</i></h6>
 
 By setting the **w3-col** and appropriate sizing in the grid, you can
 easily have your website adapt its appearance to the device size.
@@ -949,27 +952,26 @@ container.
 
 Figure 11 shows where the class names place the elements within the
 container.
-
+<p align="center">
 ![](./images/image017.jpg) <!-- {width="4.635277777777778in" height="1.9416666666666667in"} -->
-
-> *Figure 11: CSS display*
+</p>
+<h6 align="center"><i>Figure 11: CSS display</i></h6>
 
 For example, if we want to create a Save dialog box, with the top-right
 corner containing an X symbol to close the box, and the bottom middle
 the Save and Cancel buttons, we could use the following code snippet.
 
-> *Code Listing 9*
+<h6 align="center"><i>Code Listing 9</i></h6>
+
 ```
-> <div class="w3-display-container w3-margin w3-blue"
->   style="height:250px">
->   <div class="w3-display-topright w3-xxlarge">&times;</div>
->   <div class="w3-display-bottommiddle">
->     <button class="w3-btn w3-green w3-margin
->       w3-border">Save</button> <button class="w3-btn w3-red w3-margin
->       w3-border">Cancel</button>
->   </div>
-> </div>
-> </div>
+<div class="w3-display-container w3-margin w3-blue" style="height:250px">
+  <div class="w3-display-topright w3-xxlarge">&times;</div>
+    <div class="w3-display-bottommiddle">
+      <button class="w3-btn w3-green w3-margin w3-border">Save</button>
+	  <button class="w3-btn w3-red w3-margin w3-border">Cancel</button>
+    </div>
+  </div>
+</div>
 ```
 You can still use other classes, such as **w3-hide-size**, to customize
 the appearance of a display container to different device sizes.
@@ -992,9 +994,9 @@ can be applied when a user moves the mouse over an element.
 
 The basic color set available in the W3 framework is shown in the
 following figure.
-
-> ![](./images/image018.jpg) <!-- {width="4.239305555555555in" height="5.561111111111111in"} -->
->
+<p align="center">
+![](./images/image018.jpg) <!-- {width="4.239305555555555in" height="5.561111111111111in"} -->
+</p>
 > *Figure 12: W3.CSS colors*
 
 You can apply colors simply by adding the class name to the list of
@@ -1005,8 +1007,9 @@ white lettering on a blue background.
 
 You can apply colors to any HTML element, such as **<div>** or
 **<table>**.
-
-> ![](./images/image008.jpg) <!-- {width="0.25in" height="0.28958333333333336in"} -->
+<p align="center">
+![](./images/image008.jpg) <!-- {width="0.25in" height="0.28958333333333336in"} -->
+</p>
 > ***Note: Colors should be used
 > carefully when designing a site---in particular, check for 508
 > compliance. The Web Content Accessibility Guidelines require a
@@ -1026,7 +1029,7 @@ Table 3 lists the libraries that are available.
 
 | Library Name   | Description                      | Download name    |
 |----------------|----------------------------------|------------------|
-| **Color Flat   | > Bold, bright colors for simple | w3               |
+| **Color Flat** | > Bold, bright colors for simple | w3               |
 | UI**           | > interfaces.                    | -colors-flat.css |
 | **Window Metro | > Metro modern colors.           | w3-              |
 | UI**           |                                  | colors-metro.css |
