@@ -358,13 +358,13 @@ only on standard CSS. For example, many common frameworks (such as
 Bootstrap and Foundation) offer both a CSS and JavaScript component. For
 a comparison of uncompressed memory sizes, see Table 1.
 
-> <i>Table 1: Approximate framework sizes</i>
+<h6 align="center"><i>Table 1: Approximate framework sizes</i></h6>
 
-|                      | JavaScript (min)     | CSS(min)              |
-|----------------------|----------------------|-----------------------|
-| <b>Bootstrap</b>      | 37 kb              | 119 kb              |
-| <b>Foundation</b>     | 86 kb              | 60 kb               |
-| <b>W3.CSS</b>         | N/A                | 21 kb               |
+|                      | JavaScript (min)     | CSS(min)          |
+|----------------------|----------------------|:-----------------:|
+| <b>Bootstrap</b>     | 37 kb                | 119 kb            |
+| <b>Foundation</b>    | 86 kb                | 60 kb             |
+| <b>W3.CSS</b>        | N/A                  | 21 kb             |
 
 While each framework has its own set of features and components, the
 W3.CSS is small and simple to learn, and is a worthwhile contender to
@@ -390,15 +390,15 @@ display HTML elements. Scripting (mostly JavaScript) adds interactive
 features, such as table searching and sorting, and client size form
 validation.
 
-> <i>Table 2: Website layers</i>
+<h6 align="center"><i>Table 2: Website layers</i></h6>
 
-| Layer | Content | Format  |
-|---------------|---------|---------------------------------------------|
-| <b>Data Layer</b>|  Text/images to display   |         HTML |
-|  <b>Presentation</b> |  Style rules to overwrite browser | CSS |
-|  <b>layer</b>      |    defaults    |                       |
-|  <b>Activity layer</b>    |  Scripting to provide interactivity to the | JavaScript, Typescript, |
-|    | site | etc. |
+| Layer                  | Content                                   | Format                  |
+|:----------------------:|:-----------------------------------------:|:-----------------------:|
+| <b>Data Layer</b>      | Text/images to display                    | HTML                    |
+|  <b>Presentation</b>   | Style rules to overwrite browser          | CSS                     |
+|  <b>layer</b>          | defaults                                  |                         |
+|  <b>Activity layer</b> | Scripting to provide interactivity to the | JavaScript, Typescript, |
+|                        | site                                      | etc.                    |
 
 Browsers have default rules indicating how to display HTML tags; your
 custom CSS or CSS frameworks (such as W3.CSS) provide overrides for
@@ -415,7 +415,8 @@ provide the basic CSS class and add additional features to it. For
 example, the following code will create a <b>w3</b> container, and set its
 background color to blue-gray.
 
-> <i>Code Listing 1</i>
+<h6 align="center"><i>Code Listing 1</i></h6>
+
 ```
 <div class="w3-container w3-blue-gray">
 </div>
@@ -430,11 +431,11 @@ some text in a container. You can resize your browser and the entire
 page will adjust to the new size.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 06.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 06. sample webpage, gettysburg address (xx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image006.jpg" 
-  title=""
-  alt="."
+  title="Sample webpage, gettysburg address"
+  alt="Sample webpage, gettysburg address."
   style="border: 2px solid #000000; width:2.09in;" />
 </p>
 <!-- ![](./images/image006.jpg) {width="2.091666666666667in" height="2.8538888888888887in"} -->
@@ -443,7 +444,7 @@ page will adjust to the new size.
 
 <!-- gettysberg address -->
 
-### Source page 
+#### Source page 
 
 Code Listing 1 is the source page for the above webpage. Note the
 link-reference to local file <b>w3.css</b> in the <b>&lt;head&gt;</b> section of
@@ -486,6 +487,7 @@ framework, as I'll explain shortly.
 </body>
 </html>
 ```
+
 ### Obtaining W3.CSS
 
 You can download <a href="https://www.w3schools.com/w3css/w3css_downloads.asp">W3.CSS</a>.
@@ -578,11 +580,11 @@ This would produce the following appearance in the browser window. The
 two cells take up 100 percent of the width, and the larger content would
 take up more space.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 09.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. row/cell appearance example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image009.jpg" 
-  title=""
-  alt="."
+  title="Row/cell appearance example"
+  alt="Row/cell appearance example."
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
 <!-- ![](./images/image009.jpg) {width="6.5in" height="0.3958333333333333in"} -->
@@ -593,11 +595,11 @@ One feature of the layout class is that the cell heights will match the
 height of the largest content, so if the cell's description had much
 more detail, it might appear as shown in Figure 4.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 10.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. same-height cells example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image010.jpg" 
-  title=""
-  alt="."
+  title="Same-height cells example"
+  alt="Same-height cells example."
   style="border: 2px solid #000000; width:5.3in;" />
 </p>
 
@@ -622,7 +624,7 @@ cause the cells to be laid out horizontally on a larger screen, but be
 stacked vertically on smaller screens, such as mobile devices (phones
 and some tablets).
 
-### Classes summary 
+#### Classes summary 
 
 The following is a list of the various <b>w3</b> classes for controlling
 your screen layout:
@@ -641,7 +643,7 @@ your screen layout:
     horizontally if there's room, but stack vertically on smaller
     devices.
 
-### CSS responsive
+#### CSS responsive
 
 The W3.CSS framework includes a grid system designed to be responsive to
 the screen size, rearranging columns as needed to render on different
@@ -649,11 +651,11 @@ devices. For example, let's look at a website that displays information
 about U.S. coins. A sample is shown in Figure 5.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 11.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. responsive website example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image011.jpg" 
-  title=""
-  alt="."
+  title="Responsive website example"
+  alt="Responsive website example."
   style="border: 2px solid #000000; width:5.58in;" />
 </p>
 <!-- ![](./images/image011.jpg) {width="5.580972222222222in" height="1.332638888888889in"} -->
@@ -663,18 +665,18 @@ about U.S. coins. A sample is shown in Figure 5.
 When this screen is displayed on a mobile device, the layout will change
 to stack the information vertically, as shown in Figure 6.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 12.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. mobile device display example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image012.jpg" 
-  title=""
-  alt="."
+  title="Mobile device display example"
+  alt="Mobile device display example."
   style="border: 2px solid #000000; width:1.39in;" />
 </p>
 <!-- ![](./images/image012.jpg) {width="1.3909722222222223in" height="2.4784722222222224in"} -->
 
 <h6 align="center"><i>Figure 6: Mobile device display</i>
 
-### Responsive layout 
+#### Responsive layout 
 
 To create the responsive layout, you must start with a <b>w3-row</b> or
 <b>w3-row-padding</b> container.
@@ -690,7 +692,7 @@ To be responsive, the elements must be nested with the <b>w3-row</b> class.
 Within the <b>w3-row div</b>, you can add additional <b>div</b> containers to
 create columns.
 
-### General-width columns 
+#### General-width columns 
 
 Here are the general column classes:
 
@@ -732,7 +734,7 @@ while the background column takes up half of the row width.
 </div>
 ```
 
-### 12-column responsive 
+#### 12-column responsive 
 
 In addition to the general column widths, you can use the <b>w3-col</b>
 class to create columns based on a 12-column grid. To do so, you need to
@@ -755,7 +757,7 @@ You can also set the width using the class <b>w3-col</b> and an inline
 style to set the <b>width</b> attribute. There is also a <b>w3-rest</b> class
 that indicates the column should take the remaining row width.
 
-### Show and hide columns 
+#### Show and hide columns 
 
 By default, all columns are visible on every device. However, that might
 not be the best approach for your website. For our example, we might
@@ -783,25 +785,25 @@ appear as shown in Figure 7 when viewed on a mobile device.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 13.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 13. mobile dislay without background column (xx) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image013.jpg" 
-  title=""
-  alt="."
+  title="Mobile dislay without background column"
+  alt="Mobile dislay without background column."
   style="border: 2px solid #000000; width:1.57in;" />
 </p>
 <!-- ![](./images/image013.jpg) {width="1.5784722222222223in" height="1.812361111111111in"} -->
 
 <h6 align="center"><i>Figure 7: Mobile display without background column</i></h6>
 
-### CSS grid 
+<h3>CSS grid</h3>
 
 The framework's grid system works just as the responsive system (meaning
 all columns must be contained with a <b>w3-row</b>), but relies on
 <b>w3-col</b> and <b>sizing</b> (based on 12 columns) to determine the column
 sizes.
 
-### Column widths 
+#### Column widths 
 
 Each column is 8.33 percent (one-twelfth) of the container width, and
 you can specify the number of columns to display for device sizes. If
@@ -926,7 +928,7 @@ the Save and Cancel buttons, we could use the following code snippet.
 You can still use other classes, such as <b>w3-hide-size</b>, to customize
 the appearance of a display container to different device sizes.
 
-### Summary 
+#### Summary 
 
 The W3.CSS framework provides a number of different layout options,
 allowing a lot of flexibility in designing your web application.
@@ -940,16 +942,16 @@ scheme is based on the Material Design colors. The color classes
 are hover classes, <b>w3-hover-color</b> and <b>w3-hover-text-color</b>, which
 can be applied when a user moves the mouse over an element.
 
-### Basic CSS colors 
+<h3>Basic CSS colors</h3>
 
 The basic color set available in the W3 framework is shown in the
 following figure.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 18.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. w3.css colors (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image018.jpg" 
-  title=""
-  alt="."
+  title="W3.CSS colors"
+  alt="W3.CSS colors."
   style="border: 2px solid #000000; width:4.23in;" />
 </p>
 <!-- ![](./images/image018.jpg) {width="4.239305555555555in" height="5.561111111111111in"} -->
@@ -986,36 +988,29 @@ You can apply colors to any HTML element, such as <b>&lt;div&gt;</b> or <b>&lt;t
 You can also download separate color libraries from the W3.CSS site.
 Table 3 lists the libraries that are available.
 
-> <i>Table 3: Color libraries</i>
+<h6 align="center"><i>Table 3: Color libraries</i></h6>
 
-| Library Name   | Description                      | Download name              |
-|----------------|----------------------------------|----------------------------|
-| <b>Color Flat</b> | > Bold, bright colors for simple | w3-colors-flat.css      |
-| <b>UI</b>           | > interfaces.                    |                       |
-| <b>Window Metro</b> | > Metro modern colors.           | w3-colors-metro.css   |
-| <b>UI</b>           |                                  |                       |
-| <b>Windows 8</b>    | > Flat design and modern colors. | w3-colors-win8.css    |
-| <b>Highway</b>      | Highway colors based on federal  | w3-colors-highway.css |
-| <b>Colors</b>       | standards.                       |                       |
-| <b>Safety</b>       | Safety colors based on federal   | w3-colors-safety.css  |
-| <b>Colors</b>       | standards.                       |                       |
-| <b>European</b>     | European traffic colors, RA      | w3-colors-signal.css  |
-| <b>colors</b>       | Color Standard.                  |                       |
-| <b>Fashion</b>      | > Fashion colors from Color      | w3olors-signal.css    |
-| <b>colors</b>       | > Trends.                        |                       |
-| <b>Vivid</b>        | > Vibrant colors from ISCC-NBS   | w3-colors-vivid.css   |
-| <b>colors</b>       | > standard.                      |                       |
-| <b>Food</b>         | > Colors match foods, such as    | w3-colors-food.css    |
-| <b>colors</b>       | > wine, tomatoes.                |                       |
-| <b>Camouflage</b>   | > Colors with earth tones, from  | w3-colors-camo.css    |
-| <b>colors</b>       | > federal standards.             |                       |
+| Library Name           | Description                                  | Download name         |
+|:----------------------:|:--------------------------------------------:|:---------------------:|
+| <b>Color Flat UI</b>   | Bold, bright colors for simple interfaces.   | w3-colors-flat.css    |
+| <b>Window Metro</b>    | Metro modern colors.                         | w3-colors-metro.css   |
+| <b>Windows 8</b>       | Flat design and modern colors.               | w3-colors-win8.css    |
+| <b>Highway Colors</b>  | Highway colors based on federal standards.   | w3-colors-highway.css |
+| <b>Safety Colors</b>   | Safety colors based on federal standards.    | w3-colors-safety.css  |
+| <b>European colors</b> | European traffic colors, RA Color Standards. | w3-colors-signal.css  |
+| <b>Fashion colors</b>  | Fashion colors from Color Trends.            | w3-colors-2017.css  |
+| <b>Vivid colors</b>    | Vibrant colors from ISCC-NBS standard.       | w3-colors-vivid.css   |
+| <b>Food colors</b>     | Colors match foods, such as wine,            | w3-colors-food.css    |
+|                        | tomatoes.                                    |                       |
+| <b>Camouflage</b>      | Colors with earth tones, from federal        | w3-colors-camo.css    |
+| <b>colors</b>          | standards.                                   |                       |
 
 Note that the colors in the libraries all have unique names, so you can
 use multiple color libraries, in addition to the standard material
 design colors in the framework. Each color will begin with the final
 portion of the name, such as <b>&lowbar;flat</b> or <b>&lowbar;signal</b>.
 
-###Color themes
+<h3>Color themes</h3>
 
 Color themes are CSS classes that allow you to use variations of the
 same basic color. For example, if your site has a gray look about it,
@@ -1025,29 +1020,23 @@ your style sheet references.
 This will add 12 additional color classes for text, default theme color,
 and lighter/darker variations on theme.
 
-> <i>Table 4: Color themes</i>
+<h6 align="center"><i>Table 4: Color themes</i></h6>
 
-| Style name  | Description                                                 |
-|-------------|-------------------------------------------------------------|
-| <b>w3-text-theme</b> | > Text color, generally against white background.  |
-| <b>ext-theme</b>     |                                                    |
-|                      | > Default theme color.                             |
-| <b>w3-theme</b>      |                                                    |
-| <b>w3</b>            | > Lightest variation of the theme background color |
-| <b>-theme-l5</b>     | > (also w3-theme-light) .                          |
-| <b>w3</b>            | > Where x is 4 down to 1, progressively darker     |
-| <b>-theme-lX</b> | > backgrounds, but still lighter than the default      |
-|                  | > theme color.                                         |
-| <b>w3</b>        | > Darkest variation of the theme background color      |
-| <b>-theme-d5</b> | > (also w3-theme-dark).                                |
-| <b>w3</b>        | > Where x is 4 down to 1, progressively lighter theme  |
-| <b>-theme-dX</b> | > backgrounds, but still darker than the default theme |
-|                  | > color.                                               |
+| Style name  | Description                                                                        |
+|:-----------:|:----------------------------------------------------------------------------------:|
+| <b>w3-text-theme</b> | Text color, generally against white background.                           |
+| <b>w3-theme</b>    | Default theme color.                                                        |
+| <b>w3-theme-JS</b> | Lightest variation of the theme background color (also w3-theme-light).     |
+| <b>w3-theme-IX</b> | Where x is 4 down to 1, progressively darker backgrounds, but still lighter |
+|                    | than the default theme color.                                               |
+| <b>w3-theme-d5</b> | Darkest variation of the theme background color (also w3-theme-dark).       |
+| <b>w3-theme-dX</b> | Where x is 4 down to 1, progressively lighter theme backgrounds, but still  |
+|                    | darker than the default theme color.                                        |
 
-The following figure shows a sample theme (blue-gray) to illustrate the
-appearance of themes.
+The following figure shows a sample theme (blue-gray) to illustrate the appearance of 
+themes.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 19. w3 text themes (blue-gray) (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19. w3 text themes (blue-gray) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image019.jpg" 
   title="W3 text themes (blue-gray)"
@@ -1068,60 +1057,39 @@ theme doesn't make the site more difficult for some users.
 
 Table 5 lists the predefined themes available from W3.CSS.
 
-> <i>Table 5: W3.CSS themes</i>
+<h6 align="center"><i>Table 5: W3.CSS themes</i></h6>
 
-| Theme name   |                          |           | Color         |
-| Download     |                          |           |               |
-| name         |                          |           |               |
-|--------------|--------------------------|-----------|---------------|
-| > <b>Amber</b>  | w3-theme-amber.css     | <b>Text</b>  |               |
-|              |                          | <b>color</b> |               |
-| <b>Black</b>  | w3-theme-black.css     | <b>Text</b>    |               |
-|              |                          | <b>color</b>   |               |
-| <b>Blue</b>   | w3-theme-blue.css      | <b>Text</b>    |               |
-|              |                          | <b>color</b>   |               |
-|           | w3-theme-blue-grey.css | <b>Text</b>  |               |
-| <b>Blue-grey</b> |                          | <b>color</b> |               |
-| <b>Brown</b>  | w3-theme-brown.css     | <b>Text</b>  |               |
-|              |                          | <b>color</b> |               |
-| <b>Cyan</b>   | w3-theme-cyan.css      | <b>Text</b>  |               |
-|              |                          | <b>color</b> |               |
-| <b>Dark</b>     | w3-theme-dark-grey.css | <b>Text</b>  |               |
-| <b>Grey</b>     |                          | <b>color</b> |               |
-| <b>Deep</b>     |                        | <b>Text</b>  |               |
-| <b>Orange</b>   | w3-theme-deep-orange.css | <b>color</b> |               |
-| <b>Deep</b>     |                        | <b>Text</b>  |               |
-| <b>Purple</b>   | w3-theme-deep-purple.css | <b>color</b> |               |
-| <b>Green</b>  | w3-theme-green.css     | <b>Text</b>  |               |
-|              |                          | <b>color</b> |               |
-| <b>Grey</b>   | w3-theme-grey.css      | <b>Text</b>  |               |
-|              |                          | <b>color</b> |               |
-| <b>Indigo</b> | w3-theme-indigo.css    | <b>Text</b>  |               |
-|              |                          | <b>color</b> |               |
-| <b>Khaki</b>  | w3-theme-khaki.css     | <b>Text</b>  |               |
-|              |                          | <b>color</b> |               |
-| <b>Light</b>    |                        | <b>Text</b>  |               |
-| <b>Blue</b>     |  w3-theme-light-blue.css | <b>color</b> |               |
-| <b>Light</b>    |                        | <b>Text</b>  |               |
-| <b>Green</b>    | w3-theme-light-green.css | <b>color</b> |               |
-| <b>Lime</b>   | w3-theme-lime.css      | <b>Text</b>  |               |
-|              |                          | <b>color</b> |               |
-| <b>Orange</b> | w3-theme-orange.css    | <b>Text</b>  |               |
-|              |                          | <b>color</b> |               |
-| <b>Pink</b>   | w3-theme-pink.css      | <b>Text</b>  |               |
-|              |                          | <b>color</b> |               |
-| <b>Purple</b> | w3-theme-purple.css    | <b>Text</b>  |               |
-|              |                          | <b>color</b> |               |
-| <b>Red</b>      | w3-theme-red.css       | <b>Text color</b>           |
-| <b>Teal</b>     | w3-theme-teal.css      | <b>Text color</b>           |
-| <b>Yellow</b>   | w3-theme-yellow.css    | <b>Text color</b>           |
+| Theme name         | Download name            | Color             |
+|--------------------|--------------------------|-------------------|
+| <b>Amber</b>       | w3-theme-amber.css       | <b>Text color</b> |
+| <b>Black</b>       | w3-theme-black.css       | <b>Text color</b> |
+| <b>Blue</b>        | w3-theme-blue.css        | <b>Text color</b> |
+| <b>Blue-grey</b>   | w3-theme-blue-grey.css   | <b>Text color</b> |
+| <b>Brown</b>       | w3-theme-brown.css       | <b>Text color</b> |
+| <b>Cyan</b>        | w3-theme-cyan.css        | <b>Text color</b> |
+| <b>Dark Grey</b>   | w3-theme-dark-grey.css   | <b>Text color</b> |
+| <b>Deep Orange</b> | w3-theme-deep-orange.css | <b>Text color</b> |
+| <b>Deep Purple</b> | w3-theme-deep-purple.css | <b>Text color</b> |
+| <b>Green</b>       | w3-theme-green.css       | <b>Text color</b> |
+| <b>Grey</b>        | w3-theme-grey.css        | <b>Text color</b> |
+| <b>Indigo</b>      | w3-theme-indigo.css      | <b>Text color</b> |
+| <b>Khaki</b>       | w3-theme-khaki.css       | <b>Text color</b> |
+| <b>Light Blue</b>  | w3-theme-light-blue.css  | <b>Text color</b> |
+| <b>Light Green</b> | w3-theme-light-green.css | <b>Text color</b> |
+| <b>Lime</b>        | w3-theme-lime.css        | <b>Text color</b> |
+| <b>Orange</b>      | w3-theme-orange.css      | <b>Text color</b> |
+| <b>Pink</b>        | w3-theme-pink.css        | <b>Text color</b> |
+| <b>Purple</b>      | w3-theme-purple.css      | <b>Text color</b> |
+| <b>Red</b>         | w3-theme-red.css         | <b>Text color</b> |
+| <b>Teal</b>        | w3-theme-teal.css        | <b>Text color</b> |
+| <b>Yellow</b>      | w3-theme-yellow.css      | <b>Text color</b> |
 
 <h2 id="ch4">Chapter 4 Helper Classes
 
 There are a few classes included that can be attached to various
 elements to perform some basic formatting of the element's appearance.
 
-### CSS round 
+<h3>CSS round</h3>
 
 By default, HTML elements appear as a square box. However, CSS allows
 you to set the <b>border- radius</b> property to create boxes with rounded
@@ -1142,25 +1110,25 @@ rounded corners.
 Table 6 lists the rounding classes. The larger the pixel size of the
 border radius, the more pronounced the rounded corners will be.
 
-> <i>Table 6: Rounding classes</i>
+<h6 align="center"><i>Table 6: Rounding classes</i></h6>
 
-| Class name                      | Border radius size       |
-|---------------------------------|--------------------------|
-| <b>w3-round</b>                    | 4 pixels                 |
-| <b>w3-round-small</b>              | 2 pixels                 |
-| <b>w3-round-medium</b>             | 4 pixels (same as round) |
-| <b>w3-round-large</b>              | 8 pixels                 |
-| <b>w3-round-xlarge</b>             | 16 pixels                |
-| <b>w3-round-xxlarge</b>            | 32 pixels                |
+| Class name              | Border radius size       |
+|-------------------------|--------------------------|
+| <b>w3-round</b>         | 4 pixels                 |
+| <b>w3-round-small</b>   | 2 pixels                 |
+| <b>w3-round-medium</b>  | 4 pixels (same as round) |
+| <b>w3-round-large</b>   | 8 pixels                 |
+| <b>w3-round-xlarge</b>  | 16 pixels                |
+| <b>w3-round-xxlarge</b> | 32 pixels                |
 
-### Circle class
+#### Circle class
 
 In addition to the rounded corners, the framework includes a
 <b>w3-circle</b> class to put the entire element in a circle (or oval),
 depending on the element size. You can nest circles within each other by
 adjusting the elements width using an inline style attribute.
 
-### padding
+### CSS padding
 
 The padding classes can be used to add a padding around the cell
 content. There are two types of padding classes. The <b>numeric</b> padding
@@ -1168,7 +1136,7 @@ classes add top and bottom padding as specified by the class name. The
 <b>size</b> padding classes provide complete padding (all four sides) using
 size abbreviations.
 
-### Numeric padding
+#### Numeric padding
 
 The numeric padding classes are:
 
@@ -1178,7 +1146,7 @@ The numeric padding classes are:
 -   <b>w3-padding-48</b>: Adds 48 pixels top and bottom padding. 
 -   <b>w3-padding-64</b>: Adds 64 pixels top and bottom padding.
 
-### Size padding 
+#### Size padding
 
 The size padding classes add padding to all four sides: top, bottom,
 left, and right. The classes are:
@@ -1192,7 +1160,7 @@ left, and right. The classes are:
 -   <b>w3-padding-large</b>: Adds 12 pixels top and bottom padding, 24
     pixels left and right.
 
-### CSS margins 
+<h3>CSS margins</h3>
 
 The margin classes allow you to add a 16-pixel margin to an element. The
 class allows margins to be added to all sides or to individual sides:
@@ -1213,12 +1181,12 @@ You can combine classes if you only need margins on some edges. The
 <b>w3-section</b> class is a shorthand class, the same as adding classes
 <b>w3-margin-top</b> and <b>w3-margin-bottom</b> to the element.
 
-### borders 
+<h3>CSS borders</h3>
 
 The W3.CSS framework provides classes to place borders around elements.
 The are several border classes available.
 
-### Basic borders 
+#### Basic borders 
 
 The basic border classes allow you to add a border around the entire
 element or one or more sides. The classes are:
@@ -1236,7 +1204,7 @@ element or one or more sides. The classes are:
 
 -   <b>w3-border-0</b>: Removes all borders from the element.
 
-### Border colors 
+#### Border colors
 
 You can add the <b>w3-border-color</b> classes to the border class (both
 classes are required) to change the border color. There are two class
@@ -1248,16 +1216,16 @@ types for border colors:
 -   <b>w3-hover-border-color</b>: Sets border color to use when hovering
     over the element.
 
-### Thick borders 
+#### Thick borders
 
 Thicker borders (6 pixels) can provide a nice visual touch to an
 element, as shown in Figure 15.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 21.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. thick border example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image021.jpg" 
-  title=""
-  alt="."
+  title="Thick border example"
+  alt="Thick border example."
   style="border: 2px solid #000000; width:4.35in;" />
 </p>
 <!-- ![](./images/image021.jpg) {width="4.354166666666667in" height="1.0416666666666667in"} -->
@@ -1276,7 +1244,7 @@ be used to create thick borders around an element:
 
 -   <b>w3-topbar</b>: Adds a thick border to the top of the element.
 
-###sizing
+<h3>CSS sizing</h3>
 
 The W3.CSS framework provides a number of classes to change the size of
 elements:
@@ -1300,7 +1268,7 @@ elements:
 These classes can be applied to any element, such as text, buttons,
 badges, and tables.
 
-###Summary
+#### Summary
 
 The helper classes and color classes, combined with the other base
 classes, provide a tremendous amount of control over your webpage
@@ -1312,7 +1280,7 @@ The W3.CSS framework provides a variety of container styles to use in
 your application. Working with these containers will require some
 JavaScript; however, it is minimal and simple scripting.
 
-###CSS accordions
+<h3>CSS accordions</h3>
 
 An accordion is used when you have several text box elements, typically
 a header bar and some content, but don't want all the content exposed at
@@ -1330,12 +1298,12 @@ section will be shown (or hidden).
 
 <h6 align="center"><i>Figure 16: CSS accordion example</i></h6>
 
-### Accordion bars 
+#### Accordion bars
 
 The accordion bars are styled buttons, as shown in the following
 snippet.
 
-> <i>Code Listing 10</i>
+<h6 align="center"><i>Code Listing 10</i></h6>
 
 ```
 <button onclick="openPanel('Airport');"
@@ -1347,13 +1315,14 @@ information </button>
 The <b>openPanel()</b> JavaScript function will handle the opening and
 closing of the accordion content.
 
-### Building the sections 
+#### Building the sections
 
 To create the section for the accordion, you will need to create a
 separate <b>&lt;div&gt;</b> for each section. The following code snippet shows
 a sample content <b>&lt;div&gt;</b>.
 
-> <i>Code Listing 11</i>
+<h6 align="center"><i>Code Listing 11</i></h6>
+
 ```
 <div id="Airport" class="w3-container w3-hide">
   <p>Airports</p>
@@ -1363,7 +1332,7 @@ Each <b>&lt;div&gt;</b> will have the <b>w3-hide</b> class applied so that the
 content is not visible. The JavaScript code will take care of displaying
 the content.
 
-### Navigation 
+#### Navigation
 
 To navigate between the accordions, you will need to employ some simple
 JavaScript. The code will have two tasks: one is to hide all of the
@@ -1387,25 +1356,25 @@ If it is not present, it is added and the content becomes visible. If
 the <b>w3-show</b> class is already there, it is removed (which causes the
 original <b>w3-hide</b> class to take effect).
 
-### CSS tabs 
+<h3>CSS tabs</h3>
 
 Tabs function in a similar manner to accordions, where only one section
 of content is visible at a time. However, the navigation among sections
 is done via a series of buttons (tabs), typically across the top of the
 page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 23.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. css tabs example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image023.jpg" 
-  title=""
-  alt="."
+  title="CSS tabs example"
+  alt="CSS tabs example."
   style="border: 2px solid #000000; width:5.22in;" />
 </p>
 <!-- ![](./images/image023.jpg) {width="5.229166666666667in" height="0.9895833333333334in"} -->
 
 <h6 align="center"><i>Figure 17: CSS tabs example</i></h6>
 
-### Tab classes 
+#### Tab classes 
 
 There are two classes you need to work with in tabs:
 
@@ -1413,9 +1382,10 @@ There are two classes you need to work with in tabs:
 
 -   <b>w3-bar-item</b>: The button representing the tab.
 
-### Building the tabs 
+#### Building the tabs 
 
-> <i>Code Listing 13</i>
+<h6 align="center"><i>Code Listing 13</i></h6>
+
 ```
 <div class="w3-bar w3-pale-blue w3-leftbar w3-border-blue w3-border">
   <button onclick="openDiv('Airport');"
@@ -1429,7 +1399,7 @@ There are two classes you need to work with in tabs:
   </button>
 </div>
 ```
-### Building the sections 
+#### Building the sections 
 
 To create sections for the tabs, you will need to create a separate
 <b>&lt;div&gt;</b> for each section within the tabs. The following code snippet
