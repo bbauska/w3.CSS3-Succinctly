@@ -3044,7 +3044,7 @@ snippet shows how to create a group of buttons.
 <label>Work</label>
 <input type="radio" class="w3-radio" name="phoneType" value="home">
 <label>Home</label>
-``
+```
 
 All elements within the option group must have the same **name**
 attribute value. This allows the browser to enforce only one item within
