@@ -392,13 +392,13 @@ validation.
 
 <h6 align="center"><i>Table 2: Website layers</i></h6>
 
-| Layer                  | Content                                   | Format                  |
-|:----------------------:|:-----------------------------------------:|:-----------------------:|
-| <b>Data Layer</b>      | Text/images to display                    | HTML                    |
-|  <b>Presentation</b>   | Style rules to overwrite browser          | CSS                     |
-|  <b>layer</b>          | defaults                                  |                         |
-|  <b>Activity layer</b> | Scripting to provide interactivity to the | JavaScript, Typescript, |
-|                        | site                                      | etc.                    |
+| Layer                 | Content                                   | Format                  |
+| --------------------- | ----------------------------------------- | ----------------------- |
+| <b>Data Layer</b>     | Text/images to display                    | HTML                    |
+| <b>Presentation</b>   | Style rules to overwrite browser          | CSS                     |
+| <b>layer</b>          | defaults                                  |                         |
+| <b>Activity layer</b> | Scripting to provide interactivity to the | JavaScript, Typescript, |
+|                       | site                                      | etc.                    |
 
 Browsers have default rules indicating how to display HTML tags; your
 custom CSS or CSS frameworks (such as W3.CSS) provide overrides for
@@ -741,13 +741,11 @@ class to create columns based on a 12-column grid. To do so, you need to
 add the <b>w3-col</b> class, followed by the number of columns (based on
 screen size). The size classes are:
 
--   <b>l1</b> -- <b>l12</b>: Number of columns on large screens (> 992
-    pixels).
+-   <b>l1</b> -- <b>l12</b>: Number of columns on large screens (> 992 pixels).
 
 -   <b>m1</b> -- <b>m12</b>: Number of columns on medium screens.
 
--   <b>s1</b> -- <b>s12</b>: Number of columns on small screens (< 601
-    pixels).
+-   <b>s1</b> -- <b>s12</b>: Number of columns on small screens (< 601 pixels).
 
 For example, the classes <b>w3-col</b>, <b>s6</b>, <b>m4</b>, and <b>l3</b> indicate
 to use half the screen width on a small device, one-third of the screen
@@ -840,11 +838,11 @@ Suppose we change our coin example to the following code snippet.
 
 You can see the column widths changing with the device size.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 14.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14. small size (< 601 pixels) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image014.jpg" 
-  title=""
-  alt="."
+  title="Small size (< 601 pixels)"
+  alt="Small size (< 601 pixels)."
   style="border: 2px solid #000000; width:2.62in;" />
 </p>
 <!-- ![](./images/image014.jpg) {width="2.6222222222222222in" height="1.6872222222222222in"} -->
@@ -852,11 +850,11 @@ You can see the column widths changing with the device size.
 <h6 align="center"><i>Figure 8: Small size (< 601 pixels)</i></h6>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 15.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. medium size (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image015.jpg" 
-  title=""
-  alt="."
+  title="Medium size"
+  alt="Medium size."
   style="border: 2px solid #000000; width:4.33in;" />
 </p>
 <!-- ![](./images/image015.jpg) {width="4.335833333333333in" height="1.68125in"} -->
@@ -864,11 +862,11 @@ You can see the column widths changing with the device size.
 <h6 align="center"><i>Figure 9: Medium size</i></h6>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 16.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. large size (> 992 pixels) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image016.jpg" 
-  title=""
-  alt="."
+  title="Large size (> 992 pixels)"
+  alt="Large size (> 992 pixels)."
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
 <!-- ![](./images/image016.jpg) {width="6.5in" height="1.2083333333333333in"} -->
@@ -897,11 +895,11 @@ container.
 Figure 11 shows where the class names place the elements within the
 container.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 17.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 17. css display class names; top, middle, bottom (xx) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image017.jpg" 
-  title=""
-  alt="."
+  title="CSS display class names; top, middle, bottom"
+  alt="CSS display class names; top, middle, bottom."
   style="border: 2px solid #000000; width:4.63in;" />
 </p>
 <!-- ![](./images/image017.jpg) {width="4.635277777777778in" height="1.9416666666666667in"} -->
@@ -972,16 +970,15 @@ You can apply colors to any HTML element, such as <b>&lt;div&gt;</b> or <b>&lt;t
   title=""
   alt="."
   style="border: 2px solid #000000; width:0.25in;" />
-</p>
 <!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
-
-> <b><i>Note: Colors should be used carefully when designing a site---in particular, 
-> check for 508 compliance. The Web Content Accessibility Guidelines require a
-> 4.5-to-1 contrast ratio between colors, to increase readability. For larger text 
-> sizes, 14 pixels and bold, or 18 pixels and larger, a 3.0-to-1 ratio is required. 
-> You should use tools such as <a href="https://webaim.org/resources/contrastchecker/">
-> this website </a> to check that color combinations meet these guidelines. People with
-> low vision or color-blindness will appreciate the effort.</i></b>
+<b><i>Note: Colors should be used carefully when designing a site---in particular, 
+check for 508 compliance. The Web Content Accessibility Guidelines require a
+4.5-to-1 contrast ratio between colors, to increase readability. For larger text 
+sizes, 14 pixels and bold, or 18 pixels and larger, a 3.0-to-1 ratio is required. 
+You should use tools such as <a href="https://webaim.org/resources/contrastchecker/">
+this website </a> to check that color combinations meet these guidelines. People with
+low vision or color-blindness will appreciate the effort.</i></b>
+</p>
 
 <h3 id="ch3-2">Color libraries</h3>
 
@@ -991,14 +988,14 @@ Table 3 lists the libraries that are available.
 <h6 align="center"><i>Table 3: Color libraries</i></h6>
 
 | Library Name           | Description                                  | Download name         |
-|:----------------------:|:--------------------------------------------:|:---------------------:|
+| ---------------------- | -------------------------------------------- | --------------------- |
 | <b>Color Flat UI</b>   | Bold, bright colors for simple interfaces.   | w3-colors-flat.css    |
 | <b>Window Metro</b>    | Metro modern colors.                         | w3-colors-metro.css   |
 | <b>Windows 8</b>       | Flat design and modern colors.               | w3-colors-win8.css    |
 | <b>Highway Colors</b>  | Highway colors based on federal standards.   | w3-colors-highway.css |
 | <b>Safety Colors</b>   | Safety colors based on federal standards.    | w3-colors-safety.css  |
 | <b>European colors</b> | European traffic colors, RA Color Standards. | w3-colors-signal.css  |
-| <b>Fashion colors</b>  | Fashion colors from Color Trends.            | w3-colors-2017.css  |
+| <b>Fashion colors</b>  | Fashion colors from Color Trends.            | w3-colors-2017.css    |
 | <b>Vivid colors</b>    | Vibrant colors from ISCC-NBS standard.       | w3-colors-vivid.css   |
 | <b>Food colors</b>     | Colors match foods, such as wine,            | w3-colors-food.css    |
 |                        | tomatoes.                                    |                       |
@@ -1022,16 +1019,16 @@ and lighter/darker variations on theme.
 
 <h6 align="center"><i>Table 4: Color themes</i></h6>
 
-| Style name  | Description                                                                        |
-|:-----------:|:----------------------------------------------------------------------------------:|
-| <b>w3-text-theme</b> | Text color, generally against white background.                           |
-| <b>w3-theme</b>    | Default theme color.                                                        |
-| <b>w3-theme-JS</b> | Lightest variation of the theme background color (also w3-theme-light).     |
-| <b>w3-theme-IX</b> | Where x is 4 down to 1, progressively darker backgrounds, but still lighter |
-|                    | than the default theme color.                                               |
-| <b>w3-theme-d5</b> | Darkest variation of the theme background color (also w3-theme-dark).       |
-| <b>w3-theme-dX</b> | Where x is 4 down to 1, progressively lighter theme backgrounds, but still  |
-|                    | darker than the default theme color.                                        |
+| Style name           | Description                                                                 |
+| -------------------- | --------------------------------------------------------------------------- |
+| <b>w3-text-theme</b> | Text color, generally against white background.                             |
+| <b>w3-theme</b>      | Default theme color.                                                        |
+| <b>w3-theme-JS</b>   | Lightest variation of the theme background color (also w3-theme-light).     |
+| <b>w3-theme-IX</b>   | Where x is 4 down to 1, progressively darker backgrounds, but still lighter |
+|                      | than the default theme color.                                               |
+| <b>w3-theme-d5</b>   | Darkest variation of the theme background color (also w3-theme-dark).       |
+| <b>w3-theme-dX</b>   | Where x is 4 down to 1, progressively lighter theme backgrounds, but still  |
+|                      | darker than the default theme color.                                        |
 
 The following figure shows a sample theme (blue-gray) to illustrate the appearance of 
 themes.
@@ -1060,7 +1057,7 @@ Table 5 lists the predefined themes available from W3.CSS.
 <h6 align="center"><i>Table 5: W3.CSS themes</i></h6>
 
 | Theme name         | Download name            | Color             |
-|--------------------|--------------------------|-------------------|
+| ------------------ | ------------------------ | ----------------- |
 | <b>Amber</b>       | w3-theme-amber.css       | <b>Text color</b> |
 | <b>Black</b>       | w3-theme-black.css       | <b>Text color</b> |
 | <b>Blue</b>        | w3-theme-blue.css        | <b>Text color</b> |
@@ -1096,7 +1093,7 @@ you to set the <b>border- radius</b> property to create boxes with rounded
 corners. The W3.CSS framework provides several classes to easily create
 rounded corners.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 20. blue simple box & red rounded corners (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 20. blue simple box & red rounded corners (xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image020.jpg" 
   title="Blue simple box &amp; red rounded corners"
@@ -1113,7 +1110,7 @@ border radius, the more pronounced the rounded corners will be.
 <h6 align="center"><i>Table 6: Rounding classes</i></h6>
 
 | Class name              | Border radius size       |
-|-------------------------|--------------------------|
+| ----------------------- | ------------------------ |
 | <b>w3-round</b>         | 4 pixels                 |
 | <b>w3-round-small</b>   | 2 pixels                 |
 | <b>w3-round-medium</b>  | 4 pixels (same as round) |
@@ -1140,25 +1137,20 @@ size abbreviations.
 
 The numeric padding classes are:
 
--   <b>w3-padding-16</b>: Adds 16 pixels top and bottom padding.
--   <b>w3-padding-24</b>: Adds 24 pixels top and bottom padding.
--   <b>w3-padding-32</b>: Adds 32 pixels top and bottom padding.
--   <b>w3-padding-48</b>: Adds 48 pixels top and bottom padding. 
--   <b>w3-padding-64</b>: Adds 64 pixels top and bottom padding.
+- <b>w3-padding-16</b>: Adds 16 pixels top and bottom padding.
+- <b>w3-padding-24</b>: Adds 24 pixels top and bottom padding.
+- <b>w3-padding-32</b>: Adds 32 pixels top and bottom padding.
+- <b>w3-padding-48</b>: Adds 48 pixels top and bottom padding. 
+- <b>w3-padding-64</b>: Adds 64 pixels top and bottom padding.
 
 #### Size padding
 
 The size padding classes add padding to all four sides: top, bottom,
 left, and right. The classes are:
 
--   <b>w3-padding</b>: Adds 8 pixels top and bottom, and 16 pixels left and
-    right (default).
-
--   <b>w3-padding-small</b>: Adds 4 pixels top and bottom, and 8 pixels
-    left and right.
-
--   <b>w3-padding-large</b>: Adds 12 pixels top and bottom padding, 24
-    pixels left and right.
+-   <b>w3-padding</b>: Adds 8 pixels top and bottom, and 16 pixels left and right (default).
+-   <b>w3-padding-small</b>: Adds 4 pixels top and bottom, and 8 pixels left and right.
+-   <b>w3-padding-large</b>: Adds 12 pixels top and bottom padding, 24 pixels left and right.
 
 <h3>CSS margins</h3>
 
@@ -1166,15 +1158,10 @@ The margin classes allow you to add a 16-pixel margin to an element. The
 class allows margins to be added to all sides or to individual sides:
 
 -   <b>w3-margin</b>: Adds a 16-pixel margin to all sides.
-
 -   <b>w3-margin-top</b>: Adds a 16-pixel margin to top.
-
 -   <b>w3-margin-right</b>: Adds a 16-pixel margin to right side.
-
 -   <b>w3-margin-bottom</b>: Adds a 16-pixel margin to bottom.
-
 -   <b>w3-margin-left</b>: Adds a 16-pixel margin to left side.
-
 -   <b>w3-section</b>: Adds a 16-pixel margin to top and bottom.
 
 You can combine classes if you only need margins on some edges. The
@@ -1250,19 +1237,12 @@ The W3.CSS framework provides a number of classes to change the size of
 elements:
 
 -   w3-tiny: Very small font, would make lawyers happy (10 pixels).
-
 -   w3-small: Smaller font (12 pixels).
-
 -   w3-medium: Default font of 15 pixels.
-
 -   w3-large: Font size of 18 pixels.
-
 -   w3-xlarge: Font size of 24 pixels.
-
 -   w3-xxlarge : Font size of 36 pixels.
-
 -   w3-xxxlarge: Font size of 48 pixels.
-
 -   w3-jumbo: Font size of 64 pixels.
 
 These classes can be applied to any element, such as text, buttons,
