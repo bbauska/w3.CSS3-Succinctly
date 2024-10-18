@@ -313,7 +313,7 @@ better understand the topic of study. Thank you for reading.
 > Please follow us on Twitter and "Like" us on Facebook to help us
 > spread the word about the *Succinctly* series!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04/05 twitter & facebook logos (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04/05 twitter & facebook logos (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image004.png" 
   title="Twitter (x) logo"
@@ -446,14 +446,13 @@ some text in a container. You can resize your browser and the entire
 page will adjust to the new size.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 06. sample webpage, gettysburg address (xx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 06. sample webpage, gettysburg address (15) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image006.jpg" 
   title="Sample webpage, gettysburg address"
   alt="Sample webpage, gettysburg address."
   style="border: 2px solid #000000; width:2.09in;" />
 </p>
-<!-- ![](./images/image006.jpg) {width="2.091666666666667in" height="2.8538888888888887in"} -->
 
 <h6 align="center"><i>Figure 1: Sample webpage</i></h6>
 
@@ -523,14 +522,13 @@ the element appears.
 Each element is considered a box, with several styling options. Figure 2
 shows the box model.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. box model (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. box model (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image007.jpg" 
   title="Box model"
   alt="Box model."
   style="border: 2px solid #000000; width:2.04in;" />
 </p>
-<!-- ![](./images/image007.jpg) {width="2.6875in" height="2.0416666666666665in"} -->
 
 <h6 align="center"><i>Figure 2: Box model</i></h6>
 
@@ -540,19 +538,18 @@ content. The next layer is the padding, which is some number of pixels
 wrapped around the content. The border is the third layer, wrapped
 around the padding, and the final layer is the margin.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image008.jpg" 
   title="Note logo (orange)"
   alt="Note logo (orange)."
   style="border: 0px; width:0.25in;" />
-<i><b>Note: There is some confusion,
-particularly with older browsers, as to what the width and height
-actually represent. According to the W3C standards, the height and
-width should represent the content only. However, Internet Explorer
-calculated the width and height to include padding and border. The
-default behavior is the content, so a 50 x 20 pixel content with 5
-pixels padding and border takes up 70 x 30 pixels on the screen.</b></i></p>
+<i><b>Note: There is some confusion, particularly with older browsers, as to what the 
+width and height actually represent. According to the W3C standards, the height and width 
+should represent the content only. However, Internet Explorer calculated the width and 
+height to include padding and border. The default behavior is the content, so a 50 x 20 
+pixel content with 5 pixels padding and border takes up 70 x 30 pixels on the screen.</b></i>
+</p>
 
 You can use the <b>box-sizing</b> CSS style rule to set the width and
 height to either <b>content-box</b> (default) or <b>border-box</b>. If you are
@@ -594,14 +591,13 @@ This would produce the following appearance in the browser window. The
 two cells take up 100 percent of the width, and the larger content would
 take up more space.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. row/cell appearance example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. row/cell appearance example (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image009.jpg" 
   title="Row/cell appearance example"
   alt="Row/cell appearance example."
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
-<!-- ![](./images/image009.jpg) {width="6.5in" height="0.3958333333333333in"} -->
 
 <h6 align="center"><i>Figure 3: Row/cell appearance</i></h6>
 
@@ -609,15 +605,13 @@ One feature of the layout class is that the cell heights will match the
 height of the largest content, so if the cell's description had much
 more detail, it might appear as shown in Figure 4.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. same-height cells example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. same-height cells example (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image010.jpg" 
   title="Same-height cells example"
   alt="Same-height cells example."
   style="border: 2px solid #000000; width:5.3in;" />
 </p>
-
-<!-- ![](./images/image010.jpg) {width="5.302083333333333in" height="1.125in"} -->
 
 <h6 align="center"><i>Figure 4: Same-height cells</i></h6>
 
@@ -665,7 +659,7 @@ devices. For example, let's look at a website that displays information
 about U.S. coins. A sample is shown in Figure 5.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. responsive website example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. responsive website example (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image011.jpg" 
   title="Responsive website example"
@@ -679,7 +673,7 @@ about U.S. coins. A sample is shown in Figure 5.
 When this screen is displayed on a mobile device, the layout will change
 to stack the information vertically, as shown in Figure 6.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. mobile device display example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. mobile device display example (20) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image012.jpg" 
   title="Mobile device display example"
@@ -797,14 +791,13 @@ appear as shown in Figure 7 when viewed on a mobile device.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 13. mobile display without background column (xx) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 13. morgan dollar - mobile display without background column (22) ~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image013.jpg" 
-  title="Mobile dislay without background column"
-  alt="Mobile dislay without background column."
+  title="Morgan dollar - Mobile dislay without background column"
+  alt="Morgan dollar - Mobile dislay without background column."
   style="border: 2px solid #000000; width:1.57in;" />
 </p>
-<!-- ![](./images/image013.jpg) {width="1.5784722222222223in" height="1.812361111111111in"} -->
 
 <h6 align="center"><i>Figure 7: Mobile display without background column</i></h6>
 
@@ -852,38 +845,35 @@ Suppose we change our coin example to the following code snippet.
 
 You can see the column widths changing with the device size.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14. small size (< 601 pixels) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14. small size (< 601 pixels) (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image014.jpg" 
   title="Small size (< 601 pixels)"
   alt="Small size (< 601 pixels)."
   style="border: 2px solid #000000; width:2.62in;" />
 </p>
-<!-- ![](./images/image014.jpg) {width="2.6222222222222222in" height="1.6872222222222222in"} -->
 
 <h6 align="center"><i>Figure 8: Small size (< 601 pixels)</i></h6>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. medium size (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. medium size (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image015.jpg" 
   title="Medium size"
   alt="Medium size."
   style="border: 2px solid #000000; width:4.33in;" />
 </p>
-<!-- ![](./images/image015.jpg) {width="4.335833333333333in" height="1.68125in"} -->
 
 <h6 align="center"><i>Figure 9: Medium size</i></h6>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. large size (> 992 pixels) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. large size (> 992 pixels) (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image016.jpg" 
   title="Large size (> 992 pixels)"
   alt="Large size (> 992 pixels)."
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
-<!-- ![](./images/image016.jpg) {width="6.5in" height="1.2083333333333333in"} -->
 
 <h6 align="center"><i>Figure 10: Large size (> 992 pixels)</i></h6>
 
@@ -909,14 +899,13 @@ container.
 Figure 11 shows where the class names place the elements within the
 container.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 17. css display class names; top, middle, bottom (xx) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 17. css display class names; top, middle, bottom (24) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image017.jpg" 
   title="CSS display class names; top, middle, bottom"
   alt="CSS display class names; top, middle, bottom."
   style="border: 2px solid #000000; width:4.63in;" />
 </p>
-<!-- ![](./images/image017.jpg) {width="4.635277777777778in" height="1.9416666666666667in"} -->
 
 <h6 align="center"><i>Figure 11: CSS display</i></h6>
 
@@ -959,7 +948,7 @@ can be applied when a user moves the mouse over an element.
 The basic color set available in the W3 framework is shown in the
 following figure.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. w3.css colors (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. w3.css colors (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image018.jpg" 
   title="W3.CSS colors"
@@ -978,7 +967,7 @@ white lettering on a blue background.
 
 You can apply colors to any HTML element, such as <b>&lt;div&gt;</b> or <b>&lt;table&gt;</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image008.jpg" 
   title="Note logo (orange)"
@@ -1052,7 +1041,7 @@ and lighter/darker variations on theme.
 The following figure shows a sample theme (blue-gray) to illustrate the appearance of 
 themes.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19. w3 text themes (blue-gray) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19. w3 text themes (blue-gray) (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image019.jpg" 
   title="W3 text themes (blue-gray)"
@@ -1116,14 +1105,13 @@ you to set the <b>border- radius</b> property to create boxes with rounded
 corners. The W3.CSS framework provides several classes to easily create
 rounded corners.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 20. blue simple box & red rounded corners (xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 20. blue simple box & red rounded corners (31) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image020.jpg" 
   title="Blue simple box &amp; red rounded corners"
   alt="Blue simple box &amp; red rounded corners."
   style="border: 2px solid #000000; width:5.25in;" />
 </p>
-<!-- ![](./images/image020.jpg) {width="5.25in" height="0.6979166666666666in"} -->
 
 <h6 align="center"><i>Figure 14: Square (rectangle) box and rounded box</i></h6>
 
@@ -1232,14 +1220,13 @@ types for border colors:
 Thicker borders (6 pixels) can provide a nice visual touch to an
 element, as shown in Figure 15.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. thick border example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. thick border example (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image021.jpg" 
   title="Thick border example"
   alt="Thick border example."
   style="border: 2px solid #000000; width:4.35in;" />
 </p>
-<!-- ![](./images/image021.jpg) {width="4.354166666666667in" height="1.0416666666666667in"} -->
 
 <h6 align="center"><i>Figure 15: Thick border example</i></h6>
 
@@ -1290,14 +1277,13 @@ a header bar and some content, but don't want all the content exposed at
 once. The user will click on the header bar, and the text within that
 section will be shown (or hidden).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. css accordian example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. css accordian example (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image022.jpg" 
   title="CSS accordian example"
   alt="CSS accordian example."
   style="border: 2px solid #000000; width:3.29in;" />
 </p>
-<!-- ![](./images/image022.jpg) {width="3.298611111111111in" height="1.1284722222222223in"} -->
 
 <h6 align="center"><i>Figure 16: CSS accordion example</i></h6>
 
@@ -1367,14 +1353,13 @@ of content is visible at a time. However, the navigation among sections
 is done via a series of buttons (tabs), typically across the top of the
 page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. css tabs example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. css tabs example (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image023.jpg" 
   title="CSS tabs example"
   alt="CSS tabs example."
   style="border: 2px solid #000000; width:5.22in;" />
 </p>
-<!-- ![](./images/image023.jpg) {width="5.229166666666667in" height="0.9895833333333334in"} -->
 
 <h6 align="center"><i>Figure 17: CSS tabs example</i></h6>
 
@@ -1454,14 +1439,13 @@ passed the <b>divName</b> to open.
 Although tabs are typically horizontal, you can easily create vertical
 tabs with a few small changes to the layout.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. vertical tabs example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. vertical tabs example (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image024.jpg" 
   title="Vertical tabs example"
   alt="Vertical tabs example."
   style="border: 2px solid #000000; width:4.5in;" />
 </p>
-<!-- ![](./images/image024.jpg) {width="4.5in" height="1.90625in"} -->
 
 <h6 align="center"><i>Figure 18: Vertical tabs example</i></h6>
 
@@ -1511,14 +1495,13 @@ Figure 19 on a webpage.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. css card sample (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. css card sample (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image025.jpg" 
   title="CSS card sample"
   alt="CSS card sample."
   style="border: 2px solid #000000; width:3.63in;" />
 </p>
-<!-- ![](./images/image025.jpg) {width="3.6354166666666665in" height="0.9375in"} -->
 
 <h6 align="center"><i>Figure 19: CSS card sample</i></h6>
 
@@ -1531,14 +1514,13 @@ side of the screen, and the content appears in a larger area off to the
 other side. It is constructed very similarly to vertical tabs, but has
 additional options available to increase its flexibility.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. basic sidebar, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. basic sidebar, example (40) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image026.jpg" 
   title="Basic sidebar, example"
   alt="Basic sidebar, example."
   style="border: 2px solid #000000; width:3.81in;" />
 </p>
-<!-- ![](./images/image026.jpg) {width="3.8125in" height="1.4791666666666667in"} -->
 
 <h6 align="center"><i>Figure 20: Basic sidebar</i></h6>
 
@@ -1689,14 +1671,13 @@ message.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. warning panel, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. warning panel, example (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image027.jpg" 
   title="Warning panel, example"
   alt="Warning panel, example."
   style="border: 2px solid #000000; width:3.08in;" />
 </p>
-<!-- ![](./images/image027.jpg) {width="3.0833333333333335in" height="1.0in"} -->
 
 <h6 align="center"><i>Figure 21: Warning panel</i></h6>
 
@@ -1730,14 +1711,13 @@ container.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28. css note example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28. css note example (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image028.jpg" 
   title="CSS note example"
   alt="CSS note example."
   style="border: 2px solid #000000; width:2.89in;" />
 </p>
-<!-- ![](./images/image028.jpg) {width="2.8958333333333335in" height="0.7291666666666666in"} -->
 
 <h6 align="center"><i>Figure 22: CSS note example</i></h6>
 
@@ -1760,14 +1740,13 @@ Figure 23 shows the previous note with a <b>w3-border-red</b> and
 <b>w3-leftbar</b> class added.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 29. css custom note appearange (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 29. css custom note appearange (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image029.jpg" 
   title="CSS custom note appearance"
   alt="CSS custom note appearance."
   style="border: 2px solid #000000; width:2.78in;" />
 </p>
-<!-- ![](./images/image029.jpg) {width="2.78125in" height="0.625in"} -->
 
 <h6 align="center"><i>Figure 23: CSS custom note appearance</i></h6>
 
@@ -1801,14 +1780,13 @@ The <b>onclick</b> code simply changes the alert's display style property
 to <b>none</b>, causing the alert to disappear from the screen.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. sample alert panel (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. sample alert panel (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image030.jpg" 
   title="Sample alert panel"
   alt="Sample alert panel."
   style="border: 2px solid #000000; width:3.36in;" />
 </p>
-<!-- ![](./images/image030.jpg) {width="3.3645833333333335in" height="0.7708333333333334in"} -->
 
 <h6 align="center"><i>Figure 24: Sample alert panel</i></h6>
 
@@ -1823,7 +1801,7 @@ Generally, the following colors could be used for alert messages:
 -   Blue, cyan: Information only.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image008.jpg" 
   title="Note logo (orange)"
@@ -1846,7 +1824,7 @@ used for all elements on the site, unless specifically changed.
 The H1 through H6 header sizes use the font family of <b>Segoe UI</b>,
 <b>Arial</b>, <b>sans-serif</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image008.jpg" 
   title="Note logo (orange)"
@@ -2023,7 +2001,7 @@ computer instructions, you can use the <b>w3-code</b> class.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image008.jpg" 
   title="Note logo (orange)"
@@ -2080,14 +2058,13 @@ classes applied yet. <i>Code Listing 34</i>
 Running this code produces the screen shown in Figure 26, simply a row of hyperlinks.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33. menu items, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33. menu items, example (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image033.jpg" 
   title="Menu items, example"
   alt="Menu items, example."
   style="border: 2px solid #000000; width:2.17in;" />
 </p>
-<!-- ![](./images/image033.jpg) {width="2.1770833333333335in" height="0.5729166666666666in"} -->
 
 <h6 align="center"><i>Figure 26: Menu items</i></h6>
 
@@ -2112,14 +2089,13 @@ The <b>w3-button</b> class displays the hyperlinks as buttons, so they are
 not underlined. The result is shown in Figure 27.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 34. horizontal menu bar, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 34. horizontal menu bar, example (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image034.jpg" 
   title="Horizontal menu bar, example"
   alt="Horizontal menu bar, example."
   style="border: 2px solid #000000; width:4.77in;" />
 </p>
-<!-- ![](./images/image034.jpg) {width="4.770833333333333in" height="0.34375in"} -->
 
 <h6 align="center"><i>Figure 27: Horizontal menu</i></h6>
 
@@ -2149,14 +2125,13 @@ rounded menu bar shown in Figure 28.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35. rounded menu bar (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35. rounded menu bar (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image035.jpg" 
   title="Rounded menu bar"
   alt="Rounded menu bar."
   style="border: 2px solid #000000; width:4.61in;" />
 </p>
-<!-- ![](./images/image035.jpg) {width="4.614583333333333in" height="0.46875in"} -->
 
 <h6 align="center"><i>Figure 28: Rounded menu bar</i></h6>
 
@@ -2195,14 +2170,13 @@ a navigation bar showing the currently selected club and the ability to
 search for a team or player.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 36. navigation bar/search example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 36. navigation bar/search example (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image036.jpg" 
   title="Navigation bar/search example"
   alt="Navigation bar/search example."
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
-<!-- ![](./images/image036.jpg) {width="6.5in" height="0.5625in"} -->
 
 <h6 align="center"><i>Figure 29: Soccer site navigation</i></h6>
 
@@ -2238,14 +2212,13 @@ code snippet shows an example of added schedule menu options to our
 soccer navigation bar.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 37. drop-down navigation menu with search example (xx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 37. drop-down navigation menu with search example (53) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image037.jpg" 
   title="Drop-down navigation menu with search example"
   alt="Drop-down navigation menu with search example."
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
-<!-- ![](./images/image037.jpg) {width="6.5in" height="1.4in"} -->
 
 <h6 align="center"><i>Figure 30: Drop-down menus</i></h6>
 
@@ -2298,14 +2271,13 @@ follows.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 38. vertical navigation bar with search example (xx) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 38. vertical navigation bar with search example (54) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image038.jpg" 
   title="Vertical navigation bar with search example"
   alt="Vertical navigation bar with search example."
   style="border: 2px solid #000000; width:1.23in;" />
 </p>
-<!-- ![](./images/image038.jpg) {width="1.2388057742782153in" height="1.525in"} -->
 
 <h6 align="center"><i>Figure 31: Vertical bar</i></h6>
 
@@ -2389,14 +2361,13 @@ of 100 percent. You can add this class to any table within a site.
 Figure 32 shows the sample table.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. w3 table w/4 columns example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. w3 table w/4 columns example (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image039.jpg" 
   title="W3 table w/4 columns example"
   alt="W3 table w/4 columns example."
   style="border: 2px solid #000000; width:3.6in;" />
 </p>
-<!-- ![](./images/image039.jpg) {width="3.6in" height="1.1in"} -->
 
 <h6 align="center"><i>Figure 32: Sample table</i></h6>
 
@@ -2408,14 +2379,13 @@ The <b>w3-striped</b> class adds striping, so alternating rows will have a
 shaded effect, as shown in Figure 33.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 40. striped w3 table w/4 columns example (xx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 40. striped w3 table w/4 columns example (56) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image040.jpg" 
   title="Striped w3 table w/4 columns example"
   alt="Striped w3 table w/4 columns example."
   style="border: 2px solid #000000; width:3.57in;" />
 </p>
-<!-- ![](./images/image040.jpg) {width="3.5729166666666665in" height="1.2083333333333333in"} -->
 
 <h6 align="center"><i>Figure 33: Striped table</i></h6>
 
@@ -2433,14 +2403,13 @@ The <b>w3-table-all</b> class adds all the features (borders and shading)
 to the table. Figure 34 shows the class applied to our sample table.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 41. striped w3 table w/4 columns border/shading example (xx) ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 41. striped w3 table w/4 columns border/shading example (57) ~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image041.jpg" 
   title="Striped w3 table w/4 columns border/shading example"
   alt="Striped w3 table w/4 columns border/shading example."
   style="border: 2px solid #000000; width:4.73in;" />
 </p>
-<!-- ![](./images/image041.jpg) {width="4.730555555555555in" height="1.5in"} -->
 
 <h6 align="center"><i>Figure 34: All table features</i></h6>
 
@@ -2452,14 +2421,13 @@ makes this easy to do by adding the <b>w3-hoverable</b> class to the table.
 Figure 35 shows a table with the first row selected.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~ 42. hoverable/selected w3 table w/4 columns border/shading example (xx) ~~~~~~~~~~-->
+<!--~~~~~~~~~ 42. hoverable/selected w3 table w/4 columns border/shading example (57) ~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image042.jpg" 
   title="Hoverable/selected w3 table w/4 columns border/shading example"
   alt="Hoverable/selected w3 table w/4 columns border/shading example."
   style="border: 2px solid #000000; width:4.65in;" />
 </p>
-<!-- ![](./images/image042.jpg) {width="4.65625in" height="1.5729166666666667in"} -->
 
 <h6 align="center"><i>Figure 35: Hoverable table</i></h6>
 
@@ -2520,14 +2488,13 @@ as shown in Figure 36.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. w3 unordered list example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. w3 unordered list example (58) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image043.jpg" 
   title="W3 unordered list example"
   alt="W3 unordered list example."
   style="border: 2px solid #000000; width:1.199in;" />
 </p>
-<!-- ![](./images/image043.jpg) {width="1.1993055555555556in" height="0.7054724409448819in"} -->
 
 <h6 align="center"><i>Figure 36: Basic list</i></h6>
 
@@ -2598,14 +2565,13 @@ images next to the sport name.
 The result will appear as shown in Figure 37.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 44. w3 bar w/width & height example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 44. w3 bar w/width & height example (59) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image044.jpg" 
   title="W3 bar w/width & height example"
   alt="W3 bar w/width & height example."
   style="border: 2px solid #000000; width:2.21in;" />
 </p>
-<!-- ![](./images/image044.jpg) {width="2.2180555555555554in" height="1.0763888888888888in"} -->
 
 <h6 align="center"><i>Figure 37: List with images</i></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2638,14 +2604,13 @@ lists, and are summarized as follows:
 -   <b>w3-ul</b>: Basic list class.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. syncfusion.com (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. syncfusion.com (60) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image046.jpg" 
   title="Syncfusion.com"
   alt="Syncfusion.com."
   style="border: 2px solid #000000; width:8.5in;" />
 </p>
-<!-- [](./images/image046.jpg) {width="8.5in" height="10.996666666666666in"} -->
 
 <h2 id="ch10">Chapter 10 Buttons and Labels</h2>
 
@@ -2695,7 +2660,7 @@ might be used to allow the user to save or discard updates.
 
 <p>Figure 38 shows sample colored buttons.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. save/discard changes button (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. save/discard changes button (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image047.jpg" 
   title="Save/Discard changes button"
@@ -2728,14 +2693,13 @@ following code snippet will produce the rounded buttons shown in Figure 39.</p>
 &lt;/div&gt;
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 48. rounded save/discard changes button (xx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 48. rounded save/discard changes button (62) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image048.jpg" 
   title="Rounded Save/Discard changes button"
   alt="Rounded Save/Discard changes button."
   style="border: 2px solid #000000; width:2.60in;" />
 </p>
-<!-- ![](./images/image048.jpg) {width="2.6041666666666665in" height="0.5416666666666666in"} -->
 
 <h6 align="center"><i>Figure 39: Rounded buttons</i></h6>
 
@@ -2747,11 +2711,11 @@ can add the <b>w3-disabled</b> class to the button. This will cause the button t
 grayed-out appearance and disable the cursor when the user moves the mouse over the button.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. lightbulb icon (orange) (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. light bulb icon (orange) (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
 <img src="./images/image061.png"
-  title="Lightbulb icon (orange)"
-  alt="Lightbulb icon (orange)"
+  title="Light bulb icon (orange)"
+  alt="Light bulb icon (orange)"
   style="border: 0px solid #000000; width:0.143in;" />
 <i><b>Tip: You might want to dynamically add the w3-disabled class via JavaScript when the 
 button is clicked. This could provide a visual indication that the button has been pressed 
@@ -2789,14 +2753,13 @@ the badges shown in Figure 40.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 50.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. badge examples (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image050.jpg" 
-  title=""
-  alt="."
+  title="Badge examples"
+  alt="Badge examples."
   style="border: 2px solid #000000; width:2.54in;" />
 </p>
-<!-- ![](./images/image050.jpg) {width="2.5416666666666665in" height="1.0520833333333333in"} -->
 
 <h6 align="center"><i>Figure 40: Badge examples</i></h6>
 
@@ -2824,14 +2787,13 @@ the badge to indicate number of orders.
 This code snippet produces the list shown in Figure 41.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 51. badges with list elements, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 51. badges with list elements, example (64) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image051.jpg" 
   title="Badges with list elements, example"
   alt="Badges with list elements, example."
   style="border: 2px solid #000000; width:2.23in;" />
 </p>
-<!-- ![](./images/image051.jpg) {width="2.2395833333333335in" height="1.0208333333333333in"} -->
 
 <h6 align="center"><i>Figure 41: Badges with list elements</i></h6>
 
@@ -2851,14 +2813,13 @@ of the current operation.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. status: processing, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. status: processing, example (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image052.jpg" 
   title="Status: Processing, example"
   alt="Status: Processing, example."
   style="border: 2px solid #000000; width:1.32in;" />
 </p>
-<!-- ![](./images/image052.jpg) {width="1.3229166666666667in" height="0.3645833333333333in"} -->
 
 <h6 align="center"><i>Figure 42: Processing tag</i></h6>
 
@@ -2880,14 +2841,13 @@ several helper classes to produce a warning tag.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 53. w3 container, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 53. w3 container, example (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image053.jpg" 
   title="W3 container, example"
   alt="W3 container, example."
   style="border: 2px solid #000000; width:2.40in;" />
 </p>
-<!-- ![](./images/image053.jpg) {width="2.40625in" height="0.6145833333333334in"} -->
 
 <h6 align="center"><i>Figure 43: Warning tag</i></h6>
 
@@ -2914,14 +2874,13 @@ for these elements.
 Figure 44 shows a sample input form, formatted with W3 classes.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. contact us, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. contact us, example (66) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image054.jpg" 
   title="Contact Us, example"
   alt="Contact Us, example."
   style="border: 2px solid #000000; width:3.14in;" />
 </p>
-<!-- ![](./images/image054.jpg) {width="3.142361111111111in" height="4.260277777777778in"} -->
 
 <h6 align="center"><i>Figure 44: Sample input form</i></h6>
 
@@ -2940,7 +2899,7 @@ The <b>w3-input</b> class provides the basic formatting for a text box,
 providing the necessary padding and borders.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image008.jpg" 
   title="Note logo (orange)"
@@ -2985,14 +2944,13 @@ You can use the <b>w3-border0</b> class to achieve that look (shown in
 figure 45).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 55. w3 input first, last name example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 55. w3 input first, last name example (67) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image055.jpg" 
   title="W3 input first, last name example"
   alt="W3 input first, last name example."
   style="border: 2px solid #000000; width:2.46in;" />
 </p>
-<!-- ![](./images/image055.jpg) {width="2.46875in" height="0.5104166666666666in"} -->
 
 <h6 align="center"><i>Figure 45: Borderless input</i></h6>
 
@@ -3010,14 +2968,13 @@ circular buttons with labels next to each option. Figure 46 shows sample
 option buttons.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 56. radio/option buttons example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 56. radio/option buttons example (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image056.jpg" 
   title="Radio/option buttons example"
   alt="Radio/option buttons example."
   style="border: 2px solid #000000; width:1.71in;" />
 </p>
-<!-- ![](./images/image056.jpg) {width="1.71875in" height="0.4166666666666667in"} -->
 
 <h6 align="center"><i>Figure 46: Option buttons</i></h6>
 
@@ -3040,28 +2997,26 @@ attribute value. This allows the browser to enforce only one item within
 the group being selectable.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image008.jpg" 
   title="Note logo (orange)"
   alt="Note logo (orange)."
   style="border: 2px solid #000000; width:0.25in;" />
-<i><b>Note: Option buttons were originally
-called radio buttons because most older cars had buttons on the radio,
-designed so that when one button was pushed, the other buttons would
-automatically pop up (see Figure 47). Many younger developers were not
-familiar with the meaning, since very few cars still use radio
-buttons---hence the new name, option buttons.</b></i>
+<i><b>Note: Option buttons were originally called radio buttons because most older cars 
+had buttons on the radio, designed so that when one button was pushed, the other buttons 
+would automatically pop up (see Figure 47). Many younger developers were not familiar 
+with the meaning, since very few cars still use radio buttons---hence the new name, 
+option buttons.</b></i>
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57. radio, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57. radio, example (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image057.jpg" 
   title="Radio, example"
   alt="Radio, example."
   style="border: 2px solid #000000; width:2.69in;" />
 </p>
-<!-- ![](./images/image057.jpg) {width="2.6979166666666665in" height="2.0208333333333335in"} -->
 
 <h6 align="center"><i>Figure 47: Radio buttons</i></h6>
 
@@ -3072,14 +3027,13 @@ than one. The element for check boxes is a square, to distinguish them
 from option buttons. Figure 48 shows how check boxes appear on the form.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 58.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58. check boxes, example (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image058.jpg" 
-  title=""
-  alt="."
+  title="Check boxes, example"
+  alt="Check boxes, example."
   style="border: 2px solid #000000; width:3.9in;" />
 </p>
-<!-- ![](./images/image058.jpg) {width="3.9in" height="0.4in"} -->
 
 <h6 align="center"><i>Figure 48: Check boxes</i></h6>
 
@@ -3123,14 +3077,13 @@ box.
 Figure 49 shows a select box produced from this code snippet.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 59. select box, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 59. select box, example (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image059.jpg" 
   title="Select box, example"
   alt="Select box, example."
   style="border: 2px solid #000000; width:2.875in;" />
 </p>
-<!-- ![](./images/image059.jpg) {width="2.875in" height="0.9583333333333334in"} -->
 
 <h6 align="center"><i>Figure 49: Select box</i></h6>
 
@@ -3244,15 +3197,13 @@ icon.
 
 Figure 50 shows the screen (but on a website, the spinner will keep rotating).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60. saving..., example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60. saving..., example (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image060.jpg" 
   title="Saving....,example"
   alt="Saving....,example."
   style="border: 2px solid #000000; width:1.01in;" />
 </p>
-<!-- {width="1.0104166666666667in" height="0.5in"} -->
-
 
 <h6 align="center"><i>Figure 50: Sample spinner</i></h6>
 
@@ -3403,14 +3354,13 @@ Here is the HTML to display an image.
 This will produce the image shown in Figure 51.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 62. grandpa cuddling grandaughter (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 62. grandpa cuddling grandaughter (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image062.jpg" 
   title="Grandpa cuddling grandaughter"
   alt="Grandpa cuddling grandaughter."
   style="border: 2px solid #000000; width:1.09in;" />
 </p>
-<!-- ![](./images/image062.jpg) {width="1.0972222222222223in" height="1.426388888888889in"} -->
 
 <h6 align="center"><i>Figure 51: Grandpa cuddles</i></h6>
 
@@ -3424,7 +3374,7 @@ page:
 -   <b>w3-bordered</b>: Adds a border around entire image.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~ 63. image in circle, rounded, and with border, examples (xx) ~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 63. image in circle, rounded, and with border, examples (75) ~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image063.jpg"
   title="Image in circle, rounded, and with border, examples"
@@ -3441,13 +3391,12 @@ responsive image. The image size will adjust to the screen, but will
 never be larger than the original image size.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. lightbulb logo/icon (orange) (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo/icon (orange) (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image008.jpg"
-  title="Lightbulb logo/icon (orange)"
-  alt="Lightbulb logo/icon (orange)."
+  title="Note logo/icon (orange)"
+  alt="Note logo/icon (orange)."
   style="border: 0px d #000000; width:0.25in;" />
-<!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
 <i><b>Note: If you want a full responsive image (meaning it can be larger than original 
 size), you need to set the width property to</b> 100% <b>(via an inline style).</b></i>
 </p>
@@ -3515,7 +3464,6 @@ the slideshow.
   alt="Slideshow image with arrows example."
   style="border: 2px solid #000000; width:2.03in;" />
 </p>
-<!-- ![](./images/image066.jpg) {width="1.2708333333333333in" height="2.03125in"} -->
 
 <h6 align="center"><i>Figure 55: Slideshow</i></h6>
 
