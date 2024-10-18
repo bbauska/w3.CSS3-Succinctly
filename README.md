@@ -1015,6 +1015,7 @@ This will add 12 additional color classes for text, default theme color,
 and lighter/darker variations on theme.
 
 <h6 align="center"><i>Table 4: Color themes</i></h6>
+<div align="center">
 
 | Style name           | Description                                                                 |
 | -------------------- | --------------------------------------------------------------------------- |
@@ -1026,6 +1027,8 @@ and lighter/darker variations on theme.
 | <b>w3-theme-d5</b>   | Darkest variation of the theme background color (also w3-theme-dark).       |
 | <b>w3-theme-dX</b>   | Where x is 4 down to 1, progressively lighter theme backgrounds, but still  |
 |                      | darker than the default theme color.                                        |
+
+</div>
 
 The following figure shows a sample theme (blue-gray) to illustrate the appearance of 
 themes.
