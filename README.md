@@ -546,7 +546,6 @@ around the padding, and the final layer is the margin.
   title="Note logo (orange)"
   alt="Note logo (orange)."
   style="border: 0px; width:0.25in;" />
-<!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
 <i><b>Note: There is some confusion,
 particularly with older browsers, as to what the width and height
 actually represent. According to the W3C standards, the height and
@@ -979,13 +978,12 @@ white lettering on a blue background.
 
 You can apply colors to any HTML element, such as <b>&lt;div&gt;</b> or <b>&lt;table&gt;</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. notepad logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image008.jpg" 
-  title="Notepad logo (orange)"
-  alt="Notepad logo (orange)."
+  title="Note logo (orange)"
+  alt="Note logo (orange)."
   style="border: 2px solid #000000; width:0.25in;" />
-<!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
 <b><i>Note: Colors should be used carefully when designing a site---in particular, 
 check for 508 compliance. The Web Content Accessibility Guidelines require a
 4.5-to-1 contrast ratio between colors, to increase readability. For larger text 
@@ -1825,13 +1823,12 @@ Generally, the following colors could be used for alert messages:
 -   Blue, cyan: Information only.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. notepad logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image008.jpg" 
-  title="Notepad logo (orange)"
-  alt="Notepad logo (orange)."
+  title="Note logo (orange)"
+  alt="Note logo (orange)."
   style="border: 0px #000000; width:0.25in;" />
-<!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
 <i><b>Note: Colors are not universal, and have different meanings in different cultures.
 For example, the color red in western cultures generally means danger, while in 
 China, the color red represents luck. Be sure to consider your audience when choosing 
@@ -1849,20 +1846,17 @@ used for all elements on the site, unless specifically changed.
 The H1 through H6 header sizes use the font family of <b>Segoe UI</b>,
 <b>Arial</b>, <b>sans-serif</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. notepad logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image008.jpg" 
-  title="Notepad logo (orange)"
-  alt="Notepad logo (orange)."
+  title="Note logo (orange)"
+  alt="Note logo (orange)."
   style="border: 0px #000000; width:0.25in;" />
-<!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
-<i><b>Note: A serif font (such as Times
-Roman or Georgia) has little decorative strokes on the end of the
-letters, while a sans serif font (such as Helvetica or Arial) does not
-have these strokes. The font family tells the browser to try each font
-in the list, and if not found, just choose any font that most closely
-matches the last item in the family. W3.CSS suggests Verdana, and if
-not found, asks the browser to use a sans-serif font.</b></i>
+<i><b>Note: A serif font (such as Times Roman or Georgia) has little decorative strokes 
+on the end of the letters, while a sans serif font (such as Helvetica or Arial) does not
+have these strokes. The font family tells the browser to try each font in the list, and 
+if not found, just choose any font that most closely matches the last item in the family. 
+W3.CSS suggests Verdana, and if not found, asks the browser to use a sans-serif font.</b></i>
 </p>
 
 <h3 id="ch7-1">7.1 CSS fonts</h3>
@@ -2005,6 +1999,7 @@ totally opaque).
   title="Light bulb icon (orange)"
   alt="Light bulb icon (orange)."
   style="border: 0px solid #000000; width:0.143in;" />
+<!-- [](./images/image032.png) {width="0.14333333333333334in" height="0.25in"} -->
 <i><b>Tip: Opacity can be used when you are loading content via Ajax. Set the class to</b> 
 w3-opacity-max <b>during the</b> before Send <b>event, and set the class to</b> 
 w3-opacity-off <b>during the</b> complete <b>event. This will provide a visual indication 
@@ -2029,12 +2024,11 @@ computer instructions, you can use the <b>w3-code</b> class.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center">
+<p align="left">
   <img src="./images/image008.jpg" 
   title="Note logo (orange)"
   alt="Note logo (orange)."
   style="border: 2px solid #000000; width:0.25in;" />
-<!-- (./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
 <i><b>Note:</b> Translate="no" <b>is an HTML5 attribute indicating the following content 
 should not be translated to other languages.</b></i>
 </p>
@@ -2952,8 +2946,8 @@ providing the necessary padding and borders.
   title="Note logo (orange)"
   alt="Note logo (orange)."
   style="border: 0px #000000; width:0.25in;" />
-<i><b>Note: HTML5 introduces several new
-input types besides the basic text input. The following types are supported:</b></i>
+<i><b>Note: HTML5 introduces several new input types besides the basic text input. The 
+following types are supported:</b></i>
 </p>
 
 -   <i><b>date: Display a date editor.</b></i>
@@ -3052,7 +3046,6 @@ the group being selectable.
   title="Note logo (orange)"
   alt="Note logo (orange)."
   style="border: 2px solid #000000; width:0.25in;" />
-<!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
 <i><b>Note: Option buttons were originally
 called radio buttons because most older cars had buttons on the radio,
 designed so that when one button was pushed, the other buttons would
@@ -3264,7 +3257,7 @@ Figure 50 shows the screen (but on a website, the spinner will keep rotating).
 <h6 align="center"><i>Figure 50: Sample spinner</i></h6>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. light bulb icon (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. light bulb icon (orange) (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image061.png" 
   title="Light bulb icon (orange)"
@@ -3438,7 +3431,6 @@ page:
   alt="Image in circle, rounded, and with border, examples."
   style="border: 2px solid #000000; width:3.67in;" />
 </p>
-<!-- ![](./images/image063.jpg) {width="3.672083333333333in" height="1.5840277777777778in"} -->
 
 <h6 align="center"><i>Figure 52: Sample image classes</i></h6>
 
@@ -3449,7 +3441,7 @@ responsive image. The image size will adjust to the screen, but will
 never be larger than the original image size.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. lightbulb logo/icon (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. lightbulb logo/icon (orange) (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image008.jpg"
   title="Lightbulb logo/icon (orange)"
@@ -3474,14 +3466,13 @@ percent to 75 percent. The class names are:
 Figure 53 shows the various opacity effects.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 64. various opacity effects, examples (xx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 64. various grayscale opacity effects, examples (76) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image064.jpg"
-  title="Various opacity effects, examples"
-  alt="Various opacity effects, examples."
+  title="Various grayscale opacity effects, examples"
+  alt="Various grayscale opacity effects, examples."
   style="border: 2px solid #000000; width:1.08in;" />
 </p>
-<!-- ![](./images/image064.jpg) {width="2.73125in" height="1.0832633420822397in"} -->
 
 <h6 align="center"><i>Figure 53: Image opacity</i></h6>
 
@@ -3499,14 +3490,13 @@ image. The class names are:
 Figure 54 shows the grayscale effect on an image.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 65. grayscale effect on an image, example (xx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 65. grayscale effect on an image, example (76) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image065.jpg" 
   title="Grayscale effect on an image, example"
   alt="Grayscale effect on an image, example."
   style="border: 2px solid #000000; width:3.53in;" />
 </p>
-<!-- ![](./images/image065.jpg) {width="3.533333333333333in" height="1.260181539807524in"} -->
 
 <h6 align="center"><i>Figure 54: Grayscale</i></h6>
 
@@ -3518,7 +3508,7 @@ slideshow. The user can click the buttons to move among the images in
 the slideshow.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 66. slideshow image with arrows example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 66. slideshow image with arrows example (77) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image066.jpg" 
   title="Slideshow image with arrows example"
@@ -3607,14 +3597,13 @@ chapter, we will explore in detail one of the examples from the W3.CSS
 site. The email template is a good, simple demo of a responsive website
 for a mail client. Figure 56 shows the sample template.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 67. w3 css responsive website example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 67. w3 css responsive website example (79) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image067.jpg"
   title="w3 CSS responsive website example"
   alt="w3 CSS responsive website example."
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
-<!-- ![](./images/image67.jpg){width="6.5in" height="2.5840277777777776in"} -->
 
 <h6 align="center"><i>Figure 56: Email template</i></h6>
 
@@ -3672,15 +3661,13 @@ Save and Cancel buttons taking advantage of the Font Awesome library.
 
 This produces the buttons shown in Figure 57.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 68. save changes & cancel buttons (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 68. save changes & cancel buttons (80) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image068.jpg" 
   title="Save changes and Cancel buttons"
   alt="Save changes and Cancel buttons."
-  style="border: 2px solid #000000; width:2.5in;" />
+  style="border: 2px solid #000000; width:2.58in;" />
 </p>
-<!-- > ![](./images/image68.jpg){width="2.5833333333333335in" -->
-<!-- > height="0.4166666666666667in"} -->
 
 <h6 align="center"><i>Figure 57: Font Awesome buttons</i></h6>
 
@@ -3884,7 +3871,7 @@ businesses. These can save you some startup time if you are creating a website f
 business. These templates are responsive, as you can see from the snapshot of the social 
 media site template shown in Figure 58.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 69. social media template, desktop, tablet and phone (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 69. social media template, desktop, tablet and phone (85) ~~~~~~~~~~~~~~~~~-->
 <a href="https://www.w3schools.com/w3css/default.asp">
 <p align="center">
   <img src="./images/image069.jpg" 
@@ -3892,9 +3879,6 @@ media site template shown in Figure 58.
   alt="Social media template, desktop, tablet and phone."
   style="border: 2px solid #000000; width:5.8in;" />
 </p></a>
-<!-- style="border: 2px solid #000000; width:40%;" /> -->
-<!-- ![](./images/image069.jpg) -->
-<!-- {width="5.811527777777778in" height="2.5791666666666666in"} -->
 
 <h6 align="center"><i>Figure 58: W3.CSS Social media template</i></h6>
 
