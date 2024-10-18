@@ -8,8 +8,9 @@ output:
     with some style
 ---
 
-# w3.CSS Succinctly
-## W3 Cascade Styles Sheet (CSS)
+<h1 align="center">w3.CSS Succinctly</h1>
+
+<h2 align="center">W3 Cascade Styles Sheet (CSS)</h2>
 
 W3.CSS is a free, no-license CSS framework from w3schools.com that you can use to produce 
 responsive websites that work across all common browsers (Chrome, Edge, Firefox, Internet 
