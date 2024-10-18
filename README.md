@@ -975,15 +975,15 @@ You can apply colors simply by adding the class name to the list of
 classes on the element. For example, the following container will have
 white lettering on a blue background.
 
-####&lt;div class="w3-container w3-blue w3-text-white"&gt; &lt;/div&gt;
+<h4>&lt;div class="w3-container w3-blue w3-text-white"&gt; &lt;/div&gt;</h4>
 
 You can apply colors to any HTML element, such as <b>&lt;div&gt;</b> or <b>&lt;table&gt;</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 08.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. notepad logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image008.jpg" 
-  title=""
-  alt="."
+  title="Notepad logo (orange)"
+  alt="Notepad logo (orange)."
   style="border: 2px solid #000000; width:0.25in;" />
 <!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
 <b><i>Note: Colors should be used carefully when designing a site---in particular, 
@@ -1825,16 +1825,15 @@ Generally, the following colors could be used for alert messages:
 -   Blue, cyan: Information only.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. notepad logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. notepad logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image008.jpg" 
-  title="Notepad logo"
-  alt="Notepad logo."
+  title="Notepad logo (orange)"
+  alt="Notepad logo (orange)."
   style="border: 0px #000000; width:0.25in;" />
 <!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
 <i><b>Note: Colors are not universal, and have different meanings in different cultures.</b></i>
-
-<i><b>For example, the color red in western cultures generally means danger, while in 
+For example, the color red in western cultures generally means danger, while in 
 China, the color red represents luck. Be sure to consider your audience when choosing 
 colors for alerts and boxes.</b></i>
 </p>
@@ -1850,20 +1849,20 @@ used for all elements on the site, unless specifically changed.
 The H1 through H6 header sizes use the font family of <b>Segoe UI</b>,
 <b>Arial</b>, <b>sans-serif</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. notepad logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. notepad logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image008.jpg" 
-  title="Notepad logo"
-  alt="Notepad logo."
+  title="Notepad logo (orange)"
+  alt="Notepad logo (orange)."
   style="border: 0px #000000; width:0.25in;" />
 <!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
-> <i><b>Note: A serif font (such as Times
-> Roman or Georgia) has little decorative strokes on the end of the
-> letters, while a sans serif font (such as Helvetica or Arial) does not
-> have these strokes. The font family tells the browser to try each font
-> in the list, and if not found, just choose any font that most closely
-> matches the last item in the family. W3.CSS suggests Verdana, and if
-> not found, asks the browser to use a sans-serif font.</b></i>
+<i><b>Note: A serif font (such as Times
+Roman or Georgia) has little decorative strokes on the end of the
+letters, while a sans serif font (such as Helvetica or Arial) does not
+have these strokes. The font family tells the browser to try each font
+in the list, and if not found, just choose any font that most closely
+matches the last item in the family. W3.CSS suggests Verdana, and if
+not found, asks the browser to use a sans-serif font.</b></i>
 </p>
 
 <h3 id="ch7-1">7.1 CSS fonts</h3>
@@ -2000,18 +1999,17 @@ percent, and the <b>w3opacity-min</b> class to set the level to 75 percent.
 The <b>w3-opacity-off</b> class will set the opacity to 100 percent (i.e.
 totally opaque).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. orange logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center">
-  <img src="./images/image031.jpg" 
-  title="Orange logo"
-  alt="Orange logo."
-  style="border: 2px solid #000000; width:.25in;" />
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 32. light bulb icon (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left">
+  <img src="./images/image032.png" 
+  title="Light bulb icon (orange)"
+  alt="Light bulb icon (orange)."
+  style="border: 2px solid #000000; width:0.143in;" />
 <!-- [](./images/image032.png) {width="0.14333333333333334in" height="0.25in"} -->
-<i><b>Tip: Opacity can be used when you are loading
-content via Ajax. Set the class to</b> w3-opacity-max <b>during the</b>
-before Send <b>event, and set the class to</b> w3-opacity-off <b>during
-the</b> complete <b>event. This will provide a visual indication to the
-user that a portion of the screen has been updated.</b></i>
+<i><b>Tip: Opacity can be used when you are loading content via Ajax. Set the class to</b> 
+w3-opacity-max <b>during the</b> before Send <b>event, and set the class to</b> 
+w3-opacity-off <b>during the</b> complete <b>event. This will provide a visual indication 
+to the user that a portion of the screen has been updated.</b></i>
 </p>
 
 <h3 id="ch7-5">7.5 CSS code</h3>
@@ -2619,11 +2617,11 @@ The result will appear as shown in Figure 37.
 
 <h6 align="center"><i>Figure 37: List with images</i></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. light bulb logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. light bulb icon (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image045.png" 
-  title="Light bulb logo (orange)"
-  alt="Light bulb logo (orange)."
+  title="Light bulb icon (orange)"
+  alt="Light bulb icon (orange)."
   style="border: 2px solid #000000; width:0.143in;" />
 <!-- ![](./images/image045.png) {width="0.14333333333333334in" height="0.25in"} -->
 <i><b>Tip: When using images, you will get better performance (smaller file sizes) if you 
@@ -3055,7 +3053,7 @@ attribute value. This allows the browser to enforce only one item within
 the group being selectable.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57. note logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image008.jpg" 
   title="Note logo (orange)"
@@ -3273,11 +3271,11 @@ Figure 50 shows the screen (but on a website, the spinner will keep rotating).
 <h6 align="center"><i>Figure 50: Sample spinner</i></h6>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. light bulb logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. light bulb icon (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image061.png" 
-  title="Saving....,example"
-  alt="Light bulb logo."
+  title="Light bulb icon (orange)"
+  alt="Light bulb icon (orange)."
   style="border: 2px solid #000000; width:0.143in;" />
 <!-- {width="0.1597222222222222in" height="0.32943022747156603in"} -->
 <i><b>Tip: Spinners are often used during Ajax calls, to show something is happening. 
