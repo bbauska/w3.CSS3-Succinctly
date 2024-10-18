@@ -3464,9 +3464,8 @@ never be larger than the original image size.
   alt="Lightbulb logo/icon (orange)."
   style="border: 0px d #000000; width:0.25in;" />
 <!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
-<i><b>Note: If you want a full responsive
-image (meaning it can be larger than original size), you need to set
-the width property to</b> 100% <b>(via an inline style).</b></i>
+<i><b>Note: If you want a full responsive image (meaning it can be larger than original 
+size), you need to set the width property to</b> 100% <b>(via an inline style).</b></i>
 </p>
 
 <h4 id="ch14-1-2">14.1.2 Image opacity</h4>
