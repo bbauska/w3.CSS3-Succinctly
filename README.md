@@ -540,12 +540,12 @@ content. The next layer is the padding, which is some number of pixels
 wrapped around the content. The border is the third layer, wrapped
 around the padding, and the final layer is the margin.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image008.jpg" 
-  title="Note"
-  alt="Note."
-  style="border: 0px; width:.25in;" />
+  title="Note logo (orange)"
+  alt="Note logo (orange)."
+  style="border: 0px; width:0.25in;" />
 <!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
 <i><b>Note: There is some confusion,
 particularly with older browsers, as to what the width and height
@@ -1832,12 +1832,12 @@ Generally, the following colors could be used for alert messages:
   alt="Notepad logo."
   style="border: 0px #000000; width:0.25in;" />
 <!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
-> <i><b>Note: Colors are not universal, and
-> have different meanings in different cultures.</b></i>
->
-> <i><b>For example, the color red in western cultures generally means
-> danger, while in China, the color red represents luck. Be sure to
-> consider your audience when choosing colors for alerts and boxes.</b></i>
+<i><b>Note: Colors are not universal, and have different meanings in different cultures.</b></i>
+
+<i><b>For example, the color red in western cultures generally means danger, while in 
+China, the color red represents luck. Be sure to consider your audience when choosing 
+colors for alerts and boxes.</b></i>
+</p>
 
 <h2 id="ch7">Chapter 7 Text</h2>
 
@@ -2619,17 +2619,16 @@ The result will appear as shown in Figure 37.
 
 <h6 align="center"><i>Figure 37: List with images</i></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. light bulb logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. light bulb logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image045.png" 
-  title="Notepad logo"
-  alt="Notepad logo."
-  style="border: 2px solid #000000; width:0.25in;" />
+  title="Light bulb logo (orange)"
+  alt="Light bulb logo (orange)."
+  style="border: 2px solid #000000; width:0.143in;" />
 <!-- ![](./images/image045.png) {width="0.14333333333333334in" height="0.25in"} -->
-<i><b>Tip: When using images, you will get better
-performance (smaller file sizes) if you adjust the image file size,
-rather than using the HTML height and width attributes to resize the
-image.</b></i>
+<i><b>Tip: When using images, you will get better performance (smaller file sizes) if you 
+adjust the image file size, rather than using the HTML height and width attributes to 
+resize the image.</b></i>
 </p>
 
 <h3 id="ch9-3">9.3 Summary</h3>
@@ -2759,12 +2758,12 @@ can add the <b>w3-disabled</b> class to the button. This will cause the button t
 grayed-out appearance and disable the cursor when the user moves the mouse over the button.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. orange light bulb (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. lightbulb icon (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
 <img src="./images/image049.png"
-  title="Orange lightbulb"
-  alt="Orange lightbulb"
-  style="border: 2px solid #000000; width:0.25in;" />
+  title="Lightbulb icon (orange)"
+  alt="Lightbulb icon (orange)"
+  style="border: 2px solid #000000; width:0.143in;" />
 <i><b>Tip: You might want to dynamically add the w3-disabled class via JavaScript when the 
 button is clicked. This could provide a visual indication that the button has been pressed 
 and the action is being performed. Remove the class when the work is complete.</b></i>
@@ -2956,11 +2955,11 @@ The <b>w3-input</b> class provides the basic formatting for a text box,
 providing the necessary padding and borders.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image008.jpg" 
-  title="Note logo"
-  alt="Note logo."
+  title="Note logo (orange)"
+  alt="Note logo (orange)."
   style="border: 0px #000000; width:0.25in;" />
 <i><b>Note: HTML5 introduces several new
 input types besides the basic text input. The following types are supported:</b></i>
@@ -3055,14 +3054,21 @@ All elements within the option group must have the same <b>name</b>
 attribute value. This allows the browser to enforce only one item within
 the group being selectable.
 
-> ![](./images/image008.jpg) <!-- {width="0.25in" height="0.28958333333333336in"} -->
-> <i><b>Note: Option buttons were originally
-> called radio buttons because most older cars had buttons on the radio,
-> designed so that when one button was pushed, the other buttons would
-> automatically pop up (see Figure 47). Many younger developers were not
-> familiar with the meaning, since very few cars still use radio
-> buttons---hence the new name, option buttons.</b></i>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57. note logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left">
+  <img src="./images/image008.jpg" 
+  title="Note logo (orange)"
+  alt="Note logo (orange)."
+  style="border: 2px solid #000000; width:0.25in;" />
+<!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
+<i><b>Note: Option buttons were originally
+called radio buttons because most older cars had buttons on the radio,
+designed so that when one button was pushed, the other buttons would
+automatically pop up (see Figure 47). Many younger developers were not
+familiar with the meaning, since very few cars still use radio
+buttons---hence the new name, option buttons.</b></i>
+</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57. radio, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3267,17 +3273,16 @@ Figure 50 shows the screen (but on a website, the spinner will keep rotating).
 <h6 align="center"><i>Figure 50: Sample spinner</i></h6>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. light bulb logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. light bulb logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image061.png" 
   title="Saving....,example"
-  alt="Saving....,example."
-  style="border: 2px solid #000000; width:0.32in;" />
+  alt="Light bulb logo."
+  style="border: 2px solid #000000; width:0.143in;" />
 <!-- {width="0.1597222222222222in" height="0.32943022747156603in"} -->
-<i><b>Tip: Spinners are often used during
-Ajax calls, to show something is happening. However, be sure that if
-an error occurs, the spinner is removed. Otherwise, users see the
-spinner still moving, and complain about performance.</b></i>
+<i><b>Tip: Spinners are often used during Ajax calls, to show something is happening. 
+However, be sure that if an error occurs, the spinner is removed. Otherwise, users see 
+the spinner still moving, and complain about performance.</b></i>
 </p>
 
 <h3 id="ch12-3">12.3 Summary</h3>
@@ -3454,11 +3459,11 @@ responsive image. The image size will adjust to the screen, but will
 never be larger than the original image size.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. light bulb logo/icon (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. lightbulb logo/icon (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image008.jpg"
-  title="Light bulb logo/icon"
-  alt="Light bulb logo/icon."
+  title="Lightbulb logo/icon (orange)"
+  alt="Lightbulb logo/icon (orange)."
   style="border: 0px d #000000; width:0.25in;" />
 <!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
 <i><b>Note: If you want a full responsive
