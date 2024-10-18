@@ -780,7 +780,7 @@ appear as shown in Figure 7 when viewed on a mobile device.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 13. mobile dislay without background column (xx) ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 13. mobile display without background column (xx) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image013.jpg" 
   title="Mobile dislay without background column"
@@ -962,7 +962,7 @@ white lettering on a blue background.
 You can apply colors to any HTML element, such as <b>&lt;div&gt;</b> or <b>&lt;table&gt;</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 08.  (xx) ~~~~~~~~~~~~~~~~~-->
-<p align="center">
+<p align="left">
   <img src="./images/image008.jpg" 
   title=""
   alt="."
