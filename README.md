@@ -388,6 +388,7 @@ features, such as table searching and sorting, and client size form
 validation.
 
 <h6 align="center"><i>Table 2: Website layers</i></h6>
+<div align="center">
 
 | Layer                 | Content                                   | Format                  |
 | --------------------- | ----------------------------------------- | ----------------------- |
@@ -396,6 +397,8 @@ validation.
 | <b>layer</b>          | defaults                                  |                         |
 | <b>Activity layer</b> | Scripting to provide interactivity to the | JavaScript, Typescript, |
 |                       | site                                      | etc.                    |
+
+</div>
 
 Browsers have default rules indicating how to display HTML tags; your
 custom CSS or CSS frameworks (such as W3.CSS) provide overrides for
@@ -983,6 +986,7 @@ You can also download separate color libraries from the W3.CSS site.
 Table 3 lists the libraries that are available.
 
 <h6 align="center"><i>Table 3: Color libraries</i></h6>
+<div align="center">
 
 | Library Name           | Description                                  | Download name         |
 | ---------------------- | -------------------------------------------- | --------------------- |
@@ -998,6 +1002,8 @@ Table 3 lists the libraries that are available.
 |                        | tomatoes.                                    |                       |
 | <b>Camouflage</b>      | Colors with earth tones, from federal        | w3-colors-camo.css    |
 | <b>colors</b>          | standards.                                   |                       |
+
+</div>
 
 Note that the colors in the libraries all have unique names, so you can
 use multiple color libraries, in addition to the standard material
@@ -2560,17 +2566,17 @@ The result will appear as shown in Figure 37.
 
 <h6 align="center"><i>Figure 37: List with images</i></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 45. w3 bar select/hover w/width & height example (xx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. notepad logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image045.jpg" 
-  title="W3 bar select/hover w/width & height example"
-  alt="W3 bar select/hover w/width & height example."
+  <img src="./images/image045.png" 
+  title="Notepad logo"
+  alt="Notepad logo."
   style="border: 2px solid #000000; width:0.14in;" />
 <!-- ![](./images/image045.png) {width="0.14333333333333334in" height="0.25in"} -->
-> <i><b>Tip: When using images, you will get better
-> performance (smaller file sizes) if you adjust the image file size,
-> rather than using the HTML height and width attributes to resize the
-> image.</b></i>
+<i><b>Tip: When using images, you will get better
+performance (smaller file sizes) if you adjust the image file size,
+rather than using the HTML height and width attributes to resize the
+image.</b></i>
 </p>
 
 ### Summary 
@@ -2900,33 +2906,30 @@ form. The basic syntax is as follows.
 The <b>w3-input</b> class provides the basic formatting for a text box,
 providing the necessary padding and borders.
 
-> ![](./images/image008.jpg) <!-- {width="0.25in" height="0.28958333333333336in"} -->
-> <i><b>Note: HTML5 introduces several new
-> input types besides the basic text input. The following types are
-> supported:</b></i>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image008.jpg" 
+  title="Note logo"
+  alt="Note logo."
+  style="border: 0px #000000; width:0.25in;" />
+![](./images/image008.jpg) <!-- {width="0.25in" height="0.28958333333333336in"} -->
+<i><b>Note: HTML5 introduces several new
+input types besides the basic text input. The following types are
+supported:</b></i>
+</p>
 
 -   <i><b>date: Display a date editor.</b></i>
-
 -   <i><b>email: Get an email address.</b></i>
-
 -   <i><b>number: A numeric spinner.</b></i>
-
 -   <i><b>range: A slider between two numeric values.</b></i>
-
 -   <i><b>tel: Get a phone number.</b></i>
-
 -   <i><b>color: A color picker.</b></i>
-
 -   <i><b>datetime-local: Enter a date/time, and no time zone.</b></i>
-
 -   <i><b>month: Select a month and year.</b></i>
-
 -   <i><b>search: A text box for searching.</b></i>
-
 -   <i><b>time: A box to select a time and a.m. or p.m.</b></i>
-
 -   <i><b>url: A text box that expects input to look like a URL.</b></i>
-
 -   <i><b>week: Pick a week and year.</b></i>
 
 > <i><b>If a browser does not support one of the new types, it will fall
@@ -2994,11 +2997,11 @@ snippet shows how to create a group of buttons.
 
 ```
 <input type="radio" class="w3-radio" name="phoneType" value="cell" checked>
-<label>Cell</label>
+  <label>Cell</label>
 <input type="radio" class="w3-radio" name="phoneType" value="work">
-<label>Work</label>
+  <label>Work</label>
 <input type="radio" class="w3-radio" name="phoneType" value="home">
-<label>Home</label>
+  <label>Home</label>
 ```
 
 All elements within the option group must have the same <b>name</b>
@@ -3049,11 +3052,11 @@ The following code creates the check boxes.
 
 ```
 <input type="checkbox" class="w3-check" checked>
-<label>Overnight shipping</label>
+  <label>Overnight shipping</label>
 <input type="checkbox" class="w3-check" >
-<label>Insurance</label>
+  <label>Insurance</label>
 <input type="checkbox" class="w3-check" >
-<label>Signature required</label>
+  <label>Signature required</label>
 ```
 
 The <b>w3-check</b> class provides the formatting for check boxes.
@@ -3109,7 +3112,7 @@ input element.
     <i class="w3-col fa fa-envelope-o"></i></div>
     <div class="w3-rest">
     <input class="w3-input w3-border" type="email" 
-	  name="email" placeholder="Email address" >
+      name="email" placeholder="Email address" >
   </div>
 </div>
 ```
@@ -3216,14 +3219,21 @@ Figure 50 shows the screen (but on a website, the spinner will keep rotating).
 
 <h6 align="center"><i>Figure 50: Sample spinner</i></h6>
 
-> ![](./images/image061.png) 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. light bulb logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left">
+  <img src="./images/image061.png" 
+  title="Saving....,example"
+  alt="Saving....,example."
+  style="border: 2px solid #000000; width:0.32in;" />
 <!-- {width="0.1597222222222222in" height="0.32943022747156603in"} -->
-> <i><b>Tip: Spinners are often used during
-> Ajax calls, to show something is happening. However, be sure that if
-> an error occurs, the spinner is removed. Otherwise, users see the
-> spinner still moving, and complain about performance.</b></i>
+<i><b>Tip: Spinners are often used during
+Ajax calls, to show something is happening. However, be sure that if
+an error occurs, the spinner is removed. Otherwise, users see the
+spinner still moving, and complain about performance.</b></i>
+</p>
 
-### Summary
+<h3>Summary</h3>
 
 Animation can improve the general feel of a site, making your pop-up
 dialog boxes appear smoother, and allowing you to show processing
@@ -3243,7 +3253,7 @@ to complete for tasks such as editing a customer or selecting airlines.
 W3.CSS allows you to create a modal form and keep it hidden until some
 button or action triggers the modal to display.
 
-### Creating a modal dialog
+<h3>Creating a modal dialog</h3>
 
 To create a modal dialog, you need to use the <b>w3-modal</b> class for the
 container <b>&lt;div&gt;</b> that will hold the modal dialog's contents. You
@@ -3396,10 +3406,18 @@ You can add the <b>w3-image</b> class to the <b>&lt;img&gt;</b> tag to create a
 responsive image. The image size will adjust to the screen, but will
 never be larger than the original image size.
 
-> ![](./images/image008.jpg) <!-- {width="0.25in" height="0.28958333333333336in"} -->
-> <i><b>Note: If you want a full responsive
-> image (meaning it can be larger than original size), you need to set
-> the width property to</b> 100% <b>(via an inline style).</b></i>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. light bulb logo/icon (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image008.jpg"
+  title="Light bulb logo/icon"
+  alt="Light bulb logo/icon."
+  style="border: 0px d #000000; width:3.67in;" />
+<!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
+<i><b>Note: If you want a full responsive
+image (meaning it can be larger than original size), you need to set
+the width property to</b> 100% <b>(via an inline style).</b></i>
+</p>
 
 #### Image opacity 
 
@@ -3518,10 +3536,11 @@ function showDivs(n) {
   var x = document.getElementsByClaseName('mySlides');
   if (n > x.length) { xslideIndex =1;} 
   if (n < 1) { slideIndex =x.length;} 
-    for (var i=0; i < x.length; i++) {
-	x[i].style.display ="none";
+  for (var i=0; i < x.length; i++) {
+    x[i].style.display ="none";
     x[i].style.display ="block";
   }
+}
 </script>
 ```
 
@@ -3594,8 +3613,8 @@ To add Font Awesome to the site, the following line is added to the
 
 ```
 <link rel="stylesheet" type="text/css"
-  href="https://cdnjs.cloudfare.com/ajax/libs/
-    font-awesome/4.7.0/css/font-awesome.min.css">
+  href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/
+  4.7.0/css/font-awesome.min.css">
 ```
 
 To use the fonts, you simply add the class name to any element, and
@@ -3631,9 +3650,9 @@ Throughout the course of this book, we also took advantage of some HTML
 entities to add small icons to a few of our examples. Some useful HTML
 entities are:
 
-• <b>&#9776;</b> Hamburger menu
+-   <b>&#9776;</b> Hamburger menu
 
-##### • &#128197; Calendar 
+-   <b>&#128197;</b> Calendar
 
 -   <b>&#128269;</b> Search icon
 
@@ -3647,40 +3666,37 @@ entities are:
 
 -   <b>&#10683;</b> Circle with X
 
-While HTML entities are easy to use, not all entities will work with all
-fonts. Be sure to test your entities against your website font or use
-the Font Awesome library, which imbeds its own font.
+While HTML entities are easy to use, not all entities will work with all fonts. Be sure to 
+test your entities against your website font or use the Font Awesome library, which imbeds 
+its own font.
 
 ### Setting the font family 
 
-The final step when using a web font is to adjust the styles on various
-elements to use the new font family. The final piece of code in the
-<b>&lt;head&gt;</b> section does that.
+The final step when using a web font is to adjust the styles on various elements to use 
+the new font family. The final piece of code in the <b>&lt;head&gt;</b> section does that.
 
 <h6 align="center"><i>Code Listing 75</i></h6>
 
 ```
 <style>
   html, body, h1, h2, h3, h4, h5, h6 {
-  font-family: "RobotoDraft","Roboto", sans-serif;
+    font-family: "RobotoDraft","Roboto", sans-serif;
   }
-
   .w3-bar-block, .w3-bar-item { padding:16px; }
 </style>
 ```
 
 ### Body section 
 
-The body section consists of a sidebar menu for navigation among the
-email folders (the inbox, sent items, drafts, and deleted items). Note
-that there is no implementation code for these folders; it would
-typically be an Ajax call to gather all the items within the folder and
-display them.
+The body section consists of a sidebar menu for navigation among the email folders (the 
+inbox, sent items, drafts, and deleted items). Note that there is no implementation code 
+for these folders; it would typically be an Ajax call to gather all the items within the 
+folder and display them.
 
 #### Sidebar 
 
-The following code creates the sidebar navigation menu (some classes are
-removed for readability).
+The following code creates the sidebar navigation menu (some classes are removed for 
+readability).
 
 <h6 align="center"><i>Code Listing 76</i></h6>
 
@@ -3688,13 +3704,13 @@ removed for readability).
 <nav class="w3-sidebar w3-bar-block w3-collapse w3-card" id="mySideBar"
   style="width:200px;">
   <a href="#" onclick="w3_close();" title="Close side menu"
-  class="w3-bar-item w3-button w3-hide-large">Close
+    class="w3-bar-item w3-button w3-hide-large">Close
   <i class="fa fa-remove"></i></a>
   <a href="#" class="w3-bar-item w3-button w3-left-align"
-  onclick="document.getElementById('id01').style.display='block'">
-  New Message <i class="w3-padding fa fa-pencil"></i></a>
+    onclick="document.getElementById('id01').style.display='block'">
+    New Message <i class="w3-padding fa fa-pencil"></i></a>
   <a id="myBtn" href="#" onclick="myFunc('Demo1');"
-  class="w3-bar-item w3-button">
+    class="w3-bar-item w3-button">
   <i class="fa fa-inbox w3-margin-right"></i>Inbox&nbsp;&nbsp;
   <span class="w3-tag w3-circle">3</span>
   <i class="fa fa-caret-down w3-margin-left"></i></a>
@@ -3707,11 +3723,10 @@ removed for readability).
 </nav>
 ```
 
-Although the code uses several classes and structures, there are a few
-items worth noting. First is the <b>w3-hide-large</b> class on the Close
-sidebar menu item. This indicates that the Close option will not appear
-on larger devices, where it's assumed there is enough screen room for
-both the sidebar menu and the email contents.
+Although the code uses several classes and structures, there are a few items worth noting. 
+First is the <b>w3-hide-large</b> class on the Close sidebar menu item. This indicates that 
+the Close option will not appear on larger devices, where it's assumed there is enough 
+screen room for both the sidebar menu and the email contents.
 
 #### Compose new mail 
 
@@ -3737,11 +3752,11 @@ get the information for the email.
 </div>
 ```
 
-Notice that the pop-up dialog uses the zoom animation to appear on the
-screen, and the header section provides the ability to close the dialog.
+Notice that the pop-up dialog uses the zoom animation to appear on the screen, and the 
+header section provides the ability to close the dialog.
 
-The button code shown in the following code snippet will close the
-dialog box once the user either sends or cancels the email.
+The button code shown in the following code snippet will close the dialog box once the 
+user either sends or cancels the email.
 
 <h6 align="center"><i>Code Listing 78</i></h6>
 
@@ -3761,18 +3776,16 @@ framework with some working code examples.
 
 <h2 id="ch16">Chapter 16 Versions</h2>
 
-There are two additional versions of the framework, depending on your
-needs. Both versions are also free, and are smaller than the base W3.CSS
-file. However, they do not include any colors; it is up to you to define
-your own colors.
+There are two additional versions of the framework, depending on your needs. Both versions 
+are also free, and are smaller than the base W3.CSS file. However, they do not include any 
+colors; it is up to you to define your own colors.
 
 ### CSS Pro
 
-The <a href="https://www.w3schools.com/w3css/4/w3pro.css">CSS Pro version</a>, is 16
-KB. You can add your own color support with your own style sheet,
-in-line styles, or a W3 theme. For example, if you wanted to use the
-flat color scheme, rather than the default material design colors, you
-could import the following style sheets.
+The <a href="https://www.w3schools.com/w3css/4/w3pro.css">CSS Pro version</a>, is 16KB. 
+You can add your own color support with your own style sheet, in-line styles, or a W3 
+theme. For example, if you wanted to use the flat color scheme, rather than the default 
+material design colors, you could import the following style sheets.
 
 <h6 align="center"><i>Code Listing 79</i></h6>
 
@@ -3792,13 +3805,11 @@ colors available to your site.
 ### CSS Mobile
 
 The <a href="https://www.w3schools.com/w3css/4/w3mobile.css">CSS Mobile version</a>, 
-is 14KB. You can add your own color support with your own style sheet,
-in-line styles, or a W3 theme. In addition to no colors, this sheet also
-has no mobile-first media queries---it is strictly intended for mobile
-devices.
+is 14KB. You can add your own color support with your own style sheet, in-line styles, or 
+a W3 theme. In addition to no colors, this sheet also has no mobile-first media 
+queries---it is strictly intended for mobile devices.
 
-To use this style sheet with the metro colors, you could use the
-following code snippet.
+To use this style sheet with the metro colors, you could use the following code snippet.
 
 <h6 align="center"><i>Code Listing 80</i></h6>
 
@@ -3813,28 +3824,25 @@ following code snippet.
 
 <h2 id="ch17">Chapter 17 Summary</h2>
 
-W3.CSS is a simple and fast framework, making it easier to apply CSS
-styles to create responsive websites. Its color support and responsive
-design, as well as consistent and simple class names, make it an
-easy-to-use framework that can be used comfortably with other frameworks
-and libraries.
+W3.CSS is a simple and fast framework, making it easier to apply CSS styles to 
+create responsive websites. Its color support and responsive design, as well as 
+consistent and simple class names, make it an easy-to-use framework that can be 
+used comfortably with other frameworks and libraries.
 
-Visit the [[W3.CSS website]](https://www.w3schools.com/w3css/default.asp) for
-updates to the framework and color libraries and themes, as well as
-online documentation and interactive examples to let you try out the
-framework.
+Visit the <a href="https://www.w3schools.com/w3css/default.asp">W3.CSS website</a> for 
+updates to the framework and color libraries and themes, as well as online documentation 
+and interactive examples to let you try out the framework.
 
 <h3 id="ch17-1">17.1 Site</h3>
 
-The W3.CSS site provides examples of how to create various elements with
-the classes. In addition, there are several demo sites available, such
-as a photo album, newspaper layout, and blog.
+The W3.CSS site provides examples of how to create various elements with the classes. In 
+addition, there are several demo sites available, such as a photo album, newspaper layout, 
+and blog.
 
-There are several templates available, which are complete sites for
-various types of businesses. These can save you some startup time if you
-are creating a website for a business. These templates are responsive,
-as you can see from the snapshot of the social media site template shown
-in Figure 58.
+There are several templates available, which are complete sites for various types of 
+businesses. These can save you some startup time if you are creating a website for a 
+business. These templates are responsive, as you can see from the snapshot of the social 
+media site template shown in Figure 58.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 69. social media template, desktop, tablet and phone (xx) ~~~~~~~~~~~~~~~~~-->
 <a href="https://www.w3schools.com/w3css/default.asp">
@@ -3850,6 +3858,9 @@ in Figure 58.
 
 <h6 align="center"><i>Figure 58: W3.CSS Social media template</i></h6>
 
-If you are looking for an easy-to-use, free CSS framework with lots of
-examples, templates, and online documentation, W3.CSS is certainly a
-worthwhile contender.
+If you are looking for an easy-to-use, free CSS framework with lots of examples, templates, 
+and online documentation, W3.CSS is certainly a worthwhile contender.
+
+<h6>...the end</h6>
+<h6>Created 8/1/2024 1:00am</h6>
+<h6>Last Updated 10/17/2024 10:04pm</h6>
