@@ -517,7 +517,7 @@ shows the box model.
 </p>
 <!-- ![](./images/image007.jpg) {width="2.6875in" height="2.0416666666666665in"} -->
 
-<h6 align="center">Figure 2: Box model</h6>
+<h6 align="center"><i>Figure 2: Box model</i></h6>
 
 There are four parts to the box. The inner content is the default
 content shown in the element. The height and width refer to that
@@ -1081,7 +1081,7 @@ Table 5 lists the predefined themes available from W3.CSS.
 | <b>Teal</b>        | w3-theme-teal.css        | <b>Text color</b> |
 | <b>Yellow</b>      | w3-theme-yellow.css      | <b>Text color</b> |
 
-<h2 id="ch4">Chapter 4 Helper Classes
+<h2 id="ch4">Chapter 4 Helper Classes</h2>
 
 There are a few classes included that can be attached to various
 elements to perform some basic formatting of the element's appearance.
@@ -1178,8 +1178,7 @@ The are several border classes available.
 The basic border classes allow you to add a border around the entire
 element or one or more sides. The classes are:
 
--   <b>w3-border</b>: Adds borders to all sides (top, bottom, left, right)
-    of the element.
+-   <b>w3-border</b>: Adds borders to all sides (top, bottom, left, right) of the element.
 
 -   <b>w3-border-top</b>: Adds the border to the top of the element.
 
@@ -1197,11 +1196,9 @@ You can add the <b>w3-border-color</b> classes to the border class (both
 classes are required) to change the border color. There are two class
 types for border colors:
 
--   <b>w3-border-color</b>: Sets border to specified color (default is
-    black).
+-   <b>w3-border-color</b>: Sets border to specified color (default is black).
 
--   <b>w3-hover-border-color</b>: Sets border color to use when hovering
-    over the element.
+-   <b>w3-hover-border-color</b>: Sets border color to use when hovering over the element.
 
 #### Thick borders
 
@@ -1226,8 +1223,7 @@ be used to create thick borders around an element:
 
 -   <b>w3-leftbar</b>: Adds a thick border to the left side of the element.
 
--   <b>w3-rightbar</b>: Adds a thick border to the right side of the
-    element.
+-   <b>w3-rightbar</b>: Adds a thick border to the right side of the element.
 
 -   <b>w3-topbar</b>: Adds a thick border to the top of the element.
 
@@ -1267,11 +1263,11 @@ a header bar and some content, but don't want all the content exposed at
 once. The user will click on the header bar, and the text within that
 section will be shown (or hidden).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 22.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. css accordian example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image022.jpg" 
-  title=""
-  alt="."
+  title="CSS accordian example"
+  alt="CSS accordian example."
   style="border: 2px solid #000000; width:3.29in;" />
 </p>
 <!-- ![](./images/image022.jpg) {width="3.298611111111111in" height="1.1284722222222223in"} -->
@@ -1287,9 +1283,9 @@ snippet.
 
 ```
 <button onclick="openPanel('Airport');"
-class="w3-btn w3-block w3-pale-blue w3-border-blue
- w3-border w3-leftbar w3-left-align"> Airport departure and arrival
-information </button>
+  class="w3-btn w3-block w3-pale-blue w3-border-blue
+  w3-border w3-leftbar w3-left-align"> Airport departure and arrival
+  information </button>
 ```
 
 The <b>openPanel()</b> JavaScript function will handle the opening and
@@ -1319,7 +1315,8 @@ JavaScript. The code will have two tasks: one is to hide all of the
 inactive tabs (based on the class name), and the second is to make the
 selected tab visible.
 
-> <i>Code Listing 12</i>
+<h6 align="center"><i>Code Listing 12</i></h6>
+
 ```
 function openPanel(id) {
   var x = document.getElementById(id); 
@@ -1494,7 +1491,7 @@ Figure 19 on a webpage.
 </p>
 <!-- ![](./images/image025.jpg) {width="3.6354166666666665in" height="0.9375in"} -->
 
-<h6 align="center"><i>Figure 19 : CSS card sample</i></h6>
+<h6 align="center"><i>Figure 19: CSS card sample</i></h6>
 
 ### CSS sidebar 
 
@@ -1713,7 +1710,7 @@ container.
 </p>
 <!-- ![](./images/image028.jpg) {width="2.8958333333333335in" height="0.7291666666666666in"} -->
 
-<h6 align="center"><i>Figure 22 : CSS note example</i></h6>
+<h6 align="center"><i>Figure 22: CSS note example</i></h6>
 
 #### Customizing the notes
 
@@ -2561,8 +2558,7 @@ The result will appear as shown in Figure 37.
 </p>
 <!-- ![](./images/image044.jpg) {width="2.2180555555555554in" height="1.0763888888888888in"} -->
 
-> <i>Figure 37: List with images</i>
->
+<h6 align="center"><i>Figure 37: List with images</i></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 45. w3 bar select/hover w/width & height example (xx) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
