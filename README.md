@@ -141,11 +141,11 @@ SYNCFUSION, SUCCINCTLY, DELIVER INNOVATION WITH EASE, ESSENTIAL, and
 ### [<b>Chapter 7 Text</b>](#ch7)
 >#### 7.1 [<b>CSS fonts</b>](#ch7-1)
   - >##### 7.1.1 [<b>Print style</b>](#ch7-1-1)
->#### 7.3 [<b>Web fonts</b>](#ch7-3)
-  - >##### 7.3.1 [<b>Installing the font</b>](#ch7-3-1)
->#### 7.4 [<b>Alignment</b>](#ch7-4)
->#### 7.5 [<b>Text features</b>](#ch7-5)
->#### 7.6 [<b>CSS code</b>](#ch7-6)
+>#### 7.2 [<b>Web fonts</b>](#ch7-2)
+  - >##### 7.2.1 [<b>Installing the font</b>](#ch7-2-1)
+>#### 7.3 [<b>Alignment</b>](#ch7-3)
+>#### 7.4 [<b>Text features</b>](#ch7-4)
+>#### 7.5 [<b>CSS code</b>](#ch7-5)
 
 ### [<b>Chapter 8 Menus</b>](#ch8)
 >#### 8.1 [<b>CSS navigation</b>](#ch8-1)
@@ -344,10 +344,10 @@ is computer programming.
 In his spare time, Joe is an avid tennis player, practices yoga and
 martial arts, and plays with his first granddaughter, Blaire.
 
-<h2 id="ch1-2">1.2 Chapter 1 Introduction</h2>
+<h3 id="ch1-2">1.2 Chapter 1 Introduction</h3>
 
 W3.CSS is a free, no-license CSS framework from
-[[w3schools.com]](http://www.w3schools.com/) that you can
+<a href="http://www.w3schools.com/">w3schools.com</a> that you can
 use to produce responsive websites that work across all common browsers
 (Chrome, Edge, Firefox, Internet Explorer) and devices (desktops,
 tablets, mobile). It is much smaller than other frameworks and relies
@@ -357,11 +357,15 @@ a comparison of uncompressed memory sizes, see Table 1.
 
 <h6 align="center"><i>Table 1: Approximate framework sizes</i></h6>
 
+<div align="center">
+
 |                      | JavaScript (min)     | CSS(min)          |
 |----------------------|----------------------|:-----------------:|
 | <b>Bootstrap</b>     | 37 kb                | 119 kb            |
 | <b>Foundation</b>    | 86 kb                | 60 kb             |
 | <b>W3.CSS</b>        | N/A                  | 21 kb             |
+
+</div>
 
 While each framework has its own set of features and components, the
 W3.CSS is small and simple to learn, and is a worthwhile contender to
@@ -424,7 +428,7 @@ background color to blue-gray.
 You could add the class <b>w3-round-large</b> to add rounded corners to the
 <b>&lt;div&gt;</b> element.
 
-### Simple example
+<h3 id="ch1-6">1.6 Simple example</h3>
 
 The following example shows a simple webpage displaying an image and
 some text in a container. You can resize your browser and the entire
@@ -444,7 +448,7 @@ page will adjust to the new size.
 
 <!-- gettysberg address -->
 
-#### Source page 
+<h4 id="ch1-6-1">1.6.1 Source page</h4>
 
 Code Listing 1 is the source page for the above webpage. Note the
 link-reference to local file <b>w3.css</b> in the <b>&lt;head&gt;</b> section of
@@ -488,7 +492,7 @@ framework, as I'll explain shortly.
 </html>
 ```
 
-### Obtaining W3.CSS
+<h3 id="ch1-7">1.7 Obtaining W3.CSS</h3>
 
 You can download <a href="https://www.w3schools.com/w3css/w3css_downloads.asp">W3.CSS</a>.
 It is totally free and does not require any license to use.
@@ -555,7 +559,7 @@ individual sides (left and right), top, and bottom. One of the benefits
 of the W3 CSS framework is that the class definition sets them
 consistently for you.
 
-### CSS layout
+<h3 id="ch2-1">2.1 CSS layout</h3>
 
 W3 uses two basic classes to display cell content, the <b>w3-cell-row</b>
 class and the <b>w3-cell</b> class. The <b>row</b> element is a wrapper around
@@ -624,7 +628,7 @@ cause the cells to be laid out horizontally on a larger screen, but be
 stacked vertically on smaller screens, such as mobile devices (phones
 and some tablets).
 
-#### Classes summary 
+<h4 id="ch2-1-1">2.1.1 Classes summary</h4>
 
 The following is a list of the various <b>w3</b> classes for controlling
 your screen layout:
@@ -643,7 +647,7 @@ your screen layout:
     horizontally if there's room, but stack vertically on smaller
     devices.
 
-#### CSS responsive
+<h3 id="ch2-2">2.2 CSS responsive</h3>
 
 The W3.CSS framework includes a grid system designed to be responsive to
 the screen size, rearranging columns as needed to render on different
@@ -676,7 +680,7 @@ to stack the information vertically, as shown in Figure 6.
 
 <h6 align="center"><i>Figure 6: Mobile device display</i>
 
-#### Responsive layout 
+<h4 id="ch2-2-1">2.2.1 Responsive layout</h4>
 
 To create the responsive layout, you must start with a <b>w3-row</b> or
 <b>w3-row-padding</b> container.
@@ -692,7 +696,7 @@ To be responsive, the elements must be nested with the <b>w3-row</b> class.
 Within the <b>w3-row div</b>, you can add additional <b>div</b> containers to
 create columns.
 
-#### General-width columns 
+<h4 id="ch2-2-2">2.2.2 General-width columns</h4>
 
 Here are the general column classes:
 
@@ -734,7 +738,7 @@ while the background column takes up half of the row width.
 </div>
 ```
 
-#### 12-column responsive 
+<h4 id="ch2-2-3">2.2.3 12-column responsive</h4>
 
 In addition to the general column widths, you can use the <b>w3-col</b>
 class to create columns based on a 12-column grid. To do so, you need to
@@ -755,7 +759,7 @@ You can also set the width using the class <b>w3-col</b> and an inline
 style to set the <b>width</b> attribute. There is also a <b>w3-rest</b> class
 that indicates the column should take the remaining row width.
 
-#### Show and hide columns 
+<h4 id="ch2-2-4">2.2.4 Show and hide columns</h4>
 
 By default, all columns are visible on every device. However, that might
 not be the best approach for your website. For our example, we might
@@ -794,14 +798,14 @@ appear as shown in Figure 7 when viewed on a mobile device.
 
 <h6 align="center"><i>Figure 7: Mobile display without background column</i></h6>
 
-<h3>CSS grid</h3>
+<h3 id="ch2-3">2.3 CSS grid</h3>
 
 The framework's grid system works just as the responsive system (meaning
 all columns must be contained with a <b>w3-row</b>), but relies on
 <b>w3-col</b> and <b>sizing</b> (based on 12 columns) to determine the column
 sizes.
 
-#### Column widths 
+<h4 id="ch2-3-1">2.3.1 Column widths</h4>
 
 Each column is 8.33 percent (one-twelfth) of the container width, and
 you can specify the number of columns to display for device sizes. If
@@ -882,7 +886,7 @@ avoid creating empty gaps. In our example code, if we wanted to hide the
 description column on a small device, the previous two columns should
 use <b>s6</b> sizing, rather than <b>s3.</b>
 
-### CSS display
+<h3 id="ch2-4">2.4 CSS display</h3>
 
 The <b>w3-display-container</b> class allows you to display HTML elements
 at specific locations within other elements. For example, you might want
@@ -926,7 +930,7 @@ the Save and Cancel buttons, we could use the following code snippet.
 You can still use other classes, such as <b>w3-hide-size</b>, to customize
 the appearance of a display container to different device sizes.
 
-#### Summary 
+<h3 id="ch2-5">2.5 Summary</h3>
 
 The W3.CSS framework provides a number of different layout options,
 allowing a lot of flexibility in designing your web application.
@@ -940,7 +944,7 @@ scheme is based on the Material Design colors. The color classes
 are hover classes, <b>w3-hover-color</b> and <b>w3-hover-text-color</b>, which
 can be applied when a user moves the mouse over an element.
 
-<h3>Basic CSS colors</h3>
+<h3 id="ch3-1">3.1 Basic CSS colors</h3>
 
 The basic color set available in the W3 framework is shown in the
 following figure.
@@ -1010,7 +1014,7 @@ use multiple color libraries, in addition to the standard material
 design colors in the framework. Each color will begin with the final
 portion of the name, such as <b>&lowbar;flat</b> or <b>&lowbar;signal</b>.
 
-<h3>Color themes</h3>
+<h3 id="ch3-3">3.3 Color themes</h3>
 
 Color themes are CSS classes that allow you to use variations of the
 same basic color. For example, if your site has a gray look about it,
@@ -1056,7 +1060,7 @@ theme colors will not have sufficient contrast to meet accessibility
 guidelines. Be aware of the people using your site to ensure that a
 theme doesn't make the site more difficult for some users.
 
-<h3 id="ch3-4">Available themes</h3>
+<h4 id="ch3-3-1">3.3.1 Available themes</h4>
 
 Table 5 lists the predefined themes available from W3.CSS.
 
@@ -1096,7 +1100,7 @@ Table 5 lists the predefined themes available from W3.CSS.
 There are a few classes included that can be attached to various
 elements to perform some basic formatting of the element's appearance.
 
-<h3>CSS round</h3>
+<h3 id="ch4-1">4.1 CSS round</h3>
 
 By default, HTML elements appear as a square box. However, CSS allows
 you to set the <b>border- radius</b> property to create boxes with rounded
@@ -1132,14 +1136,14 @@ border radius, the more pronounced the rounded corners will be.
 
 </div>
 
-#### Circle class
+<h4 id="ch4-1-1">4.1.1 Circle class</h4>
 
 In addition to the rounded corners, the framework includes a
 <b>w3-circle</b> class to put the entire element in a circle (or oval),
 depending on the element size. You can nest circles within each other by
 adjusting the elements width using an inline style attribute.
 
-### CSS padding
+<h3 id="ch4-2">4.2 CSS padding</h3>
 
 The padding classes can be used to add a padding around the cell
 content. There are two types of padding classes. The <b>numeric</b> padding
@@ -1147,7 +1151,7 @@ classes add top and bottom padding as specified by the class name. The
 <b>size</b> padding classes provide complete padding (all four sides) using
 size abbreviations.
 
-#### Numeric padding
+<h4 id="ch4-2-1">4.2.1 Numeric padding</h4>
 
 The numeric padding classes are:
 
@@ -1157,7 +1161,7 @@ The numeric padding classes are:
 - <b>w3-padding-48</b>: Adds 48 pixels top and bottom padding. 
 - <b>w3-padding-64</b>: Adds 64 pixels top and bottom padding.
 
-#### Size padding
+<h4 id="ch4-2-2">4.2.2 Size padding</h4>
 
 The size padding classes add padding to all four sides: top, bottom,
 left, and right. The classes are:
@@ -1166,7 +1170,7 @@ left, and right. The classes are:
 -   <b>w3-padding-small</b>: Adds 4 pixels top and bottom, and 8 pixels left and right.
 -   <b>w3-padding-large</b>: Adds 12 pixels top and bottom padding, 24 pixels left and right.
 
-<h3>CSS margins</h3>
+<h3 id="ch4-3">4.3 CSS margins</h3>
 
 The margin classes allow you to add a 16-pixel margin to an element. The
 class allows margins to be added to all sides or to individual sides:
@@ -1182,12 +1186,12 @@ You can combine classes if you only need margins on some edges. The
 <b>w3-section</b> class is a shorthand class, the same as adding classes
 <b>w3-margin-top</b> and <b>w3-margin-bottom</b> to the element.
 
-<h3>CSS borders</h3>
+<h3 id="ch4-4">4.4 CSS borders</h3>
 
 The W3.CSS framework provides classes to place borders around elements.
 The are several border classes available.
 
-#### Basic borders 
+<h4 id="ch4-4-1">4.4.1 Basic borders</h4>
 
 The basic border classes allow you to add a border around the entire
 element or one or more sides. The classes are:
@@ -1204,7 +1208,7 @@ element or one or more sides. The classes are:
 
 -   <b>w3-border-0</b>: Removes all borders from the element.
 
-#### Border colors
+<h4 id="ch4-4-2">4.4.2 Border colors</h4>
 
 You can add the <b>w3-border-color</b> classes to the border class (both
 classes are required) to change the border color. There are two class
@@ -1214,7 +1218,7 @@ types for border colors:
 
 -   <b>w3-hover-border-color</b>: Sets border color to use when hovering over the element.
 
-#### Thick borders
+<h4 id="ch4-4-3">4.4.3 Thick borders</h4>
 
 Thicker borders (6 pixels) can provide a nice visual touch to an
 element, as shown in Figure 15.
@@ -1241,7 +1245,7 @@ be used to create thick borders around an element:
 
 -   <b>w3-topbar</b>: Adds a thick border to the top of the element.
 
-<h3>CSS sizing</h3>
+<h3 id="ch4-5">4.5 CSS sizing</h3>
 
 The W3.CSS framework provides a number of classes to change the size of
 elements:
@@ -1258,7 +1262,7 @@ elements:
 These classes can be applied to any element, such as text, buttons,
 badges, and tables.
 
-#### Summary
+<h3 id="ch4-6">4.6 Summary</h3>
 
 The helper classes and color classes, combined with the other base
 classes, provide a tremendous amount of control over your webpage
@@ -1270,7 +1274,7 @@ The W3.CSS framework provides a variety of container styles to use in
 your application. Working with these containers will require some
 JavaScript; however, it is minimal and simple scripting.
 
-<h3>CSS accordions</h3>
+<h3 id="ch5-1">5.1 CSS accordions</h3>
 
 An accordion is used when you have several text box elements, typically
 a header bar and some content, but don't want all the content exposed at
@@ -1288,7 +1292,7 @@ section will be shown (or hidden).
 
 <h6 align="center"><i>Figure 16: CSS accordion example</i></h6>
 
-#### Accordion bars
+<h4 id="ch5-1-1">5.1.1 Accordion bars</h4>
 
 The accordion bars are styled buttons, as shown in the following
 snippet.
@@ -1305,7 +1309,7 @@ snippet.
 The <b>openPanel()</b> JavaScript function will handle the opening and
 closing of the accordion content.
 
-#### Building the sections
+<h4 id="ch5-1-2">5.1.2 Building the sections</h4>
 
 To create the section for the accordion, you will need to create a
 separate <b>&lt;div&gt;</b> for each section. The following code snippet shows
@@ -1322,7 +1326,7 @@ Each <b>&lt;div&gt;</b> will have the <b>w3-hide</b> class applied so that the
 content is not visible. The JavaScript code will take care of displaying
 the content.
 
-#### Navigation
+<h4 id="ch5-1-3">5.1.3 Navigation</h4>
 
 To navigate between the accordions, you will need to employ some simple
 JavaScript. The code will have two tasks: one is to hide all of the
@@ -1347,7 +1351,7 @@ If it is not present, it is added and the content becomes visible. If
 the <b>w3-show</b> class is already there, it is removed (which causes the
 original <b>w3-hide</b> class to take effect).
 
-<h3>CSS tabs</h3>
+<h3 id="ch5-2">5.2 CSS tabs</h3>
 
 Tabs function in a similar manner to accordions, where only one section
 of content is visible at a time. However, the navigation among sections
@@ -1365,7 +1369,7 @@ page.
 
 <h6 align="center"><i>Figure 17: CSS tabs example</i></h6>
 
-#### Tab classes 
+<h4 id="ch5-2-1">5.2.1 Tab classes</h4>
 
 There are two classes you need to work with in tabs:
 
@@ -1373,7 +1377,7 @@ There are two classes you need to work with in tabs:
 
 -   <b>w3-bar-item</b>: The button representing the tab.
 
-#### Building the tabs 
+<h4 id="ch5-2-2">5.2.2 Building the tabs</h4>
 
 <h6 align="center"><i>Code Listing 13</i></h6>
 
@@ -1390,7 +1394,8 @@ There are two classes you need to work with in tabs:
   </button>
 </div>
 ```
-#### Building the sections 
+
+<h4 id="ch5-2-3">5.2.3 Building the sections</h4>
 
 To create sections for the tabs, you will need to create a separate
 <b>&lt;div&gt;</b> for each section within the tabs. The following code snippet
@@ -1412,7 +1417,8 @@ remaining <b>&lt;div&gt;</b> elements are hidden.
   <p>Rental details</p>
 </div>
 ```
-### Navigation 
+
+<h4 id="ch5-2-4">5.2.4 Navigation</h4>
 
 To navigate between the tabs, you will need to employ some simple
 JavaScript. The code will have two purposes: the first is to hide all of
@@ -1434,7 +1440,7 @@ function openDiv(divName) {
 When the user clicks on the tab, the JavaScript function is called and
 passed the <b>divName</b> to open.
 
-### Vertical tabs
+<h4 id="ch5-2-5">5.2.5 Vertical tabs</h4>
 
 Although tabs are typically horizontal, you can easily create vertical
 tabs with a few small changes to the layout.
@@ -1474,7 +1480,7 @@ Be sure to set the margin large enough to start past the width of the
 menu. You should add the <b>margin-left</b> style in the travel class,
 rather than inline.
 
-###CSS cards
+<h3 id="ch5-3">5.3 CSS cards</h3>
 
 A card is a container with a shadow around it to provide a paper-like
 appearance to an element. The framework provides a simple <b>w3-card</b>
@@ -1507,7 +1513,7 @@ Figure 19 on a webpage.
 
 <h6 align="center"><i>Figure 19: CSS card sample</i></h6>
 
-### CSS sidebar 
+<h3 id="ch5-4">5.4 CSS sidebar</h3>
 
 A common website container is the sidebar menu, where the navigation
 options appear on the
@@ -1527,7 +1533,7 @@ additional options available to increase its flexibility.
 
 <h6 align="center"><i>Figure 20: Basic sidebar</i></h6>
 
-### Basic sidebar 
+<h4 id="ch5-4-1">5.4.1 Basic sidebar</h4>
 
 To create the sidebar, you need to use the <b>w3-sidebar</b> and
 <b>w3-bar-block</b> classes, as well as set the width of the sidebar.
@@ -1548,7 +1554,7 @@ snippet shows the basic sidebar setup.
 You will also need to set the left margin of the content elements large
 enough to be positioned past the right border of the sidebar.
 
-### Collapsible sidebar 
+<h4 id="ch5-4-2">5.4.2 Collapsible sidebar</h4>
 
 A fairly common technique on websites, particularly mobile sites, is
 hiding the sidebar menu (providing more space for the main content), and
@@ -1624,7 +1630,7 @@ Keep in mind that the element name for the sidebar is case sensitive, so
 be sure the <b>id</b> name matches the <b>id</b> you've assigned to your
 sidebar menu.
 
-#### Slide content to right 
+<h4 id="ch5-4-3">5.4.3 Slide content to right</h4>
 
 While the collapsible sidebar appears properly, there might be times
 when you want the content to shift to the right, rather than be
@@ -1653,7 +1659,7 @@ You will need to adjust the margin and width percentages to match your
 sidebar menu width, and adjust the left margin of the content of the
 main portion of your screen.
 
-### CSS panels
+<h3 id="ch5-5">5.5 CSS panels</h3>
 
 The <b>w3-panel</b> class is very similar to the <b>w3-container</b> class,
 but includes a 16-pixel top and bottom margin to have the panel stand
@@ -1685,7 +1691,7 @@ message.
 
 <h6 align="center"><i>Figure 21: Warning panel</i></h6>
 
-### Summary
+<h3 id="ch5-6">5.6 Summary</h3>
 
 The W3.CSS framework provides a number of ways to present content and
 actions, and with minor JavaScript, you can have an easy-to-work system
@@ -1697,7 +1703,7 @@ site.
 W3.CSS includes a few classes for creating visual elements on the page.
 All these elements use the <b>w3-panel</b> as their base class.
 
-### CSS notes 
+<h3 id="ch6-1">6.1 CSS notes</h3>
 
 Notes are boxes of information displayed on the website, and can be
 easily constructed using the <b>w3-panel</b> base and some helper classes.
@@ -1726,7 +1732,7 @@ container.
 
 <h6 align="center"><i>Figure 22: CSS note example</i></h6>
 
-#### Customizing the notes
+<h4 id="ch6-1-1">6.1.1 Customizing the notes</h4>
 
 In addition to colors and rounded corners, you can use the following
 classes to improve the appearance of notes:
@@ -1756,7 +1762,7 @@ Figure 23 shows the previous note with a <b>w3-border-red</b> and
 
 <h6 align="center"><i>Figure 23: CSS custom note appearance</i></h6>
 
-### CSS alerts
+<h3 id="ch6-2">6.2 CSS alerts</h3>
 
 Alerts are generally messages on the website that need attention from
 the user. Typically, the color of the alert suggests the severity of the
@@ -1849,7 +1855,7 @@ The H1 through H6 header sizes use the font family of <b>Segoe UI</b>,
 > not found, asks the browser to use a sans-serif font.</b></i>
 </p>
 
-### CSS fonts
+<h3 id="ch7-1">7.1 CSS fonts</h3>
 
 You could easily override the Verdana font by adding a font family to
 your HTML and body elements after the W3.CSS file is loaded, for
@@ -1876,7 +1882,7 @@ You could modify the W3.CSS file as well, but I would advise you to put
 your unique settings into a separate style sheet, rather than risk
 losing them if you download a W3.CSS update.
 
-#### Print style
+<h4 id="ch7-1-1">7.1.1 Print style</h4>
 
 Verdana is a good, flexible font, but you might want to choose a
 different font for printing. The following code snippet shows a media
@@ -1895,7 +1901,7 @@ query to change the printed font to an alternative font.
 }
 ```
 
-### Web fonts
+<h3 id="ch7-2">7.2 Web fonts</h3>
 
 When a browser chooses a font, it relies on the fonts that are installed
 on the user's computer. However, CSS allows you to use fonts that are
@@ -1906,7 +1912,7 @@ A popular source of web fonts is the <a href="https://fonts.google.com/">Google 
 library</a>. This site contains hundreds of web fonts you can use to improve your 
 website's appearance.
 
-<h4>Installing the font</h4>
+<h4 id="ch7-2-1">7.2.1 Installing the font</h4>
 
 To use a web font, you will need to install it into your webpage. For
 example, the Tangerine
@@ -1937,7 +1943,7 @@ Be sure to include a default font in case the requested font is not
 loaded for any reason. Also, keep in mind that the font file needs to be
 loaded when the page starts, which can slow down the startup time.
 
-### Alignment
+<h3 id="ch7-3">7.3 Alignment</h3>
 
 There are three classes you can use to align text (and other elements)
 horizontally within a container. These classes are:
@@ -1948,7 +1954,7 @@ horizontally within a container. These classes are:
 
 -   <b>w3-center</b>: Centers text within the container.
 
-### Text features
+<h3 id="ch7-4">7.4 Text features</h3>
 
 You can change the appearance of your text a bit by using a couple of
 additional classes with the framework. These classes allow you to widen
@@ -1997,7 +2003,7 @@ the</b> complete <b>event. This will provide a visual indication to the
 user that a portion of the screen has been updated.</b></i>
 </p>
 
-### CSS code
+<h3 id="ch7-5">7.5 CSS code</h3>
 
 If you want to display some sort of code, such as programming code or
 computer instructions, you can use the <b>w3-code</b> class.
@@ -2026,7 +2032,7 @@ The default font families for code are Consolas and Courier New.
 > to move among pages in a website. The W3.CSS framework provides
 > classes to allow you to control the appearance of your menu links.
 
-### CSS navigation
+<h3 id="ch8-1">8.1 CSS navigation</h3>
 
 The basic navigation element is an anchor tag <b>&lt;a&gt;</b>, with an
 <b>HREF</b> attribute indicating the content to load when the element is
@@ -2048,7 +2054,7 @@ the <b>onclick</b> function returns <b>TRUE</b>. Single page applications keep
 the menu structure generally intact, and only update the content area by
 calling JavaScript to build the content window.
 
-#### Basic structure
+<h4 id="ch8-1-1">8.1.1 Basic structure</h4>
 
 The following code snippet shows the basic menu structure, without any
 classes applied yet. <i>Code Listing 34</i>
@@ -2076,7 +2082,7 @@ Running this code produces the screen shown in Figure 26, simply a row of hyperl
 
 <h6 align="center"><i>Figure 26: Menu items</i></h6>
 
-#### Horizontal menu 
+<h4 id="ch8-1-2">8.1.2 Horizontal menu</h4>
 
 Adding the <b>w3-bar</b> class, an optional color class to the <b>&lt;div&gt;</b>
 tag, and the <b>w3-bar-item</b> and <b>w3-button</b> classes, produces a
@@ -2145,7 +2151,7 @@ rounded menu bar shown in Figure 28.
 
 <h6 align="center"><i>Figure 28: Rounded menu bar</i></h6>
 
-### Menu items 
+<h4 id="ch8-1-3">8.1.3 Menu items</h4>
 
 The <b>w3-bar-item</b> class is the basic class to create menu items within
 the bar. When you hover over a menu item, the background color will
@@ -2255,7 +2261,7 @@ The bar items within the drop-down menu can also have custom colors and
 hover colors. They are regular menu bar items, and can even be text and
 input text elements.
 
-#### Navigation bar positions 
+<h4 id="ch8-1-4">8.1.4 Navigation bar positions</h4>
 
 Often, you want to keep the navigation bar positioned at the top or
 bottom of the page. This is accomplished simply by wrapping the entire
@@ -2297,7 +2303,7 @@ follows.
 Notice that you might need to set the width of the block, since the
 default is the entire width of the parent container.
 
-### Summary 
+<h3 id="ch8-2">8.2 Summary</h3>
 
 Navigation among pages should be easy and intuitive, and the W3 classes
 make it simple to create visually appealing menu structures. Here is a
@@ -2324,7 +2330,7 @@ in rows and columns. Your HTML code must create the basic table
 structure, but W3 provides classes to easily enhance the table's
 appearance.
 
-### CSS tables 
+<h3 id="ch9-1">9.1 CSS tables</h3>
 
 A basic table consists of the <b>&lt;table&gt;</b> tag, followed by some number
 of rows of <b>&lt;tr&gt;</b> elements. Within the <b>&lt;tr&gt;</b>...<b>&lt;/tr&ast;&gt;</b> row
@@ -2359,7 +2365,7 @@ within the table structure.
 
 Each of the available W3 classes is applied to the <b>&lt;table&gt;</b> element.
 
-#### Basic table
+<h4 id="ch9-1-1">9.1.1 Basic table</h4>
 
 The <b>w3-table</b> class provides the basic table structure, with a width
 of 100 percent. You can add this class to any table within a site.
@@ -2412,7 +2418,7 @@ There are two classes for adding borders to the table. The <b>w3-border</b>
 class adds a border around the entire table. The <b>w3-bordered</b> class
 adds a bottom border to each row in the table.
 
-### w3-table-all 
+<h4 id="ch9-1-2">9.1.2 w3-table-all</h4>
 
 The <b>w3-table-all</b> class adds all the features (borders and shading)
 to the table. Figure 34 shows the class applied to our sample table.
@@ -2429,7 +2435,7 @@ to the table. Figure 34 shows the class applied to our sample table.
 
 <h6 align="center"><i>Figure 34: All table features</i></h6>
 
-### Hovering 
+<h4 id="ch9-1-3">9.1.3 Hovering</h4>
 
 There are times when a table can be used as an edit list, so it is
 important to let the user know which row is currently selected. W3.CSS
@@ -2470,7 +2476,7 @@ row level, as shown in the following code snippet.
 Hovering is a simple visual indicator of which row you are going to edit
 or delete.
 
-### CSS lists 
+<h3 id="ch9-2">9.2 CSS lists</h3>
 
 HTML allows you to create lists using the <b>&lt;ul&gt;</b> (unordered list) or
 <b>&lt;ol&gt;</b> (ordered list) tags with a collection of <b>&lt;li&gt;</b> tags
@@ -2488,7 +2494,7 @@ snippet.
 
 The framework provides classes to style the lists.
 
-#### Basic list style 
+<h4 id="ch9-2-1">9.2.1 Basic list style</h4>
 
 The <b>w3-ul</b> tag sets the basic list structure and handles the
 indentation of the list elements. The following code produces the list
@@ -2607,7 +2613,7 @@ rather than using the HTML height and width attributes to resize the
 image.</b></i>
 </p>
 
-### Summary 
+<h3 id="ch9-3">9.3 Summary</h3>
 
 The table and list classes make it easy to style your basic tables and
 lists, and are summarized as follows:
@@ -2657,7 +2663,7 @@ An alternate approach for buttons is the <b>&lt;button&gt;</b> element or an
 <b>&lt;a&gt;</b> anchor element. You can use any approach to create a clickable
 area on the screen.
 
-### CSS buttons 
+<h3 id="ch10-1">10.1 CSS buttons</h3>
 
 There are two basic classes available to style the button's appearance
 in the framework. The <b>w3-button</b> class creates a button that will
@@ -2667,7 +2673,7 @@ Both button classes default to a black button with gray hover effects.
 In addition, hovering over the button will change the cursor to a
 pointer, indicating that the user can click the button.
 
-#### Button variations 
+<h4 id="ch10-1-1">10.1.1 Button variations</h4>
 
 You can use the <b>w3-color</b> attributes to change the background and
 hover colors of the buttons. For example, the following code snippet
@@ -2761,7 +2767,7 @@ clicked, providing some feedback to the user. It is considered good UX
 design to make sure the user knows that the button has been clicked. You
 can add the <b>w3-ripple</b> class to any button to provide this effect.
 
-### CSS badges 
+<h3 id="ch10-2">10.2 CSS badges</h3>
 
 A badge is a circular label, typically containing a number, which
 indicates how many items are found in some collection. The W3.CSS
@@ -2796,7 +2802,7 @@ the badges shown in Figure 40.
 
 <h6 align="center"><i>Figure 40: Badge examples</i></h6>
 
-### Badges within other elements 
+<h4 id="ch10-2-1">10.2.1 Badges within other elements</h4>
 
 The <b>w3-badge</b> class can be used within other elements using a
 <b>&lt;span&gt;</b> tag. For example, we might have a list of customers and use
@@ -2831,7 +2837,7 @@ This code snippet produces the list shown in Figure 41.
 
 <h6 align="center"><i>Figure 41: Badges with list elements</i></h6>
 
-### CSS tags
+<h3 id="ch10-3">10.3 CSS tags</h3>
 
 Tags are labels on a site, typically used to label some element on the
 screen. The W3.CSS framework provides the <b>w3-tag</b> class to format the
@@ -2858,7 +2864,7 @@ of the current operation.
 
 <h6 align="center"><i>Figure 42: Processing tag</i></h6>
 
-#### Customizing the tags
+<h4 id="ch10-3-1">10.3.1 Customizing the tags</h4>
 
 You can use the various <b>w3</b> helper classes to customize the
 appearance of a tag. For example, the following code snippet adds
@@ -2887,7 +2893,7 @@ several helper classes to produce a warning tag.
 
 <h6 align="center"><i>Figure 43: Warning tag</i></h6>
 
-### Summary
+<h3 id="ch10-4">10.4 Summary</h3>
 
 The button, badge, and tag classes make it easy to style your contents,
 and are summarized as follows:
@@ -2921,7 +2927,7 @@ Figure 44 shows a sample input form, formatted with W3 classes.
 
 <h6 align="center"><i>Figure 44: Sample input form</i></h6>
 
-### Text boxes
+<h3 id="ch11-1">11.1 Text boxes</h3>
 
 Text boxes are used to allow the user to enter freeform text into a
 form. The basic syntax is as follows.
@@ -2965,7 +2971,7 @@ supported:</b></i>
 > back to text input. Also, many mobile devices will change the virtual
 > keyboard to accommodate the input type.</b></i>
 
-### Text box options 
+<h4 id="ch11-1-1">11.1.1 Text box options</h4>
 
 You can use the <b>w3</b> helper classes to change the appearance of the
 input text box. For example, the following code snippet produces our
@@ -3000,7 +3006,7 @@ difficult for the code to process. When possible, use the HTML5 types
 with constraints and provide placeholder examples of how the user should
 populate the text boxes.
 
-### Option buttons
+<h3 id="ch11-2">11.2 Option buttons</h3>
 
 Option buttons (also referred to as radio buttons) present a list of
 choices to the user and allow them to pick only one. They appear as
@@ -3057,7 +3063,7 @@ the group being selectable.
 
 <h6 align="center"><i>Figure 47: Radio buttons</i></h6>
 
-### Check boxes
+<h3 id="ch11-3">11.3 Check boxes</h3>
 
 Check boxes are like option buttons, except that the user can check more
 than one. The element for check boxes is a square, to distinguish them
@@ -3090,7 +3096,7 @@ The following code creates the check boxes.
 
 The <b>w3-check</b> class provides the formatting for check boxes.
 
-### Select elements 
+<h3 id="ch11-4">11.4 Select elements</h3>
 
 Check boxes and option buttons are good elements to use if your number
 of choices is relatively small. For a larger number of choices, you
@@ -3126,7 +3132,7 @@ Figure 49 shows a select box produced from this code snippet.
 
 <h6 align="center"><i>Figure 49: Select box</i></h6>
 
-#### Adding labels 
+<h4 id="ch11-4-1">11.4.1 Adding labels</h4>
 
 You can add labels around the input elements, using either text or icons
 and images. In the following code snippet, we are using the <b>w3-row</b>
@@ -3150,7 +3156,7 @@ This example uses the Font Awesome library to provide an envelope icon.
 You could also use the HTML Entity code <b>&#9993;</b> to produce an
 envelope icon.
 
-### Summary
+<h3 id="ch11-5">11.5 Summary</h3>
 
 The following classes are used to format input elements:
 
@@ -3170,13 +3176,13 @@ friendlier. For most people, things that appear suddenly in front of us
 are startling, and possibly dangerous. A dialog box that gradually fades
 in can provide a smooth, less jarring interface.
 
-### Animating elements
+<h3 id="ch12-1">12.1 Animating elements</h3>
 
 To animate any element's appearance on the page, you simply need to add
 the class indicating how you want the element to appear. There are
 several classes for animation.
 
-#### Directions 
+<h4 id="ch12-1-1">12.1.1 Directions</h4>
 
 You can animate the element from the top or bottom, or from either side.
 The following classes are used for directional animation:
@@ -3189,34 +3195,34 @@ The following classes are used for directional animation:
 
 -   <b>w3-animate-right</b>: Slides element from the right side.
 
-#### Zooming
+<h4 id="ch12-1-2">12.1.2 Zooming</h4>
 
 The zooming animation gradually increases the element's size from 0 to
 100 percent. The animation occurs over six-tenths of a second. The
 <b>w3-animate-zoom</b> class attached to the element performs the zooming
 animation.
 
-#### Opacity
+<h4 id="ch12-1-3">12.1.3 Opacity</h4>
 
 Opacity is a setting that determines how transparent an element appears
 on the screen. A setting of <b>1</b> is totally opaque. Lower values create
 a translucent effect on the element. The W3.CSS framework provides two
 classes to animate the opacity of the element.
 
-#### Animate opacity
+<h5>Animate opacity</h5>
 
 Adding the <b>w3-animate-opacity</b> class causes a fade-in effect, where
 the element goes from totally translucent (invisible) to opaque in 1.5
 seconds. You can use this effect with a modal dialog to gradually bring
 up the dialog box.
 
-#### Fading 
+<h5>Fading</h5>
 
 The <b>w3-animate-fading</b> class creates a fade-in and then fade-out
 effect on the element, where the opacity will go from 0 to 1 in 1.5
 seconds, and then from 1 to 0 again.
 
-### Spinner
+<h3 id="ch12-2">12.2 Spinner</h3>
 
 The <b>w3-spin</b> class causes the element to rotate 360 degrees and can
 be used to suggest to a user that a process is running. If you install
@@ -3262,7 +3268,7 @@ an error occurs, the spinner is removed. Otherwise, users see the
 spinner still moving, and complain about performance.</b></i>
 </p>
 
-<h3>Summary</h3>
+<h3 id="ch12-3">12.3 Summary</h3>
 
 Animation can improve the general feel of a site, making your pop-up
 dialog boxes appear smoother, and allowing you to show processing
@@ -3282,7 +3288,7 @@ to complete for tasks such as editing a customer or selecting airlines.
 W3.CSS allows you to create a modal form and keep it hidden until some
 button or action triggers the modal to display.
 
-<h3>Creating a modal dialog</h3>
+<h3 id="ch13-1">13.1 Creating a modal dialog</h3>
 
 To create a modal dialog, you need to use the <b>w3-modal</b> class for the
 container <b>&lt;div&gt;</b> that will hold the modal dialog's contents. You
@@ -3311,7 +3317,7 @@ following.
 </div>
 ```
 
-### Displaying the modal
+<h3 id="ch13-2">13.2 Displaying the modal</h3>
 
 To display the modal dialog, you will need some simple JavaScript and a
 button. For example, if we wanted to display the Contact Us modal
@@ -3329,7 +3335,7 @@ When the user clicks the <b>Contact Us</b> button, the modal dialog's
 display style is set to <b>block</b>, causing the dialog to pop up on the
 user screen.
 
-#### Animating the display
+<h3 id="ch13-2-1">13.2.1 Animating the display</h4>
 
 The modal dialog will suddenly pop up on the screen. While this is
 common in websites, it can sometimes have a jarring effect. You can take
@@ -3347,7 +3353,7 @@ the modal. Simply add the desired animation class to the container
 This will cause the modal dialog to fade in, rather than just quickly
 appear.
 
-### Closing the modal dialog
+<h3 id="ch13-3">13.3 Closing the modal dialog</h3>
 
 Once the modal dialog is opened, it will stay on the screen (since the
 display style is now set to <b>block</b>). You will need to add some
@@ -3366,7 +3372,7 @@ the close code into the buttons that save and/or cancel the dialog.
 </header>
 ```
 
-#### Summary
+<h3 id="ch13-4">13.4 Summary</h3>
 
 Modal dialogs are typically used to overlay the website and provide a
 dialog for the user to focus on. The framework requires a little
@@ -3382,7 +3388,7 @@ You can use the <b>&lt;img&gt;</b> tag to display a picture on a website. The
 W3.CSS framework provides several classes that can be used to control
 the image's borders and appearance.
 
-### CSS Images
+<h3 id="ch14-1">14.1 CSS Images</h3>
 
 Here is the HTML to display an image.
 
@@ -3429,7 +3435,7 @@ page:
 
 <h6 align="center"><i>Figure 52: Sample image classes</i></h6>
 
-#### Responsive images
+<h4 id="ch14-1-1">14.1.1 Responsive images</h4>
 
 You can add the <b>w3-image</b> class to the <b>&lt;img&gt;</b> tag to create a
 responsive image. The image size will adjust to the screen, but will
@@ -3448,7 +3454,7 @@ image (meaning it can be larger than original size), you need to set
 the width property to</b> 100% <b>(via an inline style).</b></i>
 </p>
 
-#### Image opacity 
+<h4 id="ch14-1-2">14.1.2 Image opacity</h4>
 
 You can use the opacity classes to set the opacity of the image from 25
 percent to 75 percent. The class names are:
@@ -3473,7 +3479,7 @@ Figure 53 shows the various opacity effects.
 
 <h6 align="center"><i>Figure 53: Image opacity</i></h6>
 
-### Grayscale 
+<h4 id="ch14-1-3">14.1.3 Grayscale</h4>
 
 You can use the grayscale classes to set the level of grayscale for an
 image. The class names are:
@@ -3498,7 +3504,7 @@ Figure 54 shows the grayscale effect on an image.
 
 <h6 align="center"><i>Figure 54: Grayscale</i></h6>
 
-#### CSS slideshow
+<h4 id="ch14-1-4">14.1.4 CSS slideshow</h4>
 
 You can use the W3.CSS framework and a bit of JavaScript to create a
 slideshow of images. Figure 55 shows the basic appearance of the
@@ -3517,7 +3523,7 @@ the slideshow.
 
 <h6 align="center"><i>Figure 55: Slideshow</i></h6>
 
-#### Setting the images 
+<h4 id="ch14-1-5">14.1.5 Setting the images</h4>
 
 The first step is to add the images you want to view and assign them the
 same class name.
@@ -3544,7 +3550,7 @@ The HTML entities are used for the buttons to provide the navigation
 arrows. We will need a JavaScript function called <b>plusDivs()</b> to move
 among the images.
 
-### JavaScript code 
+<h4 id="ch14-1-6">14.1.6 JavaScript code</h4>
 
 The following is the code that needs to be added within a script tag in
 the <b>&lt;head&gt;</b> section of the website to allow the navigation between
@@ -3582,7 +3588,7 @@ indicating the next image to display.
 <b>none</b>, and then set the selected image's style to <b>block</b>, causing
 it to be shown.
 
-### Summary
+<h3 id="ch14-2">14.2 Summary</h3>
 
 W3.CSS provides classes to control the appearance and shape of images,
 and makes it very easy to create a slideshow of your image collection
@@ -3606,7 +3612,7 @@ for a mail client. Figure 56 shows the sample template.
 
 <h6 align="center"><i>Figure 56: Email template</i></h6>
 
-### Head section
+<h3 id="ch15-1">15.1 Head section</h3>
 
 The <b>&lt;head&gt;</b> section of most templates will look very much the same,
 including the W3.CSS style sheet, possibly using an external web font.
@@ -3629,11 +3635,10 @@ linking it into our website. While the use of external web fonts is
 optional, you can improve the overall look of the site easily with
 minimal code changes.
 
-### Font Awesome 
+<h4 id="ch15-1-1">15.1.1 Font Awesome</h4>
 
 Font Awesome is a very popular library of icons, defined as CSS classes.
-You can explore the library
-[[here]](https://fontawesome.com/)
+You can explore the <a href="https://fontawesome.com/">library here</a>.
 
 To add Font Awesome to the site, the following line is added to the
 <b>&lt;head&gt;</b> section.
@@ -3673,7 +3678,7 @@ This produces the buttons shown in Figure 57.
 
 <h6 align="center"><i>Figure 57: Font Awesome buttons</i></h6>
 
-### HTML entities 
+<h4 id="ch15-1-2">15.1.2 HTML entities</h4>
 
 Throughout the course of this book, we also took advantage of some HTML
 entities to add small icons to a few of our examples. Some useful HTML
@@ -3699,7 +3704,7 @@ While HTML entities are easy to use, not all entities will work with all fonts. 
 test your entities against your website font or use the Font Awesome library, which imbeds 
 its own font.
 
-### Setting the font family 
+<h4 id="ch15-1-3">15.1.3 Setting the font family</h4>
 
 The final step when using a web font is to adjust the styles on various elements to use 
 the new font family. The final piece of code in the <b>&lt;head&gt;</b> section does that.
@@ -3715,14 +3720,14 @@ the new font family. The final piece of code in the <b>&lt;head&gt;</b> section 
 </style>
 ```
 
-### Body section 
+<h3 id="ch15-2">15.2 Body section</h3>
 
 The body section consists of a sidebar menu for navigation among the email folders (the 
 inbox, sent items, drafts, and deleted items). Note that there is no implementation code 
 for these folders; it would typically be an Ajax call to gather all the items within the 
 folder and display them.
 
-#### Sidebar 
+<h4 id="ch15-2-1">15.2.1 Sidebar</h4>
 
 The following code creates the sidebar navigation menu (some classes are removed for 
 readability).
@@ -3757,7 +3762,7 @@ First is the <b>w3-hide-large</b> class on the Close sidebar menu item. This ind
 the Close option will not appear on larger devices, where it's assumed there is enough 
 screen room for both the sidebar menu and the email contents.
 
-#### Compose new mail 
+<h4 id="ch15-2-2">15.2.2 Compose new mail</h4>
 
 When the user clicks on a new email, a modal dialog will be displayed to
 get the information for the email.
@@ -3798,7 +3803,7 @@ user either sends or cancels the email.
   Send <i class="fa fa-paper-plane"></i></a>
 ```
 
-### Summary
+<h3 id="ch15-3">15.3 Summary</h3>
 
 The templates and example code on the site are a great way to see the
 framework with some working code examples.
@@ -3809,7 +3814,7 @@ There are two additional versions of the framework, depending on your needs. Bot
 are also free, and are smaller than the base W3.CSS file. However, they do not include any 
 colors; it is up to you to define your own colors.
 
-### CSS Pro
+<h3 id="ch16-1">16.1 CSS Pro</h3>
 
 The <a href="https://www.w3schools.com/w3css/4/w3pro.css">CSS Pro version</a>, is 16KB. 
 You can add your own color support with your own style sheet, in-line styles, or a W3 
@@ -3831,7 +3836,7 @@ material design colors, you could import the following style sheets.
 This will result in a smaller style sheet, and only make the flat CSS
 colors available to your site.
 
-### CSS Mobile
+<h3 id="ch16-2">16.2 CSS Mobile</h3>
 
 The <a href="https://www.w3schools.com/w3css/4/w3mobile.css">CSS Mobile version</a>, 
 is 14KB. You can add your own color support with your own style sheet, in-line styles, or 
