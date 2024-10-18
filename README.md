@@ -1,27 +1,28 @@
-# w3.CSS-Succinctly
-W3 Cascade Styles Sheet (CSS) 
+# w3.CSS Succinctly
+## W3 Cascade Styles Sheet (CSS)
 
 W3.CSS is a free, no-license CSS framework from w3schools.com that you can use to produce 
 responsive websites that work across all common browsers (Chrome, Edge, Firefox, Internet 
 Explorer) and devices (desktops, tablets, mobile). It is much smaller than other frameworks 
 and relies only on standard CSS. 
 
-W3.CSS classes 
+### W3.CSS classes
 All the classes in the W3.CSS framework begin with w3-, which reduces the likelihood of 
 conflicting style names. You can combine multiple class names in a single class statement, 
 allowing you to provide the basic CSS class and add additional features to it. For example, 
 the following code will create a w3 container, and set its background color to blue-gray. 
 
-Code Listing 1
+#### Code Listing 1
 
 ```
 <div class="w3-container w3-blue-gray"> 
 </div> 
 ```
  
-You could add the class w3-round-large to add rounded corners to the <div> element. 
-# PPP - Practice, Practice, Practice by cellardoor.bauska.org
-## from W3.CSS Succinctly
+You could add the class w3-round-large to add rounded corners to the &lt;div&gt; element.
+
+### PPP - Practice, Practice, Practice by cellardoor.bauska.org
+### from W3.CSS Succinctly
 
 > <b>By</b>
 >
@@ -40,20 +41,18 @@ You could add the class w3-round-large to add rounded corners to the <div> eleme
 This book is available for free download from <a href="http://www.syncfusion.com/">
 www.syncfusion.com</a> on completion of a registration form.
 
-If you obtained this book from any other source, please register and
-download a free copy from <a href="http://www.syncfusion.com/">www.syncfusion.com</a>
+If you obtained this book from any other source, please register and download a free copy 
+from <a href="http://www.syncfusion.com/">www.syncfusion.com</a>
 
 This book is licensed for reading only if obtained from <a href="http://www.syncfusion.com/">
 www.syncfusion.com</a>
 
 This book is licensed strictly for personal or educational use.
 
-The authors and copyright holders provide absolutely no warranty for any
-information provided.
+The authors and copyright holders provide absolutely no warranty for any information provided.
 
-The authors and copyright holders shall not be liable for any claim,
-damages, or any other liability arising from, out of, or in connection
-with the information in this book.
+The authors and copyright holders shall not be liable for any claim, damages, or any other 
+liability arising from, out of, or in connection with the information in this book.
 
 Please do not use this book if the listed terms are unacceptable.
 
@@ -66,11 +65,9 @@ SYNCFUSION, SUCCINCTLY, DELIVER INNOVATION WITH EASE, ESSENTIAL, and
 
 <b>Copy Editor:</b> Courtney Wright
 
-<b>Acquisitions Coordinator:</b> Tres Watkins, content development manager,
-Syncfusion, Inc.
+<b>Acquisitions Coordinator:</b> Tres Watkins, content development manager, Syncfusion, Inc.
 
-<b>Proofreader:</b> Jacqueline Bieringer, content producer, Syncfusion,
-Inc.
+<b>Proofreader:</b> Jacqueline Bieringer, content producer, Syncfusion, Inc.
 
 ## [Table of Contents](#table-of-contents)
 
