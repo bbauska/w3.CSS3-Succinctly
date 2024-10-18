@@ -1,3 +1,13 @@
+---
+title: "W3.CSS Succinctly"
+author: "bbauska"
+date prior editted: "8/1/2024 1+pm"
+date last editted: "10/18/2024 10+am"
+output: 
+  markdown:
+    with some style
+---
+
 # w3.CSS Succinctly
 ## W3 Cascade Styles Sheet (CSS)
 
