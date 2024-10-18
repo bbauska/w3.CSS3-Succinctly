@@ -980,7 +980,7 @@ this website </a> to check that color combinations meet these guidelines. People
 low vision or color-blindness will appreciate the effort.</i></b>
 </p>
 
-<h3 id="ch3-2">Color libraries</h3>
+<h3 id="ch3-2">3.2 Color libraries</h3>
 
 You can also download separate color libraries from the W3.CSS site.
 Table 3 lists the libraries that are available.
@@ -1062,6 +1062,8 @@ Table 5 lists the predefined themes available from W3.CSS.
 
 <h6 align="center"><i>Table 5: W3.CSS themes</i></h6>
 
+<div align="center">
+
 | Theme name         | Download name            | Color             |
 | ------------------ | ------------------------ | ----------------- |
 | <b>Amber</b>       | w3-theme-amber.css       | <b>Text color</b> |
@@ -1086,6 +1088,8 @@ Table 5 lists the predefined themes available from W3.CSS.
 | <b>Red</b>         | w3-theme-red.css         | <b>Text color</b> |
 | <b>Teal</b>        | w3-theme-teal.css        | <b>Text color</b> |
 | <b>Yellow</b>      | w3-theme-yellow.css      | <b>Text color</b> |
+
+</div>
 
 <h2 id="ch4">Chapter 4 Helper Classes</h2>
 
@@ -1115,6 +1119,8 @@ border radius, the more pronounced the rounded corners will be.
 
 <h6 align="center"><i>Table 6: Rounding classes</i></h6>
 
+<div align="center">
+
 | Class name              | Border radius size       |
 | ----------------------- | ------------------------ |
 | <b>w3-round</b>         | 4 pixels                 |
@@ -1123,6 +1129,8 @@ border radius, the more pronounced the rounded corners will be.
 | <b>w3-round-large</b>   | 8 pixels                 |
 | <b>w3-round-xlarge</b>  | 16 pixels                |
 | <b>w3-round-xxlarge</b> | 32 pixels                |
+
+</div>
 
 #### Circle class
 
@@ -1431,11 +1439,11 @@ passed the <b>divName</b> to open.
 Although tabs are typically horizontal, you can easily create vertical
 tabs with a few small changes to the layout.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 24.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. vertical tabs example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image024.jpg" 
-  title=""
-  alt="."
+  title="Vertical tabs example"
+  alt="Vertical tabs example."
   style="border: 2px solid #000000; width:4.5in;" />
 </p>
 <!-- ![](./images/image024.jpg) {width="4.5in" height="1.90625in"} -->
@@ -1488,11 +1496,11 @@ Figure 19 on a webpage.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 25.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. css card sample (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image025.jpg" 
-  title=""
-  alt="."
+  title="CSS card sample"
+  alt="CSS card sample."
   style="border: 2px solid #000000; width:3.63in;" />
 </p>
 <!-- ![](./images/image025.jpg) {width="3.6354166666666665in" height="0.9375in"} -->
@@ -1508,11 +1516,11 @@ side of the screen, and the content appears in a larger area off to the
 other side. It is constructed very similarly to vertical tabs, but has
 additional options available to increase its flexibility.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 26.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. basic sidebar, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image026.jpg" 
-  title=""
-  alt="."
+  title="Basic sidebar, example"
+  alt="Basic sidebar, example."
   style="border: 2px solid #000000; width:3.81in;" />
 </p>
 <!-- ![](./images/image026.jpg) {width="3.8125in" height="1.4791666666666667in"} -->
@@ -1666,11 +1674,11 @@ message.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 27.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. warning panel, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image027.jpg" 
-  title=""
-  alt="."
+  title="Warning panel, example"
+  alt="Warning panel, example."
   style="border: 2px solid #000000; width:3.08in;" />
 </p>
 <!-- ![](./images/image027.jpg) {width="3.0833333333333335in" height="1.0in"} -->
@@ -1707,11 +1715,11 @@ container.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 28.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28. css note example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image028.jpg" 
-  title=""
-  alt="."
+  title="CSS note example"
+  alt="CSS note example."
   style="border: 2px solid #000000; width:2.89in;" />
 </p>
 <!-- ![](./images/image028.jpg) {width="2.8958333333333335in" height="0.7291666666666666in"} -->
@@ -1737,11 +1745,11 @@ Figure 23 shows the previous note with a <b>w3-border-red</b> and
 <b>w3-leftbar</b> class added.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 29.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 29. css custom note appearange (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image029.jpg" 
-  title=""
-  alt="."
+  title="CSS custom note appearance"
+  alt="CSS custom note appearance."
   style="border: 2px solid #000000; width:2.78in;" />
 </p>
 <!-- ![](./images/image029.jpg) {width="2.78125in" height="0.625in"} -->
@@ -1778,11 +1786,11 @@ The <b>onclick</b> code simply changes the alert's display style property
 to <b>none</b>, causing the alert to disappear from the screen.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 30.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. sample alert panel (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image030.jpg" 
-  title=""
-  alt="."
+  title="Sample alert panel"
+  alt="Sample alert panel."
   style="border: 2px solid #000000; width:3.36in;" />
 </p>
 <!-- ![](./images/image030.jpg) {width="3.3645833333333335in" height="0.7708333333333334in"} -->
@@ -1799,7 +1807,14 @@ Generally, the following colors could be used for alert messages:
 
 -   Blue, cyan: Information only.
 
-> ![](./images/image008.jpg) <!-- {width="0.25in" height="0.28958333333333336in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. notepad logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left">
+  <img src="./images/image008.jpg" 
+  title="Notepad logo"
+  alt="Notepad logo."
+  style="border: 0px #000000; width:0.25in;" />
+<!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
 > <i><b>Note: Colors are not universal, and
 > have different meanings in different cultures.</b></i>
 >
@@ -1817,8 +1832,14 @@ used for all elements on the site, unless specifically changed.
 
 The H1 through H6 header sizes use the font family of <b>Segoe UI</b>,
 <b>Arial</b>, <b>sans-serif</b>.
-
-> ![](./images/image008.jpg) <!-- {width="0.25in" height="0.28958333333333336in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. notepad logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left">
+  <img src="./images/image008.jpg" 
+  title="Notepad logo"
+  alt="Notepad logo."
+  style="border: 0px #000000; width:0.25in;" />
+<!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
 > <i><b>Note: A serif font (such as Times
 > Roman or Georgia) has little decorative strokes on the end of the
 > letters, while a sans serif font (such as Helvetica or Arial) does not
@@ -1826,6 +1847,7 @@ The H1 through H6 header sizes use the font family of <b>Segoe UI</b>,
 > in the list, and if not found, just choose any font that most closely
 > matches the last item in the family. W3.CSS suggests Verdana, and if
 > not found, asks the browser to use a sans-serif font.</b></i>
+</p>
 
 ### CSS fonts
 
@@ -1880,17 +1902,17 @@ on the user's computer. However, CSS allows you to use fonts that are
 available at a web location, rather than the user's computer. These are
 referred to as <i>web fonts</i>.
 
-A popular source of web fonts is the [[Google Fonts
-library].](https://fonts.google.com/) This site contains
-hundreds of web fonts you can use to improve your website's appearance.
+A popular source of web fonts is the <a href="https://fonts.google.com/">Google Fonts 
+library</a>. This site contains hundreds of web fonts you can use to improve your 
+website's appearance.
 
-#### Installing the font 
+<h4>Installing the font</h4>
 
 To use a web font, you will need to install it into your webpage. For
 example, the Tangerine
 
-Google font could be added via the following code placed in the
-<b>&lt;head&gt;</b> section of the website.
+Google font could be added via the following code placed in the <b>&lt;head&gt;</b> 
+section of the website.
 
 <h6 align="center"><i>Code Listing 30</i></h6>
 
@@ -1945,11 +1967,11 @@ message, but still let the user see the screen beneath the error
 message.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 31.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. opacity example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image031.jpg" 
-  title=""
-  alt="."
+  title="Opacity example"
+  alt="Opacity example."
   style="border: 2px solid #000000; width:4.64in;" />
 </p>
 <!-- ![](./images/image031.jpg) {width="4.645833333333333in" height="1.5833333333333333in"} -->
@@ -1960,13 +1982,20 @@ You can also use the <b>w3-opacity-max</b> class to set the opacity to 25
 percent, and the <b>w3opacity-min</b> class to set the level to 75 percent.
 The <b>w3-opacity-off</b> class will set the opacity to 100 percent (i.e.
 totally opaque).
-
-> ![](./images/image032.png) <!-- {width="0.14333333333333334in" height="0.25in"} -->
-> <i><b>Tip: Opacity can be used when you are loading
-> content via Ajax. Set the class to</b> w3-opacity-max <b>during the</b>
-> before Send <b>event, and set the class to</b> w3-opacity-off <b>during
-> the</b> complete <b>event. This will provide a visual indication to the
-> user that a portion of the screen has been updated.</b></i>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. orange logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image031.jpg" 
+  title="Orange logo"
+  alt="Orange logo."
+  style="border: 2px solid #000000; width:.07in;" />
+<!-- [](./images/image032.png) {width="0.14333333333333334in" height="0.25in"} -->
+<i><b>Tip: Opacity can be used when you are loading
+content via Ajax. Set the class to</b> w3-opacity-max <b>during the</b>
+before Send <b>event, and set the class to</b> w3-opacity-off <b>during
+the</b> complete <b>event. This will provide a visual indication to the
+user that a portion of the screen has been updated.</b></i>
+</p>
 
 ### CSS code
 
@@ -2033,15 +2062,14 @@ classes applied yet. <i>Code Listing 34</i>
 </div>
 ```
 
-Running this code produces the screen shown in Figure 26, simply a row
-of hyperlinks.
+Running this code produces the screen shown in Figure 26, simply a row of hyperlinks.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 33.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33. menu items, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image033.jpg" 
-  title=""
-  alt="."
+  title="Menu items, example"
+  alt="Menu items, example."
   style="border: 2px solid #000000; width:2.17in;" />
 </p>
 <!-- ![](./images/image033.jpg) {width="2.1770833333333335in" height="0.5729166666666666in"} -->
@@ -2069,11 +2097,11 @@ The <b>w3-button</b> class displays the hyperlinks as buttons, so they are
 not underlined. The result is shown in Figure 27.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 34.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 34. horizontal menu bar, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image034.jpg" 
-  title=""
-  alt="."
+  title="Horizontal menu bar, example"
+  alt="Horizontal menu bar, example."
   style="border: 2px solid #000000; width:4.77in;" />
 </p>
 <!-- ![](./images/image034.jpg) {width="4.770833333333333in" height="0.34375in"} -->
@@ -2106,11 +2134,11 @@ rounded menu bar shown in Figure 28.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 35.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35. rounded menu bar (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image035.jpg" 
-  title=""
-  alt="."
+  title="Rounded menu bar"
+  alt="Rounded menu bar."
   style="border: 2px solid #000000; width:4.61in;" />
 </p>
 <!-- ![](./images/image035.jpg) {width="4.614583333333333in" height="0.46875in"} -->
@@ -2566,12 +2594,12 @@ The result will appear as shown in Figure 37.
 
 <h6 align="center"><i>Figure 37: List with images</i></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. notepad logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. light bulb logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="left">
   <img src="./images/image045.png" 
   title="Notepad logo"
   alt="Notepad logo."
-  style="border: 2px solid #000000; width:0.14in;" />
+  style="border: 2px solid #000000; width:0.07in;" />
 <!-- ![](./images/image045.png) {width="0.14333333333333334in" height="0.25in"} -->
 <i><b>Tip: When using images, you will get better
 performance (smaller file sizes) if you adjust the image file size,
@@ -2700,21 +2728,22 @@ following code snippet will produce the rounded buttons shown in Figure 39.</p>
 
 <h4>Disabled buttons</h4>
 
-Buttons have a visual effect, either background color change or
-shadowing, as well as the cursor changing to indicate the button is
-clickable. If a button needs to be disabled, you can add the
-<b>w3-disabled</b> class to the button. This will cause the button to have
-a grayed-out appearance and disable the cursor when the user moves the
-mouse over the button.
+Buttons have a visual effect, either background color change or shadowing, as well as the 
+cursor changing to indicate the button is clickable. If a button needs to be disabled, you 
+can add the <b>w3-disabled</b> class to the button. This will cause the button to have a 
+grayed-out appearance and disable the cursor when the user moves the mouse over the button.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. orange light bulb (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
 <img src="./images/image049.png"
-  title="Red lightbulb"
-  alt="Red lightbulb"
-  style="border: 0px; width:0.10in;" />
-  <b>Tip: You might want to dynamically add the w3-disabled class via JavaScript when the 
-  button is clicked. This could provide a visual indication that the button has been pressed 
-  and the action is being performed. Remove the class when the work is complete.</b></p>
+  title="Orange lightbulb"
+  alt="Orange lightbulb"
+  style="border: 0px; width:0.07in;" />
+<i><b>Tip: You might want to dynamically add the w3-disabled class via JavaScript when the 
+button is clicked. This could provide a visual indication that the button has been pressed 
+and the action is being performed. Remove the class when the work is complete.</b></i>
+</p>
 
 <!--
 > ![](./images/image049.png) {width="0.14333333333333334in" height="0.25in"}
