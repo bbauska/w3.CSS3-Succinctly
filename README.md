@@ -1832,7 +1832,7 @@ Generally, the following colors could be used for alert messages:
   alt="Notepad logo (orange)."
   style="border: 0px #000000; width:0.25in;" />
 <!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
-<i><b>Note: Colors are not universal, and have different meanings in different cultures.</b></i>
+<i><b>Note: Colors are not universal, and have different meanings in different cultures.
 For example, the color red in western cultures generally means danger, while in 
 China, the color red represents luck. Be sure to consider your audience when choosing 
 colors for alerts and boxes.</b></i>
@@ -1983,7 +1983,7 @@ message, but still let the user see the screen beneath the error
 message.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. opacity example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. opacity example (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image031.jpg" 
   title="Opacity example"
@@ -1999,12 +1999,12 @@ percent, and the <b>w3opacity-min</b> class to set the level to 75 percent.
 The <b>w3-opacity-off</b> class will set the opacity to 100 percent (i.e.
 totally opaque).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 32. light bulb icon (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 32. light bulb icon (orange) (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image032.png" 
   title="Light bulb icon (orange)"
   alt="Light bulb icon (orange)."
-  style="border: 2px solid #000000; width:0.143in;" />
+  style="border: 0px solid #000000; width:0.14in;" />
 <!-- [](./images/image032.png) {width="0.14333333333333334in" height="0.25in"} -->
 <i><b>Tip: Opacity can be used when you are loading content via Ajax. Set the class to</b> 
 w3-opacity-max <b>during the</b> before Send <b>event, and set the class to</b> 
@@ -2617,12 +2617,12 @@ The result will appear as shown in Figure 37.
 
 <h6 align="center"><i>Figure 37: List with images</i></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. light bulb icon (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. light bulb icon (orange) (60) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
   <img src="./images/image045.png" 
   title="Light bulb icon (orange)"
   alt="Light bulb icon (orange)."
-  style="border: 2px solid #000000; width:0.143in;" />
+  style="border: 0px solid #000000; width:0.143in;" />
 <!-- ![](./images/image045.png) {width="0.14333333333333334in" height="0.25in"} -->
 <i><b>Tip: When using images, you will get better performance (smaller file sizes) if you 
 adjust the image file size, rather than using the HTML height and width attributes to 
@@ -2756,12 +2756,12 @@ can add the <b>w3-disabled</b> class to the button. This will cause the button t
 grayed-out appearance and disable the cursor when the user moves the mouse over the button.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. lightbulb icon (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. lightbulb icon (orange) (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
 <img src="./images/image049.png"
   title="Lightbulb icon (orange)"
   alt="Lightbulb icon (orange)"
-  style="border: 2px solid #000000; width:0.143in;" />
+  style="border: 0px solid #000000; width:0.143in;" />
 <i><b>Tip: You might want to dynamically add the w3-disabled class via JavaScript when the 
 button is clicked. This could provide a visual indication that the button has been pressed 
 and the action is being performed. Remove the class when the work is complete.</b></i>
@@ -3276,7 +3276,7 @@ Figure 50 shows the screen (but on a website, the spinner will keep rotating).
   <img src="./images/image061.png" 
   title="Light bulb icon (orange)"
   alt="Light bulb icon (orange)."
-  style="border: 2px solid #000000; width:0.143in;" />
+  style="border: 0px solid #000000; width:0.143in;" />
 <!-- {width="0.1597222222222222in" height="0.32943022747156603in"} -->
 <i><b>Tip: Spinners are often used during Ajax calls, to show something is happening. 
 However, be sure that if an error occurs, the spinner is removed. Otherwise, users see 
