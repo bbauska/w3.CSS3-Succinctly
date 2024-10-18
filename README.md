@@ -1999,13 +1999,12 @@ percent, and the <b>w3opacity-min</b> class to set the level to 75 percent.
 The <b>w3-opacity-off</b> class will set the opacity to 100 percent (i.e.
 totally opaque).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 32. light bulb icon (orange) (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. light bulb icon (orange) (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
-  <img src="./images/image032.png" 
+  <img src="./images/image061.png" 
   title="Light bulb icon (orange)"
   alt="Light bulb icon (orange)."
-  style="border: 0px solid #000000; width:0.14in;" />
-<!-- [](./images/image032.png) {width="0.14333333333333334in" height="0.25in"} -->
+  style="border: 0px solid #000000; width:0.143in;" />
 <i><b>Tip: Opacity can be used when you are loading content via Ajax. Set the class to</b> 
 w3-opacity-max <b>during the</b> before Send <b>event, and set the class to</b> 
 w3-opacity-off <b>during the</b> complete <b>event. This will provide a visual indication 
@@ -2029,16 +2028,15 @@ computer instructions, you can use the <b>w3-code</b> class.
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. notepad logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image008.jpg" 
-  title="Notepad logo (orange)"
-  alt="Notepad logo (orange)."
+  title="Note logo (orange)"
+  alt="Note logo (orange)."
   style="border: 2px solid #000000; width:0.25in;" />
 <!-- (./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
-> <i><b>Note:</b> Translate="no" <b>is an
-> HTML5 attribute indicating the following content should not be
-> translated to other languages.</b></i>
+<i><b>Note:</b> Translate="no" <b>is an HTML5 attribute indicating the following content 
+should not be translated to other languages.</b></i>
 </p>
 
 The default font families for code are Consolas and Courier New.
@@ -2617,13 +2615,12 @@ The result will appear as shown in Figure 37.
 
 <h6 align="center"><i>Figure 37: List with images</i></h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. light bulb icon (orange) (60) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. light bulb icon (orange) (60) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
-  <img src="./images/image045.png" 
+  <img src="./images/image061.png" 
   title="Light bulb icon (orange)"
   alt="Light bulb icon (orange)."
   style="border: 0px solid #000000; width:0.143in;" />
-<!-- ![](./images/image045.png) {width="0.14333333333333334in" height="0.25in"} -->
 <i><b>Tip: When using images, you will get better performance (smaller file sizes) if you 
 adjust the image file size, rather than using the HTML height and width attributes to 
 resize the image.</b></i>
@@ -2756,9 +2753,9 @@ can add the <b>w3-disabled</b> class to the button. This will cause the button t
 grayed-out appearance and disable the cursor when the user moves the mouse over the button.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. lightbulb icon (orange) (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. lightbulb icon (orange) (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
-<img src="./images/image049.png"
+<img src="./images/image061.png"
   title="Lightbulb icon (orange)"
   alt="Lightbulb icon (orange)"
   style="border: 0px solid #000000; width:0.143in;" />
@@ -2766,10 +2763,6 @@ grayed-out appearance and disable the cursor when the user moves the mouse over 
 button is clicked. This could provide a visual indication that the button has been pressed 
 and the action is being performed. Remove the class when the work is complete.</b></i>
 </p>
-
-<!--
-> ![](./images/image049.png) {width="0.14333333333333334in" height="0.25in"}
--->
 
 <h4>Ripple effect</h4>
 
@@ -3277,7 +3270,6 @@ Figure 50 shows the screen (but on a website, the spinner will keep rotating).
   title="Light bulb icon (orange)"
   alt="Light bulb icon (orange)."
   style="border: 0px solid #000000; width:0.143in;" />
-<!-- {width="0.1597222222222222in" height="0.32943022747156603in"} -->
 <i><b>Tip: Spinners are often used during Ajax calls, to show something is happening. 
 However, be sure that if an error occurs, the spinner is removed. Otherwise, users see 
 the spinner still moving, and complain about performance.</b></i>
