@@ -2005,7 +2005,7 @@ totally opaque).
   <img src="./images/image031.jpg" 
   title="Orange logo"
   alt="Orange logo."
-  style="border: 2px solid #000000; width:.07in;" />
+  style="border: 2px solid #000000; width:.25in;" />
 <!-- [](./images/image032.png) {width="0.14333333333333334in" height="0.25in"} -->
 <i><b>Tip: Opacity can be used when you are loading
 content via Ajax. Set the class to</b> w3-opacity-max <b>during the</b>
@@ -2030,10 +2030,18 @@ computer instructions, you can use the <b>w3-code</b> class.
   </div>
 ```
 
-> ![](./images/image008.jpg) <!-- {width="0.25in" height="0.28958333333333336in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. notepad logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image008.jpg" 
+  title="Notepad logo (orange)"
+  alt="Notepad logo (orange)."
+  style="border: 2px solid #000000; width:0.25in;" />
+<!-- (./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
 > <i><b>Note:</b> Translate="no" <b>is an
 > HTML5 attribute indicating the following content should not be
 > translated to other languages.</b></i>
+</p>
 
 The default font families for code are Consolas and Courier New.
 
@@ -2616,7 +2624,7 @@ The result will appear as shown in Figure 37.
   <img src="./images/image045.png" 
   title="Notepad logo"
   alt="Notepad logo."
-  style="border: 2px solid #000000; width:0.07in;" />
+  style="border: 2px solid #000000; width:0.25in;" />
 <!-- ![](./images/image045.png) {width="0.14333333333333334in" height="0.25in"} -->
 <i><b>Tip: When using images, you will get better
 performance (smaller file sizes) if you adjust the image file size,
@@ -2756,7 +2764,7 @@ grayed-out appearance and disable the cursor when the user moves the mouse over 
 <img src="./images/image049.png"
   title="Orange lightbulb"
   alt="Orange lightbulb"
-  style="border: 0px; width:0.07in;" />
+  style="border: 2px solid #000000; width:0.25in;" />
 <i><b>Tip: You might want to dynamically add the w3-disabled class via JavaScript when the 
 button is clicked. This could provide a visual indication that the button has been pressed 
 and the action is being performed. Remove the class when the work is complete.</b></i>
@@ -2764,11 +2772,6 @@ and the action is being performed. Remove the class when the work is complete.</
 
 <!--
 > ![](./images/image049.png) {width="0.14333333333333334in" height="0.25in"}
-> <i><b>Tip: You might want to dynamically add the</b>
-> w3-disabled <b>class via JavaScript when the button is clicked. This
-> could provide a visual indication that the button has been pressed and
-> the action is being performed. Remove the class when the work is
-> complete.</b></i>
 -->
 
 <h4>Ripple effect</h4>
@@ -2837,11 +2840,11 @@ the badge to indicate number of orders.
 This code snippet produces the list shown in Figure 41.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 51.  (xx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 51. badges with list elements, example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image051.jpg" 
-  title=""
-  alt="."
+  title="Badges with list elements, example"
+  alt="Badges with list elements, example."
   style="border: 2px solid #000000; width:2.23in;" />
 </p>
 <!-- ![](./images/image051.jpg) {width="2.2395833333333335in" height="1.0208333333333333in"} -->
@@ -2954,15 +2957,13 @@ providing the necessary padding and borders.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center">
+<p align="left">
   <img src="./images/image008.jpg" 
   title="Note logo"
   alt="Note logo."
   style="border: 0px #000000; width:0.25in;" />
-![](./images/image008.jpg) <!-- {width="0.25in" height="0.28958333333333336in"} -->
 <i><b>Note: HTML5 introduces several new
-input types besides the basic text input. The following types are
-supported:</b></i>
+input types besides the basic text input. The following types are supported:</b></i>
 </p>
 
 -   <i><b>date: Display a date editor.</b></i>
@@ -3454,11 +3455,11 @@ never be larger than the original image size.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. light bulb logo/icon (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center">
+<p align="left">
   <img src="./images/image008.jpg"
   title="Light bulb logo/icon"
   alt="Light bulb logo/icon."
-  style="border: 0px d #000000; width:3.67in;" />
+  style="border: 0px d #000000; width:0.25in;" />
 <!-- ![](./images/image008.jpg) {width="0.25in" height="0.28958333333333336in"} -->
 <i><b>Note: If you want a full responsive
 image (meaning it can be larger than original size), you need to set
