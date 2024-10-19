@@ -3191,7 +3191,7 @@ icon.
 <div class="w3-section w3-row">
   <div class="w3-col" style="width:50px;">
   <i class="w3-xxlarge w3-spin fa fa-spinner"></i></div>
-  <div class="w3-rest">Saving&hellip;</div>
+  <div class="w3-rest">Saving ...</div>
 </div>
 ```
 
@@ -3721,7 +3721,7 @@ get the information for the email.
         <i class="fa fa-remove"></i>
       </span>
       <h2>Send Mail</h2>
-      <!-- Form elements&hellip; -->
+      <!-- Form elements ... -->
     </div>
   </div>
 </div>
