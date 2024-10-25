@@ -1977,11 +1977,10 @@ totally opaque).
   title="Light bulb icon (orange)"
   alt="Light bulb icon (orange)."
   style="border: 0px solid #000000; width:0.143in;" />
-<!-- [](./images/image032.png) {width="0.14333333333333334in" height="0.25in"} -->
-<i><b>Tip: Opacity can be used when you are loading content via Ajax. Set the class to</b> 
-w3-opacity-max <b>during the</b> before Send <b>event, and set the class to</b> 
-w3-opacity-off <b>during the</b> complete <b>event. This will provide a visual indication 
-to the user that a portion of the screen has been updated.</b></i>
+<i><b>Tip:</b> Opacity can be used when you are loading content via Ajax. Set the class to 
+w3-opacity-max during the before Send event, and set the class to w3-opacity-off during 
+the complete event. This will provide a visual indication to the user that a portion of 
+the screen has been updated.</i>
 </p>
 
 <h3 id="ch7-5">7.5 CSS code</h3>
@@ -2581,9 +2580,9 @@ The result will appear as shown in Figure 37.
   title="Light bulb icon (orange)"
   alt="Light bulb icon (orange)."
   style="border: 0px solid #000000; width:0.143in;" />
-<i><b>Tip: When using images, you will get better performance (smaller file sizes) if you 
+<i><b>Tip:</b> When using images, you will get better performance (smaller file sizes) if you 
 adjust the image file size, rather than using the HTML height and width attributes to 
-resize the image.</b></i>
+resize the image.</i>
 </p>
 
 <h3 id="ch9-3">9.3 Summary</h3>
@@ -2717,9 +2716,9 @@ grayed-out appearance and disable the cursor when the user moves the mouse over 
   title="Light bulb icon (orange)"
   alt="Light bulb icon (orange)"
   style="border: 0px solid #000000; width:0.143in;" />
-<i><b>Tip: You might want to dynamically add the w3-disabled class via JavaScript when the 
+<i><b>Tip:</b> You might want to dynamically add the w3-disabled class via JavaScript when the 
 button is clicked. This could provide a visual indication that the button has been pressed 
-and the action is being performed. Remove the class when the work is complete.</b></i>
+and the action is being performed. Remove the class when the work is complete.</i>
 </p>
 
 <h4>Ripple effect</h4>
@@ -3214,9 +3213,9 @@ Figure 50 shows the screen (but on a website, the spinner will keep rotating).
   title="Light bulb icon (orange)"
   alt="Light bulb icon (orange)."
   style="border: 0px solid #000000; width:0.143in;" />
-<i><b>Tip:</b></i> Spinners are often used during Ajax calls, to show something is happening. 
+<i><b>Tip:</b> Spinners are often used during Ajax calls, to show something is happening. 
 However, be sure that if an error occurs, the spinner is removed. Otherwise, users see 
-the spinner still moving, and complain about performance.
+the spinner still moving, and complain about performance.</i>
 </p>
 
 <h3 id="ch12-3">12.3 Summary</h3>
