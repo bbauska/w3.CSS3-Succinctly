@@ -544,11 +544,11 @@ around the padding, and the final layer is the margin.
   title="Note logo (orange)"
   alt="Note logo (orange)."
   style="border: 0px; width:0.25in;" />
-<i><b>Note: There is some confusion, particularly with older browsers, as to what the 
+<i><b>Note:</b> There is some confusion, particularly with older browsers, as to what the 
 width and height actually represent. According to the W3C standards, the height and width 
 should represent the content only. However, Internet Explorer calculated the width and 
 height to include padding and border. The default behavior is the content, so a 50 x 20 
-pixel content with 5 pixels padding and border takes up 70 x 30 pixels on the screen.</b></i>
+pixel content with 5 pixels padding and border takes up 70 x 30 pixels on the screen.</i>
 </p>
 
 You can use the <b>box-sizing</b> CSS style rule to set the width and
@@ -973,13 +973,13 @@ You can apply colors to any HTML element, such as <b>&lt;div&gt;</b> or <b>&lt;t
   title="Note logo (orange)"
   alt="Note logo (orange)."
   style="border: 2px solid #000000; width:0.25in;" />
-<b><i>Note: Colors should be used carefully when designing a site---in particular, 
+<i><b>Note:</b> Colors should be used carefully when designing a site---in particular, 
 check for 508 compliance. The Web Content Accessibility Guidelines require a
 4.5-to-1 contrast ratio between colors, to increase readability. For larger text 
 sizes, 14 pixels and bold, or 18 pixels and larger, a 3.0-to-1 ratio is required. 
 You should use tools such as <a href="https://webaim.org/resources/contrastchecker/">
-this website </a> to check that color combinations meet these guidelines. People with
-low vision or color-blindness will appreciate the effort.</i></b>
+this website</a> to check that color combinations meet these guidelines. People with
+low vision or color-blindness will appreciate the effort.</i>
 </p>
 
 <h3 id="ch3-2">3.2 Color libraries</h3>
@@ -1807,10 +1807,10 @@ Generally, the following colors could be used for alert messages:
   title="Note logo (orange)"
   alt="Note logo (orange)."
   style="border: 0px #000000; width:0.25in;" />
-<i><b>Note: Colors are not universal, and have different meanings in different cultures.
+<i><b>Note:</b> Colors are not universal, and have different meanings in different cultures.
 For example, the color red in western cultures generally means danger, while in 
 China, the color red represents luck. Be sure to consider your audience when choosing 
-colors for alerts and boxes.</b></i>
+colors for alerts and boxes.</i>
 </p>
 
 <h2 id="ch7">Chapter 7 Text</h2>
@@ -1830,11 +1830,11 @@ The H1 through H6 header sizes use the font family of <b>Segoe UI</b>,
   title="Note logo (orange)"
   alt="Note logo (orange)."
   style="border: 0px #000000; width:0.25in;" />
-<i><b>Note: A serif font (such as Times Roman or Georgia) has little decorative strokes 
+<i><b>Note:</b> A serif font (such as Times Roman or Georgia) has little decorative strokes 
 on the end of the letters, while a sans serif font (such as Helvetica or Arial) does not
 have these strokes. The font family tells the browser to try each font in the list, and 
 if not found, just choose any font that most closely matches the last item in the family. 
-W3.CSS suggests Verdana, and if not found, asks the browser to use a sans-serif font.</b></i>
+W3.CSS suggests Verdana, and if not found, asks the browser to use a sans-serif font.</i>
 </p>
 
 <h3 id="ch7-1">7.1 CSS fonts</h3>
@@ -2007,8 +2007,8 @@ computer instructions, you can use the <b>w3-code</b> class.
   title="Note logo (orange)"
   alt="Note logo (orange)."
   style="border: 2px solid #000000; width:0.25in;" />
-<i><b>Note:</b> Translate="no" <b>is an HTML5 attribute indicating the following content 
-should not be translated to other languages.</b></i>
+<i><b>Note:</b> Translate="no" is an HTML5 attribute indicating the following content 
+should not be translated to other languages.</i>
 </p>
 
 The default font families for code are Consolas and Courier New.
@@ -2905,8 +2905,8 @@ providing the necessary padding and borders.
   title="Note logo (orange)"
   alt="Note logo (orange)."
   style="border: 0px solid #000000; width:0.25in;" />
-<i><b>Note: HTML5 introduces several new input types besides the basic text input. The 
-following types are supported:</b></i>
+<i><b>Note:</b> HTML5 introduces several new input types besides the basic text input. The 
+following types are supported:</i>
 </p>
 
 -   <i><b>date</b></i>: Display a date editor.
@@ -3003,11 +3003,11 @@ the group being selectable.
   title="Note logo (orange)"
   alt="Note logo (orange)."
   style="border: 2px solid #000000; width:0.25in;" />
-<i><b>Note: Option buttons were originally called radio buttons because most older cars 
+<i><b>Note:</b> Option buttons were originally called radio buttons because most older cars 
 had buttons on the radio, designed so that when one button was pushed, the other buttons 
 would automatically pop up (see Figure 47). Many younger developers were not familiar 
 with the meaning, since very few cars still use radio buttons---hence the new name, 
-option buttons.</b></i>
+option buttons.</i>
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57. radio, example (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3397,8 +3397,8 @@ never be larger than the original image size.
   title="Note logo/icon (orange)"
   alt="Note logo/icon (orange)."
   style="border: 0px d #000000; width:0.25in;" />
-<i><b>Note: If you want a full responsive image (meaning it can be larger than original 
-size), you need to set the width property to</b> 100% <b>(via an inline style).</b></i>
+<i><b>Note:</b> If you want a full responsive image (meaning it can be larger than original 
+size), you need to set the width property to</b> 100% <b>(via an inline style).</i>
 </p>
 
 <h4 id="ch14-1-2">14.1.2 Image opacity</h4>
