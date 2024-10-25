@@ -1246,14 +1246,14 @@ be used to create thick borders around an element:
 The W3.CSS framework provides a number of classes to change the size of
 elements:
 
--   w3-tiny: Very small font, would make lawyers happy (10 pixels).
--   w3-small: Smaller font (12 pixels).
--   w3-medium: Default font of 15 pixels.
--   w3-large: Font size of 18 pixels.
--   w3-xlarge: Font size of 24 pixels.
--   w3-xxlarge : Font size of 36 pixels.
--   w3-xxxlarge: Font size of 48 pixels.
--   w3-jumbo: Font size of 64 pixels.
+-   <b>w3-tiny</b>: Very small font, would make lawyers happy (10 pixels).
+-   <b>w3-small</b>: Smaller font (12 pixels).
+-   <b>w3-medium</b>: Default font of 15 pixels.
+-   <b>w3-large</b>: Font size of 18 pixels.
+-   <b>w3-xlarge</b>: Font size of 24 pixels.
+-   <b>w3-xxlarge</b>: Font size of 36 pixels.
+-   <b>w3-xxxlarge</b>: Font size of 48 pixels.
+-   <b>w3-jumbo</b>: Font size of 64 pixels.
 
 These classes can be applied to any element, such as text, buttons,
 badges, and tables.
