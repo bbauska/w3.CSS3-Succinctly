@@ -2904,8 +2904,7 @@ providing the necessary padding and borders.
   <img src="./images/image008.jpg" 
   title="Note logo (orange)"
   alt="Note logo (orange)."
-  style="border: 0px #000000; width:0.25in;" />
-
+  style="border: 0px solid #000000; width:0.25in;" />
 <i><b>Note: HTML5 introduces several new input types besides the basic text input. The 
 following types are supported:</b></i>
 </p>
@@ -3215,9 +3214,9 @@ Figure 50 shows the screen (but on a website, the spinner will keep rotating).
   title="Light bulb icon (orange)"
   alt="Light bulb icon (orange)."
   style="border: 0px solid #000000; width:0.143in;" />
-<i><b>Tip: Spinners are often used during Ajax calls, to show something is happening. 
+<i><b>Tip:</b></i> Spinners are often used during Ajax calls, to show something is happening. 
 However, be sure that if an error occurs, the spinner is removed. Otherwise, users see 
-the spinner still moving, and complain about performance.</b></i>
+the spinner still moving, and complain about performance.
 </p>
 
 <h3 id="ch12-3">12.3 Summary</h3>
@@ -3646,7 +3645,7 @@ entities are:
 
 -   <b>&#x2602;</b> Umbrella
 
--   <b>&#2601;</b> Cloud
+-   <b>&#x2601;</b> Cloud
 
 -   <b>&#x2126;</b> Ohm sig
 
