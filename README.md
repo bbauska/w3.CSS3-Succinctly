@@ -3397,7 +3397,7 @@ never be larger than the original image size.
   alt="Note logo/icon (orange)."
   style="border: 0px d #000000; width:0.25in;" />
 <i><b>Note:</b> If you want a full responsive image (meaning it can be larger than original 
-size), you need to set the width property to</b> 100% <b>(via an inline style).</i>
+size), you need to set the width property to 100% (via an inline style).</i>
 </p>
 
 <h4 id="ch14-1-2">14.1.2 Image opacity</h4>
