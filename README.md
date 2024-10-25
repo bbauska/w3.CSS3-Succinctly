@@ -2905,22 +2905,23 @@ providing the necessary padding and borders.
   title="Note logo (orange)"
   alt="Note logo (orange)."
   style="border: 0px #000000; width:0.25in;" />
+
 <i><b>Note: HTML5 introduces several new input types besides the basic text input. The 
 following types are supported:</b></i>
 </p>
 
--   <i><b>date: Display a date editor.</b></i>
--   <i><b>email: Get an email address.</b></i>
--   <i><b>number: A numeric spinner.</b></i>
--   <i><b>range: A slider between two numeric values.</b></i>
--   <i><b>tel: Get a phone number.</b></i>
--   <i><b>color: A color picker.</b></i>
--   <i><b>datetime-local: Enter a date/time, and no time zone.</b></i>
--   <i><b>month: Select a month and year.</b></i>
--   <i><b>search: A text box for searching.</b></i>
--   <i><b>time: A box to select a time and a.m. or p.m.</b></i>
--   <i><b>url: A text box that expects input to look like a URL.</b></i>
--   <i><b>week: Pick a week and year.</b></i>
+-   <i><b>date</b></i>: Display a date editor.
+-   <i><b>email</b></i>: Get an email address.
+-   <i><b>number</b></i>: A numeric spinner.
+-   <i><b>range</b></i>: A slider between two numeric values.
+-   <i><b>tel</b></i>: Get a phone number.
+-   <i><b>color</b></i>: A color picker.
+-   <i><b>datetime-local</b></i>: Enter a date/time, and no time zone.
+-   <i><b>month</b></i>: Select a month and year.
+-   <i><b>search</b></i>: A text box for searching.
+-   <i><b>time</b></i>: A box to select a time and a.m. or p.m.
+-   <i><b>url</b></i>: A text box that expects input to look like a URL.
+-   <i><b>week</b></i>: Pick a week and year.
 
 > <i><b>If a browser does not support one of the new types, it will fall
 > back to text input. Also, many mobile devices will change the virtual
@@ -3635,11 +3636,51 @@ entities are:
 
 -   <b>&#2716;</b> Cancel icon
 
--   <b>&#2702;</b> Scissors
+-   <b>&#x2702;</b> Scissors
 
 -   <b>&#9742;</b> Telephone
 
 -   <b>&#10683;</b> Circle with X
+
+-   <b>&#x262F;</b> Yin Yang
+
+-   <b>&#x2602;</b> Umbrella
+
+-   <b>&#2601;</b> Cloud
+
+-   <b>&#x2126;</b> Ohm sig
+
+-   <b>&#x2102;</b> Degree Celsius
+
+-   <b>&#x2109;</b> Degree Fahrenheit
+
+-   <b>&#x262E;</b> Peace symbol
+
+-   <b>&#x262D;</b> Hammer and sickle
+
+-   <b>&#x2684;</b> Die face-5
+
+-   <b>&#x2695;</b> Staff of aesculapius
+
+-   <b>&#x26BE;</b> Baseball
+
+-   <b>&#x2708;</b> Airplane
+
+-   <b>&#x2780;</b> Dingbat circled sans-serif digital one
+
+-   <b>&#x2789;</b> Dingbat circled sans-serif number ten
+
+-   <b>&#x27B3;</b> White feathered right arrow
+
+-   <b>&#x2766;</b> Floral heart
+
+-   <b>&#x2640;</b> Female sign
+
+-   <b>&#x2642;</b> Male sign
+
+-   <b>&#x2641;</b> Earth
+
+-   <b>&#x2623;</b> Radioactive sign
 
 While HTML entities are easy to use, not all entities will work with all fonts. Be sure to 
 test your entities against your website font or use the Font Awesome library, which imbeds 
