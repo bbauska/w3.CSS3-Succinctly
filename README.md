@@ -235,8 +235,6 @@ SYNCFUSION, SUCCINCTLY, DELIVER INNOVATION WITH EASE, ESSENTIAL, and
 ### [<b>Chapter 17 Summary</b>](#ch17)
 >#### 17.1 [<b>Site</b>](#ch17-1)
 
-[]{#_Toc157040 .anchor}The Story Behind the *Succinctly* Series of Books
-
 > Daniel Jebaraj, Vice President Syncfusion, Inc. Microsoft platform.
 > This puts us in the exciting but challenging position of alway s
 
