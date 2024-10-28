@@ -12,18 +12,18 @@ output:
 
 <h2 align="center">W3 Cascade Styles Sheet (CSS)</h2>
 
-W3.CSS is a free, no-license CSS framework from w3schools.com that you can use to produce 
+<p>W3.CSS is a free, no-license CSS framework from w3schools.com that you can use to produce 
 responsive websites that work across all common browsers (Chrome, Edge, Firefox, Internet 
 Explorer) and devices (desktops, tablets, mobile). It is much smaller than other frameworks 
-and relies only on standard CSS. 
+and relies only on standard CSS.</p>
 
-### W3.CSS classes
-All the classes in the W3.CSS framework begin with w3-, which reduces the likelihood of 
+<h3>W3.CSS classes</h3>
+<p>All the classes in the W3.CSS framework begin with w3-, which reduces the likelihood of 
 conflicting style names. You can combine multiple class names in a single class statement, 
 allowing you to provide the basic CSS class and add additional features to it. For example, 
-the following code will create a w3 container, and set its background color to blue-gray. 
+the following code will create a w3 container, and set its background color to blue-gray.</p>
 
-#### Code Listing 1
+<h4>Code Listing 1</h4>
 
 ```
 <div class="w3-container w3-blue-gray"> 
@@ -32,53 +32,55 @@ the following code will create a w3 container, and set its background color to b
  
 You could add the class w3-round-large to add rounded corners to the &lt;div&gt; element.
 
-### PPP - Practice, Practice, Practice by cellardoor.bauska.org
-### from W3.CSS Succinctly
+<h3>PPP - Practice, Practice, Practice by cellardoor.bauska.org</h3>
+<h3>from W3.CSS Succinctly</h3>
 
-> <b>By</b>
->
-> <b>Joseph D. Booth</b>
->
-> Foreword by Daniel Jebaraj
-> Copyright © 2018 by Syncfusion, Inc.
-> 2501 Aerial Center Parkway
-> Suite 200
-> Morrisville, NC 27560
-> USA
-> All rights reserved.
+<blockquote>
+<b>By</b>
+
+<b>Joseph D. Booth</b>
+
+Foreword by Daniel Jebaraj
+Copyright © 2018 by Syncfusion, Inc.
+2501 Aerial Center Parkway
+Suite 200
+Morrisville, NC 27560
+USA
+All rights reserved.
+</blockquote>
 
 <b>Important licensing information. Please read.</b>
 
-This book is available for free download from <a href="http://www.syncfusion.com/">
-www.syncfusion.com</a> on completion of a registration form.
+<p>This book is available for free download from <a href="http://www.syncfusion.com/">
+www.syncfusion.com</a> on completion of a registration form.</p>
 
-If you obtained this book from any other source, please register and download a free copy 
-from <a href="http://www.syncfusion.com/">www.syncfusion.com</a>
+<p>If you obtained this book from any other source, please register and download a free copy 
+from <a href="http://www.syncfusion.com/">www.syncfusion.com</a></p>
 
-This book is licensed for reading only if obtained from <a href="http://www.syncfusion.com/">
-www.syncfusion.com</a>
+<p>This book is licensed for reading only if obtained from <a href="http://www.syncfusion.com/">
+www.syncfusion.com</a></p>
 
-This book is licensed strictly for personal or educational use.
+<p>This book is licensed strictly for personal or educational use.</p>
 
-The authors and copyright holders provide absolutely no warranty for any information provided.
+<p>The authors and copyright holders provide absolutely no warranty for any information provided.</p>
 
-The authors and copyright holders shall not be liable for any claim, damages, or any other 
-liability arising from, out of, or in connection with the information in this book.
+<p>The authors and copyright holders shall not be liable for any claim, damages, or any other 
+liability arising from, out of, or in connection with the information in this book.</p>
 
-Please do not use this book if the listed terms are unacceptable.
+<p>Please do not use this book if the listed terms are unacceptable.</p>
 
-Use shall constitute acceptance of the terms listed.
+<p>Use shall constitute acceptance of the terms listed.</p>
 
-SYNCFUSION, SUCCINCTLY, DELIVER INNOVATION WITH EASE, ESSENTIAL, and
-.NET ESSENTIALS are the registered trademarks of Syncfusion, Inc.
+<p>SYNCFUSION, SUCCINCTLY, DELIVER INNOVATION WITH EASE, ESSENTIAL, and
+.NET ESSENTIALS are the registered trademarks of Syncfusion, Inc.</p>
 
-<b>Technical Reviewer:</b> James McCaffrey
+<p><b>Technical Reviewer:</b> James McCaffrey</p>
 
-<b>Copy Editor:</b> Courtney Wright
+<p><b>Copy Editor:</b> Courtney Wright</p>
 
-<b>Acquisitions Coordinator:</b> Tres Watkins, content development manager, Syncfusion, Inc.
+<p><b>Acquisitions Coordinator:</b> Tres Watkins, content development manager, Syncfusion, Inc.</p>
 
-<b>Proofreader:</b> Jacqueline Bieringer, content producer, Syncfusion, Inc.
+<p><b>Proofreader:</b> Jacqueline Bieringer, content producer, Syncfusion, Inc.</p>
 
 ## [Table of Contents](#table-of-contents)
 
@@ -235,81 +237,85 @@ SYNCFUSION, SUCCINCTLY, DELIVER INNOVATION WITH EASE, ESSENTIAL, and
 ### [<b>Chapter 17 Summary</b>](#ch17)
 >#### 17.1 [<b>Site</b>](#ch17-1)
 
-> Daniel Jebaraj, Vice President Syncfusion, Inc. Microsoft platform.
-> This puts us in the exciting but challenging position of alway s
+<blockquote>
+Daniel Jebaraj, Vice President Syncfusion, Inc. Microsoft platform.
+This puts us in the exciting but challenging position of alway s
 
-> <b>Staying on the cutting edge</b>
->
-> As many of you may know, Syncfusion is a provider of software
-> components for the being on the cutting edge.
->
-> Whenever platforms or tools are shipping out of Microsoft, which seems
-> to be about every other week these days, we have to educate ourselves, quickly.
+<b>Staying on the cutting edge</b>
 
-<b>Information is plentiful but harder to digest</b>
+As many of you may know, Syncfusion is a provider of software
+components for the being on the cutting edge.
 
-In reality, this translates into a lot of book orders, blog searches,
-and Twitter scans.
+Whenever platforms or tools are shipping out of Microsoft, which seems
+to be about every other week these days, we have to educate ourselves, quickly.
+</blockquote>
 
-While more information is becoming available on the Internet and more
+<p><b>Information is plentiful but harder to digest</b></p>
+
+<p>In reality, this translates into a lot of book orders, blog searches,
+and Twitter scans.</p>
+
+<p>While more information is becoming available on the Internet and more
 and more books are being published, even on topics that are relatively
 new, one aspect that continues to inhibit us is the inability to find
-concise technology overview books.
+concise technology overview books.</p>
 
-We are usually faced with two options: read several 500+ page books or
+<p>We are usually faced with two options: read several 500+ page books or
 scour the web for relevant blog posts and other articles. Just as
 everyone else who has a job to do and customers to serve, we find this
-quite frustrating.
+quite frustrating.</p>
 
-#### The *Succinctly* series 
+<h4>The *Succinctly* series</h4>
 
-This frustration translated into a deep desire to produce a series of
+<p>This frustration translated into a deep desire to produce a series of
 concise technical books that would be targeted at developers working on
-the Microsoft platform.
+the Microsoft platform.</p>
 
-We firmly believe, given the background knowledge such developers have,
+<p>We firmly believe, given the background knowledge such developers have,
 that most topics can be translated into books that are between 50 and
-100 pages.
+100 pages.</p>
 
-This is exactly what we resolved to accomplish with the *Succinctly*
+<p>This is exactly what we resolved to accomplish with the *Succinctly*
 series. Isn't everything wonderful born out of a deep desire to change
-things for the better?
+things for the better?</p>
 
-<b>The best authors, the best content</b>
+<p><b>The best authors, the best content</b></p>
 
-Each author was carefully chosen from a pool of talented experts who
+<p>Each author was carefully chosen from a pool of talented experts who
 shared our vision. The book you now hold in your hands, and the others
 available in this series, are a result of the authors' tireless work.
 You will find original content that is guaranteed to get you up and
-running in about the time it takes to drink a few cups of coffee.
+running in about the time it takes to drink a few cups of coffee.</p>
 
-<b>Free forever</b>
+<p><b>Free forever</b></p>
 
-Syncfusion will be working to produce books on several topics. The books
-will always be free.
+<p>Syncfusion will be working to produce books on several topics. The books
+will always be free.</p>
 
-Any updates we publish will also be free.
+<p>Any updates we publish will also be free.</p>
 
-<b>Free? What is the catch?</b>
+<p><b>Free? What is the catch?</b></p>
 
-There is no catch here. Syncfusion has a vested interest in this effort.
+<p>There is no catch here. Syncfusion has a vested interest in this effort.</p>
 
-As a component vendor, our unique claim has always been that we offer
+<p>As a component vendor, our unique claim has always been that we offer
 deeper and broader frameworks than anyone else on the market. Developer
 education greatly helps us market and sell against competing vendors who
 promise to "enable AJAX support with one click," or "turn the moon to
-cheese!"
+cheese!"</p>
 
-<b>Let us know what you think</b>
+<p><b>Let us know what you think</b></p>
 
-If you have any topics of interest, thoughts, or feedback, please feel
-free to send them to us at [succinctly-series@syncfusion.com].
+<p>If you have any topics of interest, thoughts, or feedback, please feel
+free to send them to us at [succinctly-series@syncfusion.com].</p>
 
-We sincerely hope you enjoy reading this book and that it helps you
-better understand the topic of study. Thank you for reading.
+<p>We sincerely hope you enjoy reading this book and that it helps you
+better understand the topic of study. Thank you for reading.</p>
 
-> Please follow us on Twitter and "Like" us on Facebook to help us
-> spread the word about the *Succinctly* series!
+<blockquote>
+Please follow us on Twitter and "Like" us on Facebook to help us
+spread the word about the *Succinctly* series!
+</blockquote>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04/05 twitter & facebook logos (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -326,43 +332,43 @@ better understand the topic of study. Thank you for reading.
 
 <h3 id="ch1-1">1.1 About the Author</h3>
 
-Joseph D. Booth has been programming since 1981 in a variety of
+<p>Joseph D. Booth has been programming since 1981 in a variety of
 languages, including BASIC, Clipper, FoxPro, Delphi, Classic ASP, Visual
 Basic, Visual C#, and the .NET Framework. He has also worked in various
-database platforms, including DBASE, Paradox, Oracle, and SQL Server.
+database platforms, including DBASE, Paradox, Oracle, and SQL Server.</p>
 
-He is the author of *GitHub Succinctly*, *Accounting Succinctly*,
+<p>He is the author of *GitHub Succinctly*, *Accounting Succinctly*,
 *Regular Expressions Succinctly*, and *Visual Studio Add-Ins Succinctly*
 from Syncfusion, as well as six books on Clipper and FoxPro programming,
 network programming, and client/server development with Delphi. He has
 also written several third-party developer tools, including CLIPWKS,
 which allows developers to programmatically create and read native Lotus
-and Excel spreadsheet files from Clipper applications.
+and Excel spreadsheet files from Clipper applications.</p>
 
-Joe has worked for a number of companies including Sperry Univac,
+<p>Joe has worked for a number of companies including Sperry Univac,
 MCI-WorldCom, Ronin, Harris Interactive, Thomas Jefferson University,
 People Metrics, and Investor Force. He is one of the primary authors of
 Results for Research (market research software), PEPSys (industrial
 distribution software), and a key contributor to AccuBuild (accounting
-software for the construction industry).
+software for the construction industry).</p>
 
-He has a background in accounting, having worked as a controller for
+<p>He has a background in accounting, having worked as a controller for
 several years in the industrial distribution field, but his real passion
-is computer programming.
+is computer programming.</p>
 
-In his spare time, Joe is an avid tennis player, practices yoga and
-martial arts, and plays with his first granddaughter, Blaire.
+<p>In his spare time, Joe is an avid tennis player, practices yoga and
+martial arts, and plays with his first granddaughter, Blaire.</p>
 
 <h3 id="ch1-2">1.2 Chapter 1 Introduction</h3>
 
-W3.CSS is a free, no-license CSS framework from
+<p>W3.CSS is a free, no-license CSS framework from
 <a href="http://www.w3schools.com/">w3schools.com</a> that you can
 use to produce responsive websites that work across all common browsers
 (Chrome, Edge, Firefox, Internet Explorer) and devices (desktops,
 tablets, mobile). It is much smaller than other frameworks and relies
 only on standard CSS. For example, many common frameworks (such as
 Bootstrap and Foundation) offer both a CSS and JavaScript component. For
-a comparison of uncompressed memory sizes, see Table 1.
+a comparison of uncompressed memory sizes, see Table 1.</p>
 
 <h6 align="center"><i>Table 1: Approximate framework sizes</i></h6>
 
@@ -376,29 +382,29 @@ a comparison of uncompressed memory sizes, see Table 1.
 
 </div>
 
-While each framework has its own set of features and components, the
+<p>While each framework has its own set of features and components, the
 W3.CSS is small and simple to learn, and is a worthwhile contender to
-consider when deciding on a CSS framework.
+consider when deciding on a CSS framework.</p>
 
 <h3 id="ch1-3">1.3 CSS only</h3>
 
-Since W3.CSS is a CSS-only framework, there are no components, which
+<p>Since W3.CSS is a CSS-only framework, there are no components, which
 some of the other frameworks include. This means that while you can use
 the framework to handle the appearance and responsive design elements of
 your site, there is no JavaScript. Bootstrap, Foundation, and other such
 frameworks are built with both CSS styling and JavaScript components. If
 you need scripting functionality in your site, you should either build
-it yourself using libraries like jQuery, or consider a larger framework.
+it yourself using libraries like jQuery, or consider a larger framework.</p>
 
 <h3 id="ch1-4">1.4 Layers</h3>
 
-A website consists of three layers, but only the data (or HTML) layer is
+<p>A website consists of three layers, but only the data (or HTML) layer is
 required. A user could possibly disable all scripting and CSS styling,
 and the data should still be readable. CSS styling improves the look of
 the site by providing the browser with a set of rules indicating how to
 display HTML elements. Scripting (mostly JavaScript) adds interactive
 features, such as table searching and sorting, and client size form
-validation.
+validation.</p>
 
 <h6 align="center"><i>Table 2: Website layers</i></h6>
 <div align="center">
@@ -406,27 +412,25 @@ validation.
 | Layer                 | Content                                   | Format                  |
 | --------------------- | ----------------------------------------- | ----------------------- |
 | <b>Data Layer</b>     | Text/images to display                    | HTML                    |
-| <b>Presentation</b>   | Style rules to overwrite browser          | CSS                     |
-| <b>layer</b>          | defaults                                  |                         |
-| <b>Activity layer</b> | Scripting to provide interactivity to the | JavaScript, Typescript, |
-|                       | site                                      | etc.                    |
+| <b>Presentation layer</b>   | Style rules to overwrite browser defaults | CSS                     |
+| <b>Activity layer</b> | Scripting to provide interactivity to the site | JavaScript, Typescript, etc. |
 
 </div>
 
-Browsers have default rules indicating how to display HTML tags; your
+<p>Browsers have default rules indicating how to display HTML tags; your
 custom CSS or CSS frameworks (such as W3.CSS) provide overrides for
 these defaults. Everything in W3.CSS uses standard CSS styles, just
 organized in a way to provide consistent layout and responsive design
-(by wrapping some styles with a media/device query filter).
+(by wrapping some styles with a media/device query filter).</p>
 
 <h3 id="ch1-5">1.5 W3.CSS classes</h3>
 
-All the classes in the W3.CSS framework begin with <b>w3-</b>, which
+<p>All the classes in the W3.CSS framework begin with <b>w3-</b>, which
 reduces the likelihood of conflicting style names. You can combine
 multiple class names in a single <b>class</b> statement, allowing you to
 provide the basic CSS class and add additional features to it. For
 example, the following code will create a <b>w3</b> container, and set its
-background color to blue-gray.
+background color to blue-gray.</p>
 
 <h6 align="center"><i>Code Listing 1</i></h6>
 
@@ -434,15 +438,15 @@ background color to blue-gray.
 <div class="w3-container w3-blue-gray">
 </div>
 ```
-You could add the class <b>w3-round-large</b> to add rounded corners to the
-<b>&lt;div&gt;</b> element.
+
+<p>You could add the class <b>w3-round-large</b> to add rounded corners to the
+<b>&lt;div&gt;</b> element.</p>
 
 <h3 id="ch1-6">1.6 Simple example</h3>
 
-The following example shows a simple webpage displaying an image and
+<p>The following example shows a simple webpage displaying an image and
 some text in a container. You can resize your browser and the entire
-page will adjust to the new size.
-
+page will adjust to the new size.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 06. sample webpage, gettysburg address (15) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -458,10 +462,10 @@ page will adjust to the new size.
 
 <h4 id="ch1-6-1">1.6.1 Source page</h4>
 
-Code Listing 1 is the source page for the above webpage. Note the
+<p>Code Listing 1 is the source page for the above webpage. Note the
 link-reference to local file <b>w3.css</b> in the <b>&lt;head&gt;</b> section of
 the page. An alternative is to link to an external copy of the
-framework, as I'll explain shortly.
+framework, as I'll explain shortly.</p>
 
 <h6 align="center"><i>Code Listing 2: Sample W3.CSS page</i></h6>
 
@@ -502,23 +506,23 @@ framework, as I'll explain shortly.
 
 <h3 id="ch1-7">1.7 Obtaining W3.CSS</h3>
 
-You can download <a href="https://www.w3schools.com/w3css/w3css_downloads.asp">W3.CSS</a>.
-It is totally free and does not require any license to use.
+<p>You can download <a href="https://www.w3schools.com/w3css/w3css_downloads.asp">W3.CSS</a>.
+It is totally free and does not require any license to use.</p>
 
-You can also link to the W3.CSS library via an external link, using the
+<p>You can also link to the W3.CSS library via an external link, using the
 following snippet in your <b>&lt;head&gt;</b> section.
-&lt;link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"&gt;
+&lt;link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"&gt;</p>
 
-The code in this book is based on W3.CSS version 4. Version 4 was
-released in March of 2017, and is significantly faster than version 3.
+<p>The code in this book is based on W3.CSS version 4. Version 4 was
+released in March of 2017, and is significantly faster than version 3.</p>
 
 <h2 id="ch2">Chapter 2 Layout</h2>
 
-HTML elements on the screen all rely on the "box" model to display how
-the element appears.
+<p>HTML elements on the screen all rely on the "box" model to display how
+the element appears.</p>
 
-Each element is considered a box, with several styling options. Figure 2
-shows the box model.
+<p>Each element is considered a box, with several styling options. Figure 2
+shows the box model.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. box model (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -530,11 +534,12 @@ shows the box model.
 
 <h6 align="center"><i>Figure 2: Box model</i></h6>
 
-There are four parts to the box. The inner content is the default
-content shown in the element. The height and width refer to that
-content. The next layer is the padding, which is some number of pixels
-wrapped around the content. The border is the third layer, wrapped
-around the padding, and the final layer is the margin.
+<p>There are four parts to the box. The <span style="background-color: #FFFF00">inner content</span>
+is the default content shown in the element. The height and width refer to that
+content. The next layer is the <span style="background-color: #FFFF00">padding</span>, 
+which is some number of pixels wrapped around the content. The 
+<span style="background-color: #FFFF00">border</span> is the third layer, wrapped
+around the padding, and the final layer is the <span style="background-color: #FFFF00">margin</span>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
@@ -549,28 +554,28 @@ height to include padding and border. The default behavior is the content, so a 
 pixel content with 5 pixels padding and border takes up 70 x 30 pixels on the screen.</i>
 </p>
 
-You can use the <b>box-sizing</b> CSS style rule to set the width and
+<p>You can use the <b>box-sizing</b> CSS style rule to set the width and
 height to either <b>content-box</b> (default) or <b>border-box</b>. If you are
 going to use <b>border-box</b>, I would recommend setting the rule on the
 body tag, rather than individual elements. However, sticking with the
 W3C standard is your best bet. If you need to support older versions of
 Internet Explorer, or aren't sure which model is used by the users'
 browsers, I would add the <b>box-sizing</b> rule and set it to
-<b>contentbox</b>.
+<b>contentbox</b>.</p>
 
-CSS gives you total control over the margin, border, and padding; you
+<p>CSS gives you total control over the margin, border, and padding; you
 can set them all to the same value or set different values for the
 individual sides (left and right), top, and bottom. One of the benefits
 of the W3 CSS framework is that the class definition sets them
-consistently for you.
+consistently for you.</p>
 
 <h3 id="ch2-1">2.1 CSS layout</h3>
 
-W3 uses two basic classes to display cell content, the <b>w3-cell-row</b>
+<p>W3 uses two basic classes to display cell content, the <b>w3-cell-row</b>
 class and the <b>w3-cell</b> class. The <b>row</b> element is a wrapper around
 a collection of cells. The cells take up 100 percent of the row width
 and are automatically adjusted based on their content. For example, take
-a look at the following code snippet.
+a look at the following code snippet.</p>
 
 <h6 align="center">Code Listing 3</h6>
 
@@ -585,9 +590,9 @@ a look at the following code snippet.
 </div>
 ```
 
-This would produce the following appearance in the browser window. The
+<p>This would produce the following appearance in the browser window. The
 two cells take up 100 percent of the width, and the larger content would
-take up more space.
+take up more space.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. row/cell appearance example (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -599,9 +604,9 @@ take up more space.
 
 <h6 align="center"><i>Figure 3: Row/cell appearance</i></h6>
 
-One feature of the layout class is that the cell heights will match the
+<p>One feature of the layout class is that the cell heights will match the
 height of the largest content, so if the cell's description had much
-more detail, it might appear as shown in Figure 4.
+more detail, it might appear as shown in Figure 4.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. same-height cells example (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -998,10 +1003,8 @@ Table 3 lists the libraries that are available.
 | <b>European colors</b> | European traffic colors, RA Color Standards. | w3-colors-signal.css  |
 | <b>Fashion colors</b>  | Fashion colors from Color Trends.            | w3-colors-2017.css    |
 | <b>Vivid colors</b>    | Vibrant colors from ISCC-NBS standard.       | w3-colors-vivid.css   |
-| <b>Food colors</b>     | Colors match foods, such as wine,            | w3-colors-food.css    |
-|                        | tomatoes.                                    |                       |
-| <b>Camouflage</b>      | Colors with earth tones, from federal        | w3-colors-camo.css    |
-| <b>colors</b>          | standards.                                   |                       |
+| <b>Food colors</b>     | Colors match foods, such as wine, tomatoes.  | w3-colors-food.css    |
+| <b>Camouflage colors</b> | Colors with earth tones, from federal standards. | w3-colors-camo.css    |
 
 </div>
 
@@ -1231,30 +1234,29 @@ element, as shown in Figure 15.
 The following CSS classes (which can be combined with border colors) can
 be used to create thick borders around an element:
 
--   <b>w3-bottombar</b>: Adds a thick border to the bottom of the element.
-
--   <b>w3-leftbar</b>: Adds a thick border to the left side of the element.
-
--   <b>w3-rightbar</b>: Adds a thick border to the right side of the element.
-
--   <b>w3-topbar</b>: Adds a thick border to the top of the element.
+<ul>
+  <li><b>w3-bottombar</b>: Adds a thick border to the bottom of the element.</li>
+  <li><b>w3-leftbar</b>: Adds a thick border to the left side of the element.</li>
+  <li><b>w3-rightbar</b>: Adds a thick border to the right side of the element.</li>
+  <li><b>w3-topbar</b>: Adds a thick border to the top of the element.</li>
+</ul>
 
 <h3 id="ch4-5">4.5 CSS sizing</h3>
 
-The W3.CSS framework provides a number of classes to change the size of
-elements:
+<p>The W3.CSS framework provides a number of classes to change the size of elements:</p>
 
--   <b>w3-tiny</b>: Very small font, would make lawyers happy (10 pixels).
--   <b>w3-small</b>: Smaller font (12 pixels).
--   <b>w3-medium</b>: Default font of 15 pixels.
--   <b>w3-large</b>: Font size of 18 pixels.
--   <b>w3-xlarge</b>: Font size of 24 pixels.
--   <b>w3-xxlarge</b>: Font size of 36 pixels.
--   <b>w3-xxxlarge</b>: Font size of 48 pixels.
--   <b>w3-jumbo</b>: Font size of 64 pixels.
+<ul>
+  <li><b>w3-tiny</b>: Very small font, would make lawyers happy (10 pixels).</li>
+  <li><b>w3-small</b>: Smaller font (12 pixels).</li>
+  <li><b>w3-medium</b>: Default font of 15 pixels.</li>
+  <li><b>w3-large</b>: Font size of 18 pixels.</li>
+  <li><b>w3-xlarge</b>: Font size of 24 pixels.</li>
+  <li><b>w3-xxlarge</b>: Font size of 36 pixels.</li>
+  <li><b>w3-xxxlarge</b>: Font size of 48 pixels.</li>
+  <li><b>w3-jumbo</b>: Font size of 64 pixels.</li>
+</ul>
 
-These classes can be applied to any element, such as text, buttons,
-badges, and tables.
+<p>These classes can be applied to any element, such as text, buttons, badges, and tables.</p>
 
 <h3 id="ch4-6">4.6 Summary</h3>
 
@@ -1365,9 +1367,10 @@ page.
 
 There are two classes you need to work with in tabs:
 
--   <b>w3-bar</b>: The container to hold the tab bar across the top.
-
--   <b>w3-bar-item</b>: The button representing the tab.
+<ul>
+  <li><b>w3-bar</b>: The container to hold the tab bar across the top.</li>
+  <li><b>w3-bar-item</b>: The button representing the tab.</li>
+</ul>
 
 <h4 id="ch5-2-2">5.2.2 Building the tabs</h4>
 
@@ -1551,7 +1554,7 @@ only opening the menu when the user clicks an icon (typically the
 "hamburger" icon with three horizontal bars). With a little JavaScript,
 you can have the W3.CSS sidebar provide this behavior.
 
-#### Creating the icon 
+<h4>Creating the icon</h4>
 
 You will need to add a header (or some container to show the menu icon).
 Be sure to provide an <b>id</b> for the menu icon (<b>openNav</b> in our
@@ -1574,7 +1577,7 @@ icon. The following code snippet shows the header and icon example code.
 When the user clicks on the icon, the <b>openMenu()</b> JavaScript function
 is called.
 
-#### Creating the sidebar 
+<h4>Creating the sidebar</h4>
 
 The sidebar itself is created using the same code as the basic sidebar
 code, with a couple changes. First, the sidebar menu will need an
@@ -1598,7 +1601,7 @@ The other change is a new menu item, to call the JavaScript
 </div>
 ```
 
-#### Opening and closing 
+<h4>Opening and closing</h4>
 
 The JavaScript functions to open and close the menu simply need to
 toggle the menu's display style, to show or hide the menu. The following
@@ -1724,15 +1727,13 @@ container.
 In addition to colors and rounded corners, you can use the following
 classes to improve the appearance of notes:
 
--   <b>w3-border-color</b>: Defines the color for border elements.
-
--   <b>w3-leftbar</b>: Adds a vertical bar on left side of the container.
-
--   <b>w3-rightbar</b>: Adds a vertical bar on right side of the container.
-
--   <b>w3-topbar</b>: Adds a horizontal bar on the top of the container.
-
--   <b>w3-bottombar</b>: Adds a horizontal bar on the container bottom.
+<ul>
+  <li><b>w3-border-color</b>: Defines the color for border elements.</li>
+  <li><b>w3-leftbar</b>: Adds a vertical bar on left side of the container.</li>
+  <li><b>w3-rightbar</b>: Adds a vertical bar on right side of the container.</li>
+  <li><b>w3-topbar</b>: Adds a horizontal bar on the top of the container.</li>
+  <li><b>w3-bottombar</b>: Adds a horizontal bar on the container bottom.</li>
+</ul>
 
 Figure 23 shows the previous note with a <b>w3-border-red</b> and
 <b>w3-leftbar</b> class added.
@@ -1788,16 +1789,14 @@ to <b>none</b>, causing the alert to disappear from the screen.
 
 <h6 align="center"><i>Figure 24: Sample alert panel</i></h6>
 
-Generally, the following colors could be used for alert messages:
+<p>Generally, the following colors could be used for alert messages:</p>
 
--   Red or pale red: Error condition, needs attention.
-
--   Yellow or pale yellow: Warning, might need attention.
-
--   Green, pale green : Success!
-
--   Blue, cyan: Information only.
-
+<ul>
+  <li>Red or pale red: Error condition, needs attention.</li>
+  <li>Yellow or pale yellow: Warning, might need attention.</li>
+  <li>Green, pale green : Success!</li>
+  <li>Blue, cyan: Information only.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. note logo (orange) (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
@@ -1928,11 +1927,11 @@ loaded when the page starts, which can slow down the startup time.
 There are three classes you can use to align text (and other elements)
 horizontally within a container. These classes are:
 
--   <b>w3-left-align</b>: Aligns text to the left.
-
--   <b>w3-right-align</b>: Aligns text to the right.
-
--   <b>w3-center</b>: Centers text within the container.
+<ul>
+  <li><b>w3-left-align</b>: Aligns text to the left.</li>
+  <li><b>w3-right-align</b>: Aligns text to the right.</li>
+  <li><b>w3-center</b>: Centers text within the container.</li>
+</ul>
 
 <h3 id="ch7-4">7.4 Text features</h3>
 
@@ -2096,24 +2095,21 @@ not underlined. The result is shown in Figure 27.
 
 <h6 align="center"><i>Figure 27: Horizontal menu</i></h6>
 
-#### Other classes 
+<h4>Other classes</h4>
 
-You can add some helper classes to adjust the menu's appearance even
-more. These classes are:
+<p>You can add some helper classes to adjust the menu's appearance even more. These 
+classes are:</p>
 
--   <b>w3-border</b>: Adds a border around the entire bar.
+<ul>
+  <li><b>w3-border</b>: Adds a border around the entire bar.</li>
+  <li><b>w3-card</b>: Displays the bar in a "card," with a shadow.</li>
+  <li><b>w3-round</b>: Creates a rounded menu effect.</li>
+  <li><b>w3-mobile</b>: Causes the items to stack vertically on smaller screens.</li>
+  <li><b>w3-size</b>: Increases the font size of the menu items.</li>
+</ul>
 
--   <b>w3-card</b>: Displays the bar in a "card," with a shadow.
-
--   <b>w3-round</b>: Creates a rounded menu effect.
-
--   <b>w3-mobile</b>: Causes the items to stack vertically on smaller
-    screens.
-
--   <b>w3-size</b>: Increases the font size of the menu items.
-
-For example, the following code snippet would produce the pale green,
-rounded menu bar shown in Figure 28.
+<p>For example, the following code snippet would produce the pale green, rounded menu bar 
+shown in Figure 28.</p>
 
 <h6 align="center"><i>Code Listing 36</i></h6>
 
@@ -2138,7 +2134,7 @@ The <b>w3-bar-item</b> class is the basic class to create menu items within
 the bar. When you hover over a menu item, the background color will
 change to gray to indicate the menu item to be clicked.
 
-#### Changing hover colors 
+<h4>Changing hover colors</h4>
 
 Adding <b>w3-hover-color</b> class to an item allows you to overwrite the
 hover color from gray to another color. You can also add the
@@ -2153,19 +2149,18 @@ hover color from gray to another color. You can also add the
 <a href="#" class="w3-bar-item w3-button w3-hover-none">Home</a>
 ```
 
-#### Right-align items 
+<h4>Right-align items</h4>
 
 The <b>w3-right</b> class, when added to the bar item, causes the item to
 be aligned to the right side of the bar. Often, the help link is moved
 to the right, to keep it distinct from the operational links.
 
-#### Adding text and buttons to the menu bar 
+<h4>Adding text and buttons to the menu bar</h4>
 
-Since the bar is the primary navigation for the site, you might need to
+<p>Since the bar is the primary navigation for the site, you might need to
 add text or input elements to the bar. The following screen illustrates
 a navigation bar showing the currently selected club and the ability to
-search for a team or player.
-
+search for a team or player.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 36. navigation bar/search example (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2177,9 +2172,8 @@ search for a team or player.
 
 <h6 align="center"><i>Figure 29: Soccer site navigation</i></h6>
 
-The following code illustrates adding text (YSC Sports club) and a
-search box and button to the bar items. You do not need to limit bar
-items to just buttons.
+<p>The following code illustrates adding text (YSC Sports club) and a search box and 
+button to the bar items. You do not need to limit bar items to just buttons.</p>
 
 <h6 align="center"><i>Code Listing 38</i></h6>
 
@@ -2201,13 +2195,12 @@ items to just buttons.
 </div>
 ```
 
-#### Drop-down menu items 
+<h4>rop-down menu items</h4>
 
-You can also add a drop-down menu to your navigation using the
+<p>You can also add a drop-down menu to your navigation using the
 <b>w3-dropdown-hover</b> and <b>w3dropdown-content</b> classes. The following
 code snippet shows an example of added schedule menu options to our
-soccer navigation bar.
-
+soccer navigation bar.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 37. drop-down navigation menu with search example (53) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2219,9 +2212,9 @@ soccer navigation bar.
 
 <h6 align="center"><i>Figure 30: Drop-down menus</i></h6>
 
-The following is the code for this example. The menu option is a wrapper
+<p>The following is the code for this example. The menu option is a wrapper
 in the <b>w3-dropdownhover</b> class, and the actual drop-down menu is in
-the <b>w3-dropdown-content</b> class.
+the <b>w3-dropdown-content</b> class.</p>
 
 <h6 align="center"><i>Code Listing 39</i></h6>
 
@@ -2236,16 +2229,14 @@ the <b>w3-dropdown-content</b> class.
 </div>
 ```
 
-The bar items within the drop-down menu can also have custom colors and
-hover colors. They are regular menu bar items, and can even be text and
-input text elements.
+<p>The bar items within the drop-down menu can also have custom colors and hover colors. 
+They are regular menu bar items, and can even be text and input text elements.</p>
 
 <h4 id="ch8-1-4">8.1.4 Navigation bar positions</h4>
 
-Often, you want to keep the navigation bar positioned at the top or
-bottom of the page. This is accomplished simply by wrapping the entire
-menu bar and items with a <b>&lt;div&gt;</b> tag using the <b>w3top</b> or
-<b>w3-bottom</b> classes.
+<p>Often, you want to keep the navigation bar positioned at the top or bottom of the 
+page. This is accomplished simply by wrapping the entire menu bar and items with a 
+<b>&lt;div&gt;</b> tag using the <b>w3top</b> or <b>w3-bottom</b> classes.</p>
 
 <h6 align="center"><i>Code Listing 40</i></h6>
 
@@ -2255,11 +2246,10 @@ menu bar and items with a <b>&lt;div&gt;</b> tag using the <b>w3top</b> or
 </div>
 ```
 
-#### Vertical navigation bar 
+<h4>Vertical navigation bar</h4>
 
-You can flip the navigation bar to a vertical orientation simply by
-replacing the <b>w3-bar</b> class with the <b>w3-bar-block</b> class, as
-follows.
+<p>You can flip the navigation bar to a vertical orientation simply by replacing the 
+<b>w3-bar</b> class with the <b>w3-bar-block</b> class, as follows.</p>
 
 <h6 align="center"><i>Code Listing 41</i></h6>
 
@@ -2278,43 +2268,38 @@ follows.
 
 <h6 align="center"><i>Figure 31: Vertical bar</i></h6>
 
-Notice that you might need to set the width of the block, since the
-default is the entire width of the parent container.
+<p>Notice that you might need to set the width of the block, since the default is the 
+entire width of the parent container.</p>
 
 <h3 id="ch8-2">8.2 Summary</h3>
 
-Navigation among pages should be easy and intuitive, and the W3 classes
+<p>Navigation among pages should be easy and intuitive, and the W3 classes
 make it simple to create visually appealing menu structures. Here is a
-summary of the classes:
+summary of the classes:</p>
 
--   w3-bar: Creates the menu bar.
-
--   w3-bar-block: Creates a vertical menu bar.
-
--   w3-top: Keeps menu bar at top of page.
-
--   w3-bottom: Keeps menu bar at bottom of page.
-
--   w3-bar-item: Adds button, text, or input for item on the menu.
-
--   w3-dropdown-hover: Creates a drop-down element on the menu.
-
--   w3-dropdown-content: Menu bar items within the drop-down menu.
+<ul>
+  <li>w3-bar: Creates the menu bar.</li>
+  <li>w3-bar-block: Creates a vertical menu bar.</li>
+  <li>w3-top: Keeps menu bar at top of page.</li>
+  <li>w3-bottom: Keeps menu bar at bottom of page.</li>
+  <li>w3-bar-item: Adds button, text, or input for item on the menu.</li>
+  <li>w3-dropdown-hover: Creates a drop-down element on the menu.</li>
+  <li>w3-dropdown-content: Menu bar items within the drop-down menu.</li>
+</ul>
 
 <h2 id="ch9">Chapter 9 Tables and Lists</h2>
 
-The HTML table system is primarily designed for displaying tabular data
-in rows and columns. Your HTML code must create the basic table
-structure, but W3 provides classes to easily enhance the table's
-appearance.
+<p>The HTML table system is primarily designed for displaying tabular data in rows and 
+columns. Your HTML code must create the basic table structure, but W3 provides classes 
+to easily enhance the table's appearance.</p>
 
 <h3 id="ch9-1">9.1 CSS tables</h3>
 
-A basic table consists of the <b>&lt;table&gt;</b> tag, followed by some number
-of rows of <b>&lt;tr&gt;</b> elements. Within the <b>&lt;tr&gt;</b>...<b>&lt;/tr&ast;&gt;</b> row
-will be any number of <b>&lt;td&gt;</b>...<b>&lt;/td&gt;</b> elements. Each row should
-have the same number of elements; if not, blank spaces will appear
-within the table structure.
+<p>A basic table consists of the <b>&lt;table&gt;</b> tag, followed by some number of 
+rows of <b>&lt;tr&gt;</b> elements. Within the <b>&lt;tr&gt;</b>...<b>&lt;/tr&ast;&gt;</b> 
+row will be any number of <b>&lt;td&gt;</b>...<b>&lt;/td&gt;</b> elements. Each row 
+should have the same number of elements; if not, blank spaces will appear within the 
+table structure.</p>
 
 <h6 align="center"><i>Code Listing 42</i></h6>
 
@@ -2341,12 +2326,12 @@ within the table structure.
 </table>
 ```
 
-Each of the available W3 classes is applied to the <b>&lt;table&gt;</b> element.
+<p>Each of the available W3 classes is applied to the <b>&lt;table&gt;</b> element.</p>
 
 <h4 id="ch9-1-1">9.1.1 Basic table</h4>
 
-The <b>w3-table</b> class provides the basic table structure, with a width
-of 100 percent. You can add this class to any table within a site.
+<p>The <b>w3-table</b> class provides the basic table structure, with a width of 100 
+percent. You can add this class to any table within a site.</p>
 
 <h6 align="center"><i>Code Listing 43</i></h6>
 
@@ -2355,8 +2340,7 @@ of 100 percent. You can add this class to any table within a site.
 </table>
 ```
 
-Figure 32 shows the sample table.
-
+<p>Figure 32 shows the sample table.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. w3 table w/4 columns example (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -2370,7 +2354,7 @@ Figure 32 shows the sample table.
 
 Additional classes can be added to control the table's appearance.
 
-#### Striped table 
+<h4>Striped table</h4>
 
 The <b>w3-striped</b> class adds striping, so alternating rows will have a
 shaded effect, as shown in Figure 33.
@@ -2388,7 +2372,7 @@ shaded effect, as shown in Figure 33.
 
 The striped rows make the table easier to read.
 
-#### Borders 
+<h4>Borders</h4>
 
 There are two classes for adding borders to the table. The <b>w3-border</b>
 class adds a border around the entire table. The <b>w3-bordered</b> class
@@ -2412,11 +2396,10 @@ to the table. Figure 34 shows the class applied to our sample table.
 
 <h4 id="ch9-1-3">9.1.3 Hovering</h4>
 
-There are times when a table can be used as an edit list, so it is
+<p>There are times when a table can be used as an edit list, so it is
 important to let the user know which row is currently selected. W3.CSS
 makes this easy to do by adding the <b>w3-hoverable</b> class to the table.
-Figure 35 shows a table with the first row selected.
-
+Figure 35 shows a table with the first row selected.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~ 42. hoverable/selected w3 table w/4 columns border/shading example (57) ~~~~~~~~~~-->
 <p align="center">
@@ -2428,13 +2411,13 @@ Figure 35 shows a table with the first row selected.
 
 <h6 align="center"><i>Figure 35: Hoverable table</i></h6>
 
-We've added a new column with the HTML entity <b>&#270d;</b> to produce the
+<p>We've added a new column with the HTML entity <b>&#270d;</b> to produce the
 "writing hand" Edit icon and the entity <b>&#2716;</b> (with the class
-<b>w3-text-red</b>) for the red Delete icon.
+<b>w3-text-red</b>) for the red Delete icon.</p>
 
-You can use the <b>w3-hover-color</b> classes to change the hover color to
-something other than a gray background. The hover color is set on the
-row level, as shown in the following code snippet.
+<p>You can use the <b>w3-hover-color</b> classes to change the hover color to something 
+other than a gray background. The hover color is set on the row level, as shown in the 
+following code snippet.</p>
 
 <h6 align="center"><i>Code Listing 44</i></h6>
 
@@ -2447,15 +2430,13 @@ row level, as shown in the following code snippet.
 </tr>
 ```
 
-Hovering is a simple visual indicator of which row you are going to edit
-or delete.
+<p>Hovering is a simple visual indicator of which row you are going to edit or delete.</p>
 
 <h3 id="ch9-2">9.2 CSS lists</h3>
 
-HTML allows you to create lists using the <b>&lt;ul&gt;</b> (unordered list) or
+<p>HTML allows you to create lists using the <b>&lt;ul&gt;</b> (unordered list) or 
 <b>&lt;ol&gt;</b> (ordered list) tags with a collection of <b>&lt;li&gt;</b> tags
-contained within. The basic structure is shown in the following code
-snippet.
+contained within. The basic structure is shown in the following code snippet.</p>
 
 <h6 align="center"><i>Code Listing 45</i></h6>
 
@@ -2466,13 +2447,13 @@ snippet.
 </ul>
 ```
 
-The framework provides classes to style the lists.
+<p>The framework provides classes to style the lists.</p>
 
 <h4 id="ch9-2-1">9.2.1 Basic list style</h4>
 
-The <b>w3-ul</b> tag sets the basic list structure and handles the
+<p>The <b>w3-ul</b> tag sets the basic list structure and handles the
 indentation of the list elements. The following code produces the list
-as shown in Figure 36.
+as shown in Figure 36.</p>
 
 <h6 align="center"><i>Code Listing 46</i></h6>
 
@@ -2495,7 +2476,7 @@ as shown in Figure 36.
 
 <h6 align="center"><i>Figure 36: Basic list</i></h6>
 
-#### Tweaking the list
+<h4>Tweaking the list</h4>
 
 You can use many of the classes to adjust the appearance of the basic
 list design. These include:
@@ -2518,14 +2499,14 @@ will need to use the CSS style to set the width.
 <ul class="w3-ul w3-border w3-margin" style="width:20%;" >
 ```
 
-#### Hoverable list 
+<h4>Hoverable list</h4>
 
 The <b>w3-hoverable</b> class can be added to the <b>&lt;ul&gt;</b> element to
 cause a gray background to be used when the mouse hovers over one of the
 list elements. You can change the background color by setting the
 <b>w3-hoverable-color</b> class on any of the list elements.
 
-#### Closable list 
+<h4>Closable list</h4>
 
 You can add an X icon to the list items, and with a little JavaScript
 call, give the user the ability to remove an item from the list. For
@@ -2541,7 +2522,7 @@ and, when clicked, will hide the list item.
 </li>
 ```
 
-#### Adding icons to list items 
+<h4>Adding icons to list items</h4>
 
 List items are not limited to just text---you can add images using the
 <b>&lt;img&gt;</b> tag with the <b>w3-baritem</b> class to show an image, rather
