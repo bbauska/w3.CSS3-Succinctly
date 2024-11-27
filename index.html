@@ -1,14 +1,51 @@
----
-title: "W3.CSS Succinctly"
-author: "bbauska"
-date prior editted: "8/1/2024 1+pm"
-date last editted: "10/18/2024 10+am"
-output: 
-  markdown:
-    with some style
----
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ index.html of W3Cx-3of5-HTML5.1x ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico"/>
 
+  <!-- viewport and seo -->
+  <meta name="author" content="Brian Bauska">
+  <meta name="title" content="W3.CSS Succinctly">
+  <meta name="description" content="W3.CSS Succinctly.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name=”robots” content="index, follow">
+
+  <title>W3.CSS Succinctly</title>
+  <link rel="canonical" href="https://W3CSS-Succinctly.bauska.org">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+  <script>
+  <!-- get the button -->
+  var mybutton = document.getElementById("myBtn");
+
+  <!-- when the user scrolls down 10px from the top of the document, show the "Top" button -->
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+// when the user clicks on the button, scroll to the table of contents near top of document.
+  function topFunction() {
+    document.getElementById('table-of-contents').scrollIntoView();
+  }
+
+</script>
+<h1 style="text-align:center;">W3.CSS Succinctly</h1>
 
 </head>
 <body>
@@ -29,10 +66,10 @@ the following code will create a w3 container, and set its background color to b
 
 <h4>Code Listing 1</h4>
 
-```
+<pre>
 <div class="w3-container w3-blue-gray"> 
 </div> 
-```
+</pre>
  
 You could add the class w3-round-large to add rounded corners to the &lt;div&gt; element.
 
@@ -41,9 +78,7 @@ You could add the class w3-round-large to add rounded corners to the &lt;div&gt;
 
 <blockquote>
 <b>By</b>
-
 <b>Joseph D. Booth</b>
-
 Foreword by Daniel Jebaraj
 Copyright © 2018 by Syncfusion, Inc.
 2501 Aerial Center Parkway
@@ -438,10 +473,10 @@ background color to blue-gray.</p>
 
 <p align="center"><small><small><i>Code Listing 1</i></small></small></h6>
 
-```
+<pre>
 <div class="w3-container w3-blue-gray">
 </div>
-```
+</pre>
 
 <p>You could add the class <b>w3-round-large</b> to add rounded corners to the
 <b>&lt;div&gt;</b> element.</p>
