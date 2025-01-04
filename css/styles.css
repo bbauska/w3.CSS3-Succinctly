@@ -9,13 +9,7 @@ img.displayed {
   border-style: solid; 
 }
 
-ul li {
-  font-size: 14.5px;
-  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-  padding: 14.5px;  /* 10px */
-  line-height:110%;
-}
-ol li {
+ul,ol li {
   font-size: 14.5px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   padding: 14.5px;  /* 10px */
@@ -58,30 +52,24 @@ h1 {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
   text-align: center;
 }
+h2, h3, h4, h5, h6 {
+  margin-left: 15px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
+ } 
 h2 {
   font-size: 18px;
-  font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
-  margin-left: 15px;  /* 10px */
 }
 h3 {
   font-size: 17px;
-  font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
-  margin-left: 15px;
 }
 h4 { 
   font-size: 16px;
-  font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-  margin-left: 15px;
 }
 h5 { 
   font-size: 15px;
-  font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-  margin-left: 15px;
 }
 h6 { 
   font-size: 10px;
-  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-  margin-left: 15px;
 }
 
 details {
