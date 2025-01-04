@@ -137,7 +137,7 @@ pre {
   font:normal normal 10px/12px consolas,Courier,Monospace;
   background-color:#eee;
   overflow:auto;
-  margin:0 0 1em;
+  margin-left: 15px;
   padding:.5em 1em;
   white-space: pre-wraps;
   overflow-x: auto;
