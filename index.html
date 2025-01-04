@@ -2638,10 +2638,10 @@ contained within. The basic structure is shown in the following code snippet.</p
 <p align="center"><small><small><i>Code Listing 45</i></small></small></p>
 
 <pre>
-<ul>
-  <li>Soccer</li>
-  <li>Football</li>
-</ul>
+&lt;ul&gt;
+  &lt;li&gt;Soccer&lt;/li&gt;
+  &lt;li&gt;Football&lt;/li&gt;
+&lt;/ul&gt;
 </pre>
 
 <p>The framework provides classes to style the lists.</p>
@@ -2655,11 +2655,11 @@ as shown in Figure 36.</p>
 <p align="center"><small><small><i>Code Listing 46</i></small></small></p>
 
 <pre>
-<ul class="w3-ul">
-  <li>Soccer</li>
-  <li>Football</li>
-  <li>Baseball</li>
-</ul>
+&lt;ul class="w3-ul"&gt;
+  &lt;li&gt;Soccer&lt;/li&gt;
+  &lt;li&gt;Football&lt;/li&gt;
+  &lt;li&gt;Baseball&lt;/li&gt;
+&lt;/ul&gt;
 </pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2691,7 +2691,7 @@ will need to use the CSS style to set the width.</p>
 <p align="center"><small><small><i>Code Listing 47</i></small></small></p>
 
 <pre>
-<ul class="w3-ul w3-border w3-margin" style="width:20%;" >
+&lt;ul class="w3-ul w3-border w3-margin" style="width:20%;" &gt;
 </pre>
 
 <h4>Hoverable list</h4>
@@ -2711,10 +2711,10 @@ and, when clicked, will hide the list item.</p>
 <p align="center"><small><small><i>Code Listing 48</i></small></small></p>
 
 <pre>
-<li class="w3-display-container">Baseball
-  <span onclick="this.parentElement.style.display='none'"
-  class="w3-button w3-display-right">&times;</span>
-</li>
+&lt;li class="w3-display-container"&gt;Baseball
+  &lt;span onclick="this.parentElement.style.display='none'"
+  class="w3-button w3-display-right"&gt;&times;&lt;/span&gt;
+&lt;/li&gt;
 </pre>
 
 <h4>Adding icons to list items</h4>
@@ -2727,12 +2727,12 @@ images next to the sport name.</p>
 <p align="center"><small><small><i>Code Listing 49</i></small></small></p>
 
 <pre>
-<li><img src="soccer.jpg" class="w3-bar-item" width="32" height="32">
-  &nbsp;Soccer</li>
-<li><img src="football.jpg" class="w3-bar-item" width="32" height="32">
-  &nbsp;Football</li>
-<li><img src="baseball.jpg" class="w3-bar-item" width="32" height="32">
-  &nbsp;Baseball</li>
+&lt;li&gt;&lt;img src="soccer.jpg" class="w3-bar-item" width="32" height="32"&gt;
+  &nbsp;Soccer&lt;/li&gt;
+&lt;li&gt;&lt;img src="football.jpg" class="w3-bar-item" width="32" height="32"&gt;
+  &nbsp;Football&lt;/li&gt;
+&lt;li&gt;&lt;img src="baseball.jpg" class="w3-bar-item" width="32" height="32"&gt;
+  &nbsp;Baseball&lt;/li&gt;
 </pre>
 
 <p>The result will appear as shown in Figure 37.</p>
@@ -2788,10 +2788,10 @@ toggle a feature. The basic HTML syntax is as follows.</p>
 <p align="center"><small><small><i>Code Listing 50</i></small></small></p>
 
 <pre>
-<input type="button"
+&lt;input type="button"
   value="button text"
   href="#"
-  onclick="javascript function">
+  onclick="javascript function"&gt;
 </pre>
 
 <p>If the <b>href</b> attribute is specified, it represents a link that the
