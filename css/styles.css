@@ -9,8 +9,8 @@ img.displayed {
   border-style: solid; 
 }
 
-ul,ol li {
-  font-size: 14.5px;
+ul,ol > li {
+  font-size: 18.5px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   margin-left: 15px;
   padding: 14.5px;  /* 10px */
