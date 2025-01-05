@@ -49,7 +49,7 @@
 <body>
 <h1 style="text-align:center;">W3.CSS Succinctly</h1>
 
-<h2 align="center">W3 Cascade Styles Sheet (CSS)</h2>
+<h2 style="align:center">W3 Cascade Styles Sheet (CSS)</h2>
 
 <p>W3.CSS is a free, no-license CSS framework from w3schools.com that you can use to produce 
 responsive websites that work across all common browsers (Chrome, Edge, Firefox, Internet 
@@ -390,7 +390,7 @@ only on standard CSS. For example, many common frameworks (such as
 Bootstrap and Foundation) offer both a CSS and JavaScript component. For
 a comparison of uncompressed memory sizes, see Table 1.</p>
 
-<p align="center"><i>Table 1: Approximate framework sizes</i></p>
+<p style="align:center"><i>Table 1: Approximate framework sizes</i></p>
 
 <div style="background-color:aliceblue;padding;25px;align:left">
 <table>
@@ -440,7 +440,7 @@ display HTML elements. Scripting (mostly JavaScript) adds interactive
 features, such as table searching and sorting, and client size form
 validation.</p>
 
-<p align="center"><i>Table 2: Website layers</i></p>
+<p style="align:center"><i>Table 2: Website layers</i></p>
 <div style="align:left">
 <table>
   <tr>
@@ -481,7 +481,7 @@ provide the basic CSS class and add additional features to it. For
 example, the following code will create a <b>w3</b> container, and set its
 background color to blue-gray.</p>
 
-<p align="center"><small><small><i>Code Listing 1</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 1</i></small></small></p>
 
 <pre>
 &lt;div class="w3-container w3-blue-gray"&gt;
@@ -504,7 +504,7 @@ page will adjust to the new size.</p>
   alt="Sample webpage, gettysburg address."
   style="border: 2px solid #000000; width:2.09in;" />
 </p>
-<p align="center"><i>Figure 1: Sample webpage</i></p>
+<p style="align:center"><i>Figure 1: Sample webpage</i></p>
 <!-- gettysberg address -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch1-6-1">1.6.1 Source page</h4>
@@ -514,7 +514,7 @@ link-reference to local file <b>w3.css</b> in the <b>&lt;head&gt;</b> section of
 the page. An alternative is to link to an external copy of the
 framework, as I'll explain shortly.</p>
 
-<p align="center"><small><small><i>Code Listing 2: Sample W3.CSS page</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 2: Sample W3.CSS page</i></small></small></p>
 
 <pre>
 &lt;DOCTYPE html&gt;
@@ -579,7 +579,7 @@ shows the box model.</p>
   style="border: 2px solid #000000; width:2.04in;" />
 </p>
 
-<p align="center"><i>Figure 2: Box model</i></p>
+<p style="align:center"><i>Figure 2: Box model</i></p>
 
 <p>There are four parts to the box. The <span style="background-color: #FFFF00">inner content</span>
 is the default content shown in the element. The height and width refer to that
@@ -625,7 +625,7 @@ a collection of cells. The cells take up 100 percent of the row width
 and are automatically adjusted based on their content. For example, take
 a look at the following code snippet.</p>
 
-<p align="center">Code Listing 3</p>
+<p style="align:center">Code Listing 3</p>
 
 <pre>
 &lt;div class="w3-cell-row"&gt;
@@ -650,7 +650,7 @@ take up more space.</p>
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
 
-<p align="center"><i>Figure 3: Row/cell appearance</i></p>
+<p style="align:center"><i>Figure 3: Row/cell appearance</i></p>
 
 <p>One feature of the layout class is that the cell heights will match the
 height of the largest content, so if the cell's description had much
@@ -664,14 +664,14 @@ more detail, it might appear as shown in Figure 4.</p>
   style="border: 2px solid #000000; width:5.3in;" />
 </p>
 
-<p align="center"><i>Figure 4: Same-height cells</i></p>
+<p style="align:center"><i>Figure 4: Same-height cells</i></p>
 
 <p>You can adjust the alignment of the text within the cell using the
 <b>w3-cell-top</b>, <b>middle</b>, or <b>bottom</b> classes. For example, if we
 added the <b>w3-cell-bottom</b> class, the name <b>John Smith</b> would be
 aligned to the bottom of the red cell in the previous example.</p>
 
-<p align="center"><small><small><i>Code Listing 4</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 4</i></small></small></p>
 
 <pre>
 &lt;div class="w3-container w3-red w3-cell w3-cell-bottom"&gt;
@@ -714,7 +714,7 @@ about U.S. coins. A sample is shown in Figure 5.</p>
   alt="Responsive website example."
   style="border: 2px solid #000000; width:5.5in; height="1.3in;" />
 </p>
-<p align="center"><i>Figure 5: Responsive website example</i></p>
+<p style="align:center"><i>Figure 5: Responsive website example</i></p>
 
 <p>When this screen is displayed on a mobile device, the layout will change
 to stack the information vertically, as shown in Figure 6.</p>
@@ -727,14 +727,14 @@ to stack the information vertically, as shown in Figure 6.</p>
   style="border: 2px solid #000000; width:1.39in; height="2.47;" />
 </p>
 
-<p align="center"><i>Figure 6: Mobile device display</i>
+<p style="align:center"><i>Figure 6: Mobile device display</i>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch2-2-1">2.2.1 Responsive layout</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>To create the responsive layout, you must start with a <b>w3-row</b> or
 <b>w3-row-padding</b> container.</p>
 
-<p align="center"><small><small><i>Code Listing 5</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 5</i></small></small></p>
 
 <pre>
 &lt;div class="w3-row w3-border w3-border-blue w3-margin"&gt;
@@ -761,7 +761,7 @@ create columns.</p>
 columns (coin name and image) each take up one-fourth of the screen,
 while the background column takes up half of the row width.</p>
 
-<p align="center"><small><small><i>Code Listing 6: Coin website</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 6: Coin website</i></small></small></p>
 
 <pre>
 &lt;div class="w3-row w3-border w3-border-blue w3-margin"&gt;
@@ -828,7 +828,7 @@ the following list to the column we want to hide:</p>
 <p>When we add <b>w3-hide-small</b> to the background column, the screen will
 appear as shown in Figure 7 when viewed on a mobile device.</p>
 
-<p align="center"><small><small><i>Code Listing 7</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 7</i></small></small></p>
 
 <pre>
 &lt;div class="w3-container w3-half w3-hide-small"&gt;
@@ -842,7 +842,7 @@ appear as shown in Figure 7 when viewed on a mobile device.</p>
   style="border: 2px solid #000000; width:1.57in;" />
 </p>
 
-<p align="center"><i>Figure 7: Mobile display without background column</i></p>
+<p style="align:center"><i>Figure 7: Mobile display without background column</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-3">2.3 CSS grid</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -866,7 +866,7 @@ nothing is specified for a particular device size, it is assumed to be
 
 <p>Suppose we change our coin example to the following code snippet.</p>
 
-<p align="center"><small><small><i>Code Listing 8</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 8</i></small></small></p>
 
 <pre>
 &lt;div class="w3-row w3-border w3-border-blue w3-margin"&gt;
@@ -896,7 +896,7 @@ nothing is specified for a particular device size, it is assumed to be
   style="border: 2px solid #000000; width:2.62in;" />
 </p>
 
-<p align="center"><i>Figure 8: Small size (&lt; 601 pixels)</i></p>
+<p style="align:center"><i>Figure 8: Small size (&lt; 601 pixels)</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. medium size (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p class="displayed">
@@ -951,7 +951,7 @@ container.</p>
 corner containing an X symbol to close the box, and the bottom middle
 the Save and Cancel buttons, we could use the following code snippet.</p>
 
-<p align="center"><small><small><i>Code Listing 9</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 9</i></small></small></p>
 
 <pre>
 &lt;div class="w3-display-container w3-margin w3-blue" style="height:250px"&gt;
@@ -1024,8 +1024,8 @@ low vision or color-blindness will appreciate the effort.</i></p>
 <p>You can also download separate color libraries from the W3.CSS site.
 Table 3 lists the libraries that are available.</p>
 
-<p align="center"><i>Table 3: Color libraries</i></p>
-<div align="center">
+<p style="align:center"><i>Table 3: Color libraries</i></p>
+<div style="align:center">
 
 <table>
   <tr>
@@ -1100,7 +1100,7 @@ your style sheet references.</p>
 <p>This will add 12 additional color classes for text, default theme color,
 and lighter/darker variations on theme.</p>
 
-<p align="center"><i>Table 4: Color themes</i></p>
+<p style="align:center"><i>Table 4: Color themes</i></p>
 
 <table>
   <tr>
@@ -1145,7 +1145,7 @@ themes.</p>
 </p>
 <!-- ![](./images/image019.jpg) {width="5.65625in" height="2.15625in"} -->
 
-<p align="center"><i>Figure 13: Sample blue-gray theme</i></p>
+<p style="align:center"><i>Figure 13: Sample blue-gray theme</i></p>
 
 <p>You can use the theme color names and change the website color by simply
 specifying a different CSS theme style sheet. Note that many of the
@@ -1301,7 +1301,7 @@ rounded corners.</p>
 <p>Table 6 lists the rounding classes. The larger the pixel size of the
 border radius, the more pronounced the rounded corners will be.</p>
 
-<p align="center"><i>Table 6: Rounding classes</i></p>
+<p style="align:center"><i>Table 6: Rounding classes</i></p>
 
 <table>
   <tr>
@@ -1489,14 +1489,14 @@ section will be shown (or hidden).</p>
   style="border: 2px solid #000000; width:3.29in;" />
 </p>
 
-<p align="center"><i>Figure 16: CSS accordion example</i></p>
+<p style="align:center"><i>Figure 16: CSS accordion example</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch5-1-1">5.1.1 Accordion bars</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The accordion bars are styled buttons, as shown in the following
 snippet.</p>
 
-<p align="center"><small><small><i>Code Listing 10</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 10</i></small></small></p>
 
 <pre>
 &lt;button onclick="openPanel('Airport');"
@@ -1514,7 +1514,7 @@ closing of the accordion content.</p>
 separate <b>&lt;div&gt;</b> for each section. The following code snippet shows
 a sample content <b>&lt;div&gt;</b>.</p>
 
-<p align="center"><small><small><i>Code Listing 11</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 11</i></small></small></p>
 
 <pre>
 &lt;div id="Airport" class="w3-container w3-hide"&gt;
@@ -1533,7 +1533,7 @@ JavaScript. The code will have two tasks: one is to hide all of the
 inactive tabs (based on the class name), and the second is to make the
 selected tab visible.</p>
 
-<p align="center"><small><small><i>Code Listing 12</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 12</i></small></small></p>
 
 <pre>
 function openPanel(id) {
@@ -1567,7 +1567,7 @@ page.</p>
   style="border: 2px solid #000000; width:5.22in;" />
 </p>
 
-<p align="center"><i>Figure 17: CSS tabs example</i></p>
+<p style="align:center"><i>Figure 17: CSS tabs example</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch5-2-1">5.2.1 Tab classes</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1580,7 +1580,7 @@ page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch5-2-2">5.2.2 Building the tabs</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center"><small><small><i>Code Listing 13</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 13</i></small></small></p>
 
 <pre>
 &lt;div class="w3-bar w3-pale-blue w3-leftbar w3-border-blue w3-border">
@@ -1605,7 +1605,7 @@ class name for each of the tab sections---we used <b>travel</b> in our
 example code. The first <b>&lt;div&gt;</b> should be displayed, while the
 remaining <b>&lt;div&gt;</b> elements are hidden.</p>
 
-<p align="center"><small><small><i>Code Listing 14</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 14</i></small></small></p>
 
 <pre>
 &lt;div id="Airport class="travel"&gt;
@@ -1626,7 +1626,7 @@ JavaScript. The code will have two purposes: the first is to hide all of
 the inactive tabs (based on the class name), and the second is to make
 the selected tab visible.</p>
 
-<p align="center"><small><small><i>Code Listing 15</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 15</i></small></small></p>
 
 <pre>
 function openDiv(divName) {
@@ -1654,13 +1654,13 @@ tabs with a few small changes to the layout.</p>
   style="border: 2px solid #000000; width:4.5in;" />
 </p>
 
-<p align="center"><i>Figure 18: Vertical tabs example</i></p>
+<p style="align:center"><i>Figure 18: Vertical tabs example</i></p>
 
 <p>You need to change the <b>w3-bar</b> class to <b>w3-bar-block</b> and add the
 <b>w3-sidebar</b> class. In addition, you'll need to set the width of the
 tab menu.</p>
 
-<p align="center"><small><small><i>Code Listing 16</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 16</i></small></small></p>
 
 <pre>
 &lt;div class="w3-sidebar w3-bar-block w3-pale-blue
@@ -1670,7 +1670,7 @@ tab menu.</p>
 <p>You will also need to add <b>margin-left</b> style to the sections, as
 follows.</p>
 
-<p align="center"><small><small><i>Code Listing 17</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 17</i></small></small></p>
 
 <pre>
 &lt;div id="Airport" class="travel" style="margin-left:125px;"&gt;
@@ -1692,7 +1692,7 @@ pixels). By default, the card will be white, although you can add any
 <p>For example, the following code snippet would display the card shown in
 Figure 19 on a webpage.</p>
 
-<p align="center"><small><small><i>Code Listing 18</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 18</i></small></small></p>
 
 <pre>
 &lt;div class="w3-card-4 w3-cyan w3-padding w3-margin"&gt;
@@ -1709,7 +1709,7 @@ Figure 19 on a webpage.</p>
   style="border: 2px solid #000000; width:3.63in;" />
 </p>
 
-<p align="center"><i>Figure 19: CSS card sample</i></p>
+<p style="align:center"><i>Figure 19: CSS card sample</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-4">5.4 CSS sidebar</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1726,7 +1726,7 @@ to increase its flexibility.</p>
   style="border: 2px solid #000000; width:3.81in;" />
 </p>
 
-<p align="center"><i>Figure 20: Basic sidebar</i></p>
+<p style="align:center"><i>Figure 20: Basic sidebar</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch5-4-1">5.4.1 Basic sidebar</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1736,7 +1736,7 @@ Background colors and borders are optional, but generally the sidebar
 should be distinguished from the rest of the screen. The following code
 snippet shows the basic sidebar setup.</p>
 
-<p align="center"><small><small><i>Code Listing 19</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 19</i></small></small></p>
 
 <pre>
 &lt;div class="w3-sidebar w3-bar-block w3-border"&gt;
@@ -1764,7 +1764,7 @@ Be sure to provide an <b>id</b> for the menu icon (<b>openNav</b> in our
 example). The <b>#9776</b> is the HTML entity code for the hamburger menu
 icon. The following code snippet shows the header and icon example code.</p>
 
-<p align="center"><small><small><i>Code Listing 20</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 20</i></small></small></p>
 
 <pre>
 &lt;div class="w3-container w3-pale-green"&gt;
@@ -1790,7 +1790,7 @@ addition, it initially will not be visible on the screen.</p>
 <p>The other change is a new menu item, to call the JavaScript
 <b>closeMenu()</b> function to hide the sidebar when clicked.</p>
 
-<p align="center"><small><small><i>Code Listing 21</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 21</i></small></small></p>
 
 <pre>
 &lt;div class="w3-sidebar w3-bar-block w3-border" id="sideBAR"
@@ -1810,7 +1810,7 @@ addition, it initially will not be visible on the screen.</p>
 toggle the menu's display style, to show or hide the menu. The following
 code snippet shows the necessary JavaScript.</p>
 
-<p align="center"><small><small><i>Code Listing 22</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 22</i></small></small></p>
 
 <pre>
 function openMenu() {
@@ -1834,7 +1834,7 @@ the JavaScript function needed for the collapsible sidebar menu. The
 following JavaScript code will open the menu and adjust the screen
 content.</p>
 
-<p align="center"><small><small><i>Code Listing 23</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 23</i></small></small></p>
 
 <pre>
 function openandMoveMenu() {
@@ -1864,7 +1864,7 @@ things like notes and alerts.</p>
 <p>The following code snippet illustrates a panel to display a warning
 message.</p>
 
-<p align="center"><small><small><i>Code Listing 24</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 24</i></small></small></p>
 
 <pre>
 &lt;div class="w3-panel w3-red w3-round-xxlarge w3-margin"&gt;
@@ -1882,7 +1882,7 @@ message.</p>
   style="border: 2px solid #000000; width:3.08in;" />
 </p>
 
-<p align="center"><i>Figure 21: Warning panel</i></p>
+<p style="align:center"><i>Figure 21: Warning panel</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-6">5.6 Summary</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1903,7 +1903,7 @@ easily constructed using the <b>w3-panel</b> base and some helper classes.
 For example, the following code snippet would produce a bordered note
 container.</p>
 
-<p align="center"><small><small><i>Code Listing 25</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 25</i></small></small></p>
 
 <pre>
 &lt;div class="w3-container"&gt;
@@ -1921,7 +1921,7 @@ container.</p>
   style="border: 2px solid #000000; width:2.89in;" />
 </p>
 
-<p align="center"><i>Figure 22: CSS note example</i></p>
+<p style="align:center"><i>Figure 22: CSS note example</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch6-1-1">6.1.1 Customizing the notes</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1947,7 +1947,7 @@ classes to improve the appearance of notes:</p>
   style="border: 2px solid #000000; width:2.78in;" />
 </p>
 
-<p align="center"><i>Figure 23: CSS custom note appearance</i></p>
+<p style="align:center"><i>Figure 23: CSS custom note appearance</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6-2">6.2 CSS alerts</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1958,7 +1958,7 @@ is generally positive, a confirmation that something worked.</p>
 
 <p>The general structure of an alert is as follows.</p>
 
-<p align="center"><small><small><i>Code Listing 26</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 26</i></small></small></p>
 
 <pre>
 &lt;div class="w3-display-container w3-panel w3-pale-yellow w3-margin">
@@ -1986,7 +1986,7 @@ to <b>none</b>, causing the alert to disappear from the screen.</p>
   style="border: 2px solid #000000; width:3.36in;" />
 </p>
 
-<p align="center"><i>Figure 24: Sample alert panel</i></p>
+<p style="align:center"><i>Figure 24: Sample alert panel</i></p>
 
 <p>Generally, the following colors could be used for alert messages:</p>
 
@@ -2038,7 +2038,7 @@ W3.CSS suggests Verdana, and if not found, asks the browser to use a sans-serif 
 your HTML and body elements after the W3.CSS file is loaded, for
 example.</p>
 
-<p align="center"><small><small><i>Code Listing 27</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 27</i></small></small></p>
 
 <pre>
 &lt;link rel="stylesheet" href="css/w3.css"&gt;
@@ -2047,7 +2047,7 @@ example.</p>
 
 <p>Where the file <b>clientStyle.css</b> contains a line similar to the following.</p>
 
-<p align="center"><small><small><i>Code Listing 28</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 28</i></small></small></p>
 
 <pre>
 html, body {
@@ -2065,7 +2065,7 @@ losing them if you download a W3.CSS update.</p>
 different font for printing. The following code snippet shows a media
 query to change the printed font to an alternative font.</p>
 
-<p align="center"><small><small><i>Code Listing 29</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 29</i></small></small></p>
 
 <pre>
 @media print { 
@@ -2095,7 +2095,7 @@ website's appearance.</p>
 example, the Tangerine Google font could be added via the following code 
 placed in the <b>&lt;head&gt;</b> section of the website.</p>
 
-<p align="center"><small><small><i>Code Listing 30</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 30</i></small></small></p>
 
 <pre>
 &lt;link rel="stylesheet"
@@ -2106,7 +2106,7 @@ href="https://fonts.googleapis.com/css?family=Tangerine"&gt;
 a script font, so you could create a class to use when displaying
 signatures.</p>
 
-<p align="center"><small><small><i>Code Listing 31</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 31</i></small></small></p>
 
 <pre>
 .SignatureLine {
@@ -2156,7 +2156,7 @@ message.</p>
 </p>
 <!-- ![](./images/image031.jpg) {width="4.645833333333333in" height="1.5833333333333333in"} -->
 
-<p align="center"><i>Figure 25: Opacity example</i></p>
+<p style="align:center"><i>Figure 25: Opacity example</i></p>
 
 <p>You can also use the <b>w3-opacity-max</b> class to set the opacity to 25
 percent, and the <b>w3opacity-min</b> class to set the level to 75 percent.
@@ -2179,7 +2179,7 @@ the screen has been updated.</i></p>
 <p>If you want to display some sort of code, such as programming code or
 computer instructions, you can use the <b>w3-code</b> class.</p>
 
-<p align="center"><small><small><i>Code Listing 32</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 32</i></small></small></p>
 
 <pre>
 &lt;div class="w3-code" translate="no"&gt;
@@ -2214,7 +2214,7 @@ classes to allow you to control the appearance of your menu links.</p>
 clicked. You can also use JavaScript and Ajax to load partial content,
 by using the <b>onclick</b> event. The syntax is as follows.</p>
 
-<p align="center"><small><small><i>Code Listing 33</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 33</i></small></small></p>
 
 <pre>
 &lt;a href="#"
@@ -2253,7 +2253,7 @@ classes applied yet. <small><small><i>Code Listing 34</i></small></small></p>
   style="border: 2px solid #000000; width:2.17in;" />
 </p>
 
-<p align="center"><i>Figure 26: Menu items</i></p>
+<p style="align:center"><i>Figure 26: Menu items</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch8-1-2">8.1.2 Horizontal menu</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2261,7 +2261,7 @@ classes applied yet. <small><small><i>Code Listing 34</i></small></small></p>
 tag, and the <b>w3-bar-item</b> and <b>w3-button</b> classes, produces a
 horizontal menu with a blue background.</p>
 
-<p align="center"><small><small><i>Code Listing 35</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 35</i></small></small></p>
 
 <pre>
 &lt;div class="w3-bar w3-blue"&gt;
@@ -2283,7 +2283,7 @@ not underlined. The result is shown in Figure 27.</p>
   style="border: 2px solid #000000; width:4.77in;" />
 </p>
 
-<p align="center"><i>Figure 27: Horizontal menu</i></p>
+<p style="align:center"><i>Figure 27: Horizontal menu</i></p>
 
 <h4>Other classes</h4>
 
@@ -2301,7 +2301,7 @@ classes are:</p>
 <p>For example, the following code snippet would produce the pale green, rounded menu bar 
 shown in Figure 28.</p>
 
-<p align="center"><small><small><i>Code Listing 36</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 36</i></small></small></p>
 
 <pre>
 &lt;div class="w3-bar w3-pale-green w3-border w3-round-xxlarge w3-margin"&gt;
@@ -2315,7 +2315,7 @@ shown in Figure 28.</p>
   style="border: 2px solid #000000; width:4.61in;" />
 </p>
 
-<p align="center"><i>Figure 28: Rounded menu bar</i></p>
+<p style="align:center"><i>Figure 28: Rounded menu bar</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch8-1-3">8.1.3 Menu items</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2329,7 +2329,7 @@ change to gray to indicate the menu item to be clicked.</p>
 hover color from gray to another color. You can also add the
 <b>w3-hover-none</b> if you don't want the hover effect at all.</p>
 
-<p align="center"><small><small><i>Code Listing 37</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 37</i></small></small></p>
 
 <pre>
 &lt;!-- Change hover color to green. --&gt;
@@ -2359,12 +2359,12 @@ search for a team or player.</p>
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
 
-<p align="center"><i>Figure 29: Soccer site navigation</i></p>
+<p style="align:center"><i>Figure 29: Soccer site navigation</i></p>
 
 <p>The following code illustrates adding text (YSC Sports club) and a search box and 
 button to the bar items. You do not need to limit bar items to just buttons.</p>
 
-<p align="center"><small><small><i>Code Listing 38</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 38</i></small></small></p>
 
 <pre>
 &lt;div class="w3-bar w3-pale-green w3-border w3-round-xxlarge w3-margin"&gt;
@@ -2399,13 +2399,13 @@ soccer navigation bar.</p>
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
 
-<p align="center"><i>Figure 30: Drop-down menus</i></p>
+<p style="align:center"><i>Figure 30: Drop-down menus</i></p>
 
 <p>The following is the code for this example. The menu option is a wrapper
 in the <b>w3-dropdownhover</b> class, and the actual drop-down menu is in
 the <b>w3-dropdown-content</b> class.</p>
 
-<p align="center"><small><small><i>Code Listing 39</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 39</i></small></small></p>
 
 <pre>
 &lt;div class="w3-dropdown-hover"&gt;
@@ -2427,7 +2427,7 @@ They are regular menu bar items, and can even be text and input text elements.</
 page. This is accomplished simply by wrapping the entire menu bar and items with a 
 <b>&lt;div&gt;</b> tag using the <b>w3top</b> or <b>w3-bottom</b> classes.</p>
 
-<p align="center"><small><small><i>Code Listing 40</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 40</i></small></small></p>
 
 <pre>
 &lt;div class="w3-top"&gt;
@@ -2440,7 +2440,7 @@ page. This is accomplished simply by wrapping the entire menu bar and items with
 <p>You can flip the navigation bar to a vertical orientation simply by replacing the 
 <b>w3-bar</b> class with the <b>w3-bar-block</b> class, as follows.</p>
 
-<p align="center"><small><small><i>Code Listing 41</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 41</i></small></small></p>
 
 <pre>
 &lt;div class="w3-bar-block w3-pale-green w3-margin" style="width:27%;"&gt;
@@ -2454,7 +2454,7 @@ page. This is accomplished simply by wrapping the entire menu bar and items with
   style="border: 2px solid #000000; width:1.23in;" />
 </p>
 
-<p align="center"><i>Figure 31: Vertical bar</i></p>
+<p style="align:center"><i>Figure 31: Vertical bar</i></p>
 
 <p>Notice that you might need to set the width of the block, since the default is the 
 entire width of the parent container.</p>
@@ -2489,7 +2489,7 @@ row will be any number of <b>&lt;td&gt;</b>...<b>&lt;/td&gt;</b> elements. Each 
 should have the same number of elements; if not, blank spaces will appear within the 
 table structure.</p>
 
-<p align="center"><small><small><i>Code Listing 42</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 42</i></small></small></p>
 
 <table>
   <tr>
@@ -2519,7 +2519,7 @@ table structure.</p>
 <p>The <b>w3-table</b> class provides the basic table structure, with a width of 100 
 percent. You can add this class to any table within a site.</p>
 
-<p align="center"><small><small><i>Code Listing 43</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 43</i></small></small></p>
 
 <pre>
 &lt;table class="w3-table"&gt;
@@ -2536,7 +2536,7 @@ percent. You can add this class to any table within a site.</p>
   style="border: 2px solid #000000; width:3.6in;" />
 </p>
 
-<p align="center"><i>Figure 32: Sample table</i></p>
+<p style="align:center"><i>Figure 32: Sample table</i></p>
 
 <p>Additional classes can be added to control the table's appearance.</p>
 
@@ -2553,7 +2553,7 @@ shaded effect, as shown in Figure 33.</p>
   style="border: 2px solid #000000; width:3.57in;" />
 </p>
 
-<p align="center"><i>Figure 33: Striped table</i></p>
+<p style="align:center"><i>Figure 33: Striped table</i></p>
 
 <p>The striped rows make the table easier to read.</p>
 
@@ -2576,7 +2576,7 @@ to the table. Figure 34 shows the class applied to our sample table.</p>
   style="border: 2px solid #000000; width:4.73in;" />
 </p>
 
-<p align="center"><i>Figure 34: All table features</i></p>
+<p style="align:center"><i>Figure 34: All table features</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch9-1-3">9.1.3 Hovering</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2593,7 +2593,7 @@ Figure 35 shows a table with the first row selected.</p>
   style="border: 2px solid #000000; width:4.65in;" />
 </p>
 
-<p align="center"><i>Figure 35: Hoverable table</i></p>
+<p style="align:center"><i>Figure 35: Hoverable table</i></p>
 
 <p>We've added a new column with the HTML entity <b>&#270d;</b> to produce the
 "writing hand" Edit icon and the entity <b>&#2716;</b> (with the class
@@ -2603,7 +2603,7 @@ Figure 35 shows a table with the first row selected.</p>
 other than a gray background. The hover color is set on the row level, as shown in the 
 following code snippet.</p>
 
-<p align="center"><small><small><i>Code Listing 44</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 44</i></small></small></p>
 
 <pre>
 &lt;tr&gt;
@@ -2622,7 +2622,7 @@ following code snippet.</p>
 <b>&lt;ol&gt;</b> (ordered list) tags with a collection of <b>&lt;li&gt;</b> tags
 contained within. The basic structure is shown in the following code snippet.</p>
 
-<p align="center"><small><small><i>Code Listing 45</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 45</i></small></small></p>
 
 <pre>
 &lt;ul&gt;
@@ -2639,7 +2639,7 @@ contained within. The basic structure is shown in the following code snippet.</p
 indentation of the list elements. The following code produces the list
 as shown in Figure 36.</p>
 
-<p align="center"><small><small><i>Code Listing 46</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 46</i></small></small></p>
 
 <pre>
 &lt;ul class="w3-ul"&gt;
@@ -2657,7 +2657,7 @@ as shown in Figure 36.</p>
   style="border: 2px solid #000000; width:1.199in;" />
 </p>
 
-<p align="center"><i>Figure 36: Basic list</i></p>
+<p style="align:center"><i>Figure 36: Basic list</i></p>
 
 <h4>Tweaking the list</h4>
 
@@ -2674,7 +2674,7 @@ list design. These include:</p>
 percent of its container. If you need to make a smaller width list, you
 will need to use the CSS style to set the width.</p>
 
-<p align="center"><small><small><i>Code Listing 47</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 47</i></small></small></p>
 
 <pre>
 &lt;ul class="w3-ul w3-border w3-margin" style="width:20%;" &gt;
@@ -2694,7 +2694,7 @@ call, give the user the ability to remove an item from the list. For
 example, the following code snippet will use the <b>&times</b> HTML entity
 and, when clicked, will hide the list item.</p>
 
-<p align="center"><small><small><i>Code Listing 48</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 48</i></small></small></p>
 
 <pre>
 &lt;li class="w3-display-container"&gt;Baseball
@@ -2710,7 +2710,7 @@ and, when clicked, will hide the list item.</p>
 than text. For the example, the following code snippet will add sports
 images next to the sport name.</p>
 
-<p align="center"><small><small><i>Code Listing 49</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 49</i></small></small></p>
 
 <pre>
 &lt;li&gt;&lt;img src="soccer.jpg" class="w3-bar-item" width="32" height="32"&gt;
@@ -2731,7 +2731,7 @@ images next to the sport name.</p>
   style="border: 2px solid #000000; width:2.21in;" />
 </p>
 
-<p align="center"><i>Figure 37: List with images</i></p>
+<p style="align:center"><i>Figure 37: List with images</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. light bulb icon (orange) (60) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
@@ -2770,7 +2770,7 @@ lists, and are summarized as follows:</p>
 <p>A button element on a webpage is typically used to initiate an action or
 toggle a feature. The basic HTML syntax is as follows.</p>
 
-<p align="center"><small><small><i>Code Listing 50</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 50</i></small></small></p>
 
 <pre>
 &lt;input type="button"
@@ -2804,7 +2804,7 @@ pointer, indicating that the user can click the button.</p>
 hover colors of the buttons. For example, the following code snippet
 might be used to allow the user to save or discard updates.</p>
 
-<p align="center"><small><small><i>Code Listing 51</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 51</i></small></small></p>
 
 <pre>
 &lt;a href="save.aspx" class="w3-btn w3-green"&gt;Save changes&lt;/a&gt;
@@ -2822,7 +2822,7 @@ might be used to allow the user to save or discard updates.</p>
 </p>
 <!-- ![](./images/image047.jpg) {width="3.4in" height="0.5in"} -->
 
-<p align="center"><i>Figure 38: Sample buttons</i></p>
+<p style="align:center"><i>Figure 38: Sample buttons</i></p>
 
 <h4>Button colors</h4>
 
@@ -2835,7 +2835,7 @@ colors or hover colors (the default hover color is gray).</p>
 <b>w3-round</b> classes to add rounded corners to the buttons. The
 following code snippet will produce the rounded buttons shown in Figure 39.</p>
 
-<p align="center"><small><small><i>Code Listing 52</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 52</i></small></small></p>
 
 <pre>
 &lt;div class="w3-container w3-margin"&gt;
@@ -2854,7 +2854,7 @@ following code snippet will produce the rounded buttons shown in Figure 39.</p>
   style="border: 2px solid #000000; width:2.60in;" />
 </p>
 
-<p align="center"><i>Figure 39: Rounded buttons</i></p>
+<p style="align:center"><i>Figure 39: Rounded buttons</i></p>
 
 <h4>Disabled buttons</h4>
 
@@ -2891,7 +2891,7 @@ badge with a black background.</p>
 color and size of the badge element. The following code snippet creates
 the badges shown in Figure 40.</p>
 
-<p align="center"><small><small><i>Code Listing 53</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 53</i></small></small></p>
 
 <pre>
 &lt;div class="w3-container w3-margin" style="width:18%;"&gt;
@@ -2911,7 +2911,7 @@ the badges shown in Figure 40.</p>
   style="border: 2px solid #000000; width:2.54in;" />
 </p>
 
-<p align="center"><i>Figure 40: Badge examples</i></p>
+<p style="align:center"><i>Figure 40: Badge examples</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch10-2-1">10.2.1 Badges within other elements</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2919,7 +2919,7 @@ the badges shown in Figure 40.</p>
 <b>&lt;span&gt;</b> tag. For example, we might have a list of customers and use
 the badge to indicate number of orders.</p>
 
-<p align="center"><small><small><i>Code Listing 54</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 54</i></small></small></p>
 
 <pre>
 &lt;div class="w3-container w3-margin" style="width:18%;"&gt;
@@ -2944,7 +2944,7 @@ the badge to indicate number of orders.</p>
   style="border: 2px solid #000000; width:2.23in;" />
 </p>
 
-<p align="center"><i>Figure 41: Badges with list elements</i></p>
+<p style="align:center"><i>Figure 41: Badges with list elements</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch10-3">10.3 CSS tags</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2953,7 +2953,7 @@ screen. The W3.CSS framework provides the <b>w3-tag</b> class to format the
 label. The following code snippet shows a tag that displays the status
 of the current operation.</p>
 
-<p align="center"><small><small><i>Code Listing 55</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 55</i></small></small></p>
 
 <pre>
 &lt;div class="w3-container&gt;
@@ -2969,7 +2969,7 @@ of the current operation.</p>
   style="border: 2px solid #000000; width:1.32in;" />
 </p>
 
-<p align="center"><i>Figure 42: Processing tag</i></p>
+<p style="align:center"><i>Figure 42: Processing tag</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch10-3-1">10.3.1 Customizing the tags</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2977,7 +2977,7 @@ of the current operation.</p>
 appearance of a tag. For example, the following code snippet adds
 several helper classes to produce a warning tag.</p>
 
-<p align="center"><small><small><i>Code Listing 56</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 56</i></small></small></p>
 
 <pre>
 &lt;div class="w3-container"&gt;
@@ -2996,7 +2996,7 @@ several helper classes to produce a warning tag.</p>
   style="border: 2px solid #000000; width:2.40in;" />
 </p>
 
-<p align="center"><i>Figure 43: Warning tag</i></p>
+<p style="align:center"><i>Figure 43: Warning tag</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch10-4">10.4 Summary</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3027,14 +3027,14 @@ for these elements.</p>
   style="border: 2px solid #000000; width:3.14in;" />
 </p>
 
-<p align="center"><i>Figure 44: Sample input form</i></p>
+<p style="align:center"><i>Figure 44: Sample input form</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch11-1">11.1 Text boxes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Text boxes are used to allow the user to enter freeform text into a
 form. The basic syntax is as follows.</p>
 
-<p align="center"><small><small><i>Code Listing 57</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 57</i></small></small></p>
 
 <pre>
 &lt;input type="text" class="w3-input"&gt;
@@ -3077,7 +3077,7 @@ keyboard to accommodate the input type.</b></i></li>
 input text box. For example, the following code snippet produces our
 rounded input boxes in the sample.</p>
 
-<p align="center"><small><small><i>Code Listing 58</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 58</i></small></small></p>
 
 <pre>
 &lt;input type="text" class="w3-input w3-border w3-round-xxlarge"
@@ -3096,7 +3096,7 @@ figure 45).</p>
   style="border: 2px solid #000000; width:2.46in;" />
 </p>
 
-<p align="center"><i>Figure 45: Borderless input</i></p>
+<p style="align:center"><i>Figure 45: Borderless input</i></p>
 
 <p>While text elements are very common and easy for the user to understand,
 the lack of constraints on what the user can enter makes it more
@@ -3119,12 +3119,12 @@ option buttons.</p>
   style="border: 2px solid #000000; width:1.71in;" />
 </p>
 
-<p align="center"><i>Figure 46: Option buttons</i></p>
+<p style="align:center"><i>Figure 46: Option buttons</i></p>
 
 <p>The <b>w3-radio</b> class formats the option buttons. The following code
 snippet shows how to create a group of buttons.</p>
 
-<p align="center"><small><small><i>Code Listing 59</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 59</i></small></small></p>
 
 <pre>
 &lt;input type="radio" class="w3-radio" name="phoneType" value="cell" checked&gt;
@@ -3161,7 +3161,7 @@ option buttons.</i></p>
   style="border: 2px solid #000000; width:2.69in;" />
 </p>
 
-<p align="center"><i>Figure 47: Radio buttons</i></p>
+<p style="align:center"><i>Figure 47: Radio buttons</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch11-3">11.3 Check boxes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3177,11 +3177,11 @@ from option buttons. Figure 48 shows how check boxes appear on the form.</p>
   style="border: 2px solid #000000; width:3.9in;" />
 </p>
 
-<p align="center"><i>Figure 48: Check boxes</i></p>
+<p style="align:center"><i>Figure 48: Check boxes</i></p>
 
 <p>The following code creates the check boxes.</p>
 
-<p align="center"><small><small><i>Code Listing 60</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 60</i></small></small></p>
 
 <pre>
 &lt;input type="checkbox" class="w3-check" checked&gt;
@@ -3205,7 +3205,7 @@ The <b>w3-select</b> class provides the formatting. In the following
 example, we added a <b>w3-border</b> class to improve the appearance of the
 box.</p>
 
-<p align="center"><small><small><i>Code Listing 61</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 61</i></small></small></p>
 
 <pre>
 &lt;select class="w3-select w3-border" name="option"&gt;
@@ -3226,7 +3226,7 @@ box.</p>
   style="border: 2px solid #000000; width:2.875in;" />
 </p>
 
-<p align="center"><i>Figure 49: Select box</i></p>
+<p style="align:center"><i>Figure 49: Select box</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch11-4-1">11.4.1 Adding labels</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3235,7 +3235,7 @@ and images. In the following code snippet, we are using the <b>w3-row</b>
 and <b>w3-col</b> classes to split the screen between the label and the
 input element.</p>
 
-<p align="center"><small><small><i>Code Listing 62</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 62</i></small></small></p>
 
 <pre>
 &lt;div class="w3-section w3-row"&gt;
@@ -3324,7 +3324,7 @@ Font Awesome, there are a few icons that make effective spinners to
 indicate a process is running. The code snippet below shows a spinning
 icon.</p>
 
-<p align="center"><small><small><i>Code Listing 63</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 63</i></small></small></p>
 
 <pre>
 &lt;div class="w3-section w3-row"&gt;
@@ -3344,7 +3344,7 @@ icon.</p>
   style="border: 2px solid #000000; width:1.01in;" />
 </p>
 
-<p align="center"><i>Figure 50: Sample spinner</i></p>
+<p style="align:center"><i>Figure 50: Sample spinner</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. light bulb icon (orange) (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
@@ -3385,7 +3385,7 @@ will also need to ensure that this container has a unique ID, since
 you'll need it to open the modal dialog. The following code snippet
 shows the basic setup for the modal container.</p>
 
-<p align="center"><small><small><i>Code Listing 64</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 64</i></small></small></p>
 
 <pre>
 &lt;div id="ContactUs" class="w3-modal w3-center"&gt;
@@ -3396,7 +3396,7 @@ shows the basic setup for the modal container.</p>
 <b>w3-modal-content</b> class. The wrapper structure looks as shown in the
 following.</p>
 
-<p align="center"><small><small><i>Code Listing 65</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 65</i></small></small></p>
 
 <pre>
 &lt;div id="ContactUs" class="w3-modal w3-center"&gt;
@@ -3412,7 +3412,7 @@ following.</p>
 button. For example, if we wanted to display the Contact Us modal
 dialog, we could use the following code.</p>
 
-<p align="center"><small><small><i>Code Listing 66</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 66</i></small></small></p>
 
 <pre>
 &lt;button onclick="document.getElementById('ContactUs').style.display='block'"
@@ -3432,7 +3432,7 @@ advantage of the animation classes to present a smoother appearance of
 the modal. Simply add the desired animation class to the container
 <b>&lt;div&gt;</b>, as follows.</p>
 
-<p align="center"><small><small><i>Code Listing 67</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 67</i></small></small></p>
 
 <pre>
 &lt;div id="ContactUs" class="w3-modal w3-center w3-animate-opacity"&gt;
@@ -3451,7 +3451,7 @@ Typically, this is triggered by clicking the X icon in the upper-right
 corner, although if the modal dialog saves information, you would put
 the close code into the buttons that save and/or cancel the dialog.</p>
 
-<p align="center"><small><small><i>Code Listing 68</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 68</i></small></small></p>
 
 <pre>
 &lt;header class="w3-teal w3-display-container"&gt;
@@ -3481,7 +3481,7 @@ the image's borders and appearance.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Here is the HTML to display an image.</p>
 
-<p align="center"><small><small><i>Code Listing 69</i></small></small></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 69</i></small></small></small></small></p>
 
 <pre>
 &lt;div class="w3-container w3-margin"&gt;
@@ -3499,7 +3499,7 @@ the image's borders and appearance.</p>
   style="border: 2px solid #000000; width:1.09in;" />
 </p>
 
-<p align="center"><i>Figure 51: Grandpa cuddles</i></p>
+<p style="align:center"><i>Figure 51: Grandpa cuddles</i></p>
 
 <p>We can use the following classes to control how the image appears on the
 page:</p>
@@ -3518,7 +3518,7 @@ page:</p>
   style="border: 2px solid #000000; width:3.67in;" />
 </p>
 
-<p align="center"><i>Figure 52: Sample image classes</i></p>
+<p style="align:center"><i>Figure 52: Sample image classes</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch14-1-1">14.1.1 Responsive images</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3557,7 +3557,7 @@ percent to 75 percent. The class names are:</p>
   style="border: 2px solid #000000; width:1.08in;" />
 </p>
 
-<p align="center"><small></small><i>Figure 53: Image opacity</i></small></small></p>
+<p style="align:center"><small></small><i>Figure 53: Image opacity</i></small></small></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch14-1-3">14.1.3 Grayscale</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3580,7 +3580,7 @@ image. The class names are:</p>
   style="border: 2px solid #000000; width:3.53in;" />
 </p>
 
-<p align="center"><small><small><i>Figure 54: Grayscale</i></small></small></p>
+<p style="align:center"><small><small><i>Figure 54: Grayscale</i></small></small></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch14-1-4">14.1.4 CSS slideshow</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3597,7 +3597,7 @@ the slideshow.</p>
   style="border: 2px solid #000000; width:2.03in;" />
 </p>
 
-<p align="center"><small><small><i>Figure 55: Slideshow</i></small></small></p>
+<p style="align:center"><small><small><i>Figure 55: Slideshow</i></small></small></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch14-1-5">14.1.5 Setting the images</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3606,7 +3606,7 @@ same class name.</p>
 <p>The following snippet shows the image setup and the two buttons for
 navigation.</p>
 
-<p align="center"><small><small><i>Code Listing 70</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 70</i></small></small></p>
 
 <pre>
 &lt;div class="w3-display-container w3-content" style="width:8%;"&gt;
@@ -3631,7 +3631,7 @@ among the images.</p>
 the <b>&lt;head&gt;</b> section of the website to allow the navigation between
 images.</p>
 
-<p align="center"><small><small><i>Code Listing 71</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 71</i></small></small></p>
 
 <pre>
 &lt;script&gt;
@@ -3682,14 +3682,14 @@ demo of a responsive website for a mail client. Figure 56 shows the sample templ
   alt="w3 CSS responsive website example."
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
-<p align="center"><small><small><i>Figure 56: Email template</i></small></small></p>
+<p style="align:center"><small><small><i>Figure 56: Email template</i></small></small></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch15-1">15.1 Head section</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The <b>&lt;head&gt;</b> section of most templates will look very much the same,
 including the W3.CSS style sheet, possibly using an external web font.</p>
 
-<p align="center"><small><small><i>Code Listing 72</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 72</i></small></small></p>
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -3715,7 +3715,7 @@ You can explore the <a href="https://fontawesome.com/">library here</a>.</p>
 <p>To add Font Awesome to the site, the following line is added to the <b>&lt;head&gt;</b> 
 section.</p>
 
-<p align="center"><small><small><i>Code Listing 73</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 73</i></small></small></p>
 
 <pre>
 &lt;link rel="stylesheet" type="text/css"
@@ -3727,7 +3727,7 @@ section.</p>
 the appropriate icon will appear. The following example shows some
 Save and Cancel buttons taking advantage of the Font Awesome library.</p>
 
-<p align="center"><small><small><i>Code Listing 74</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 74</i></small></small></p>
 
 <pre>
 &lt;button class="fa fa-save w3-text-green w3-xlarge w3-padding"&gt;
@@ -3746,7 +3746,7 @@ Save and Cancel buttons taking advantage of the Font Awesome library.</p>
   style="border: 2px solid #000000; width:2.58in;" />
 </p>
 
-<p align="center"><i>Figure 57: Font Awesome buttons</i></small></small></p>
+<p style="align:center"><i>Figure 57: Font Awesome buttons</i></small></small></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch15-1-2">15.1.2 HTML entities</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3794,7 +3794,7 @@ its own font.</p>
 <p>The final step when using a web font is to adjust the styles on various elements to use 
 the new font family. The final piece of code in the <b>&lt;head&gt;</b> section does that.</p>
 
-<p align="center"><small><small><i>Code Listing 75</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 75</i></small></small></p>
 
 <pre>
 &lt;style&gt;
@@ -3817,7 +3817,7 @@ folder and display them.</p>
 <p>The following code creates the sidebar navigation menu (some classes are removed for 
 readability).</p>
 
-<p align="center"><small><small><i>Code Listing 76</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 76</i></small></small></p>
 
 <pre>
 &lt;nav class="w3-sidebar w3-bar-block w3-collapse w3-card" id="mySideBar"
@@ -3852,7 +3852,7 @@ screen room for both the sidebar menu and the email contents.</p>
 <p>When the user clicks on a new email, a modal dialog will be displayed to
 get the information for the email.</p>
 
-<p align="center"><small><small><i>Code Listing 77</i></small</small></p>
+<p style="align:center"><small><small><i>Code Listing 77</i></small</small></p>
 
 <pre>
 &lt;!-- Modal that pops up for new message --&gt;
@@ -3877,7 +3877,7 @@ header section provides the ability to close the dialog.</p>
 <p>The button code shown in the following code snippet will close the dialog box once the 
 user either sends or cancels the email.</p>
 
-<p align="center"><small><small><i>Code Listing 78</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 78</i></small></small></p>
 
 <pre>
 &lt;a class="w3-button w3-red"
@@ -3906,7 +3906,7 @@ You can add your own color support with your own style sheet, in-line styles, or
 theme. For example, if you wanted to use the flat color scheme, rather than the default 
 material design colors, you could import the following style sheets.</p>
 
-<p align="center"><small><small><i>Code Listing 79</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 79</i></small></small></p>
 
 <pre>
 &lt;html&gt;
@@ -3930,7 +3930,7 @@ queries---it is strictly intended for mobile devices.</p>
 
 <p>To use this style sheet with the metro colors, you could use the following code snippet.</p>
 
-<p align="center"><small><small><i>Code Listing 80</i></small></small></p>
+<p style="align:center"><small><small><i>Code Listing 80</i></small></small></p>
 
 <pre>
 &lt;html&gt;
@@ -3973,7 +3973,7 @@ media site template shown in Figure 58.</p>
 </p>
 </a>
 
-<p align="center"><i>Figure 58: W3.CSS Social media template</i></p>
+<p style="align:center"><i>Figure 58: W3.CSS Social media template</i></p>
 
 <p>If you are looking for an easy-to-use, free CSS framework with lots of examples, templates, 
 and online documentation, W3.CSS is certainly a worthwhile contender.</p>
